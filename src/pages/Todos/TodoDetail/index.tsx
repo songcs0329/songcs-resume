@@ -1,5 +1,5 @@
 import { useParams } from 'react-router';
-import { useTodo } from '@/hooks/useTodo';
+import useTodo from '@/hooks/useTodo';
 
 function TodoDetail() {
   const { todoId } = useParams<{ todoId: string }>();
