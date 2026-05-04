@@ -20,7 +20,7 @@ function Resume() {
               <img
                 src="/profile.jpg"
                 alt={`${profile.name} 프로필 사진`}
-                className="aspect-square w-24 shrink-0 rounded-lg border border-zinc-300 object-cover shadow-sm sm:w-28 lg:w-32"
+                className="aspect-square w-24 shrink-0 rounded-full border border-zinc-300 object-cover shadow-sm sm:w-28 lg:w-32"
               />
               <div className="grid min-w-0 flex-1 justify-items-start gap-2">
                 {profile.contact.map((item) => (
