@@ -9,7 +9,7 @@ function Resume() {
   return (
     <div className="min-h-screen bg-[#f6f3ee] text-zinc-900">
       <main className="mx-auto w-full max-w-6xl px-5 pt-10 pb-28 sm:px-8 sm:pt-14 sm:pb-32">
-        <section className="grid gap-8 pb-10 lg:grid-cols-[1fr_320px] lg:items-end">
+        <section className="grid gap-8 pb-10 lg:grid-cols-[minmax(0,1fr)_minmax(360px,auto)] lg:items-start">
           <div>
             <p className="text-sm font-bold text-teal-700">{profile.role}</p>
             <h1 className="mt-3 max-w-3xl text-4xl font-black tracking-normal text-zinc-950 sm:text-6xl">
@@ -17,8 +17,8 @@ function Resume() {
             </h1>
             <p className="mt-5 max-w-3xl text-lg font-medium leading-8 text-zinc-700">{profile.headline}</p>
           </div>
-          <aside className="border-t border-zinc-300 pt-5 lg:border-t-0 lg:border-l lg:pl-6">
-            <div className="flex items-start gap-4">
+          <aside className="min-w-0 border-t border-zinc-300 pt-5 lg:border-t-0 lg:border-l lg:pl-6">
+            <div className="flex min-w-0 items-start gap-4">
               <img
                 src={profileImageSrc}
                 alt={`${profile.name} 프로필 사진`}
