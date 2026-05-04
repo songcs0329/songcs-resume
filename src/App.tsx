@@ -1,20 +1,18 @@
-import { BrowserRouter, Routes, Route } from 'react-router';
-import Home from '@/pages/Home';
-import Counter from '@/pages/Counter';
-import Todos from '@/pages/Todos';
-import TodoDetail from '@/pages/Todos/TodoDetail';
+import { BrowserRouter, Route, Routes } from 'react-router';
+import FloatingRouteNav from '@/components/FloatingRouteNav';
+import CoverLetter from '@/pages/CoverLetter';
 import NotFound from '@/pages/NotFound';
+import Resume from '@/pages/Resume';
 
 function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/counter" element={<Counter />} />
-        <Route path="/todos" element={<Todos />} />
-        <Route path="/todos/:todoId" element={<TodoDetail />} />
+        <Route path="/" element={<Resume />} />
+        <Route path="/cover-letter" element={<CoverLetter />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
+      <FloatingRouteNav />
     </BrowserRouter>
   );
 }
