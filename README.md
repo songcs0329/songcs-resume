@@ -18,10 +18,10 @@ npm run build
 
 ## 주요 라이브러리
 
-- Vite
-- React
-- TypeScript
-- Tailwind CSS
+- [Vite](https://ko.vite.dev/guide/)
+- [React](https://ko.react.dev/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
 
 ## 구현 기능
 
