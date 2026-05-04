@@ -4,6 +4,8 @@ import TimelineItem from '@/components/TimelineItem';
 import { certificates, education, experiences, profile, skills, summary } from '@/data/resume';
 
 function Resume() {
+  const profileImageSrc = `${import.meta.env.BASE_URL}profile.jpg`;
+
   return (
     <div className="min-h-screen bg-[#f6f3ee] text-zinc-900">
       <main className="mx-auto w-full max-w-6xl px-5 pt-10 pb-28 sm:px-8 sm:pt-14 sm:pb-32">
@@ -18,7 +20,7 @@ function Resume() {
           <aside className="border-t border-zinc-300 pt-5 lg:border-t-0 lg:border-l lg:pl-6">
             <div className="flex items-start gap-4">
               <img
-                src="/profile.jpg"
+                src={profileImageSrc}
                 alt={`${profile.name} 프로필 사진`}
                 className="aspect-square w-24 shrink-0 rounded-full border border-zinc-300 object-cover shadow-sm sm:w-28 lg:w-32"
               />
