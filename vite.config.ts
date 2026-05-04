@@ -8,6 +8,7 @@ export default ({ mode }: { mode: string }) => {
   const env = loadEnv(mode, process.cwd(), '');
 
   return defineConfig({
+    base: mode === 'production' ? '/songcs-resume/' : '/',
     plugins: [react(), tailwindcss()],
     server: {
       proxy: {

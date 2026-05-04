@@ -6,7 +6,7 @@ import Resume from '@/pages/Resume';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={import.meta.env.BASE_URL}>
       <Routes>
         <Route path="/" element={<Resume />} />
         <Route path="/cover-letter" element={<CoverLetter />} />

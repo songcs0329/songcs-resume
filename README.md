@@ -16,6 +16,17 @@ npm run lint
 npm run build
 ```
 
+## GitHub Pages 배포
+
+이 프로젝트는 `main` 브랜치에 push하면 GitHub Actions로 빌드 후 GitHub Pages에 배포됩니다.
+
+1. GitHub 저장소의 `Settings > Pages`로 이동합니다.
+2. `Build and deployment`의 `Source`를 `GitHub Actions`로 설정합니다.
+3. 로컬 변경사항을 `main` 브랜치에 push합니다.
+4. Actions 완료 후 `https://<github-username>.github.io/songcs-resume/`에서 확인합니다.
+
+프로젝트 페이지 배포를 위해 production 빌드에서는 Vite `base`가 `/songcs-resume/`로 설정됩니다. 저장소 이름을 바꾸면 `vite.config.ts`와 `public/404.html`의 `/songcs-resume/` 값도 함께 변경해야 합니다.
+
 ## 주요 라이브러리
 
 - [Vite](https://ko.vite.dev/guide/)
