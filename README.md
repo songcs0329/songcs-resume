@@ -38,11 +38,13 @@ npm run build
 
 - `/`: 이력서 메인 페이지
 - `/cover-letter`: 자기소개서 페이지
+- `/portfolio`: 포트폴리오 페이지
 - 반응형 레이아웃
-- 우하단 플로팅 버튼 기반 페이지 전환
+- 우하단 플로팅 내비게이션 기반 페이지 전환
 - 프로필 이미지와 연락처 배지 구성
 - 기술 스택별 컬러/아이콘 배지 구성
 - 경력, 프로젝트, 성과, 기술 스택, 학력/자격증 섹션 구성
+- GitHub 레포지토리 기반 포트폴리오 프로젝트 구성
 - 마크다운 원문(`resume.md`, `cover-letter.md`)을 기반으로 콘텐츠 데이터 분리
 
 ## 폴더 구조
@@ -56,9 +58,12 @@ src/
     TimelineItem.tsx
   data/
     coverLetter.ts
+    portfolio.ts
     resume.ts
   pages/
     CoverLetter/
+      index.tsx
+    Portfolio/
       index.tsx
     Resume/
       index.tsx

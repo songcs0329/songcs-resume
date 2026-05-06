@@ -1,22 +1,38 @@
 import { Link, useLocation } from 'react-router';
 
-const routeMap = {
-  '/': { to: '/cover-letter', label: '자기소개서' },
-  '/cover-letter': { to: '/', label: '이력서' },
-};
+const routes = [
+  { to: '/', label: '이력서' },
+  { to: '/cover-letter', label: '자기소개서' },
+  { to: '/portfolio', label: '포트폴리오' },
+];
 
 function FloatingRouteNav() {
   const { pathname } = useLocation();
-  const nextRoute = routeMap[pathname as keyof typeof routeMap] ?? routeMap['/'];
 
   return (
-    <Link
-      to={nextRoute.to}
-      aria-label={`${nextRoute.label} 페이지로 이동`}
-      className="fixed right-4 bottom-4 z-20 inline-flex h-12 items-center justify-center rounded-full border border-zinc-800 bg-zinc-950 px-5 text-sm font-bold text-white shadow-lg shadow-zinc-900/20 transition hover:-translate-y-0.5 hover:bg-zinc-800 hover:shadow-xl sm:right-6 sm:bottom-6"
+    <nav
+      aria-label="페이지 이동"
+      className="fixed right-4 bottom-4 left-4 z-20 flex justify-center sm:right-6 sm:bottom-6 sm:left-auto"
     >
-      {nextRoute.label}
-    </Link>
+      <div className="flex max-w-full gap-1 rounded-full border border-zinc-800 bg-zinc-950 p-1 shadow-lg shadow-zinc-900/20">
+        {routes.map((route) => {
+          const isActive = pathname === route.to;
+
+          return (
+            <Link
+              key={route.to}
+              to={route.to}
+              aria-current={isActive ? 'page' : undefined}
+              className={`inline-flex h-10 items-center justify-center rounded-full px-3 text-xs font-bold transition sm:px-4 sm:text-sm ${
+                isActive ? 'bg-white text-zinc-950' : 'text-white hover:bg-zinc-800'
+              }`}
+            >
+              {route.label}
+            </Link>
+          );
+        })}
+      </div>
+    </nav>
   );
 }
 
