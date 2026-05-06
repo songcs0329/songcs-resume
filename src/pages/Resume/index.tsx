@@ -18,28 +18,24 @@ function Resume() {
             <p className="mt-5 max-w-3xl text-lg font-medium leading-8 text-zinc-700">{profile.headline}</p>
           </div>
           <aside className="min-w-0 border-t border-zinc-300 pt-5 lg:border-t-0 lg:border-l lg:pl-6">
-            <div className="flex min-w-0 items-start gap-4">
+            <div className="flex min-w-0 items-center gap-4">
               <img
                 src={profileImageSrc}
                 alt={`${profile.name} 프로필 사진`}
                 className="aspect-square w-24 shrink-0 rounded-full border border-zinc-300 object-cover shadow-sm sm:w-28 lg:w-32"
               />
-              <div className="grid min-w-0 flex-1 justify-items-start gap-2">
+              <div className="flex min-w-0 flex-1 flex-col gap-2">
                 {profile.contact.map((item) => (
-                  <a
-                    key={item.label}
-                    href={item.href}
-                    className="inline-flex min-h-10 w-fit max-w-full items-center gap-2 rounded-md border bg-white px-3 text-sm font-semibold text-zinc-800 shadow-sm transition hover:-translate-y-0.5 hover:shadow-md"
-                    style={{
-                      borderColor: `${item.color}55`,
-                      backgroundColor: `${item.color}10`,
-                    }}
-                  >
-                    <span className="shrink-0 text-xs font-bold" style={{ color: item.color }}>
+                  <dl key={item.label} className="flex min-w-0 items-center gap-2 text-sm font-semibold">
+                    <dt className="shrink-0 text-xs font-bold" style={{ color: item.color }}>
                       {item.label.toUpperCase()}
-                    </span>
-                    <span className="min-w-0 truncate">{item.value}</span>
-                  </a>
+                    </dt>
+                    <dd className="min-w-0">
+                      <a href={item.href} className="transition hover:text-teal-700">
+                        {item.value}
+                      </a>
+                    </dd>
+                  </dl>
                 ))}
               </div>
             </div>

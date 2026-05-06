@@ -5,7 +5,7 @@ function CoverLetter() {
     <div className="min-h-screen bg-[#f6f3ee] text-zinc-900">
       <main className="mx-auto w-full max-w-5xl px-5 pt-10 pb-28 sm:px-8 sm:pt-14 sm:pb-32">
         <section className="pb-10">
-          <h1 className="mt-3 max-w-4xl whitespace-pre-line text-3xl font-black tracking-normal text-zinc-950 sm:text-5xl">
+          <h1 className="mt-3 max-w-4xl lg:whitespace-pre-line text-3xl font-black tracking-normal text-zinc-950 sm:text-5xl">
             {coverLetter.title}
           </h1>
           <p className="mt-5 max-w-3xl whitespace-pre-line text-lg font-medium leading-8 text-zinc-700">
