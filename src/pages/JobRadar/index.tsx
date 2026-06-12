@@ -12,7 +12,7 @@ import {
   isCommerceJob,
 } from '@/data/jobRadar';
 
-const jobsData = jobsJson as JobsData;
+const jobsData = jobsJson as unknown as JobsData;
 
 type DeadlineFilter = 'all' | 'soon' | 'rolling' | 'unknown';
 type SortKey = 'fit' | 'deadline' | 'new' | 'company';
