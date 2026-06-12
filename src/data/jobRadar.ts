@@ -29,6 +29,8 @@ export interface Job {
   location?: string;
   exp?: string;
   exp_min_years?: number | null;
+  posted_date?: string;
+  first_seen?: string;
   domains?: string[];
   deadline?: string | null;
   deadline_type: DeadlineType;
