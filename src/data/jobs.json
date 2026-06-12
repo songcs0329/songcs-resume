@@ -9,323 +9,391 @@
       "company": "당근마켓 (당근)",
       "title": "Frontend Developer",
       "url": "https://www.wanted.co.kr/wd/45767",
-      "score": 88,
-      "tier": "moonshot",
+      "exp": "2년 이상",
+      "domains": [
+        "map",
+        "webview",
+        "commerce",
+        "seo"
+      ],
+      "deadline": "수시",
+      "deadline_type": "rolling",
+      "process": [
+        "서류",
+        "코딩테스트",
+        "기술면접",
+        "컬처핏면접"
+      ],
+      "has_codingtest": "미확인",
+      "fit_score": 88,
       "fit_reasons": [
         "지도 기반 '내 근처' 서비스 — 네이버맵 기반 POI 마커 개발 경험이 직결",
         "모바일 웹뷰 기반 주력 개발 — 웹뷰 인증·브릿지 경험이 핵심 요구사항과 겹침",
         "당근페이 결제 플로우 포함 — 결제·주문 설계 경험(CVR +14.27%)이 부가 강점"
       ],
-      "domain_tags": ["map", "webview", "commerce", "seo"],
-      "tech_stack": ["React", "Next.js", "TypeScript", "Relay", "Emotion", "Styled Components"],
-      "exp_required": "2년 이상",
-      "deadline": "수시",
-      "coding_test": "미확인",
-      "hiring_process": ["서류", "코딩테스트", "기술면접", "컬처핏면접"],
-      "company_brief": {
-        "stage": "시리즈D+",
-        "summary": "국내 최대 지역 기반 중고거래·커뮤니티 플랫폼. MAU 2000만+, 당근페이·광고 수익화 진행 중",
-        "match_strength": "지도·웹뷰 두 도메인이 모두 핵심 업무로, 본인 주축 경험이 정면으로 쓰이는 구조",
-        "strategy": "지도 기반 POI 클러스터링과 웹뷰 인증 플로우 사례를 앞세우고, 당근페이 결제 연동 구조에 관심을 표현"
-      },
+      "tier": "문샷",
       "is_new": true,
-      "collected_at": "2026-06-12"
+      "brief": {
+        "verdict": "지도·웹뷰 두 도메인이 모두 핵심 업무로, 본인 주축 경험이 정면으로 쓰이는 구조",
+        "company_status": "시리즈D+ — 국내 최대 지역 기반 중고거래·커뮤니티 플랫폼. MAU 2000만+, 당근페이·광고 수익화 진행 중",
+        "strategy": "지도 기반 POI 클러스터링과 웹뷰 인증 플로우 사례를 앞세우고, 당근페이 결제 연동 구조에 관심을 표현"
+      }
     },
     {
       "id": "kakaopay-fe-offline-payment-2026-06",
       "company": "카카오페이",
       "title": "프론트엔드 개발자 - 오프라인 결제",
       "url": "https://kakaopay.career.greetinghr.com/ko/fe-offlinepayment",
-      "score": 85,
-      "tier": "moonshot",
+      "exp": "1년 이상 (선호: 1~3년)",
+      "domains": [
+        "commerce",
+        "map",
+        "webview"
+      ],
+      "deadline": "수시",
+      "deadline_type": "rolling",
+      "process": [
+        "서류",
+        "1차면접",
+        "2차면접"
+      ],
+      "has_codingtest": "미확인",
+      "fit_score": 85,
       "fit_reasons": [
         "오프라인 결제 플로우 주축 — 결제·할인 로직 설계 경험(CVR +14.27%)이 핵심 요건과 직결",
         "지도 기반 '내 주변 카카오페이' 서비스 — 지도 기반 서비스 개발 경험이 주요 업무로 명시",
         "앱 내 WebView 환경 개발 우대 — 웹뷰 브릿지 경험이 선호 역량으로 연결"
       ],
-      "domain_tags": ["commerce", "map", "webview"],
-      "tech_stack": ["React", "TypeScript", "Next.js", "SPA"],
-      "exp_required": "1년 이상 (선호: 1~3년)",
-      "deadline": "수시",
-      "coding_test": "미확인",
-      "hiring_process": ["서류", "1차면접", "2차면접"],
-      "company_brief": {
-        "stage": "카카오 계열 (상장사 자회사)",
-        "summary": "카카오 계열 핀테크 기업. 결제·금융 서비스 MAU 수천만, 오프라인 결제 생태계 확장 중",
-        "match_strength": "결제 플로우와 지도 기반 서비스를 동시에 다루는 포지션으로, 두 주축 도메인이 모두 쓰임",
-        "strategy": "결제 CVR 개선 사례와 지도 기반 POI 개발 경험을 결합해 제출. 애니메이션·인터랙션 구현 사례도 어필 포인트"
-      },
+      "tier": "문샷",
       "is_new": true,
-      "collected_at": "2026-06-12"
+      "brief": {
+        "verdict": "결제 플로우와 지도 기반 서비스를 동시에 다루는 포지션으로, 두 주축 도메인이 모두 쓰임",
+        "company_status": "카카오 계열 (상장사 자회사) — 카카오 계열 핀테크 기업. 결제·금융 서비스 MAU 수천만, 오프라인 결제 생태계 확장 중",
+        "strategy": "결제 CVR 개선 사례와 지도 기반 POI 개발 경험을 결합해 제출. 애니메이션·인터랙션 구현 사례도 어필 포인트"
+      }
     },
     {
       "id": "oliveyoung-fe-commerce-platform-2026-06",
       "company": "CJ올리브영",
       "title": "커머스플랫폼유닛 Front-end 개발자",
       "url": "https://career.oliveyoung.com/ko/o/211292",
-      "score": 81,
-      "tier": "moonshot",
+      "exp": "5년 이상",
+      "domains": [
+        "commerce",
+        "seo",
+        "webview"
+      ],
+      "deadline": "수시",
+      "deadline_type": "rolling",
+      "process": [
+        "서류",
+        "1차면접(Live Coding/구술)",
+        "온라인 인성검사",
+        "2차면접(Whiteboard Test/구술)",
+        "3차(평판조회·처우협의)",
+        "건강검진"
+      ],
+      "has_codingtest": "코딩테스트",
+      "fit_score": 81,
       "fit_reasons": [
         "이커머스 핵심 영역(상품 목록·검색·프로모션) — 결제·할인·주문 플로우 설계 경험이 커머스 FE 요건과 맞음",
         "대규모 서비스 FE 성능 최적화 우대 — MAU 규모 커머스 리뉴얼 경험이 어필 포인트",
         "하이브리드 앱 환경 우대 — 웹뷰 개발 경험이 우대사항으로 연결"
       ],
-      "domain_tags": ["commerce", "seo", "webview"],
-      "tech_stack": ["JavaScript", "React", "TypeScript", "Node.js", "SPA"],
-      "exp_required": "5년 이상",
-      "deadline": "수시",
-      "coding_test": "있음",
-      "hiring_process": ["서류", "1차면접(Live Coding/구술)", "온라인 인성검사", "2차면접(Whiteboard Test/구술)", "3차(평판조회·처우협의)", "건강검진"],
-      "company_brief": {
-        "stage": "CJ그룹 계열 (매출 4조+)",
-        "summary": "국내 최대 H&B 스토어 겸 이커머스. 오프라인 1300+ 매장 + 온라인몰 동시 운영, 빠른 매출 성장세",
-        "match_strength": "상품·검색·프로모션 중심 커머스 FE 개발로, 결제·할인 설계와 대규모 서비스 최적화 이력이 잘 맞음",
-        "strategy": "CVR·CTR 개선 데이터와 대규모 리뉴얼 경험을 이력서 전면에 배치. Live Coding 전형 집중 준비 필수"
-      },
+      "tier": "문샷",
       "is_new": true,
-      "collected_at": "2026-06-12"
+      "brief": {
+        "verdict": "상품·검색·프로모션 중심 커머스 FE 개발로, 결제·할인 설계와 대규모 서비스 최적화 이력이 잘 맞음",
+        "company_status": "CJ그룹 계열 (매출 4조+) — 국내 최대 H&B 스토어 겸 이커머스. 오프라인 1300+ 매장 + 온라인몰 동시 운영, 빠른 매출 성장세",
+        "strategy": "CVR·CTR 개선 데이터와 대규모 리뉴얼 경험을 이력서 전면에 배치. Live Coding 전형 집중 준비 필수"
+      }
     },
     {
       "id": "kakaopay-fe-asset-service-2026-06",
       "company": "카카오페이",
       "title": "프론트엔드 개발자 - 자산 서비스",
       "url": "https://kakaopay.career.greetinghr.com/ko/fe-assetservice",
-      "score": 78,
-      "tier": "moonshot",
+      "exp": "3년 이상",
+      "domains": [
+        "seo",
+        "webview",
+        "admin"
+      ],
+      "deadline": "수시",
+      "deadline_type": "rolling",
+      "process": [
+        "서류",
+        "1차면접",
+        "2차면접"
+      ],
+      "has_codingtest": "미확인",
+      "fit_score": 78,
       "fit_reasons": [
         "Next.js SSR 활용 SEO/성능 개선 우대 — SEO 구조 구축 경험이 선호 역량으로 직접 명시",
         "데이터 기반 논리적 소통 선호 — CTR +11.3%·활성 사용자 +61.1% 지표 중심 이력이 어필",
         "모바일 웹뷰 최적화 우대 — 앱 내 웹뷰 개발 경험이 선호 역량으로 연결"
       ],
-      "domain_tags": ["seo", "webview", "admin"],
-      "tech_stack": ["React", "TypeScript", "Next.js", "Jotai", "Zustand", "React Query"],
-      "exp_required": "3년 이상",
-      "deadline": "수시",
-      "coding_test": "미확인",
-      "hiring_process": ["서류", "1차면접", "2차면접"],
-      "company_brief": {
-        "stage": "카카오 계열 (상장사 자회사)",
-        "summary": "카카오 계열 핀테크. 마이데이터·자산·신용 서비스를 포함한 종합 금융 앱 운영",
-        "match_strength": "SEO 개선·데이터 기반 접근을 선호하는 포지션으로, 유입 지표 개선 경험이 차별화 요소",
-        "strategy": "SEO 구조 개선으로 CTR 11.3% 성과와 Next.js SSR 경험을 중심으로 작성. 웹뷰 최적화 사례를 보조로 추가"
-      },
+      "tier": "문샷",
       "is_new": true,
-      "collected_at": "2026-06-12"
+      "brief": {
+        "verdict": "SEO 개선·데이터 기반 접근을 선호하는 포지션으로, 유입 지표 개선 경험이 차별화 요소",
+        "company_status": "카카오 계열 (상장사 자회사) — 카카오 계열 핀테크. 마이데이터·자산·신용 서비스를 포함한 종합 금융 앱 운영",
+        "strategy": "SEO 구조 개선으로 CTR 11.3% 성과와 Next.js SSR 경험을 중심으로 작성. 웹뷰 최적화 사례를 보조로 추가"
+      }
     },
     {
       "id": "tossbank-frontend-developer-2026-06",
       "company": "토스뱅크",
       "title": "Frontend Developer",
       "url": "https://www.wanted.co.kr/wd/189685",
-      "score": 76,
-      "tier": "moonshot",
+      "exp": "3년 이상",
+      "domains": [
+        "webview",
+        "admin"
+      ],
+      "deadline": "수시",
+      "deadline_type": "rolling",
+      "process": [
+        "서류",
+        "코딩테스트",
+        "기술면접",
+        "컬처핏면접"
+      ],
+      "has_codingtest": "미확인",
+      "fit_score": 76,
       "fit_reasons": [
         "계좌·대출·카드 웹 서비스 — 금융 결제·플로우 구현 경험이 도메인 이해에 도움",
         "앱 내 웹앱 개발 경험 선호 — 웹뷰 하이브리드 개발 경험이 선호 역량으로 명시",
         "상담 Admin·운영 시스템 개발 포함 — 어드민 구축 경험이 Operations Tribe 역할과 겹침"
       ],
-      "domain_tags": ["webview", "admin"],
-      "tech_stack": ["React", "TypeScript", "SPA", "SSR"],
-      "exp_required": "3년 이상",
-      "deadline": "수시",
-      "coding_test": "미확인",
-      "hiring_process": ["서류", "코딩테스트", "기술면접", "컬처핏면접"],
-      "company_brief": {
-        "stage": "토스 계열 (시리즈D+, 3대 인터넷은행)",
-        "summary": "토스 그룹의 인터넷은행. 신용대출·예금·카드 서비스 운영. 토스 계열 FE 챕터 공유 문화",
-        "match_strength": "금융 결제 플로우와 웹뷰 경험이 방향은 맞지만, 도메인이 커머스보다 핀테크에 치우쳐 간접 연결에 가까움",
-        "strategy": "결제·주문 플로우 경험을 금융 UX로 전환하는 서사로 작성. 토스 FE 챕터 문화 이해와 오픈소스 기여 이력 강조"
-      },
+      "tier": "문샷",
       "is_new": true,
-      "collected_at": "2026-06-12"
+      "brief": {
+        "verdict": "금융 결제 플로우와 웹뷰 경험이 방향은 맞지만, 도메인이 커머스보다 핀테크에 치우쳐 간접 연결에 가까움",
+        "company_status": "토스 계열 (시리즈D+, 3대 인터넷은행) — 토스 그룹의 인터넷은행. 신용대출·예금·카드 서비스 운영. 토스 계열 FE 챕터 공유 문화",
+        "strategy": "결제·주문 플로우 경험을 금융 UX로 전환하는 서사로 작성. 토스 FE 챕터 문화 이해와 오픈소스 기여 이력 강조"
+      }
     },
     {
       "id": "tossplace-frontend-developer-2026-06",
       "company": "토스플레이스",
       "title": "Frontend Developer",
       "url": "https://www.wanted.co.kr/wd/207573",
-      "score": 74,
-      "tier": "moonshot",
+      "exp": "1년 이상 (1-15년)",
+      "domains": [
+        "commerce",
+        "admin"
+      ],
+      "deadline": "수시",
+      "deadline_type": "rolling",
+      "process": [
+        "서류",
+        "기술면접",
+        "컬처핏면접"
+      ],
+      "has_codingtest": "미확인",
+      "fit_score": 74,
       "fit_reasons": [
         "POS·오프라인 결제 주축 — 결제 로직 설계 경험이 POS/키오스크 결제 플로우와 연결",
         "파트너스·대시보드 등 어드민 개발 포함 — 어드민/백오피스 구축 경험이 직접 활용",
         "SDK·플러그인 개발 업무 포함 — 외부 API 연동 경험이 B2B 플러그인 역할과 맞음"
       ],
-      "domain_tags": ["commerce", "admin"],
-      "tech_stack": ["React", "TypeScript"],
-      "exp_required": "1년 이상 (1-15년)",
-      "deadline": "수시",
-      "coding_test": "미확인",
-      "hiring_process": ["서류", "기술면접", "컬처핏면접"],
-      "company_brief": {
-        "stage": "토스 계열 자회사 (성장기)",
-        "summary": "오프라인 결제 단말기·POS·키오스크 서비스. 전국 매장 대상 B2B2C 플랫폼 운영",
-        "match_strength": "결제 플로우와 어드민 개발 두 경험이 모두 활용되는 포지션. 하드웨어 통신은 경험 격차 있음",
-        "strategy": "결제 CVR 성과와 어드민 설계 경험을 앞세우고, 하드웨어 통신 관련 학습 의지를 보완"
-      },
+      "tier": "문샷",
       "is_new": true,
-      "collected_at": "2026-06-12"
+      "brief": {
+        "verdict": "결제 플로우와 어드민 개발 두 경험이 모두 활용되는 포지션. 하드웨어 통신은 경험 격차 있음",
+        "company_status": "토스 계열 자회사 (성장기) — 오프라인 결제 단말기·POS·키오스크 서비스. 전국 매장 대상 B2B2C 플랫폼 운영",
+        "strategy": "결제 CVR 성과와 어드민 설계 경험을 앞세우고, 하드웨어 통신 관련 학습 의지를 보완"
+      }
     },
     {
       "id": "musinsa-frontend-engineer-2026-06",
       "company": "무신사",
       "title": "Frontend Engineer (프론트엔드개발그룹)",
       "url": "https://www.wanted.co.kr/wd/164373",
-      "score": 70,
-      "tier": "moonshot",
+      "exp": "5년 이상",
+      "domains": [
+        "commerce"
+      ],
+      "deadline": "수시",
+      "deadline_type": "rolling",
+      "process": [
+        "서류",
+        "과제전형",
+        "기술면접",
+        "컬처핏면접"
+      ],
+      "has_codingtest": "미확인",
+      "fit_score": 70,
       "fit_reasons": [
         "패션 버티컬 이커머스 — 커머스 주축 FE 경험이 서비스 도메인과 맞는 방향",
         "MSA 환경 FE 설계 경험 — 대규모 서비스 구조 이해가 요구사항에 부합",
         "5년 이상 서비스 구축·운영 필수 — 7년+ 경력으로 자격요건 충분히 충족"
       ],
-      "domain_tags": ["commerce"],
-      "tech_stack": ["React", "Vue.js", "TypeScript", "JavaScript"],
-      "exp_required": "5년 이상",
-      "deadline": "수시",
-      "coding_test": "미확인",
-      "hiring_process": ["서류", "과제전형", "기술면접", "컬처핏면접"],
-      "company_brief": {
-        "stage": "시리즈D+ (상장 준비 중)",
-        "summary": "국내 최대 패션 버티컬 커머스. 연간 거래액 수조 원, 29CM 등 브랜드 보유. 글로벌 확장 중",
-        "match_strength": "이커머스 도메인은 겹치나, 결제·주문보다 상품 탐색·개인화 중심이라 연결 강도가 높진 않음",
-        "strategy": "커머스 리뉴얼 경험(CVR·CTR 지표)을 앞세우되, 패션 이커머스 관심과 개인화/추천 시스템 이해를 보완"
-      },
+      "tier": "문샷",
       "is_new": true,
-      "collected_at": "2026-06-12"
+      "brief": {
+        "verdict": "이커머스 도메인은 겹치나, 결제·주문보다 상품 탐색·개인화 중심이라 연결 강도가 높진 않음",
+        "company_status": "시리즈D+ (상장 준비 중) — 국내 최대 패션 버티컬 커머스. 연간 거래액 수조 원, 29CM 등 브랜드 보유. 글로벌 확장 중",
+        "strategy": "커머스 리뉴얼 경험(CVR·CTR 지표)을 앞세우되, 패션 이커머스 관심과 개인화/추천 시스템 이해를 보완"
+      }
     },
     {
       "id": "bucketplace-web-fe-2026-06",
       "company": "오늘의집 (버킷플레이스)",
       "title": "웹 프론트엔드 개발자",
       "url": "https://www.bucketplace.com/careers/",
-      "score": 68,
-      "tier": "moonshot",
+      "exp": "4년 이상",
+      "domains": [
+        "commerce",
+        "seo"
+      ],
+      "deadline": "수시",
+      "deadline_type": "rolling",
+      "process": [
+        "서류",
+        "과제",
+        "1차 인터뷰",
+        "2차 인터뷰"
+      ],
+      "has_codingtest": "과제",
+      "fit_score": 68,
       "fit_reasons": [
         "커머스·콘텐츠 결합 버티컬 — 이커머스 결제·할인 구현 경험이 커머스 탐색/구매 플로우에 맞는 방향",
         "SEO 최적화 니즈 높은 서비스 — 인테리어 콘텐츠 기반 SEO 구조 구축 경험이 적용 가능",
         "대규모 트래픽 웹 서비스 — MAU 규모 서비스 경험 어필 가능"
       ],
-      "domain_tags": ["commerce", "seo"],
-      "tech_stack": ["React", "TypeScript", "Next.js"],
-      "exp_required": "4년 이상",
-      "deadline": "수시",
-      "coding_test": "과제",
-      "hiring_process": ["서류", "과제", "1차 인터뷰", "2차 인터뷰"],
-      "company_brief": {
-        "stage": "시리즈D+",
-        "summary": "국내 대표 인테리어 버티컬 커머스. 콘텐츠 기반 쇼핑 전환 구조, 시공 서비스까지 확장",
-        "match_strength": "이커머스 도메인은 겹치지만 인테리어·시공 특화라 직접 결제 경험보다 콘텐츠/SEO 경험이 더 강하게 연결",
-        "strategy": "SEO 구조 개선으로 유입 지표를 성장시킨 사례와 커머스 전환율 개선 중심으로 이력서 작성"
-      },
+      "tier": "문샷",
       "is_new": true,
-      "collected_at": "2026-06-12"
+      "brief": {
+        "verdict": "이커머스 도메인은 겹치지만 인테리어·시공 특화라 직접 결제 경험보다 콘텐츠/SEO 경험이 더 강하게 연결",
+        "company_status": "시리즈D+ — 국내 대표 인테리어 버티컬 커머스. 콘텐츠 기반 쇼핑 전환 구조, 시공 서비스까지 확장",
+        "strategy": "SEO 구조 개선으로 유입 지표를 성장시킨 사례와 커머스 전환율 개선 중심으로 이력서 작성"
+      }
     },
     {
       "id": "kurly-fulfillment-fe-2026-06",
       "company": "컬리",
       "title": "풀필먼트 프론트엔드 개발자",
       "url": "https://www.rallit.com/positions/3521",
-      "score": 60,
-      "tier": "main",
+      "exp": "3년 이상 (추정)",
+      "domains": [
+        "commerce",
+        "admin"
+      ],
+      "deadline": "수시",
+      "deadline_type": "rolling",
+      "process": [
+        "서류",
+        "기술면접",
+        "컬처핏면접"
+      ],
+      "has_codingtest": "미확인",
+      "fit_score": 60,
       "fit_reasons": [
         "물류 운영 시스템 UI — 어드민/백오피스 구축 경험이 풀필먼트 운영 대시보드와 연결",
         "이커머스 도메인 인접 — 커머스 FE 경험이 서비스 맥락 이해에 도움",
         "대규모 데이터 시각화 — 대규모 트래픽·데이터 처리 경험이 플러스"
       ],
-      "domain_tags": ["commerce", "admin"],
-      "tech_stack": ["React", "TypeScript"],
-      "exp_required": "3년 이상 (추정)",
-      "deadline": "수시",
-      "coding_test": "미확인",
-      "hiring_process": ["서류", "기술면접", "컬처핏면접"],
-      "company_brief": {
-        "stage": "시리즈D+ (영업 흑자 전환 추진 중)",
-        "summary": "신선식품 이커머스 컬리. 새벽배송 선도 기업. 물류 내재화 풀필먼트 시스템 고도화 중",
-        "match_strength": "이커머스 인접이지만 내부 물류 어드민 중심이라 고객 경험보다 운영 효율화에 가까움",
-        "strategy": "어드민/백오피스 설계 경험을 앞세우고, 물류 데이터 시각화와 사용성 개선 관점으로 접근"
-      },
+      "tier": "메인",
       "is_new": true,
-      "collected_at": "2026-06-12"
+      "brief": {
+        "verdict": "이커머스 인접이지만 내부 물류 어드민 중심이라 고객 경험보다 운영 효율화에 가까움",
+        "company_status": "시리즈D+ (영업 흑자 전환 추진 중) — 신선식품 이커머스 컬리. 새벽배송 선도 기업. 물류 내재화 풀필먼트 시스템 고도화 중",
+        "strategy": "어드민/백오피스 설계 경험을 앞세우고, 물류 데이터 시각화와 사용성 개선 관점으로 접근"
+      }
     },
     {
       "id": "inflearn-fe-developer-2026-06",
       "company": "인프랩 (인프런)",
       "title": "프론트엔드 개발자 (React / VanillaJS)",
       "url": "https://www.rallit.com/positions/18",
-      "score": 53,
-      "tier": "main",
+      "exp": "경력직 (3년+ 추정)",
+      "domains": [
+        "commerce",
+        "seo"
+      ],
+      "deadline": "수시",
+      "deadline_type": "rolling",
+      "process": [
+        "서류",
+        "기술면접",
+        "컬처핏면접"
+      ],
+      "has_codingtest": "미확인",
+      "fit_score": 53,
       "fit_reasons": [
         "서비스 결제·구독 플로우 포함 — 강의 구매 결제 플로우가 커머스 결제 경험과 부분적으로 연결",
         "SEO 중요 서비스 — 강의 탐색 페이지 SEO 니즈와 구조화된 SEO 구축 경험이 활용 가능",
         "개발자 대상 프로덕트 — 개발 문화·도구 이해가 컬처핏에 유리"
       ],
-      "domain_tags": ["commerce", "seo"],
-      "tech_stack": ["React", "TypeScript", "VanillaJS"],
-      "exp_required": "경력직 (3년+ 추정)",
-      "deadline": "수시",
-      "coding_test": "미확인",
-      "hiring_process": ["서류", "기술면접", "컬처핏면접"],
-      "company_brief": {
-        "stage": "시리즈B~C (추정)",
-        "summary": "국내 대표 개발자 교육 플랫폼. 강의 마켓플레이스·구독 서비스 운영. MAU 200만+ 추정",
-        "match_strength": "결제·SEO 경험이 일부 연결되나, 교육 플랫폼 특성상 이커머스 직접 매칭보다 간접 연결에 가까움",
-        "strategy": "SEO와 데이터 기반 개선 경험을 앞세우는 방식으로 접근. 결제 구현 경험은 보조"
-      },
+      "tier": "메인",
       "is_new": true,
-      "collected_at": "2026-06-12"
+      "brief": {
+        "verdict": "결제·SEO 경험이 일부 연결되나, 교육 플랫폼 특성상 이커머스 직접 매칭보다 간접 연결에 가까움",
+        "company_status": "시리즈B~C (추정) — 국내 대표 개발자 교육 플랫폼. 강의 마켓플레이스·구독 서비스 운영. MAU 200만+ 추정",
+        "strategy": "SEO와 데이터 기반 개선 경험을 앞세우는 방식으로 접근. 결제 구현 경험은 보조"
+      }
     },
     {
       "id": "wemade-fe-console-2026-06",
       "company": "위메이드 (WEMADE)",
       "title": "프론트엔드 개발 (React/Next.js, 온보딩 지원 콘솔)",
       "url": "https://www.wanted.co.kr/wd/205985",
-      "score": 47,
-      "tier": "main",
+      "exp": "5~8년",
+      "domains": [
+        "admin",
+        "seo"
+      ],
+      "deadline": "수시",
+      "deadline_type": "rolling",
+      "process": [
+        "서류",
+        "기술면접",
+        "2차면접"
+      ],
+      "has_codingtest": "미확인",
+      "fit_score": 47,
       "fit_reasons": [
         "Next.js/TypeScript 스택 — 보유 기술 스택이 요구사항과 일치",
         "SSR/SEO 이해 요구 — SEO 구조 구축 경험이 해당 역량 요건에 맞음",
         "콘솔·어드민 중심 포지션 — 어드민/백오피스 구축 경험이 직접 활용 가능"
       ],
-      "domain_tags": ["admin", "seo"],
-      "tech_stack": ["React", "Next.js", "TypeScript"],
-      "exp_required": "5~8년",
-      "deadline": "수시",
-      "coding_test": "미확인",
-      "hiring_process": ["서류", "기술면접", "2차면접"],
-      "company_brief": {
-        "stage": "상장사 (게임/블록체인 중견기업)",
-        "summary": "국내 주요 게임사. 블록체인 게임 플랫폼 위믹스 운영. 온보딩 지원 콘솔 개발 포지션",
-        "match_strength": "기술 스택은 맞으나 도메인이 게임/블록체인으로 본인 주축 도메인과 거리가 있어 연결 강도 낮음",
-        "strategy": "Next.js SSR과 어드민 설계 경험을 중심으로 작성. 블록체인/게임 도메인 관심을 선택적으로 표현"
-      },
+      "tier": "메인",
       "is_new": true,
-      "collected_at": "2026-06-12"
+      "brief": {
+        "verdict": "기술 스택은 맞으나 도메인이 게임/블록체인으로 본인 주축 도메인과 거리가 있어 연결 강도 낮음",
+        "company_status": "상장사 (게임/블록체인 중견기업) — 국내 주요 게임사. 블록체인 게임 플랫폼 위믹스 운영. 온보딩 지원 콘솔 개발 포지션",
+        "strategy": "Next.js SSR과 어드민 설계 경험을 중심으로 작성. 블록체인/게임 도메인 관심을 선택적으로 표현"
+      }
     },
     {
       "id": "safedoc-fe-developer-2026-06",
       "company": "세이프닥",
       "title": "Front End 개발자 (React/Next.js)",
       "url": "https://www.wanted.co.kr/wd/302680",
-      "score": 41,
-      "tier": "main",
+      "exp": "5년 이상",
+      "domains": [],
+      "deadline": "수시",
+      "deadline_type": "rolling",
+      "process": [
+        "서류",
+        "기술면접",
+        "컬처핏면접"
+      ],
+      "has_codingtest": "미확인",
+      "fit_score": 41,
       "fit_reasons": [
         "React/Next.js 스택 — 보유 기술 스택이 요구사항과 일치",
         "5년 이상 경력 요건 — 7년+ 경력으로 자격요건 충족"
       ],
-      "domain_tags": [],
-      "tech_stack": ["React", "Next.js", "TypeScript"],
-      "exp_required": "5년 이상",
-      "deadline": "수시",
-      "coding_test": "미확인",
-      "hiring_process": ["서류", "기술면접", "컬처핏면접"],
-      "company_brief": {
-        "stage": "시리즈 미확인 (헬스케어 스타트업)",
-        "summary": "의료·헬스케어 분야 서비스. 구체적 사업 규모는 공개 정보 제한적",
-        "match_strength": "스택은 맞으나 헬스케어 도메인은 본인 주축과 거리가 있어 연결 강도 낮음",
-        "strategy": "기술 역량 중심으로 지원. 헬스케어 관심도와 학습 의지를 보완"
-      },
+      "tier": "메인",
       "is_new": true,
-      "collected_at": "2026-06-12"
+      "brief": {
+        "verdict": "스택은 맞으나 헬스케어 도메인은 본인 주축과 거리가 있어 연결 강도 낮음",
+        "company_status": "시리즈 미확인 (헬스케어 스타트업) — 의료·헬스케어 분야 서비스. 구체적 사업 규모는 공개 정보 제한적",
+        "strategy": "기술 역량 중심으로 지원. 헬스케어 관심도와 학습 의지를 보완"
+      }
     }
   ]
 }
