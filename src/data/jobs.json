@@ -1,0 +1,120 @@
+{
+  "meta": { "last_collected": "2026-06-12" },
+  "jobs": [
+    {
+      "id": "sample-bucketplace-fe",
+      "company": "오늘의집 (버킷플레이스)",
+      "title": "웹 프론트엔드 엔지니어",
+      "level": "경력 4년 이상",
+      "scale": "시리즈D+",
+      "source": "오늘의집 채용",
+      "url": "https://www.bucketplace.com/careers/",
+      "location": "서울 서초",
+      "exp": "4년 이상",
+      "exp_min_years": 4,
+      "domains": ["커머스", "버티컬", "인테리어"],
+      "deadline": null,
+      "deadline_type": "rolling",
+      "deadline_label": "상시 채용",
+      "process": ["서류", "과제", "1차 인터뷰", "2차 인터뷰"],
+      "process_confirmed": false,
+      "has_codingtest": "과제",
+      "fit_score": 86,
+      "fit_tier": "최상",
+      "fit_reasons": [
+        "커머스 탐색→구매 플로우 중심 서비스 — 결제·할인 로직 구현 경험(CVR +14.27%)이 직접 연결됨",
+        "콘텐츠·커머스 결합 구조라 SEO·데이터 기반 개선 경험이 가산점",
+        "대규모 트래픽 웹 — MAU 30만 커머스 리뉴얼 경험으로 대응 가능"
+      ],
+      "tier": "문샷",
+      "is_new": true,
+      "brief": {
+        "verdict": "[샘플 데이터 — 첫 수집 실행 시 실데이터로 교체] 커머스 주축이 정면으로 맞는 문샷 타깃.",
+        "company_status": "시리즈D 이상 투자 유치, 국내 대표 인테리어 버티컬 커머스. (샘플 — 최신 실적 검증 필요)",
+        "strengths": [
+          "장바구니·주문·할인 계산 로직을 직접 설계한 경험이 커머스 FE 요구사항과 일치",
+          "SEO 구조 구축으로 유입 지표를 개선한 데이터 기반 접근"
+        ],
+        "gaps": ["대형 플랫폼 경쟁률 — 빅테크 출신 지원자와 경쟁", "과제 전형 통과가 관건"],
+        "pass_odds": "샘플 — 첫 수집 시 산정",
+        "strategy": "성과 수치(CVR·CTR·활성 사용자)를 이력서 최상단에 배치하는 문샷 무기 버전으로 지원.",
+        "sources": []
+      }
+    },
+    {
+      "id": "sample-tabling-fe",
+      "company": "테이블링",
+      "title": "Frontend Engineer (React)",
+      "level": "경력 3~7년",
+      "scale": "시리즈B",
+      "source": "원티드",
+      "url": "https://www.wanted.co.kr/",
+      "location": "서울 강남",
+      "exp": "3년 이상",
+      "exp_min_years": 3,
+      "domains": ["O2O", "예약", "버티컬"],
+      "deadline": "2026-06-25",
+      "deadline_type": "date",
+      "process": ["서류", "코딩테스트", "기술 인터뷰", "컬처핏 인터뷰"],
+      "process_confirmed": false,
+      "has_codingtest": "코딩테스트",
+      "fit_score": 79,
+      "fit_tier": "상",
+      "fit_reasons": [
+        "예약 O2O — 지도 기반 서비스·예약 마커 구현 경험이 도메인과 잘 맞음",
+        "웹뷰 하이브리드 앱 구조 — 브릿지 인증 동기화 경험이 직접 활용 가능",
+        "시리즈B 메인 티어 — 주축 2개(커머스 결제 + 지도·웹뷰)를 모두 쓰는 풀스토리 무기"
+      ],
+      "tier": "메인",
+      "is_new": true,
+      "brief": {
+        "verdict": "[샘플 데이터 — 첫 수집 실행 시 실데이터로 교체] 지도·웹뷰 주축이 먹히는 메인 티어 전형.",
+        "company_status": "외식 예약·웨이팅 O2O, 시리즈B. (샘플 — 최신 실적 검증 필요)",
+        "strengths": [
+          "네이버맵 클러스터링·예약 마커 등 지도 서비스 실전 경험",
+          "웹/웹뷰 분기 인증 플로우 설계 경험이 앱 중심 서비스에 적합"
+        ],
+        "gaps": ["코딩테스트 전형 준비 필요"],
+        "pass_odds": "샘플 — 첫 수집 시 산정",
+        "strategy": "지도·웹뷰 하이브리드 사례를 앞세우고 커머스 결제 깊이를 보조로 배치.",
+        "sources": []
+      }
+    },
+    {
+      "id": "sample-seed-founding-fe",
+      "company": "(예시) 시드 스타트업",
+      "title": "Founding Frontend Engineer",
+      "level": "FE 리드 · 1인 FE",
+      "scale": "시드",
+      "source": "샘플",
+      "url": "https://example.com/",
+      "location": "서울",
+      "exp": "5년 내외",
+      "exp_min_years": null,
+      "domains": ["커머스", "0→1"],
+      "deadline": null,
+      "deadline_type": "unknown",
+      "deadline_label": "마감일 미정",
+      "process": ["서류", "대표 인터뷰", "기술 인터뷰"],
+      "process_confirmed": false,
+      "has_codingtest": "없음",
+      "fit_score": 72,
+      "fit_tier": "중",
+      "fit_reasons": [
+        "0→1 단계 — SEO·어드민·인증·결제·배포까지 혼자 커버한 폭이 가장 강하게 먹히는 구간",
+        "퍼블리셔→FE 성장 서사가 초기 팀 컬처핏에 유리"
+      ],
+      "tier": "문열기",
+      "is_new": false,
+      "brief": {
+        "verdict": "[샘플 데이터 — 첫 수집 실행 시 실데이터로 교체] 문열기 티어 자리표시용 예시 공고.",
+        "company_status": "시드 단계 가정의 예시 항목. 실제 회사가 아님.",
+        "strengths": ["전 영역 커버리지(0→1) 무기 버전이 적용되는 구간"],
+        "gaps": ["초기 스타트업 리스크(런웨이·방향 전환)는 회사별로 별도 검증"],
+        "pass_odds": "샘플 — 첫 수집 시 산정",
+        "strategy": "원본 무기(폭넓은 커버리지 + 성장 서사)로 지원.",
+        "sources": []
+      }
+    }
+  ]
+}

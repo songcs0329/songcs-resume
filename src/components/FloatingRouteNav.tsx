@@ -4,6 +4,7 @@ const routes = [
   { to: '/', label: '이력서' },
   { to: '/cover-letter', label: '자기소개서' },
   { to: '/portfolio', label: '포트폴리오' },
+  { to: '/job-radar', label: '채용 레이더' },
 ];
 
 function FloatingRouteNav() {
