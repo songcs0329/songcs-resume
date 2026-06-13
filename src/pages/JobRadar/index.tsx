@@ -280,16 +280,33 @@ function JobRadar() {
               placeholder="회사·직책·도메인·전형 검색…"
               className="min-w-52 flex-1 rounded-lg border border-zinc-300 bg-white px-3.5 py-2 text-sm outline-none placeholder:text-zinc-400 focus:border-teal-700"
             />
-            <select
-              value={sort}
-              onChange={(event) => setSort(event.target.value as SortKey)}
-              className="rounded-lg border border-zinc-300 bg-white px-3 py-2 text-xs font-semibold text-zinc-600"
-            >
-              <option value="fit">적합도순</option>
-              <option value="deadline">마감임박순(그룹)</option>
-              <option value="new">신규순</option>
-              <option value="company">회사명순</option>
-            </select>
+            <div className="relative">
+              <select
+                value={sort}
+                onChange={(event) => setSort(event.target.value as SortKey)}
+                className="appearance-none rounded-lg border border-zinc-300 bg-white py-2 pr-8 pl-3.5 text-xs font-semibold text-zinc-700 outline-none transition focus:border-teal-700 focus:ring-2 focus:ring-teal-700/20"
+              >
+                <option value="fit">적합도순</option>
+                <option value="deadline">마감임박순(그룹)</option>
+                <option value="new">신규순</option>
+                <option value="company">회사명순</option>
+              </select>
+              <svg
+                className="pointer-events-none absolute top-1/2 right-2.5 -translate-y-1/2 text-zinc-400"
+                width="12"
+                height="12"
+                viewBox="0 0 12 12"
+                fill="none"
+              >
+                <path
+                  d="M2 4l4 4 4-4"
+                  stroke="currentColor"
+                  strokeWidth="1.5"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+              </svg>
+            </div>
           </div>
 
           <FilterRow label="적합도">
