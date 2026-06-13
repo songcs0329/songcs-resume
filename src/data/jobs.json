@@ -1,9 +1,87 @@
 {
   "meta": {
     "last_collected": "2026-06-13",
-    "total": 15
+    "total": 17
   },
   "jobs": [
+    {
+      "id": "techtaka-argo-fe-2026-06",
+      "company": "테크타카 (ARGO)",
+      "title": "Frontend Web Engineer",
+      "level": null,
+      "scale": "시리즈B · 누적 126억 (알토스벤처스)",
+      "source": "wanted",
+      "url": "https://www.wanted.co.kr/wd/293236",
+      "location": "서울 강남구",
+      "exp": "3년 이상",
+      "exp_min_years": 3,
+      "posted_date": null,
+      "first_seen": "2026-06-13",
+      "domains": ["커머스", "어드민", "B2B SaaS"],
+      "deadline": null,
+      "deadline_type": "rolling",
+      "deadline_label": "상시채용",
+      "process": ["서류", "기술면접", "컬처핏면접"],
+      "process_confirmed": false,
+      "has_codingtest": "미확인",
+      "fit_score": 65,
+      "fit_tier": "중",
+      "fit_reasons": [
+        "이커머스 물류 자동화 B2B SaaS — 커머스 플로우 경험이 도메인과 방향적으로 연결",
+        "TypeScript/React 스택 직접 매칭 — 필수 요건 정확히 충족",
+        "RESTful API 연동 및 데이터 시각화 업무 — API 연동·어드민 구축 경험 활용 가능"
+      ],
+      "tier": "문샷",
+      "is_new": true,
+      "brief": {
+        "company_status": "시리즈B · 알토스벤처스 126억 유치. 이커머스 풀필먼트 자동화 플랫폼 ARGO 운영. 구글·아마존·쿠팡 출신 팀 구성",
+        "verdict": "이커머스 물류 SaaS — 커머스 도메인 인접이나 B2B 어드민·대시보드 중심으로 결제·지도 주축과 직접 연결 약함",
+        "strengths": ["이커머스 도메인 인접", "TypeScript/React 스택 일치", "시리즈B 성장 단계"],
+        "gaps": ["B2B 물류 SaaS 특화 경험 없음", "결제·지도·웹뷰 주축 요건 명시 없음"],
+        "pass_odds": "중간",
+        "strategy": "이커머스 결제·주문 플로우 구축 경험과 데이터 기반 CVR 개선 사례를 물류 자동화 대시보드 개발 역량으로 연결하는 서사 구성",
+        "sources": ["https://www.wanted.co.kr/wd/293236"]
+      }
+    },
+    {
+      "id": "mycle-macarong-fe-2026-06",
+      "company": "마카롱팩토리 (마이클)",
+      "title": "프론트엔드 개발자",
+      "level": "시니어",
+      "scale": "시리즈A · 누적 77억",
+      "source": "wanted",
+      "url": "https://www.wanted.co.kr/wd/233013",
+      "location": "서울",
+      "exp": "5년 이상",
+      "exp_min_years": 5,
+      "posted_date": null,
+      "first_seen": "2026-06-13",
+      "domains": ["O2O", "웹뷰", "어드민"],
+      "deadline": null,
+      "deadline_type": "rolling",
+      "deadline_label": "상시채용",
+      "process": ["서류", "기술면접", "컬처핏면접"],
+      "process_confirmed": false,
+      "has_codingtest": "미확인",
+      "fit_score": 75,
+      "fit_tier": "상",
+      "fit_reasons": [
+        "인앱 웹뷰 JS interface 네이티브 연동이 자격요건 — 웹뷰 브릿지 상태 동기화 경험이 핵심 요건과 직결",
+        "어드민 신규 개발 포함 — 어드민/백오피스 구축 경험 직접 활용",
+        "O2O 예약·주문 플로우 — 이커머스 주문 설계 경험이 O2O 예약 플로우와 방향적으로 연결"
+      ],
+      "tier": "메인",
+      "is_new": true,
+      "brief": {
+        "company_status": "시리즈A · 누적 77억 (2024 뮤렉스 50억 유치). 차량관리 O2O 앱 마이클 — 누적 다운로드 425만, 매출 400억(2024), 2년 연속 흑자",
+        "verdict": "O2O 웹뷰 자격요건이 후보자 핵심 강점과 직결. 차량관리 특화 도메인이라 이커머스·결제 주축과는 간접 연결",
+        "strengths": ["웹뷰 JS interface 연동이 자격요건으로 명시 (직결)", "O2O 예약·주문 도메인", "React/TypeScript 스택 일치"],
+        "gaps": ["차량관리 특화 도메인 (이커머스 직접 매칭 약함)", "결제 PG 연동 요건 없음"],
+        "pass_odds": "중간",
+        "strategy": "웹뷰 JS interface 브릿지 인증 동기화 구현 사례를 자격요건에 직접 매핑. 어드민 구축 경험 강조. 차량관리 O2O에 대한 도메인 이해 표현 필요",
+        "sources": ["https://www.wanted.co.kr/wd/233013"]
+      }
+    },
     {
       "id": "orengesquare-senior-fe-2026-06",
       "company": "오렌지스퀘어 (WOWPASS)",
@@ -475,7 +553,7 @@
           "https://www.wanted.co.kr/wd/184048"
         ]
       },
-      "is_new": true,
+      "is_new": false,
       "location": "서울",
       "source": "wanted",
       "process_confirmed": false
@@ -511,7 +589,7 @@
           "https://www.wanted.co.kr/wd/187002"
         ]
       },
-      "is_new": true,
+      "is_new": false,
       "location": "서울",
       "source": "wanted",
       "process_confirmed": false
