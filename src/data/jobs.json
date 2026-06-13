@@ -1,42 +1,9 @@
 {
   "meta": {
     "last_collected": "2026-06-13",
-    "total": 14
+    "total": 15
   },
   "jobs": [
-    {
-      "id": "daangn-frontend-developer-2026-06",
-      "company": "당근마켓 (당근)",
-      "title": "Frontend Developer",
-      "url": "https://www.wanted.co.kr/wd/45767",
-      "scale": "시리즈D · 누적 2,200억+",
-      "tier": "문샷",
-      "first_seen": "2026-06-13",
-      "exp": "2년 이상",
-      "domains": ["지도", "웹뷰", "커머스", "SEO"],
-      "deadline": null,
-      "deadline_type": "rolling",
-      "deadline_label": "상시채용",
-      "process": ["서류", "코딩테스트", "기술면접", "컬처핏면접"],
-      "has_codingtest": "미확인",
-      "fit_score": 88,
-      "fit_reasons": [
-        "지도 기반 '내 근처' 서비스 — 네이버맵 클라이언트 클러스터링 경험이 POI 마커 개발 요건과 직결",
-        "모바일 웹뷰 기반 주력 개발 — 웹뷰 인증·브릿지 경험이 핵심 요구사항과 겹침",
-        "당근페이 결제 플로우 포함 — 결제·주문 설계 경험(CVR +14.27%)이 부가 강점"
-      ],
-      "brief": {
-        "company_status": "시리즈D+ — 국내 최대 지역 기반 중고거래·커뮤니티 플랫폼. MAU 2000만+, 당근페이·광고 수익화 진행 중",
-        "match_analysis": "지도·웹뷰 두 도메인이 모두 핵심 업무로, 본인 주축 경험이 정면으로 쓰이는 구조",
-        "pass_probability": "높음",
-        "strategy": "지도 기반 POI 클러스터링과 웹뷰 인증 플로우 사례를 앞세우고, 당근페이 결제 연동 구조에 관심을 표현",
-        "sources": ["https://www.wanted.co.kr/wd/45767"]
-      },
-      "is_new": true,
-      "location": "서울 서초구",
-      "source": "wanted",
-      "process_confirmed": false
-    },
     {
       "id": "orengesquare-senior-fe-2026-06",
       "company": "오렌지스퀘어 (WOWPASS)",
@@ -69,7 +36,7 @@
           "https://www.wanted.co.kr/wd/347033"
         ]
       },
-      "is_new": true,
+      "is_new": false,
       "location": "서울 구로구",
       "source": "wanted",
       "process_confirmed": false
@@ -102,7 +69,7 @@
         "strategy": "데이터 기반 개선 사례(CTR +11.3%·활성 사용자 +61.1%)를 앞세워 ZVZO의 '빠른 실험' 문화와 연결. 고강도 문화 적응 의지를 진정성 있게 표현 필요",
         "sources": ["https://www.wanted.co.kr/wd/242469"]
       },
-      "is_new": true,
+      "is_new": false,
       "location": "서울 강남구",
       "source": "wanted",
       "process_confirmed": false
@@ -473,6 +440,79 @@
       },
       "is_new": false,
       "location": "서울 강남구",
+      "source": "wanted",
+      "process_confirmed": false
+    },
+    {
+      "id": "payhere-fe-engineer-2026-06",
+      "company": "페이히어",
+      "title": "프론트엔드 엔지니어 (React)",
+      "url": "https://www.wanted.co.kr/wd/184048",
+      "scale": "시리즈B · 누적 350억+",
+      "tier": "문샷",
+      "first_seen": "2026-06-13",
+      "exp": "2년 이상",
+      "domains": ["커머스", "어드민"],
+      "deadline": null,
+      "deadline_type": "rolling",
+      "deadline_label": "상시채용",
+      "process": ["서류", "기술면접", "컬처핏면접"],
+      "has_codingtest": "미확인",
+      "fit_score": 68,
+      "fit_reasons": [
+        "클라우드 POS 매장 관리 결제 플로우 — 결제 로직 설계 경험(CVR +14.27%)이 POS 결제 플로우 맥락과 방향적으로 연결",
+        "예약·주문·배달 통합 서비스 — 커머스 주문 플로우 설계 경험이 매장 운영 플로우와 연결",
+        "React 기반 앱/웹 서비스 — 보유 스택이 필수 요건과 정확히 일치"
+      ],
+      "brief": {
+        "company_status": "시리즈B · 누적 350억+ (2022 시리즈A 120억, 2023 시리즈B 200억) — 국내 최초 클라우드 기반 POS 핀테크. 예약·배달·주문·결제·고객 관리 매장 운영 통합 솔루션. 소상공인 대상 B2B2C 플랫폼",
+        "match_analysis": "결제 플로우 경험이 POS 서비스 맥락과 방향적으로 연결. 단, 소비자 이커머스 결제보다 매장 운영자 결제 중심이라 직접 연결 강도는 보통 수준",
+        "pass_probability": "보통",
+        "strategy": "결제 CVR 성과와 PG 연동 경험을 POS 결제 플로우 설계로 전환하는 서사 구성. 어드민/백오피스 구축 경험을 파트너·운영 시스템 개발과 연결",
+        "sources": [
+          "https://platum.kr/archives/182823",
+          "https://economist.co.kr/article/view/ecn202304130024",
+          "https://www.wanted.co.kr/wd/184048"
+        ]
+      },
+      "is_new": true,
+      "location": "서울",
+      "source": "wanted",
+      "process_confirmed": false
+    },
+    {
+      "id": "steppay-fe-developer-2026-06",
+      "company": "스텝페이",
+      "title": "프론트엔드 개발자 (3년차 이상)",
+      "url": "https://www.wanted.co.kr/wd/187002",
+      "scale": "프리A · 누적 23억",
+      "tier": "문열기",
+      "first_seen": "2026-06-13",
+      "exp": "3년 이상",
+      "domains": ["핀테크", "어드민"],
+      "deadline": null,
+      "deadline_type": "rolling",
+      "deadline_label": "상시채용",
+      "process": ["서류", "기술면접"],
+      "has_codingtest": "미확인",
+      "fit_score": 52,
+      "fit_reasons": [
+        "구독·정기결제 플로우 구현 주업무 — 결제 도메인 경험이 구독 빌링 플랫폼 개발 맥락과 방향적으로 연결",
+        "고객용 스토어(마이스토어) Next.js 개발 — Next.js SSR 경험과 SEO 구축 이력이 스토어 뷰 개발에 적용 가능",
+        "어드민·포탈 뷰 개발 포함 — 어드민/백오피스 구축 경험이 포탈 어드민 개발과 직접 연결"
+      ],
+      "brief": {
+        "company_status": "프리A · 누적 23억 (프라이머사제 파트너스 리드) — 구독결제 전문 B2B SaaS. 코딩 없이 구독 서비스 빌링 자동화 플랫폼 운영. 초기 스타트업",
+        "match_analysis": "결제 도메인은 겹치나 B2B SaaS 구독 빌링으로 소비자 결제보다 기술 플랫폼 성격이 강함. 어드민·SDK 개발 경험이 주 연결 포인트",
+        "pass_probability": "보통",
+        "strategy": "외부 결제 API 연동 경험(이니시스·팝빌)과 어드민 설계 경험을 SDK 및 스토어 뷰 개발 역량으로 어필. 구독 경제 서비스에 대한 이해 표현 필요",
+        "sources": [
+          "https://www.nextunicorn.kr/company/25f17872eba18e46",
+          "https://www.wanted.co.kr/wd/187002"
+        ]
+      },
+      "is_new": true,
+      "location": "서울",
       "source": "wanted",
       "process_confirmed": false
     }
