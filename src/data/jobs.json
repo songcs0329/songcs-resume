@@ -1,8 +1,5 @@
 {
-  "meta": {
-    "last_collected": "2026-06-13",
-    "total": 17
-  },
+  "meta": { "last_collected": "2026-06-14", "total": 19 },
   "jobs": [
     {
       "id": "techtaka-argo-fe-2026-06",
@@ -32,7 +29,7 @@
         "RESTful API 연동 및 데이터 시각화 업무 — API 연동·어드민 구축 경험 활용 가능"
       ],
       "tier": "문샷",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "시리즈B · 알토스벤처스 126억 유치. 이커머스 풀필먼트 자동화 플랫폼 ARGO 운영. 구글·아마존·쿠팡 출신 팀 구성",
         "verdict": "이커머스 물류 SaaS — 커머스 도메인 인접이나 B2B 어드민·대시보드 중심으로 결제·지도 주축과 직접 연결 약함",
@@ -71,7 +68,7 @@
         "O2O 예약·주문 플로우 — 이커머스 주문 설계 경험이 O2O 예약 플로우와 방향적으로 연결"
       ],
       "tier": "메인",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "시리즈A · 누적 77억 (2024 뮤렉스 50억 유치). 차량관리 O2O 앱 마이클 — 누적 다운로드 425만, 매출 400억(2024), 2년 연속 흑자",
         "verdict": "O2O 웹뷰 자격요건이 후보자 핵심 강점과 직결. 차량관리 특화 도메인이라 이커머스·결제 주축과는 간접 연결",
@@ -593,6 +590,82 @@
       "location": "서울",
       "source": "wanted",
       "process_confirmed": false
+    },
+    {
+      "id": "rapportlabs-queenit-fe-2026-06",
+      "company": "라포랩스 (퀸잇)",
+      "title": "프론트엔드 엔지니어",
+      "url": "https://www.wanted.co.kr/wd/247925",
+      "scale": "시리즈B2 · 누적 855억",
+      "tier": "문샷",
+      "first_seen": "2026-06-14",
+      "posted_date": null,
+      "exp": "1년 이상",
+      "exp_min_years": 1,
+      "location": "서울 강남구",
+      "source": "wanted",
+      "domains": ["커머스", "웹뷰"],
+      "deadline": null,
+      "deadline_type": "rolling",
+      "deadline_label": "상시채용",
+      "process": ["서류", "기술면접", "컬처핏면접"],
+      "process_confirmed": false,
+      "has_codingtest": "미확인",
+      "fit_score": 58,
+      "fit_reasons": [
+        "X세대 패션 커머스 앱·웹 — 커머스 결제·구매 플로우 경험이 서비스 도메인과 방향적으로 연결",
+        "모바일 웹 개발(스쿼드 FE 책임자) — React 기반 모바일 웹 구현 경험이 서비스 주 개발 업무와 맞닿음",
+        "TypeScript/React/Next.js 스택 — 필수 요건 스택과 일치"
+      ],
+      "is_new": true,
+      "brief": {
+        "company_status": "시리즈B2 · 누적 855억 (2023.07 B2 340억 유치, 알토스벤처스 주도). 4050 X세대 여성 패션 큐레이션 앱 퀸잇. 23년 월 흑자 달성. 패션 카테고리 넘어 라이프스타일 플랫폼 확장 중",
+        "match_analysis": "패션 커머스 도메인은 구매 전환 플로우 경험과 방향적으로 연결되나, PG 연동·지도·웹뷰 브릿지 등 주축 요건 미명시. React Native 경험 미보유가 갭",
+        "pass_probability": "보통",
+        "strategy": "커머스 결제·할인 플로우 구현 경험(CVR +14.27%)을 패션 구매 전환 관점으로 연결. 모바일 웹 최적화 경험과 데이터 기반 개선 이력을 앞세우고 RN 학습 의지 보완",
+        "sources": [
+          "https://www.wanted.co.kr/wd/247925",
+          "https://zdnet.co.kr/view/?no=20220204085351"
+        ]
+      }
+    },
+    {
+      "id": "yeolhansi-keeper-fe-2026-06",
+      "company": "열한시 (Keeper)",
+      "title": "웹 프론트엔드 개발자(web FE)",
+      "url": "https://www.wanted.co.kr/wd/348763",
+      "scale": "프리A · 누적 25억 (SJ투자파트너스, 2025.05)",
+      "tier": "문열기",
+      "first_seen": "2026-06-14",
+      "posted_date": null,
+      "exp": "5년 이상 (5-10년)",
+      "exp_min_years": 5,
+      "location": "서울 강남구",
+      "source": "wanted",
+      "domains": ["웹뷰", "어드민"],
+      "deadline": "2026-06-23",
+      "deadline_type": "fixed",
+      "deadline_label": null,
+      "process": ["서류", "기술면접", "컬처핏면접"],
+      "process_confirmed": false,
+      "has_codingtest": "미확인",
+      "fit_score": 43,
+      "fit_reasons": [
+        "키퍼 앱 웹뷰 개발 및 관리 개선 — 웹뷰 개발 경험이 핵심 업무 중 하나로 연결",
+        "React 5년+ Next.js 필수 — 보유 스택이 자격요건과 일치",
+        "관제 시스템 프론트엔드 — 어드민/백오피스 구축 경험이 공간 관리 대시보드 개발과 연결"
+      ],
+      "is_new": true,
+      "brief": {
+        "company_status": "프리A · 누적 25억 (SJ투자파트너스 2025.05). 숙박업소·무인매장 공간 관리 자동화 B2B SaaS. 하우스키핑 DX 플랫폼 '키퍼' 운영. 약 71개 숙소 파트너",
+        "match_analysis": "웹뷰 개발이 요건에 포함되나 숙박관리 B2B SaaS 도메인은 이커머스·결제·지도 주축과 거리가 멈. 어드민 경험이 관제 시스템 개발과 부분 연결",
+        "pass_probability": "보통",
+        "strategy": "웹뷰 브릿지 경험을 어필하고 공간 관리 자동화 서비스에 대한 관심 표현. 어드민/백오피스 구축 경험을 관제 시스템 역할과 연결",
+        "sources": [
+          "https://www.wanted.co.kr/wd/348763",
+          "https://platum.kr/archives/260561"
+        ]
+      }
     }
   ]
 }
