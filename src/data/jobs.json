@@ -1,5 +1,5 @@
 {
-  "meta": { "last_collected": "2026-06-14", "total": 19 },
+  "meta": { "last_collected": "2026-06-15", "total": 20 },
   "jobs": [
     {
       "id": "techtaka-argo-fe-2026-06",
@@ -617,7 +617,7 @@
         "모바일 웹 개발(스쿼드 FE 책임자) — React 기반 모바일 웹 구현 경험이 서비스 주 개발 업무와 맞닿음",
         "TypeScript/React/Next.js 스택 — 필수 요건 스택과 일치"
       ],
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "시리즈B2 · 누적 855억 (2023.07 B2 340억 유치, 알토스벤처스 주도). 4050 X세대 여성 패션 큐레이션 앱 퀸잇. 23년 월 흑자 달성. 패션 카테고리 넘어 라이프스타일 플랫폼 확장 중",
         "match_analysis": "패션 커머스 도메인은 구매 전환 플로우 경험과 방향적으로 연결되나, PG 연동·지도·웹뷰 브릿지 등 주축 요건 미명시. React Native 경험 미보유가 갭",
@@ -655,7 +655,7 @@
         "React 5년+ Next.js 필수 — 보유 스택이 자격요건과 일치",
         "관제 시스템 프론트엔드 — 어드민/백오피스 구축 경험이 공간 관리 대시보드 개발과 연결"
       ],
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "프리A · 누적 25억 (SJ투자파트너스 2025.05). 숙박업소·무인매장 공간 관리 자동화 B2B SaaS. 하우스키핑 DX 플랫폼 '키퍼' 운영. 약 71개 숙소 파트너",
         "match_analysis": "웹뷰 개발이 요건에 포함되나 숙박관리 B2B SaaS 도메인은 이커머스·결제·지도 주축과 거리가 멈. 어드민 경험이 관제 시스템 개발과 부분 연결",
@@ -665,6 +665,41 @@
           "https://www.wanted.co.kr/wd/348763",
           "https://platum.kr/archives/260561"
         ]
+      }
+    },
+    {
+      "id": "gaenyeomwonri-fe-developer-2026-06",
+      "company": "개념원리",
+      "title": "프론트엔드 개발자",
+      "url": "https://www.wanted.co.kr/wd/147465",
+      "scale": "투자정보 미확인 (1991년 수학 출판사, 에듀테크 전환 추진)",
+      "tier": "문열기",
+      "first_seen": "2026-06-15",
+      "posted_date": null,
+      "exp": "2년 이상 (2-7년)",
+      "exp_min_years": 2,
+      "location": "서울 강남구",
+      "source": "wanted",
+      "domains": ["웹뷰", "어드민"],
+      "deadline": null,
+      "deadline_type": "rolling",
+      "deadline_label": "상시채용",
+      "process": ["서류", "기술면접"],
+      "process_confirmed": false,
+      "has_codingtest": "미확인",
+      "fit_score": 47,
+      "fit_reasons": [
+        "Webview, In-App browser 브릿지 통신 경험이 필수 자격요건으로 명시 — 웹뷰 브릿지 개발 경험과 직접 매칭",
+        "BackOffice 시스템 개발 포함 — 어드민/백오피스 구축 경험이 직접 활용 가능",
+        "React/Next.js/TypeScript 스택 — 보유 기술 스택이 요구사항과 일치"
+      ],
+      "is_new": true,
+      "brief": {
+        "company_status": "투자정보 미확인. 1991년 설립 수학 수험서 출판사 (연매출 200억, 이익률 50%). 2017년 IT 플랫폼 기업 전환 추진 중. 2023년 수학 학습 플랫폼 'Egrit' 런칭",
+        "match_analysis": "웹뷰 브릿지 통신이 필수 자격요건으로 명시되어 주축 경험이 직접 연결. 단 도메인이 교육(에듀테크)으로 이커머스·O2O 주축과는 거리가 있음",
+        "pass_probability": "보통",
+        "strategy": "웹뷰 JS 브릿지 구현 경험을 핵심 요건에 직접 매핑. BackOffice 설계 경험 강조. 교육 플랫폼 특성상 결제/구독 플로우 경험도 일부 어필 가능",
+        "sources": ["https://www.wanted.co.kr/wd/147465"]
       }
     }
   ]
