@@ -1,5 +1,5 @@
 {
-  "meta": { "last_collected": "2026-06-15", "total": 5 },
+  "meta": { "last_collected": "2026-06-16", "total": 6 },
   "jobs": [
     {
       "id": "miso-fe-chapter-lead-2026-06",
@@ -129,7 +129,7 @@
         "React/TypeScript + Next.js SSR/GraphQL 스택 일치",
         "CMS 어드민 개발 — 백오피스 구축 경험 강점"
       ],
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "퍼플아이오: IT 솔루션 스타트업(51~300명, 설립 4~9년). 코오롱몰 버티컬 브랜드 사이트 개발·운영 수행. 투자정보 미확인.",
         "verdict": "이커머스 커머스(쿠폰·결제·기획전) 직접 매칭. 코오롱몰이라는 대형 커머스 개발 경험 쌓기 적합. 다만 외주개발사 성격으로 성장성 판단 제한.",
@@ -179,7 +179,7 @@
         "모바일 네이티브 앱·인앱 브라우저·데스크탑 다환경 호환성 — 웹뷰 브릿지 경험 매칭",
         "React/TypeScript 스택 일치"
       ],
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "바이올렛페이(서비스명 point3): 차세대 결제 인증 핀테크. 설립 3년 이하 초기 스타트업(50명 이하). 투자정보 미확인.",
         "verdict": "결제 위젯+인증 플로우 업무가 창석의 PG 연동·본인인증·계좌인증 경험과 가장 직접적으로 매칭되는 공고. 초기 스타트업이라 성장성 리스크 있지만 도메인 핏 최상.",
@@ -204,8 +204,8 @@
       "id": "naturemobility-fe-2026-06",
       "company": "네이처모빌리티(찜카)",
       "title": "프론트 개발자 5년 이상",
-      "tier": "문열기",
-      "scale": "투자정보 미확인 (인원급성장 스타트업)",
+      "tier": "메인",
+      "scale": "시리즈B · 누적 165억",
       "source": "wanted",
       "url": "https://www.wanted.co.kr/wd/367828",
       "location": "서울",
@@ -229,24 +229,74 @@
         "React Native 하이브리드 앱 — 웹뷰 하이브리드 경험 접점",
         "Tailwind/Next.js App Router — 현재 스택 일치"
       ],
-      "is_new": true,
+      "is_new": false,
       "brief": {
-        "company_status": "찜카(렌트카·항공·숙소·여행플래너 비교 예약 플랫폼) 운영. 인원 급성장 중. 설립 4~9년. 투자정보 미확인.",
-        "verdict": "여행 커머스 예약·결제 플로우와 Vue→Next.js 마이그레이션 경험이 겹침. RN 하이브리드 우대 조건도 웹뷰 경험으로 어필 가능.",
+        "company_status": "찜카(렌트카·항공·숙소·여행플래너 비교 예약 플랫폼) 운영. 연 300억+ 거래액. 시리즈B 유치(IBK캐피탈·메디치인베스트먼트 등), 누적 165억(2023년 기준). 2023 아기유니콘 플러스 선정.",
+        "verdict": "여행 커머스 예약·결제 플로우와 Vue→Next.js 마이그레이션 경험이 겹침. RN 하이브리드 우대 조건도 웹뷰 경험으로 어필 가능. 시리즈B 성장 단계로 안정성 상승.",
         "strengths": [
           "예약·결제 플로우 — 이커머스 경험 일부 전이 가능",
           "Vue→Next.js 마이그레이션 — 데이터유니버스 이력 직접 매칭",
-          "인원 급성장 — 적극적 채용 타이밍"
+          "시리즈B 확인 — 성장 단계 안정적"
         ],
         "gaps": [
-          "투자정보 미확인 — 성장성 판단 어려움",
-          "여행 도메인 — 이커머스 커머스 도메인과 거리",
+          "여행 모빌리티 도메인 — 이커머스 커머스 도메인과 거리",
           "React Native 실무 경험 없음(우대 조건)"
         ],
         "pass_odds": "서류 통과 가능성 중상",
-        "strategy": "문열기 무기: Vue→React 마이그레이션 성공 이력 + 예약·결제 플로우 구현 경험 강조. Tailwind/Next.js App Router 현재 스택 일치 어필.",
+        "strategy": "메인 무기: Vue→React 마이그레이션 성공 이력 + 예약·결제 플로우 구현 경험 강조. Tailwind/Next.js App Router 현재 스택 일치 어필. 시리즈B 성장 단계 매력 포인트.",
         "sources": [
-          { "title": "네이처모빌리티(찜카) 프론트 개발자 — 원티드", "url": "https://www.wanted.co.kr/wd/367828" }
+          { "title": "네이처모빌리티(찜카) 프론트 개발자 — 원티드", "url": "https://www.wanted.co.kr/wd/367828" },
+          { "title": "네이처모빌리티 시리즈B 100억 투자 유치 — 머니투데이", "url": "https://news.mt.co.kr/mtview.php?no=2022072815423327055" }
+        ]
+      }
+    },
+    {
+      "id": "yoil-fe-2026-06",
+      "company": "요일(yoil)",
+      "title": "프론트엔드 개발(2년 이상)",
+      "tier": "문열기",
+      "scale": "투자정보 미확인",
+      "source": "wanted",
+      "url": "https://www.wanted.co.kr/wd/170140",
+      "location": "서울 강남구",
+      "level": "미드",
+      "exp": "FE 경력 2년 이상",
+      "exp_min_years": 2,
+      "posted_date": null,
+      "first_seen": "2026-06-16",
+      "domains": ["커머스", "패션", "백오피스", "웹뷰"],
+      "deadline": null,
+      "deadline_type": "rolling",
+      "deadline_label": "상시채용",
+      "process": ["서류전형", "1차(기술 면접)", "2차(대표이사 면접)", "처우협의"],
+      "process_confirmed": true,
+      "has_codingtest": "없음",
+      "fit_score": 63,
+      "fit_tier": "중",
+      "fit_reasons": [
+        "커머스 Front-end + 백오피스 FE 개발 — 이커머스 주축 및 백오피스 가산점 동시 매칭",
+        "자격요건: 모바일 앱 내 웹뷰 개발 경험 — 웹뷰 하이브리드 주축 직접 매칭",
+        "React/Vue/TypeScript 기반 웹서비스 개발 경험 — 스택 일치",
+        "큐레이트 플랫폼 + 브랜드 쇼핑 커머스 — 버티컬 커머스 도메인 경험 어필 가능"
+      ],
+      "is_new": true,
+      "brief": {
+        "company_status": "브랜드 쇼핑 큐레이션 메타서비스 요일(yoil) 운영. 큐레이트 플랫폼(커머스) + 브랜드 집합 서비스. 투자정보 미확인.",
+        "verdict": "커머스 FE + 웹뷰 개발이 주축과 일치하는 문열기 후보. 결제/PG 직접 언급 없고 경력 2-5년 범위로 창석 경력 상단 초과하는 아쉬움 있음.",
+        "strengths": [
+          "커머스 FE + 백오피스 — 주축·가산점 동시 매칭",
+          "웹뷰 개발 자격요건 — 웹뷰 브릿지 경험 직접 어필",
+          "소규모 팀 — 전 영역 커버 강점 발휘 가능"
+        ],
+        "gaps": [
+          "투자정보 미확인 — 회사 성장성 판단 어려움",
+          "결제·PG 연동 언급 없음 — 커머스 핵심 플로우 깊이 불명확",
+          "경력 범위 2-5년 — 창석 총 경력 7년+ 대비 연차 상한 초과"
+        ],
+        "pass_odds": "서류 통과 가능성 보통",
+        "strategy": "문열기 무기: 커머스 FE 구현 이력(쿠폰·장바구니·기획전) + 웹뷰 브릿지 디버깅 경험. CVR +14.27% 수치로 성과 입증.",
+        "sources": [
+          { "title": "요일(yoil) 프론트엔드 개발 — 원티드", "url": "https://www.wanted.co.kr/wd/170140" }
         ]
       }
     }
