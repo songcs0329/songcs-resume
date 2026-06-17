@@ -1,5 +1,5 @@
 {
-  "meta": { "last_collected": "2026-06-16", "total": 9 },
+  "meta": { "last_collected": "2026-06-17", "total": 11 },
   "jobs": [
     {
       "id": "orangesquare-wowpass-web-fe-2026-06",
@@ -29,7 +29,7 @@
         "외국인 관광객 핀테크 서비스 — 다환경 FE 구현 접점"
       ],
       "tier": "문샷",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "외국인 관광객 1위 선불카드 WOWPASS 운영. 한국투자파트너스·IMM인베스트먼트 등 시리즈B 누적 160억. 카드 발급자 110만명+, MAU 34만명. 2023년 4분기 연속 영업흑자, IPO 추진 중.",
         "verdict": "결제·환전 정산 어드민 FE 개발이 창석 PG 연동·백오피스 이력과 직접 매칭. 문샷 기회로 스택 일치 + 결제 도메인 강점 어필.",
@@ -79,7 +79,7 @@
         "파트장급 5년 이상 — 창석 경력 요건 충족, Vue/Nuxt 우대 조건도 충족"
       ],
       "tier": "문열기",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "세이프닥: 2018년 설립 헬스케어 B2B SaaS. 관공서·대기업·금융권·대학교 등 3,600여 개 기업 고객, 800만 명 의료복지 서비스 제공. 투자정보 미확인.",
         "verdict": "웹뷰 연계 개발 + 백오피스가 주요 업무로 창석 경험과 일부 매칭. 헬스케어 SaaS 도메인 러닝커브 있지만 스택 완전 일치. Vue/Nuxt 우대 조건도 충족.",
@@ -129,7 +129,7 @@
         "MAU 21만 성장 플랫폼 — 빠른 실험·데이터 드리븐 환경"
       ],
       "tier": "문열기",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "두어스(ZVZO): 2023년 11월 창업(왓챠 COO·에이블리 CTO 출신 창업). 크리에이터 어필리에이트 커머스 플랫폼. 시드+Pre-A 투자 유치(한국투자파트너스·베이스인베스트먼트). MAU 21만, 브랜드 고객사 60개+.",
         "verdict": "초기 스타트업으로 리스크 있지만 실력 있는 창업팀(왓챠·에이블리 출신). 커머스 도메인이지만 결제·장바구니 핵심 플로우 직접 어필 여지 제한적.",
@@ -446,6 +446,104 @@
         "strategy": "문열기 무기: 커머스 FE 구현 이력(쿠폰·장바구니·기획전) + 웹뷰 브릿지 디버깅 경험. CVR +14.27% 수치로 성과 입증.",
         "sources": [
           { "title": "요일(yoil) 프론트엔드 개발 — 원티드", "url": "https://www.wanted.co.kr/wd/170140" }
+        ]
+      }
+    },
+    {
+      "id": "inflab-frontend-2026-06",
+      "company": "인프랩(인프런)",
+      "title": "프론트엔드 개발자",
+      "level": "경력(연차 무관)",
+      "scale": "시리즈A · 누적 55억",
+      "source": "rallit",
+      "url": "https://www.rallit.com/positions/4125/%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C-%EA%B0%9C%EB%B0%9C%EC%9E%90",
+      "location": "경기 성남시 분당구",
+      "exp": "경력 (연차 무관, React 경험자)",
+      "exp_min_years": null,
+      "posted_date": null,
+      "first_seen": "2026-06-17",
+      "domains": ["에듀테크", "웹뷰"],
+      "deadline": null,
+      "deadline_type": "rolling",
+      "deadline_label": "채용 시 마감",
+      "process": ["서류접수", "과제전형", "실무면접", "문화면접"],
+      "process_confirmed": true,
+      "has_codingtest": "있음",
+      "fit_score": 66,
+      "fit_tier": "중",
+      "fit_reasons": [
+        "모바일 OS별 웹뷰·네이티브 구현 분기 처리 우대 — 웹뷰 하이브리드 주축 경험과 직접 매칭",
+        "React/Next.js/TypeScript + TanStack Query 스택 완전 일치",
+        "시리즈A 누적 55억 + 2025년 아기유니콘 선정 — 안정적 성장 단계"
+      ],
+      "tier": "메인",
+      "is_new": true,
+      "brief": {
+        "company_status": "인프런 운영사 인프랩. 한국투자파트너스·미래에셋캐피탈·본엔젤스·알로이스벤처스로부터 시리즈A 투자, 누적 55억. 2025년 중기부 '아기유니콘' 선정, 유저 150만+.",
+        "verdict": "웹뷰·네이티브 구현 분기 처리 우대사항이 웹뷰 하이브리드 경험과 직접 맞물리지만, 에듀테크 도메인은 이커머스 결제·주문 주축과는 거리가 있어 가산점 위주 어필이 필요.",
+        "strengths": [
+          "모바일 OS별 웹뷰 트러블슈팅(WebView, OAuth 등) 우대 — 웹뷰 브릿지 구축·디버깅 경험 직접 매칭",
+          "React/TypeScript/Next.js 스택 완전 일치",
+          "시리즈A 안정적 성장 단계(아기유니콘 선정)"
+        ],
+        "gaps": [
+          "에듀테크 도메인 — 이커머스 결제·주문 주축 경험과 거리",
+          "pnpm/Turborepo 모노레포 실무 경험 없음",
+          "Module Federation(Micro Frontend) 아키텍처 경험 없음"
+        ],
+        "pass_odds": "서류 통과 가능성 중",
+        "strategy": "메인 무기: 웹뷰 네이티브 브릿지 구축·다중 플랫폼(웹/웹뷰) 대응 이력 강조. 모노레포·MFE는 학습 의지로 보완 어필.",
+        "sources": [
+          { "title": "인프랩(인프런) 프론트엔드 개발자 — 랠릿", "url": "https://www.rallit.com/positions/4125/%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C-%EA%B0%9C%EB%B0%9C%EC%9E%90" }
+        ]
+      }
+    },
+    {
+      "id": "gowid-fintech-frontend-2026-06",
+      "company": "고위드",
+      "title": "[핀테크] Frontend Engineer",
+      "level": "경력 3년 이상",
+      "scale": "투자단계 일부 미확인 · 누적 100억+ (공고 배지 기준)",
+      "source": "rallit",
+      "url": "https://www.rallit.com/positions/4222/%ED%95%80%ED%85%8C%ED%81%AC-frontend-engineer",
+      "location": "서울 강남구",
+      "exp": "React 기반 FE 경력 3년 이상",
+      "exp_min_years": 3,
+      "posted_date": null,
+      "first_seen": "2026-06-17",
+      "domains": ["핀테크", "결제", "B2B SaaS"],
+      "deadline": null,
+      "deadline_type": "rolling",
+      "deadline_label": "채용 시 마감",
+      "process": ["서류접수", "직무인터뷰", "조직적합성인터뷰", "처우협의"],
+      "process_confirmed": true,
+      "has_codingtest": "미확인",
+      "fit_score": 68,
+      "fit_tier": "중",
+      "fit_reasons": [
+        "법인카드 한도·정산·리스크 금융 코어 시스템 — PG 연동·정산 백오피스 구축 경험과 도메인 접점",
+        "React/TypeScript/Vite/TanStack Query — 현재 스택 일치",
+        "5년차 BEP 달성 + 누적 100억+ B2B 핀테크 플랫폼 — 안정적 성장 단계"
+      ],
+      "tier": "메인",
+      "is_new": true,
+      "brief": {
+        "company_status": "스타트업 전용 법인카드 '고위드카드' 운영 B2B 핀테크. 2020년 출시 후 5년 만에 3,500여 고객사·BEP 달성, 누적 신용 사용액 1.3조원. 해시드 등 투자 유치(50억+), 공고 기준 누적 투자 100억 이상이나 정확한 최신 라운드 단계는 미확인.",
+        "verdict": "한도·정산·리스크 등 금융 코어 로직 구현이 PG 연동·정산 백오피스 이력과 접점이 있으나, 이커머스 결제·주문 주축과는 결이 다른 B2B SaaS 핀테크 도메인.",
+        "strengths": [
+          "정산·한도·리스크 로직 구현 — PG 연동·정산 백오피스 경험과 도메인 접점",
+          "React/TypeScript/Vite/TanStack Query 스택 일치",
+          "BEP 달성 + 3,500여 고객사 — 안정적 성장 단계"
+        ],
+        "gaps": [
+          "B2B SaaS 핀테크 — 이커머스 결제·주문 주축과 거리",
+          "정확한 투자 라운드 단계 미확인(누적 100억+만 확인)",
+          "복잡한 금융 트랜잭션 비즈니스 로직 — 도메인 러닝커브"
+        ],
+        "pass_odds": "서류 통과 가능성 중",
+        "strategy": "메인 무기: PG 연동(이니시스·토스페이·카카오페이)·정산 백오피스 구축 이력 + 복잡한 비즈니스 로직 구현 경험 강조.",
+        "sources": [
+          { "title": "고위드 [핀테크] Frontend Engineer — 랠릿", "url": "https://www.rallit.com/positions/4222/%ED%95%80%ED%85%8C%ED%81%AC-frontend-engineer" }
         ]
       }
     }
