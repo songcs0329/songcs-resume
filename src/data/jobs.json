@@ -1,5 +1,5 @@
 {
-  "meta": { "last_collected": "2026-06-17", "total": 13 },
+  "meta": { "last_collected": "2026-06-18", "total": 14 },
   "jobs": [
     {
       "id": "coxwave-ax-fe-2026-06",
@@ -29,7 +29,7 @@
         "Pre-A 125억 누적, Anthropic 파트너십 — 빠른 성장 AI 스타트업"
       ],
       "tier": "문열기",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "AI Agent SaaS 플랫폼 콕스웨이브. 2025년 Pre-A 70억 유치(누적 125억). Anthropic 파트너십 체결, Meta/Microsoft/NVIDIA/PwC 글로벌 파트너. 직원 20명, 서울 영등포구.",
         "verdict": "스택 완전 일치 + 내부 운영도구·SDK 개발이 백오피스·인하우스 툴 이력과 매칭. 이커머스·결제 도메인 직접 경험 없지만 AI SaaS 성장성 높음.",
@@ -78,7 +78,7 @@
         "글로벌 기업(18년차, 14개국 오피스) — 안정적 환경, 평균연봉 6,032만원"
       ],
       "tier": "문열기",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "글로벌 3D 의상 디자인 소프트웨어 선도 기업. 2009년 설립, 300명+, 14개국 오피스. CLO-SET(패션 클라우드 플랫폼)·Marvelous Designer·CONNECT by CLO-SET 운영. 매출 90%+ 해외.",
         "verdict": "CLO-SET 플랫폼 FE + 백오피스 어드민 개발이 주요 업무. 스택 완전 일치이지만 3D 패션 도메인은 이커머스·결제 주축과 거리. 글로벌 안정 기업으로 리스크 낮음.",
@@ -642,6 +642,56 @@
         "strategy": "메인 무기: PG 연동(이니시스·토스페이·카카오페이)·정산 백오피스 구축 이력 + 복잡한 비즈니스 로직 구현 경험 강조.",
         "sources": [
           { "title": "고위드 [핀테크] Frontend Engineer — 랠릿", "url": "https://www.rallit.com/positions/4222/%ED%95%80%ED%85%8C%ED%81%AC-frontend-engineer" }
+        ]
+      }
+    },
+    {
+      "id": "levit-alwayz-fe-2026-06",
+      "company": "레브잇(올웨이즈)",
+      "title": "Software Engineer (Frontend)",
+      "level": "미드~시니어",
+      "scale": "시리즈B · 누적 869억",
+      "source": "wanted",
+      "url": "https://www.wanted.co.kr/wd/277925",
+      "location": "서울 관악구",
+      "exp": "FE 경력 2년 이상",
+      "exp_min_years": 2,
+      "posted_date": null,
+      "first_seen": "2026-06-18",
+      "domains": ["커머스", "그로스"],
+      "deadline": null,
+      "deadline_type": "rolling",
+      "deadline_label": "상시채용",
+      "process": null,
+      "process_confirmed": false,
+      "has_codingtest": "미확인",
+      "fit_score": 75,
+      "fit_tier": "중상",
+      "fit_reasons": [
+        "올웨이즈 Growth Feature/Commerce Platform 웹/앱 컴포넌트 개발 — 이커머스 주축 경험과 직접 연결",
+        "React/TypeScript/React Query 스택 일치, GraphQL/Relay 데이터 레이어는 신규 학습 영역",
+        "2023년 시리즈B 600억(DST글로벌파트너스 주도), 누적 869억 — 검증된 고성장 커머스 플랫폼"
+      ],
+      "tier": "문샷",
+      "is_new": true,
+      "brief": {
+        "company_status": "팀구매 디스커버리 커머스 앱 '올웨이즈' 운영. 2023년 6월 DST글로벌파트너스 주도 시리즈B 600억 유치(누적 869억), KB인베스트먼트·미래에셋캐피탈·한국투자파트너스 등 기존 투자사 전원 후속 투자. MAU 340만 수준, 월 거래액 수백억 규모로 빠르게 성장 중.",
+        "verdict": "Growth/Commerce Platform 컴포넌트 설계·개발이 이커머스 주축 경험과 맞물리는 문샷 기회. GraphQL/Relay 등 새 데이터 레이어는 학습이 필요하지만, 검증된 투자사 후속 투자가 이어지는 안정적 고성장 단계.",
+        "strengths": [
+          "Growth Feature/Commerce Platform 개발 — 이커머스 주축 경험 직접 어필 가능",
+          "React/TypeScript/React Query 스택 일치",
+          "시리즈B 누적 869억, 투자사 전원 후속 투자 — 검증된 성장성"
+        ],
+        "gaps": [
+          "GraphQL/Relay 데이터 레이어 실무 경험 없음 — 학습 필요",
+          "React Native 모바일 앱 컴포넌트 일부 포함 — 네이티브 영역 경험 제한적",
+          "결제·PG 연동 업무 직접 언급 없음 — 그로스/플랫폼 중심"
+        ],
+        "pass_odds": "서류 통과 가능성 중상",
+        "strategy": "문샷 무기: 이커머스 결제·장바구니·쿠폰 등 전 영역 구현 이력 + CVR +14.27% 성과 수치 강조. GraphQL/Relay는 학습 의지로 보완.",
+        "sources": [
+          { "title": "[레브잇] Software Engineer (Frontend) 채용 공고 — 원티드", "url": "https://www.wanted.co.kr/wd/277925" },
+          { "title": "‘올웨이즈’ 운영사 레브잇, 600억원 규모 시리즈B 투자 유치 — ZDNet Korea", "url": "https://zdnet.co.kr/view/?no=20230620114109" }
         ]
       }
     }
