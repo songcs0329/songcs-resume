@@ -1,6 +1,155 @@
 {
-  "meta": { "last_collected": "2026-06-18", "total": 14 },
+  "meta": { "last_collected": "2026-06-18", "total": 17 },
   "jobs": [
+    {
+      "id": "techtaka-argo-fe-2026-06",
+      "company": "테크타카(ARGO)",
+      "title": "Frontend Web Engineer (Typescript / React)",
+      "level": "미드~시니어",
+      "scale": "시리즈B · 누적 251억 (시리즈A 125억 + 시리즈B 126억, 알토스벤처스)",
+      "source": "wanted",
+      "url": "https://www.wanted.co.kr/wd/293236",
+      "location": "서울",
+      "exp": "FE 경력 3년 이상",
+      "exp_min_years": 3,
+      "posted_date": null,
+      "first_seen": "2026-06-18",
+      "domains": ["물류", "이커머스", "풀필먼트", "주문관리"],
+      "deadline": null,
+      "deadline_type": "rolling",
+      "deadline_label": "상시채용",
+      "process": null,
+      "process_confirmed": false,
+      "has_codingtest": "미확인",
+      "fit_score": 73,
+      "fit_tier": "중",
+      "fit_reasons": [
+        "이커머스 물류·주문·재고 플로우 FE — 결제·주문 플로우 구현 이력 일부 전이 가능",
+        "TypeScript/React 스택 일치 (3년+ 요건 충족)",
+        "시리즈B 누적 251억 (알토스벤처스) — 검증된 고성장 물류테크"
+      ],
+      "tier": "문샷",
+      "is_new": true,
+      "brief": {
+        "company_status": "물류 풀필먼트 자동화 플랫폼 ARGO 운영사. Amazon·Coupang 출신 창업팀(2020년 설립). 설립 15개월 만에 시리즈A 125억 유치 후 알토스벤처스로부터 시리즈B 126억 추가 유치, 누적 251억. 이커머스 주문·재고·배송 전 과정 통합 플랫폼.",
+        "verdict": "이커머스 주문·재고·배송 플로우 FE 개발이 주요 업무. 결제·주문 이력 일부 전이 가능하지만 물류 풀필먼트 특화 도메인 러닝커브 존재. 알토스벤처스 시리즈B 검증 고성장.",
+        "strengths": [
+          "이커머스 주문·재고 관리 플로우 — 결제·주문 구현 경험 도메인 전이 가능",
+          "TypeScript/React 스택 일치",
+          "알토스벤처스 시리즈B 누적 251억 — 검증된 성장 단계"
+        ],
+        "gaps": [
+          "물류 풀필먼트 특화 도메인 — 이커머스 결제·PG 경험과 직접 거리",
+          "지도·웹뷰·SEO 강점 어필 여지 제한적",
+          "공고 게시 시점 불명확"
+        ],
+        "pass_odds": "서류 통과 가능성 중",
+        "strategy": "문샷 무기: 이커머스 주문·결제 플로우 전 영역 구현 이력 강조. TypeScript/React 3년+ 요건 충족. 알토스벤처스 포트폴리오사 성장 단계 매력.",
+        "sources": [
+          { "title": "테크타카(ARGO) Frontend Web Engineer — 원티드", "url": "https://www.wanted.co.kr/wd/293236" }
+        ]
+      }
+    },
+    {
+      "id": "switchwon-fintech-fe-2026-06",
+      "company": "스위치원(Switchwon)",
+      "title": "Frontend developer 웹 프론트엔드 개발자",
+      "level": "미드",
+      "scale": "시리즈A · 누적 50억+ (Seed 11억 + Pre-A 17억 + Series A)",
+      "source": "wanted",
+      "url": "https://www.wanted.co.kr/wd/332979",
+      "location": "서울",
+      "exp": "FE 경력 2~3년",
+      "exp_min_years": 2,
+      "posted_date": null,
+      "first_seen": "2026-06-18",
+      "domains": ["핀테크", "외환", "디지털자산", "트레이딩"],
+      "deadline": null,
+      "deadline_type": "rolling",
+      "deadline_label": "상시채용",
+      "process": null,
+      "process_confirmed": false,
+      "has_codingtest": "미확인",
+      "fit_score": 78,
+      "fit_tier": "상",
+      "fit_reasons": [
+        "Next.js/TypeScript/Tailwind/Zustand/React Query/Turborepo — 스택 완전 일치",
+        "글로벌 핀테크 결제 인접 도메인 — PG 연동·결제 플로우 경험 어필 가능",
+        "시리즈A 연간 거래액 5조원 — 한국·일본·싱가포르 글로벌 고성장 서비스"
+      ],
+      "tier": "메인",
+      "is_new": true,
+      "brief": {
+        "company_status": "외환·디지털자산 트레이딩 핀테크 스위치원. 2021년 설립. Seed 11억(부산연합기술지주·라이징에스벤처스) + Pre-A 17억(대교인베스트먼트) + 시리즈A 더즌 주도(2024년 11월). 한국·일본·싱가포르 법인, 연간 거래액 5조원(런칭 3.5년 기준, 2026 기준).",
+        "verdict": "스택이 후보자와 완전 일치(Next.js/Tailwind/Zustand/React Query/Turborepo). 핀테크 외환 도메인은 이커머스 결제와 결이 다르지만 PG 연동·결제 플로우 이력 어필 가능. 2026년 기준 활발한 글로벌 성장 중.",
+        "strengths": [
+          "React/Next.js/TypeScript/Tailwind/Zustand/TanStack Query/Turborepo 스택 완전 일치",
+          "글로벌 핀테크 — 결제·환전 도메인 접점, PG 연동 이력 어필 가능",
+          "연간 거래액 5조원 고성장 + 3개국 글로벌 서비스"
+        ],
+        "gaps": [
+          "외환·디지털자산 트레이딩 특화 — 이커머스 결제·주문 주축과 결이 다름",
+          "시리즈A 초기 단계 — 조직 규모 작을 수 있음",
+          "경력 2~3년 요건 — 창석 연차 대비 포지션 레벨 낮을 수 있음"
+        ],
+        "pass_odds": "서류 통과 가능성 중상",
+        "strategy": "메인 무기: 스택 완전 일치 + 핀테크 결제 도메인 이력(이니시스·토스페이·카카오페이) 강조. 글로벌 서비스 확장성 어필. Turborepo 모노레포 경험 어필.",
+        "sources": [
+          { "title": "스위치원(Switchwon) Frontend developer — 원티드", "url": "https://www.wanted.co.kr/wd/332979" },
+          { "title": "외환테크 스타트업 스위치원 시리즈A 투자유치 — 한국경제", "url": "https://www.hankyung.com/article/2024112521746" }
+        ]
+      }
+    },
+    {
+      "id": "teamo2-camoa-fe-2026-06",
+      "company": "팀오투(카모아)",
+      "title": "프론트엔드 개발자(React)",
+      "level": "미드~시니어",
+      "scale": "시리즈B · 누적 136억 (SK렌터카·싱가포르 가디언펀드 등)",
+      "source": "wanted",
+      "url": "https://www.wanted.co.kr/wd/243853",
+      "location": "서울",
+      "exp": "미확인",
+      "exp_min_years": null,
+      "posted_date": null,
+      "first_seen": "2026-06-18",
+      "domains": ["O2O", "모빌리티", "렌트카", "예약"],
+      "deadline": null,
+      "deadline_type": "rolling",
+      "deadline_label": "상시채용",
+      "process": null,
+      "process_confirmed": false,
+      "has_codingtest": "미확인",
+      "fit_score": 66,
+      "fit_tier": "중",
+      "fit_reasons": [
+        "카모아·호텔모아 예약·결제 플로우 FE — 이커머스 결제 경험 일부 전이 가능",
+        "React 기반 FE 개발 — 현재 스택 일치",
+        "시리즈B 누적 136억 (SK렌터카·YG인베스트먼트 등) — 안정적 성장 단계"
+      ],
+      "tier": "문샷",
+      "is_new": true,
+      "brief": {
+        "company_status": "렌트카 가격비교 1등 O2O 앱 카모아 운영사 팀오투. 시리즈B 100억 유치(SK렌터카·싱가포르 가디언펀드·아이온자산운용·YG인베스트먼트), 누적 136억. 누적 다운로드 300만+, 전국 56개 지역 435개 렌트카 업체 제휴, 호텔모아까지 확장.",
+        "verdict": "렌트카·호텔 예약·결제 플로우 FE가 주요 업무. 이커머스 결제 경험 일부 전이 가능하나 모빌리티 특화 도메인 러닝커브 존재. 시리즈B 확인이지만 최신 성장 지표 재확인 필요.",
+        "strengths": [
+          "O2O 예약·결제 플로우 — 이커머스 결제 경험 어필 가능",
+          "시리즈B 누적 136억 — 안정적 성장 단계",
+          "React 스택 일치"
+        ],
+        "gaps": [
+          "렌트카·모빌리티 특화 도메인 — 이커머스·PG 결제 주축과 거리",
+          "공고 게시 시점 불명확",
+          "기술 스택 상세 불명확 (TypeScript 요건 미확인)"
+        ],
+        "pass_odds": "서류 통과 가능성 중",
+        "strategy": "문샷 무기: 예약·결제 플로우 구현 이력 + React 스택 일치 어필. 모빌리티 O2O 서비스 확장성 관심 어필.",
+        "sources": [
+          { "title": "팀오투(카모아) 프론트엔드 개발자 — 원티드", "url": "https://www.wanted.co.kr/wd/243853" },
+          { "title": "카모아 100억 규모 시리즈B 투자 유치 — 플래텀", "url": "https://platum.kr/archives/159861" }
+        ]
+      }
+    },
     {
       "id": "coxwave-ax-fe-2026-06",
       "company": "콕스웨이브",
@@ -673,7 +822,7 @@
         "2023년 시리즈B 600억(DST글로벌파트너스 주도), 누적 869억 — 검증된 고성장 커머스 플랫폼"
       ],
       "tier": "문샷",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "팀구매 디스커버리 커머스 앱 '올웨이즈' 운영. 2023년 6월 DST글로벌파트너스 주도 시리즈B 600억 유치(누적 869억), KB인베스트먼트·미래에셋캐피탈·한국투자파트너스 등 기존 투자사 전원 후속 투자. MAU 340만 수준, 월 거래액 수백억 규모로 빠르게 성장 중.",
         "verdict": "Growth/Commerce Platform 컴포넌트 설계·개발이 이커머스 주축 경험과 맞물리는 문샷 기회. GraphQL/Relay 등 새 데이터 레이어는 학습이 필요하지만, 검증된 투자사 후속 투자가 이어지는 안정적 고성장 단계.",
