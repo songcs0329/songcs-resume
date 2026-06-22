@@ -1,9 +1,231 @@
 {
   "meta": {
     "last_collected": "2026-06-22",
-    "total": 27
+    "total": 31
   },
   "jobs": [
+    {
+      "id": "theswing-mobility-fe-2026-06",
+      "company": "더스윙",
+      "title": "프론트엔드 개발자",
+      "level": "미들~시니어",
+      "scale": "시리즈C 진행 중 · 누적 460억+(시리즈B 300억·2022)",
+      "source": "wanted",
+      "url": "https://www.wanted.co.kr/wd/85454",
+      "location": "서울 용산구",
+      "exp": "3년 이상",
+      "exp_min_years": 3,
+      "posted_date": null,
+      "first_seen": "2026-06-22",
+      "domains": [
+        "모빌리티",
+        "지도",
+        "공유서비스"
+      ],
+      "deadline": null,
+      "deadline_type": "rolling",
+      "deadline_label": "상시채용",
+      "process": null,
+      "process_confirmed": false,
+      "has_codingtest": "미확인",
+      "fit_score": 68,
+      "fit_tier": "중",
+      "fit_reasons": [
+        "React/TypeScript 스택 일치 — 지도·GPS 기반 모빌리티 도메인 경험 어필 가능",
+        "시리즈C 프리IPO 단계 — 5년 연속 흑자·매출 607억(2024) 안정 성장",
+        "실시간 GPS·지도 서비스 — 창석 네이버맵 클러스터링 강점 직접 연계"
+      ],
+      "tier": "문샷",
+      "is_new": true,
+      "brief": {
+        "company_status": "퍼스널 모빌리티 공유서비스 '스윙' 운영사. 킥보드·전기자전거·오토바이·택시 통합 플랫폼. 시리즈A 75억(2021)→시리즈B 300억(2022)→시리즈C 85억(2025 진행 중). 5년 연속 흑자·매출 607억(2024). 서울 용산구.",
+        "verdict": "React/TypeScript 스택 일치. 지도 기반 서비스로 창석 네이버맵·GPS 클러스터링 강점 직접 어필 가능. 이커머스·결제 도메인 연관성은 낮지만 지도 도메인에서 차별점 부각 가능.",
+        "strengths": [
+          "React/TypeScript 스택 완전 일치",
+          "지도·GPS 기반 서비스 — 창석 네이버맵 클러스터링 경험 직접 연계",
+          "시리즈C 프리IPO 고성장 기업 — 5년 연속 흑자 안정 재무"
+        ],
+        "gaps": [
+          "이커머스·결제 도메인 직접 연관성 낮음",
+          "모빌리티 도메인 특화 — 커머스/핀테크 강점 어필 제한적"
+        ],
+        "pass_odds": "중간",
+        "strategy": "네이버맵 클러스터링·실시간 GPS 상태 동기화 경험 전면 배치. React/TypeScript 실무 경험 수치화 강조. 프리IPO 고성장 팀 합류 의지 어필.",
+        "sources": [
+          {
+            "title": "더스윙 프론트엔드 개발자 채용 — 원티드",
+            "url": "https://www.wanted.co.kr/wd/85454"
+          }
+        ]
+      }
+    },
+    {
+      "id": "fastview-chasal-fe-2026-06",
+      "company": "패스트뷰 (차살때)",
+      "title": "프론트 개발자",
+      "level": "미들~시니어",
+      "scale": "시리즈A · 누적 125억 · 매출 330억(2024)",
+      "source": "wanted",
+      "url": "https://www.wanted.co.kr/wd/314742",
+      "location": "서울",
+      "exp": "3년 이상",
+      "exp_min_years": 3,
+      "posted_date": null,
+      "first_seen": "2026-06-22",
+      "domains": [
+        "자동차커머스",
+        "커머스",
+        "콘텐츠"
+      ],
+      "deadline": null,
+      "deadline_type": "rolling",
+      "deadline_label": "상시채용",
+      "process": null,
+      "process_confirmed": false,
+      "has_codingtest": "미확인",
+      "fit_score": 66,
+      "fit_tier": "중",
+      "fit_reasons": [
+        "React/Next.js 스택 일치 — 커머스 도메인 경험 어필 가능",
+        "자동차 구매 플랫폼 차살때 — 커머스 결제·전환 플로우 강점 연계",
+        "시리즈A 고성장 — 매출 330억·흑자전환·신차 취급액 1,780억"
+      ],
+      "tier": "메인",
+      "is_new": true,
+      "brief": {
+        "company_status": "콘텐츠 종합 기업 패스트뷰의 자동차 커머스 브랜드 '차살때'. 시리즈A 누적 125억. 2024년 매출 330억·영업이익 흑자전환. 신차 취급액 1,780억(4,700대). MS·KB Pay 등 파트너십.",
+        "verdict": "React/Next.js 스택 일치 + 커머스 도메인. 자동차 구매 플로우에서 결제·CVR 최적화 경험 어필 가능. 시리즈A 125억 성장 단계로 메인 후보.",
+        "strengths": [
+          "React/Next.js 스택 일치",
+          "자동차 커머스 — 결제·전환율 최적화 강점 연계 가능",
+          "시리즈A 흑자 성장 — 안정적 사업 모델"
+        ],
+        "gaps": [
+          "자동차 도메인 특화 — 이커머스 일반화 어필 제한",
+          "콘텐츠 중심 회사 — FE 팀 규모 불확실"
+        ],
+        "pass_odds": "중간",
+        "strategy": "커머스 결제·CVR 최적화 경험(+14.27%) 전면 배치. Next.js SEO 최적화 경험 강조. 신차 커머스 전환 플로우 이해 어필.",
+        "sources": [
+          {
+            "title": "패스트뷰 [차살때] 프론트 개발자 채용 — 원티드",
+            "url": "https://www.wanted.co.kr/wd/314742"
+          }
+        ]
+      }
+    },
+    {
+      "id": "modudoc-fe-2026-06",
+      "company": "모두닥",
+      "title": "프론트엔드 엔지니어",
+      "level": "미들~시니어",
+      "scale": "시리즈A · 누적 60억 · 월방문 150만",
+      "source": "wanted",
+      "url": "https://www.wanted.co.kr/wd/98120",
+      "location": "서울",
+      "exp": "미확인",
+      "exp_min_years": null,
+      "posted_date": null,
+      "first_seen": "2026-06-22",
+      "domains": [
+        "헬스케어",
+        "의료정보",
+        "결제",
+        "예약"
+      ],
+      "deadline": null,
+      "deadline_type": "rolling",
+      "deadline_label": "채용 시 마감",
+      "process": null,
+      "process_confirmed": false,
+      "has_codingtest": "미확인",
+      "fit_score": 65,
+      "fit_tier": "중",
+      "fit_reasons": [
+        "병원예약·치료결제 플로우 확장 서비스 — 결제·예약 플로우 경험 직접 어필",
+        "React 기반 웹+앱 서비스 운영 — 스택 일치",
+        "시리즈A 60억 · 월방문 150만 · 회원 100만 헬스케어 버티컬"
+      ],
+      "tier": "메인",
+      "is_new": true,
+      "brief": {
+        "company_status": "병원 리뷰·예약·결제 통합 헬스케어 플랫폼. 시리즈A 60억(2022년 1월). 월방문 150만·회원 100만·누적 리뷰 35만. 병원 선택→예약→결제까지 확장 중. 전 연봉 대비 최대 1.5배 인상, 스톡옵션 1억원 제공.",
+        "verdict": "병원예약+결제 확장으로 결제 플로우 경험 어필 가능. React 스택 일치. 헬스케어 버티컬 메인 후보. 오래된 공고 가능성 있어 채용 활성 여부 사전 확인 필요.",
+        "strengths": [
+          "예약·결제 플로우 서비스 — 이커머스 결제 경험 연계 가능",
+          "React 웹+앱 통합 서비스 — 스택 일치",
+          "시리즈A 60억 헬스케어 버티컬 — 성장 검증"
+        ],
+        "gaps": [
+          "의료 헬스케어 도메인 특화 — 이커머스 주축과 거리",
+          "오래된 공고 가능성 — 채용 활성 여부 확인 권장",
+          "경력 요건 불명확"
+        ],
+        "pass_odds": "중간",
+        "strategy": "결제·예약 플로우 이력 + React 스택 강조. 헬스케어 서비스 사용자 경험 개선 관심 어필. 지원 전 채용 활성 상태 확인.",
+        "sources": [
+          {
+            "title": "모두닥 프론트엔드 엔지니어 채용 — 원티드",
+            "url": "https://www.wanted.co.kr/wd/98120"
+          }
+        ]
+      }
+    },
+    {
+      "id": "convenience-barnsaenggak-fe-2026-06",
+      "company": "컨비니언스(바른생각)",
+      "title": "프론트엔드 개발자 (React/Next.js)",
+      "level": "미들",
+      "scale": "투자정보 미확인",
+      "source": "wanted",
+      "url": "https://www.wanted.co.kr/wd/54811",
+      "location": "서울 마포구",
+      "exp": "3년 이상",
+      "exp_min_years": 3,
+      "posted_date": null,
+      "first_seen": "2026-06-22",
+      "domains": [
+        "커머스",
+        "라이프스타일"
+      ],
+      "deadline": null,
+      "deadline_type": "rolling",
+      "deadline_label": "상시채용",
+      "process": null,
+      "process_confirmed": false,
+      "has_codingtest": "미확인",
+      "fit_score": 63,
+      "fit_tier": "하",
+      "fit_reasons": [
+        "React/Next.js/TypeScript 스택 완전 일치 — 3년 이상 경력 요건 부합",
+        "원스톱 커머스 플랫폼 — 결제·주문 플로우 강점 어필 가능",
+        "30만 액티브 유저 B2C 커머스 서비스"
+      ],
+      "tier": "문열기",
+      "is_new": true,
+      "brief": {
+        "company_status": "섹슈얼 라이프스타일 원스톱 커머스 플랫폼 '바른생각' 운영사. 30만 액티브 유저. 2019년 이후 추가 투자 정보 미확인. 서울 마포구.",
+        "verdict": "스택 일치 + 커머스 도메인. 투자 정보 불충분으로 문열기 분류. 니치 도메인이지만 커머스·결제 플로우는 창석 강점과 연계 가능.",
+        "strengths": [
+          "React/Next.js/TypeScript 스택 완전 일치",
+          "커머스 플랫폼 — 결제·주문 플로우 경험 어필",
+          "소규모 팀 — 주도적 개발 기회"
+        ],
+        "gaps": [
+          "니치 도메인 — 커리어 레퍼런스 활용 제한 가능",
+          "투자 이력 불충분 — 재정 안정성 불확실",
+          "오래된 공고 가능성 — 채용 활성 여부 확인 필요"
+        ],
+        "pass_odds": "중간",
+        "strategy": "커머스 결제·CVR 최적화 실적 중심 어필. React/Next.js 스택 강조. 소규모 팀 주도적 개발 경험 의지 표현.",
+        "sources": [
+          {
+            "title": "컨비니언스(바른생각) 프론트엔드 개발자 채용 — 원티드",
+            "url": "https://www.wanted.co.kr/wd/54811"
+          }
+        ]
+      }
+    },
     {
       "id": "musinsa-29cm-fe-2026-06",
       "company": "무신사 (29CM)",
@@ -17,7 +239,13 @@
       "exp_min_years": 7,
       "posted_date": null,
       "first_seen": "2026-06-22",
-      "domains": ["커머스", "패션", "이커머스", "결제", "선물"],
+      "domains": [
+        "커머스",
+        "패션",
+        "이커머스",
+        "결제",
+        "선물"
+      ],
       "deadline": null,
       "deadline_type": "rolling",
       "deadline_label": "상시채용",
@@ -73,7 +301,13 @@
       "exp_min_years": 5,
       "posted_date": null,
       "first_seen": "2026-06-22",
-      "domains": ["O2O", "이커머스", "커머스", "인테리어", "백오피스"],
+      "domains": [
+        "O2O",
+        "이커머스",
+        "커머스",
+        "인테리어",
+        "백오피스"
+      ],
       "deadline": null,
       "deadline_type": "rolling",
       "deadline_label": "상시채용",
