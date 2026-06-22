@@ -1,11 +1,10 @@
 import { useMemo, useState } from 'react';
 import JobCard from './JobCard';
-import type { CodingTest, DeadlineBucket, FitTier, Job, JobsData, StrategyTier, Tracking } from '@/data/jobRadar';
+import type { CodingTest, DeadlineBucket, FitTier, Job, JobsData, StrategyTier } from '@/data/jobRadar';
 import jobsJson from '@/data/jobs.json';
 import {
   DEADLINE_BUCKET_ORDER,
   STRATEGY_TIERS,
-  TRACKING_STORAGE_KEY,
   daysUntil,
   deadlineBucketOf,
   fitTierOf,
@@ -16,8 +15,6 @@ const jobsData = jobsJson as unknown as JobsData;
 
 type DeadlineFilter = 'all' | 'soon' | 'rolling' | 'unknown';
 type SortKey = 'fit' | 'deadline' | 'new' | 'company';
-
-const EMPTY_TRACKING: Tracking = { applied: false, applied_at: null, notes: '' };
 
 const FIT_TIER_FILTERS: { value: 'all' | FitTier; label: string }[] = [
   { value: 'all', label: '전체' },
@@ -39,14 +36,6 @@ const CODING_TEST_FILTERS: { value: 'all' | CodingTest; label: string }[] = [
   { value: '과제', label: '과제' },
   { value: '없음', label: '없음' },
 ];
-
-function loadTracking(): Record<string, Tracking> {
-  try {
-    return JSON.parse(localStorage.getItem(TRACKING_STORAGE_KEY) ?? '{}') as Record<string, Tracking>;
-  } catch {
-    return {};
-  }
-}
 
 function Chip({ active, onClick, children }: { active: boolean; onClick: () => void; children: React.ReactNode }) {
   return (
@@ -82,23 +71,7 @@ function JobRadar() {
   const [strategyFilter, setStrategyFilter] = useState<'all' | StrategyTier>('all');
   const [commerceOnly, setCommerceOnly] = useState(false);
   const [newOnly, setNewOnly] = useState(false);
-  const [hideApplied, setHideApplied] = useState(false);
   const [sort, setSort] = useState<SortKey>('fit');
-  const [tracking, setTracking] = useState<Record<string, Tracking>>(loadTracking);
-
-  const trackOf = (id: string) => tracking[id] ?? EMPTY_TRACKING;
-
-  const updateTracking = (id: string, patch: Partial<Tracking>) => {
-    setTracking((current) => {
-      const next = { ...current, [id]: { ...EMPTY_TRACKING, ...current[id], ...patch } };
-      try {
-        localStorage.setItem(TRACKING_STORAGE_KEY, JSON.stringify(next));
-      } catch {
-        // localStorage 사용 불가 환경에서는 메모리 상태만 유지
-      }
-      return next;
-    });
-  };
 
   const filtered = useMemo(() => {
     let jobs = jobsData.jobs.slice();
@@ -106,7 +79,6 @@ function JobRadar() {
     if (fitTierFilter !== 'all')
       jobs = jobs.filter((job) => (job.fit_tier ?? fitTierOf(job.fit_score)) === fitTierFilter);
     if (newOnly) jobs = jobs.filter((job) => job.is_new);
-    if (hideApplied) jobs = jobs.filter((job) => !trackOf(job.id).applied);
     if (codingTestFilter !== 'all') jobs = jobs.filter((job) => (job.has_codingtest ?? '미확인') === codingTestFilter);
     if (commerceOnly) jobs = jobs.filter(isCommerceJob);
     if (strategyFilter !== 'all') jobs = jobs.filter((job) => job.tier === strategyFilter);
@@ -171,19 +143,7 @@ function JobRadar() {
     }
 
     return jobs;
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [
-    query,
-    fitTierFilter,
-    deadlineFilter,
-    codingTestFilter,
-    strategyFilter,
-    commerceOnly,
-    newOnly,
-    hideApplied,
-    sort,
-    tracking,
-  ]);
+  }, [query, fitTierFilter, deadlineFilter, codingTestFilter, strategyFilter, commerceOnly, newOnly, sort]);
 
   const stats = useMemo(() => {
     const jobs = jobsData.jobs;
@@ -200,14 +160,8 @@ function JobRadar() {
         tone: 'text-teal-700',
       },
       { label: '신규', value: jobs.filter((job) => job.is_new).length, tone: 'text-rose-600' },
-      { label: '지원 완료', value: jobs.filter((job) => trackOf(job.id).applied).length, tone: 'text-zinc-950' },
     ];
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [tracking]);
-
-  const handleToggleApplied = (id: string, applied: boolean) => {
-    updateTracking(id, { applied, applied_at: applied ? new Date().toISOString().slice(0, 10) : null });
-  };
+  }, []);
 
   const renderGroupedByDeadline = () => {
     const groups = new Map<DeadlineBucket, Job[]>();
@@ -231,16 +185,7 @@ function JobRadar() {
           </h2>
           {groups.get(bucket)!.map((job) => {
             rank += 1;
-            return (
-              <JobCard
-                key={job.id}
-                job={job}
-                rank={rank}
-                tracking={trackOf(job.id)}
-                onToggleApplied={handleToggleApplied}
-                onChangeNotes={(id, notes) => updateTracking(id, { notes })}
-              />
-            );
+            return <JobCard key={job.id} job={job} rank={rank} />;
           })}
         </section>
       );
@@ -262,7 +207,7 @@ function JobRadar() {
           </p>
         </header>
 
-        <section className="mt-6 grid grid-cols-3 gap-px overflow-hidden rounded-lg border border-zinc-200 bg-zinc-200 sm:grid-cols-5">
+        <section className="mt-6 grid grid-cols-2 gap-px overflow-hidden rounded-lg border border-zinc-200 bg-zinc-200 sm:grid-cols-4">
           {stats.map((stat) => (
             <div key={stat.label} className="bg-white px-4 py-4">
               <p className={`text-3xl font-black ${stat.tone}`}>{stat.value}</p>
@@ -322,9 +267,6 @@ function JobRadar() {
             <Chip active={newOnly} onClick={() => setNewOnly((value) => !value)}>
               신규만
             </Chip>
-            <Chip active={hideApplied} onClick={() => setHideApplied((value) => !value)}>
-              지원숨김
-            </Chip>
             <Chip active={commerceOnly} onClick={() => setCommerceOnly((value) => !value)}>
               🛒 결제·커머스
             </Chip>
@@ -376,22 +318,12 @@ function JobRadar() {
           ) : sort === 'deadline' ? (
             renderGroupedByDeadline()
           ) : (
-            filtered.map((job, index) => (
-              <JobCard
-                key={job.id}
-                job={job}
-                rank={index + 1}
-                tracking={trackOf(job.id)}
-                onToggleApplied={handleToggleApplied}
-                onChangeNotes={(id, notes) => updateTracking(id, { notes })}
-              />
-            ))
+            filtered.map((job, index) => <JobCard key={job.id} job={job} rank={index + 1} />)
           )}
         </section>
 
         <footer className="mt-10 border-t-2 border-zinc-900 pt-4 text-xs font-semibold text-zinc-500">
-          JOB RADAR · 자동수집 → 채점 → jobs.json 누적·중복제거 → git push · 지원 추적은 이 기기(localStorage)에만
-          저장됩니다
+          JOB RADAR · 자동수집 → 채점 → jobs.json 누적·중복제거 → git push
         </footer>
       </main>
     </div>

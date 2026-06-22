@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import type { CodingTest, FitTier, Job, StrategyTier, Tracking } from '@/data/jobRadar';
+import type { CodingTest, FitTier, Job, StrategyTier } from '@/data/jobRadar';
 import { STRATEGY_WEAPONS, daysUntil, fitTierOf, isCommerceJob } from '@/data/jobRadar';
 
 const STRATEGY_BADGE_CLASS: Record<StrategyTier, string> = {
@@ -117,22 +117,15 @@ function BriefPanel({ job }: { job: Job }) {
 interface JobCardProps {
   job: Job;
   rank: number;
-  tracking: Tracking;
-  onToggleApplied: (id: string, applied: boolean) => void;
-  onChangeNotes: (id: string, notes: string) => void;
 }
 
-function JobCard({ job, rank, tracking, onToggleApplied, onChangeNotes }: JobCardProps) {
+function JobCard({ job, rank }: JobCardProps) {
   const [briefOpen, setBriefOpen] = useState(false);
   const fitTier = job.fit_tier ?? fitTierOf(job.fit_score);
   const codingTest = job.has_codingtest ?? '미확인';
 
   return (
-    <article
-      className={`grid grid-cols-[2rem_minmax(0,1fr)] gap-4 border-b border-zinc-200 py-6 sm:grid-cols-[2.5rem_minmax(0,1fr)_5rem] ${
-        tracking.applied ? 'opacity-50' : ''
-      }`}
-    >
+    <article className="grid grid-cols-[2rem_minmax(0,1fr)] gap-4 border-b border-zinc-200 py-6 sm:grid-cols-[2.5rem_minmax(0,1fr)_5rem]">
       <p className="pt-1 text-right text-xl font-black text-zinc-300">{rank}</p>
 
       <div className="min-w-0">
@@ -226,22 +219,6 @@ function JobCard({ job, rank, tracking, onToggleApplied, onChangeNotes }: JobCar
           >
             {briefOpen ? '닫기 ▴' : '정보 보기 ▾'}
           </button>
-          <label className="flex cursor-pointer items-center gap-1.5 text-xs font-semibold text-zinc-600 select-none">
-            <input
-              type="checkbox"
-              checked={tracking.applied}
-              onChange={(event) => onToggleApplied(job.id, event.target.checked)}
-              className="h-4 w-4 accent-teal-700"
-            />
-            지원함
-          </label>
-          <input
-            type="text"
-            value={tracking.notes}
-            onChange={(event) => onChangeNotes(job.id, event.target.value)}
-            placeholder="메모 추가…"
-            className="min-w-36 border-b border-dashed border-zinc-300 bg-transparent px-0.5 py-0.5 text-xs text-zinc-700 outline-none placeholder:text-zinc-300 focus:border-solid focus:border-teal-700"
-          />
         </div>
 
         {briefOpen && (
