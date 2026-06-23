@@ -1,9 +1,220 @@
 {
   "meta": {
     "last_collected": "2026-06-23",
-    "total": 34
+    "total": 38
   },
   "jobs": [
+    {
+      "id": "marpple-corp-fe-2026-06",
+      "company": "마플 코퍼레이션",
+      "title": "프론트엔드 개발자",
+      "level": "미들~시니어",
+      "scale": "시리즈B (넥슨 전략투자) · 누적 100억+",
+      "source": "rallit",
+      "url": "https://www.rallit.com/positions/464/%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C-%EA%B0%9C%EB%B0%9C%EC%9E%90",
+      "location": "서울",
+      "exp": "6개월 이상",
+      "exp_min_years": 0.5,
+      "posted_date": null,
+      "first_seen": "2026-06-23",
+      "domains": [
+        "커머스",
+        "결제",
+        "크리에이터커머스"
+      ],
+      "deadline": null,
+      "deadline_type": "rolling",
+      "deadline_label": "상시채용",
+      "process": null,
+      "process_confirmed": false,
+      "has_codingtest": "미확인",
+      "fit_score": 75,
+      "fit_tier": "상",
+      "fit_reasons": [
+        "React/TypeScript(Remix.js) 기반 이커머스 커머스 플랫폼 — 결제·상품·주문 도메인 창석 강점 직접 연계",
+        "시리즈B(넥슨 전략투자) 누적 100억+ 안정 성장 — 마플샵 크리에이터 커머스 5만+ 셀러",
+        "Tailwind CSS 스택 일치 — 창석 React/TypeScript/Tailwind 완전 일치"
+      ],
+      "tier": "메인",
+      "is_new": true,
+      "brief": {
+        "company_status": "크리에이터 커머스 플랫폼 마플샵 운영사. 시리즈A 120억(2021)→시리즈B 클로징(2023, 넥슨 전략투자). 누적 투자금 100억+. 113만+ 누적 회원, 5만+ 크리에이터 셀러 입점.",
+        "verdict": "React/TypeScript·Remix.js 스택 일치. 커머스 플랫폼(결제·상품·주문)으로 창석 이커머스 결제 도메인 강점 어필 가능. Tailwind CSS 경험 플러스. 경력 최소 요건(6개월)이어서 창석이 시니어 레벨로 차별화 지원 가능.",
+        "strengths": [
+          "이커머스 커머스 도메인 일치 — 결제·상품·주문 플로우 창석 강점 직접 어필",
+          "React/TypeScript/Tailwind CSS 스택 완전 일치",
+          "시리즈B 안정 단계 넥슨 전략 파트너십"
+        ],
+        "gaps": [
+          "Remix.js 창석 경험 밖 (학습 필요)",
+          "FxTS 함수형 라이브러리 — 추가 학습 필요",
+          "Canvas/SVG 작업 일부 포함"
+        ],
+        "pass_odds": "중간",
+        "strategy": "마플샵 이커머스 결제·CVR 개선 사례와 React 기반 성능 최적화 경험으로 어필. Remix.js 학습 의지와 커머스 도메인 깊이 강조.",
+        "sources": [
+          "https://www.rallit.com/positions/464",
+          "https://platum.kr/archives/204850"
+        ]
+      }
+    },
+    {
+      "id": "codeit-senior-fe-2026-06",
+      "company": "코드잇 (codeit)",
+      "title": "시니어 프론트엔드 개발자 (React)",
+      "level": "시니어",
+      "scale": "Pre-IPO (시리즈B 100억 · Pre-IPO 98억) · 누적 약 238억",
+      "source": "wanted",
+      "url": "https://www.wanted.co.kr/wd/15664",
+      "location": "서울 중구",
+      "exp": "시니어 (경력 명시 없음)",
+      "exp_min_years": null,
+      "posted_date": null,
+      "first_seen": "2026-06-23",
+      "domains": [
+        "에듀테크",
+        "SEO"
+      ],
+      "deadline": null,
+      "deadline_type": "rolling",
+      "deadline_label": "상시채용",
+      "process": null,
+      "process_confirmed": false,
+      "has_codingtest": "미확인",
+      "fit_score": 68,
+      "fit_tier": "중",
+      "fit_reasons": [
+        "React 시니어 포지션 — 7년+ 경력 창석에게 적합한 레벨",
+        "Pre-IPO 에듀테크 — 2025년 매출 307억·첫 흑자, 코스닥 일반 상장 준비 모멘텀",
+        "SEO 기반 성장 플랫폼 — 창석 서치콘솔·CTR 11.3%·활성 사용자 +61% 강점 어필 가능"
+      ],
+      "tier": "문샷",
+      "is_new": true,
+      "brief": {
+        "company_status": "코딩 교육 플랫폼 '코드잇' 운영사. 시리즈B 100억(2021)→Pre-IPO 98억(2025.09). 2025년 매출 307억·영업이익 56억 첫 흑자. 코스닥 일반 상장 준비 중. 서울 중구.",
+        "verdict": "React 시니어 포지션. 에듀테크 플랫폼으로 이커머스·결제 강점 직접 어필은 제한적이나 SEO·성장 지표 경험이 플랫폼 사용자 성장 문제에 연결 가능. Ruby on Rails 백엔드 일부 포함(FE 집중 포지션).",
+        "strengths": [
+          "React 시니어 포지션 — 창석 7년+ 레벨과 정확히 일치",
+          "Pre-IPO 단계 안정 에듀테크 — 2025년 첫 흑자·307억 매출",
+          "SEO·성장 강점 어필 가능"
+        ],
+        "gaps": [
+          "에듀테크 도메인 — 이커머스·결제·지도 강점 직접 연결 제한적",
+          "Ruby on Rails 백엔드 일부 작업",
+          "커머스 도메인 미해당"
+        ],
+        "pass_odds": "중간",
+        "strategy": "SEO 기반 사용자 성장 경험(CTR·활성 사용자 지표)과 React 시니어 역량 강조.",
+        "sources": [
+          "https://www.wanted.co.kr/wd/15664",
+          "https://platum.kr/archives/283645"
+        ]
+      }
+    },
+    {
+      "id": "jungnara-fe-2026-06",
+      "company": "중고나라",
+      "title": "프론트엔드(react) 개발자",
+      "level": "미들",
+      "scale": "PE 인수(유진자산운용 1,100억·2021) · 거래액 5조",
+      "source": "wanted",
+      "url": "https://www.wanted.co.kr/wd/129038",
+      "location": "서울 강남구",
+      "exp": "2년 이상 5년 이하",
+      "exp_min_years": 2,
+      "posted_date": null,
+      "first_seen": "2026-06-23",
+      "domains": [
+        "커머스",
+        "C2C",
+        "웹뷰"
+      ],
+      "deadline": null,
+      "deadline_type": "rolling",
+      "deadline_label": "상시채용",
+      "process": null,
+      "process_confirmed": false,
+      "has_codingtest": "미확인",
+      "fit_score": 62,
+      "fit_tier": "하",
+      "fit_reasons": [
+        "React 기반 C2C 커머스 — 결제·주문·웹뷰 도메인 창석 경험 일부 어필 가능",
+        "거래액 5조 대규모 플랫폼 — 안정적 서비스 환경",
+        "경력 상한 5년으로 7년+ 창석은 over-qualified — 합격 가능성 제한"
+      ],
+      "tier": "문열기",
+      "is_new": true,
+      "brief": {
+        "company_status": "C2C 중고거래 플랫폼. 유진자산운용 PE 1,100억 인수(2021), 롯데쇼핑 300억 투자. 거래액 5조, 회원 2,500만. 매출 111억(2023). 벤처 스타트업 아님.",
+        "verdict": "경력 요건 2~5년으로 7년+ 창석은 over-qualified. PE 인수 회사로 벤처 성장 기대 낮음. React 커머스 도메인은 맞지만 C2C라 결제·PG 강점 어필 포인트 제한적.",
+        "strengths": [
+          "React 커머스 플랫폼 — 웹뷰·주문·결제 경험 일부 연결 가능",
+          "대규모 플랫폼(거래액 5조·회원 2,500만)"
+        ],
+        "gaps": [
+          "경력 2~5년 요건 — 창석 7년+ over-qualified",
+          "PE 인수 회사 — 벤처 성장 기대 낮음",
+          "매출 규모 작음(111억)"
+        ],
+        "pass_odds": "낮음",
+        "strategy": "지원 우선순위 낮음. 지원 시 대규모 트래픽 경험·성능 최적화 역량으로 어필.",
+        "sources": [
+          "https://www.wanted.co.kr/wd/129038"
+        ]
+      }
+    },
+    {
+      "id": "wingeat-agreable-fe-2026-06",
+      "company": "윙잇 (아그레아블)",
+      "title": "커머스 프론트엔드 개발자 (React.js)",
+      "level": "미들",
+      "scale": "투자 정보 미확인",
+      "source": "wanted",
+      "url": "https://www.wanted.co.kr/wd/44924",
+      "location": "서울",
+      "exp": "2년 이상",
+      "exp_min_years": 2,
+      "posted_date": null,
+      "first_seen": "2026-06-23",
+      "domains": [
+        "커머스",
+        "D2C",
+        "그로스해킹"
+      ],
+      "deadline": null,
+      "deadline_type": "rolling",
+      "deadline_label": "상시채용",
+      "process": null,
+      "process_confirmed": false,
+      "has_codingtest": "미확인",
+      "fit_score": 63,
+      "fit_tier": "하",
+      "fit_reasons": [
+        "간편식 커머스 D2C — 결제·주문 도메인 창석 강점 일부 연결",
+        "그로스해킹·CVR 개선 업무 명시 — 창석 CVR +14.27% 개선 경험 직접 어필",
+        "투자 정보 미확인 — 성장 단계 불명확"
+      ],
+      "tier": "문열기",
+      "is_new": true,
+      "brief": {
+        "company_status": "간편식 커머스 D2C 브랜드 'Wing Eat' 및 반려동물 브랜드 '반려소반' 운영사(아그레아블). 2015년 서비스 시작. 투자 정보 미확인.",
+        "verdict": "커머스 프론트엔드 포지션으로 React.js 기반 이커머스 도메인 어필 가능. 그로스해킹·CVR 개선 업무가 명시되어 창석 CVR +14.27% 개선 사례 직접 연결. 투자 정보 불명확.",
+        "strengths": [
+          "커머스 D2C 포지션 — 결제·주문·배송 도메인 창석 강점 연결",
+          "그로스해킹·CVR 개선 업무 명시 — 창석 CVR +14.27% 경험 직접 어필"
+        ],
+        "gaps": [
+          "투자 정보 미확인 — 회사 규모·성장성 불명",
+          "React.js(TypeScript 도입 중) — 스택 최신화 진행 중",
+          "D2C 식품 커머스 — 도메인 범용성 제한"
+        ],
+        "pass_odds": "중간",
+        "strategy": "CVR 개선 사례 중심으로 어필. 이커머스 사이트 속도 개선과 React 최적화 경험 강조.",
+        "sources": [
+          "https://www.wanted.co.kr/wd/44924"
+        ]
+      }
+    },
     {
       "id": "theswing-mobility-fe-2026-06",
       "company": "더스윙",
@@ -1840,7 +2051,7 @@
         "비상장 기업가치 3.7조 (구글 $100M·LVMH 계열 사모펀드 투자) — 글로벌 최상위 하이엔드 브랜드"
       ],
       "tier": "문샷",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "글로벌 하이엔드 아이웨어 브랜드 젠틀몬스터 운영사. 2011년 설립. 젠틀몬스터·탐버린즈·누데이크·어티슈 4개 브랜드 전개. 2024년 매출 7,891억·영업이익률 30%(패션 업계 최고). 2025년 6월 구글이 $100M(1,450억) 투자 4% 지분 취득(기업가치 3.7조). LVMH 계열 사모펀드 추가 투자 검토 중.",
         "verdict": "이커머스 웹/앱 FE + 백오피스(ADM/OMS) 개발이 창석의 이커머스 주축·백오피스 가산점과 직접 매칭. 스택 완전 일치. 기업가치 3.7조 글로벌 최상위 브랜드로 커리어 레버리지 최대.",
@@ -1901,7 +2112,7 @@
         "시리즈B2 누적 700억 흑자 달성(2024 매출 711억 YoY +48.7%) — 검증된 패션 이커머스 플랫폼"
       ],
       "tier": "문샷",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "4050세대 패션 이커머스 플랫폼 퀸잇 운영사. 2021년 출시. 2023년 7월 시리즈B2 340억 유치(알토스벤처스·카카오벤처스·에이티넘인베스트먼트, 누적 700억). 2024년 매출 711억(YoY +48.7%) 영업흑자 달성. 260명 규모. 서울 강남구.",
         "verdict": "패션 이커머스 플랫폼 FE 개발. 창석 캐치패션 럭셔리 커머스 경험으로 패션 도메인 어필 가능. React Native 비중 있어 네이티브 경험 없는 점이 약점이지만 웹 FE 위주로 어필 가능. 알토스벤처스 투자 문샷 기업.",
@@ -1963,7 +2174,7 @@
         "소프트뱅크비전펀드2 투자 기업가치 3조+ — 대한민국 최대 O2O 로컬커머스 문샷"
       ],
       "tier": "문샷",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "대한민국 1위 중고거래·로컬 커머스 플랫폼 당근마켓. MAU 2,600만+(2025). 시리즈D+(소프트뱅크비전펀드2·DST글로벌 등), 기업가치 3조+. 당근마켓(거래)·당근페이(간편결제)·당근알바·당근부동산 등 O2O 서비스 다각화. 서울 서초구.",
         "verdict": "모바일 웹뷰 기반 결제·O2O 서비스 FE 개발이 창석 웹뷰 하이브리드·결제 두 주축과 접점 있음. 소프트뱅크비전펀드2 투자 기업가치 3조+ 최상위 문샷. Relay 데이터 레이어 신규 학습 필요.",
