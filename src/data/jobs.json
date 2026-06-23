@@ -1,7 +1,7 @@
 {
   "meta": {
-    "last_collected": "2026-06-22",
-    "total": 31
+    "last_collected": "2026-06-23",
+    "total": 34
   },
   "jobs": [
     {
@@ -36,7 +36,7 @@
         "실시간 GPS·지도 서비스 — 창석 네이버맵 클러스터링 강점 직접 연계"
       ],
       "tier": "문샷",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "퍼스널 모빌리티 공유서비스 '스윙' 운영사. 킥보드·전기자전거·오토바이·택시 통합 플랫폼. 시리즈A 75억(2021)→시리즈B 300억(2022)→시리즈C 85억(2025 진행 중). 5년 연속 흑자·매출 607억(2024). 서울 용산구.",
         "verdict": "React/TypeScript 스택 일치. 지도 기반 서비스로 창석 네이버맵·GPS 클러스터링 강점 직접 어필 가능. 이커머스·결제 도메인 연관성은 낮지만 지도 도메인에서 차별점 부각 가능.",
@@ -91,7 +91,7 @@
         "시리즈A 고성장 — 매출 330억·흑자전환·신차 취급액 1,780억"
       ],
       "tier": "메인",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "콘텐츠 종합 기업 패스트뷰의 자동차 커머스 브랜드 '차살때'. 시리즈A 누적 125억. 2024년 매출 330억·영업이익 흑자전환. 신차 취급액 1,780억(4,700대). MS·KB Pay 등 파트너십.",
         "verdict": "React/Next.js 스택 일치 + 커머스 도메인. 자동차 구매 플로우에서 결제·CVR 최적화 경험 어필 가능. 시리즈A 125억 성장 단계로 메인 후보.",
@@ -147,7 +147,7 @@
         "시리즈A 60억 · 월방문 150만 · 회원 100만 헬스케어 버티컬"
       ],
       "tier": "메인",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "병원 리뷰·예약·결제 통합 헬스케어 플랫폼. 시리즈A 60억(2022년 1월). 월방문 150만·회원 100만·누적 리뷰 35만. 병원 선택→예약→결제까지 확장 중. 전 연봉 대비 최대 1.5배 인상, 스톡옵션 1억원 제공.",
         "verdict": "병원예약+결제 확장으로 결제 플로우 경험 어필 가능. React 스택 일치. 헬스케어 버티컬 메인 후보. 오래된 공고 가능성 있어 채용 활성 여부 사전 확인 필요.",
@@ -202,7 +202,7 @@
         "30만 액티브 유저 B2C 커머스 서비스"
       ],
       "tier": "문열기",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "섹슈얼 라이프스타일 원스톱 커머스 플랫폼 '바른생각' 운영사. 30만 액티브 유저. 2019년 이후 추가 투자 정보 미확인. 서울 마포구.",
         "verdict": "스택 일치 + 커머스 도메인. 투자 정보 불충분으로 문열기 분류. 니치 도메인이지만 커머스·결제 플로우는 창석 강점과 연계 가능.",
@@ -261,7 +261,7 @@
         "무신사 계열사 — 대기업 계열 문샷, 감도 있는 대규모 이커머스 플랫폼"
       ],
       "tier": "문샷",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "무신사 계열 프리미엄 패션 이커머스 플랫폼 29CM. 무신사는 2021년 기업가치 2.5조 돌파, 2023년 코스피 상장 검토 후 시장 여건으로 보류(재추진 예정). 2022년 무신사가 29CM 인수, 독립 운영 계열사. 무신사 그룹 연간 거래액 3조원+.",
         "verdict": "결제·주문·정산·배송·선물하기 서비스 FE 개발이 창석의 이커머스 결제 플로우 주축과 직접 매칭. 웹뷰 최적화 포함. 스택 완전 일치 + 대기업 계열 문샷.",
@@ -322,7 +322,7 @@
         "시리즈C 2,000억+ 대규모 O2O 커머스 플랫폼 — 가입자 1,500만+ 대형 프로덕트"
       ],
       "tier": "문샷",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "라이프스타일 슈퍼앱 오늘의집 운영사 버킷플레이스. 시리즈C 누적 2,000억+(소프트뱅크 비전펀드2·DST글로벌·GIC·IMM인베스트먼트 등). 가입자 1,500만+, O2O 인테리어 콘텐츠·커머스·시공 중개 통합 플랫폼. 상장 추진 중.",
         "verdict": "커머스 서비스 FE + 백오피스 + 판매자 페이지 개발이 창석 이커머스 주축 경험과 직접 연결. 대규모 O2O 커머스 플랫폼 경험 추가 기회. 소프트뱅크 비전펀드2 투자 문샷.",
@@ -1802,6 +1802,187 @@
           {
             "title": "페이히어 시리즈B2 150억 투자 유치 누적 500억 — 이코노미스트",
             "url": "https://economist.co.kr/article/view/ecn202408200047"
+          }
+        ]
+      }
+    },
+    {
+      "id": "iicombined-gentlemonster-fe-2026-06",
+      "company": "아이아이컴바인드(젠틀몬스터)",
+      "title": "프론트엔드 개발자",
+      "level": "미드~시니어",
+      "scale": "비상장 · 기업가치 3.7조 (구글 $100M 투자 2025.06 · LVMH 계열 사모펀드 추가 검토) · 매출 7,891억 · 영업이익률 30%(2024)",
+      "source": "wanted",
+      "url": "https://www.wanted.co.kr/wd/297626",
+      "location": "서울 성동구",
+      "exp": "FE 경력 3년 이상",
+      "exp_min_years": 3,
+      "posted_date": null,
+      "first_seen": "2026-06-23",
+      "domains": [
+        "이커머스",
+        "패션",
+        "백오피스",
+        "글로벌",
+        "어드민"
+      ],
+      "deadline": null,
+      "deadline_type": "rolling",
+      "deadline_label": "상시채용",
+      "process": null,
+      "process_confirmed": false,
+      "has_codingtest": "미확인",
+      "fit_score": 82,
+      "fit_tier": "상",
+      "fit_reasons": [
+        "이커머스 웹/앱 FE + 백오피스(ADM/OMS) 개발 — 창석 이커머스 주축·백오피스 가산점 직접 매칭",
+        "Next.js/React/TypeScript/TanStack Query/Zustand/Tailwind/MUI — 스택 완전 일치",
+        "비상장 기업가치 3.7조 (구글 $100M·LVMH 계열 사모펀드 투자) — 글로벌 최상위 하이엔드 브랜드"
+      ],
+      "tier": "문샷",
+      "is_new": true,
+      "brief": {
+        "company_status": "글로벌 하이엔드 아이웨어 브랜드 젠틀몬스터 운영사. 2011년 설립. 젠틀몬스터·탐버린즈·누데이크·어티슈 4개 브랜드 전개. 2024년 매출 7,891억·영업이익률 30%(패션 업계 최고). 2025년 6월 구글이 $100M(1,450억) 투자 4% 지분 취득(기업가치 3.7조). LVMH 계열 사모펀드 추가 투자 검토 중.",
+        "verdict": "이커머스 웹/앱 FE + 백오피스(ADM/OMS) 개발이 창석의 이커머스 주축·백오피스 가산점과 직접 매칭. 스택 완전 일치. 기업가치 3.7조 글로벌 최상위 브랜드로 커리어 레버리지 최대.",
+        "strengths": [
+          "이커머스 FE + 백오피스(ADM/OMS) 개발 — 이커머스 주축·백오피스 구축 이력 직접 매칭",
+          "Next.js/React/TypeScript/TanStack Query/Zustand/Tailwind/MUI 스택 완전 일치",
+          "기업가치 3.7조 글로벌 브랜드 — 구글·LVMH 투자 받은 비상장 최상급 회사"
+        ],
+        "gaps": [
+          "하이엔드 패션 도메인 — 이커머스 결제·PG 직접 연관성 포지션 내 불명확",
+          "글로벌 패션 브랜드 특화 도메인 — 럭셔리 커머스 감도 이해 필요",
+          "비상장 — 기업가치 공개 확인되나 VC 투자 라운드 구조와 다름"
+        ],
+        "pass_odds": "서류 통과 가능성 중상",
+        "strategy": "문샷 무기: 이커머스 FE(장바구니·쿠폰·결제 플로우 CVR +14.27%) + 백오피스·어드민 구축 이력 강조. 캐치패션 럭셔리 커머스 경험으로 패션 도메인 감도 어필. 스택 완전 일치 강조.",
+        "sources": [
+          {
+            "title": "아이아이컴바인드(젠틀몬스터) 프론트엔드 개발자 — 원티드",
+            "url": "https://www.wanted.co.kr/wd/297626"
+          },
+          {
+            "title": "구글, 젠틀몬스터에 $100M 투자 기업가치 3.7조 — 뉴스스페이스",
+            "url": "https://www.newsspace.kr/news/article.html?no=9525"
+          }
+        ]
+      }
+    },
+    {
+      "id": "rapportlabs-queenit-fe-2026-06",
+      "company": "라포랩스(퀸잇)",
+      "title": "프론트엔드 엔지니어",
+      "level": "미드~시니어",
+      "scale": "시리즈B2 · 누적 700억 (알토스벤처스·카카오벤처스·에이티넘인베스트먼트 · 2023.07) · 매출 711억(2024) · 흑자 달성",
+      "source": "wanted",
+      "url": "https://www.wanted.co.kr/wd/247925",
+      "location": "서울 강남구",
+      "exp": "FE 경력 1년 이상",
+      "exp_min_years": 1,
+      "posted_date": null,
+      "first_seen": "2026-06-23",
+      "domains": [
+        "패션",
+        "이커머스",
+        "앱",
+        "모바일웹"
+      ],
+      "deadline": null,
+      "deadline_type": "rolling",
+      "deadline_label": "상시채용",
+      "process": null,
+      "process_confirmed": false,
+      "has_codingtest": "미확인",
+      "fit_score": 75,
+      "fit_tier": "중상",
+      "fit_reasons": [
+        "퀸잇 서비스 앱/모바일 웹 FE 개발 — 4050 패션 이커머스 플랫폼, 창석 캐치패션 럭셔리 커머스 경험 연계",
+        "TypeScript/React/React Native/Next.js/React Query — 스택 거의 일치",
+        "시리즈B2 누적 700억 흑자 달성(2024 매출 711억 YoY +48.7%) — 검증된 패션 이커머스 플랫폼"
+      ],
+      "tier": "문샷",
+      "is_new": true,
+      "brief": {
+        "company_status": "4050세대 패션 이커머스 플랫폼 퀸잇 운영사. 2021년 출시. 2023년 7월 시리즈B2 340억 유치(알토스벤처스·카카오벤처스·에이티넘인베스트먼트, 누적 700억). 2024년 매출 711억(YoY +48.7%) 영업흑자 달성. 260명 규모. 서울 강남구.",
+        "verdict": "패션 이커머스 플랫폼 FE 개발. 창석 캐치패션 럭셔리 커머스 경험으로 패션 도메인 어필 가능. React Native 비중 있어 네이티브 경험 없는 점이 약점이지만 웹 FE 위주로 어필 가능. 알토스벤처스 투자 문샷 기업.",
+        "strengths": [
+          "패션 이커머스 플랫폼 — 캐치패션 럭셔리 커머스 MAU 30만 경험 도메인 연계 가능",
+          "TypeScript/React/Next.js/React Query 스택 일치",
+          "시리즈B2 누적 700억 흑자 달성 — 알토스벤처스 검증 성장 단계"
+        ],
+        "gaps": [
+          "React Native 비중 있음 — 네이티브 앱 경험 제한 (우대사항이지만 부담)",
+          "4050 패션 도메인 — 이커머스 결제·장바구니 핵심 플로우 어필 여지 불명확",
+          "경력 요건 1년+ (낮음) — 실질적 시니어 대우 협상 필요"
+        ],
+        "pass_odds": "서류 통과 가능성 중상",
+        "strategy": "문샷 무기: 캐치패션 럭셔리 커머스 MAU 30만 + 이커머스 결제·쿠폰·장바구니 플로우 이력 강조. 웹 FE 역량 전면 배치, React Native는 학습 의지로 보완. CVR +14.27% 어필.",
+        "sources": [
+          {
+            "title": "라포랩스(퀸잇) 프론트엔드 엔지니어 — 원티드",
+            "url": "https://www.wanted.co.kr/wd/247925"
+          },
+          {
+            "title": "퀸잇 운영사 라포랩스, 340억 투자유치 — 벤처스퀘어",
+            "url": "https://www.venturesquare.net/890317"
+          }
+        ]
+      }
+    },
+    {
+      "id": "daangn-fe-2026-06",
+      "company": "당근마켓(Daangn)",
+      "title": "Software Engineer, Frontend",
+      "level": "미드~시니어",
+      "scale": "시리즈D+ · 기업가치 3조+ (소프트뱅크비전펀드2 · DST글로벌 등) · MAU 2,600만+(2025)",
+      "source": "wanted",
+      "url": "https://www.wanted.co.kr/wd/45767",
+      "location": "서울 서초구",
+      "exp": "FE 경력 2년 이상",
+      "exp_min_years": 2,
+      "posted_date": null,
+      "first_seen": "2026-06-23",
+      "domains": [
+        "O2O",
+        "로컬커머스",
+        "웹뷰",
+        "결제",
+        "광고"
+      ],
+      "deadline": null,
+      "deadline_type": "rolling",
+      "deadline_label": "상시채용",
+      "process": null,
+      "process_confirmed": false,
+      "has_codingtest": "미확인",
+      "fit_score": 76,
+      "fit_tier": "중상",
+      "fit_reasons": [
+        "모바일 웹뷰 기반 Product 개발(신규 사업·광고·지급 결제·내 근처 탭·웹 채팅) — 웹뷰+결제 두 주축 동시 접점",
+        "React.js/Next.js/TypeScript 스택 일치",
+        "소프트뱅크비전펀드2 투자 기업가치 3조+ — 대한민국 최대 O2O 로컬커머스 문샷"
+      ],
+      "tier": "문샷",
+      "is_new": true,
+      "brief": {
+        "company_status": "대한민국 1위 중고거래·로컬 커머스 플랫폼 당근마켓. MAU 2,600만+(2025). 시리즈D+(소프트뱅크비전펀드2·DST글로벌 등), 기업가치 3조+. 당근마켓(거래)·당근페이(간편결제)·당근알바·당근부동산 등 O2O 서비스 다각화. 서울 서초구.",
+        "verdict": "모바일 웹뷰 기반 결제·O2O 서비스 FE 개발이 창석 웹뷰 하이브리드·결제 두 주축과 접점 있음. 소프트뱅크비전펀드2 투자 기업가치 3조+ 최상위 문샷. Relay 데이터 레이어 신규 학습 필요.",
+        "strengths": [
+          "모바일 웹뷰 기반 결제·O2O FE 개발 — 웹뷰 브릿지·결제 플로우 이력 양 축 어필 가능",
+          "React.js/Next.js/TypeScript 스택 일치",
+          "기업가치 3조+ 소프트뱅크비전펀드2 — 대한민국 최상위 O2O 문샷"
+        ],
+        "gaps": [
+          "Relay 데이터 레이어 경험 없음 — 신규 학습 필요",
+          "로컬 O2O 특화 도메인 — 이커머스 결제·장바구니 직접 경험과 다소 거리",
+          "2년+ 경력 요건 낮음 — 경쟁 풀 다양"
+        ],
+        "pass_odds": "서류 통과 가능성 중상",
+        "strategy": "문샷 무기: 웹뷰 브릿지 구축·safe-area·OS별 분기 처리 경험 강조 + 지급 결제 영역 접점 어필. CVR +14.27% 수치로 임팩트 증명. Relay는 GraphQL 이해도 기반 빠른 적응 어필.",
+        "sources": [
+          {
+            "title": "당근마켓 Software Engineer, Frontend — 원티드",
+            "url": "https://www.wanted.co.kr/wd/45767"
           }
         ]
       }
