@@ -1,7 +1,7 @@
 {
   "meta": {
-    "last_collected": "2026-06-23",
-    "total": 38
+    "last_collected": "2026-06-24",
+    "total": 40
   },
   "jobs": [
     {
@@ -36,7 +36,7 @@
         "Tailwind CSS 스택 일치 — 창석 React/TypeScript/Tailwind 완전 일치"
       ],
       "tier": "메인",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "크리에이터 커머스 플랫폼 마플샵 운영사. 시리즈A 120억(2021)→시리즈B 클로징(2023, 넥슨 전략투자). 누적 투자금 100억+. 113만+ 누적 회원, 5만+ 크리에이터 셀러 입점.",
         "verdict": "React/TypeScript·Remix.js 스택 일치. 커머스 플랫폼(결제·상품·주문)으로 창석 이커머스 결제 도메인 강점 어필 가능. Tailwind CSS 경험 플러스. 경력 최소 요건(6개월)이어서 창석이 시니어 레벨로 차별화 지원 가능.",
@@ -89,7 +89,7 @@
         "SEO 기반 성장 플랫폼 — 창석 서치콘솔·CTR 11.3%·활성 사용자 +61% 강점 어필 가능"
       ],
       "tier": "문샷",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "코딩 교육 플랫폼 '코드잇' 운영사. 시리즈B 100억(2021)→Pre-IPO 98억(2025.09). 2025년 매출 307억·영업이익 56억 첫 흑자. 코스닥 일반 상장 준비 중. 서울 중구.",
         "verdict": "React 시니어 포지션. 에듀테크 플랫폼으로 이커머스·결제 강점 직접 어필은 제한적이나 SEO·성장 지표 경험이 플랫폼 사용자 성장 문제에 연결 가능. Ruby on Rails 백엔드 일부 포함(FE 집중 포지션).",
@@ -143,7 +143,7 @@
         "경력 상한 5년으로 7년+ 창석은 over-qualified — 합격 가능성 제한"
       ],
       "tier": "문열기",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "C2C 중고거래 플랫폼. 유진자산운용 PE 1,100억 인수(2021), 롯데쇼핑 300억 투자. 거래액 5조, 회원 2,500만. 매출 111억(2023). 벤처 스타트업 아님.",
         "verdict": "경력 요건 2~5년으로 7년+ 창석은 over-qualified. PE 인수 회사로 벤처 성장 기대 낮음. React 커머스 도메인은 맞지만 C2C라 결제·PG 강점 어필 포인트 제한적.",
@@ -195,7 +195,7 @@
         "투자 정보 미확인 — 성장 단계 불명확"
       ],
       "tier": "문열기",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "간편식 커머스 D2C 브랜드 'Wing Eat' 및 반려동물 브랜드 '반려소반' 운영사(아그레아블). 2015년 서비스 시작. 투자 정보 미확인.",
         "verdict": "커머스 프론트엔드 포지션으로 React.js 기반 이커머스 도메인 어필 가능. 그로스해킹·CVR 개선 업무가 명시되어 창석 CVR +14.27% 개선 사례 직접 연결. 투자 정보 불명확.",
@@ -2194,6 +2194,114 @@
           {
             "title": "당근마켓 Software Engineer, Frontend — 원티드",
             "url": "https://www.wanted.co.kr/wd/45767"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ably-fe-2026-06",
+      "company": "에이블리코퍼레이션(에이블리)",
+      "title": "프론트엔드 엔지니어",
+      "level": "미드~시니어",
+      "scale": "시리즈C · 기업가치 3조 · 누적 2,730억+ (알리바바·DST글로벌 등) · 유니콘",
+      "source": "wanted",
+      "url": "https://www.wanted.co.kr/wd/220832",
+      "location": "서울 서초구",
+      "exp": "FE 경력 3년 이상",
+      "exp_min_years": 3,
+      "posted_date": null,
+      "first_seen": "2026-06-24",
+      "domains": ["패션", "이커머스", "앱", "웹뷰"],
+      "deadline": null,
+      "deadline_type": "rolling",
+      "deadline_label": "채용 시 마감",
+      "process": null,
+      "process_confirmed": false,
+      "has_codingtest": "미확인",
+      "fit_score": 72,
+      "fit_tier": "중상",
+      "fit_reasons": [
+        "에이블리 서비스 웹/앱 프론트엔드 개발 + 모바일 웹뷰 운영 — 웹뷰 하이브리드 주축 직접 접점",
+        "TypeScript/React/Next.js/React-Query/Jotai/Zustand/styled-components — 스택 완전 일치",
+        "시리즈C 기업가치 3조 유니콘 (알리바바 1000억 전략 투자) — 유니콘 문샷"
+      ],
+      "tier": "문샷",
+      "is_new": true,
+      "brief": {
+        "company_status": "패션 이커머스 플랫폼 에이블리 운영사. 시리즈C 1000억(알리바바 전략투자, 2024.12), 기업가치 3조. 누적 투자 2,730억+. MAU 850만+, 거래액 1조+ 유니콘. 글로벌 사업 확장 중.",
+        "verdict": "패션 이커머스 플랫폼 FE 및 웹뷰 서비스 개발이 창석 웹뷰 하이브리드 주축과 직접 접점. 스택 완전 일치. 캐치패션 럭셔리 커머스 경험으로 패션 도메인 어필 가능. 기업가치 3조 유니콘 문샷.",
+        "strengths": [
+          "웹뷰 서비스 개발 포함 — 웹뷰 브릿지·OS별 분기 경험 직접 어필 가능",
+          "TypeScript/React/Next.js/React-Query/Zustand 스택 완전 일치",
+          "기업가치 3조 유니콘 — 알리바바 전략투자, 누적 2,730억+"
+        ],
+        "gaps": [
+          "패션 이커머스 도메인 — 결제·PG 직접 어필 공고 내 불명확",
+          "React Native 일부 비중 가능 — 네이티브 경험 미보유",
+          "경력 3년+ 요건 — 경쟁 풀 다양"
+        ],
+        "pass_odds": "서류 통과 가능성 중상",
+        "strategy": "문샷 무기: 웹뷰 브릿지·safe-area·OS별 분기 경험 + 캐치패션 패션 이커머스 경험 전면 배치. React/Next.js/Zustand/React-Query 스택 완전 일치 강조. CVR +14.27% 수치 어필.",
+        "sources": [
+          {
+            "title": "에이블리코퍼레이션 프론트엔드 엔지니어 — 원티드",
+            "url": "https://www.wanted.co.kr/wd/220832"
+          },
+          {
+            "title": "에이블리, 알리바바 1000억 투자 기업가치 3조 유니콘 등극 — 플래텀",
+            "url": "https://platum.kr/archives/245597"
+          }
+        ]
+      }
+    },
+    {
+      "id": "imweb-fe-2026-06",
+      "company": "아임웹(imweb)",
+      "title": "Front-End Engineer",
+      "level": "미드~시니어",
+      "scale": "시리즈A · 알토스벤처스 100억 (2021) · 매출 255억 흑자 · 거래액 6조",
+      "source": "wanted",
+      "url": "https://www.wanted.co.kr/wd/109974",
+      "location": "서울",
+      "exp": "FE 경력 3년 이상",
+      "exp_min_years": 3,
+      "posted_date": null,
+      "first_seen": "2026-06-24",
+      "domains": ["커머스SaaS", "이커머스", "웹빌더"],
+      "deadline": null,
+      "deadline_type": "rolling",
+      "deadline_label": "채용 시 마감",
+      "process": null,
+      "process_confirmed": false,
+      "has_codingtest": "미확인",
+      "fit_score": 63,
+      "fit_tier": "중",
+      "fit_reasons": [
+        "커머스 + 웹빌더 SaaS 서비스 FE 개발 — 이커머스 도메인 간접 어필 가능",
+        "React/TypeScript 3년 이상 요건 — 스택 일치",
+        "시리즈A 알토스벤처스 100억, 매출 255억 흑자, 누적 거래액 6조 — 안정 성장 단계"
+      ],
+      "tier": "메인",
+      "is_new": true,
+      "brief": {
+        "company_status": "커머스 솔루션·웹빌더 SaaS 아임웹 운영사. 알토스벤처스 시리즈A 100억(2021). 2024년 매출 255억 흑자(YoY +27%). 고객사 누적 거래액 6조+, 사이트 100만개+. FT선정 아태 고성장 기업 3년 연속.",
+        "verdict": "커머스 + 웹빌더 SaaS FE 개발로 이커머스 도메인 간접 어필 가능. React/TypeScript 스택 일치. 단, 창석 주축(결제 플로우 직접 구현)과는 거리 있음. 메인 후보로 스택 일치 + 이커머스 배경 어필.",
+        "strengths": [
+          "커머스 SaaS + 웹빌더 서비스 — 이커머스 도메인 경험 간접 연계",
+          "React/TypeScript 스택 일치, 스쿼드 오너십 방식 조직",
+          "시리즈A 100억 흑자 성장 — 알토스벤처스 포트폴리오 안정 단계"
+        ],
+        "gaps": [
+          "커머스 SaaS 특성 — 결제·PG 연동 직접 구현 경험 어필 여지 제한",
+          "시리즈A 이후 추가 투자 없음 — 성장 레버리지 제한",
+          "웹빌더 도메인 — 창석 이커머스 주축과 다소 거리"
+        ],
+        "pass_odds": "서류 통과 가능성 중",
+        "strategy": "메인 무기: 이커머스 결제·주문 구현 이력 + 커머스 도메인 이해도 어필. 스쿼드 오너십 방식에서 빠른 실행력 강조. CVR +14.27% 성과 수치 전면.",
+        "sources": [
+          {
+            "title": "아임웹 Front-End Engineer 채용 — 원티드",
+            "url": "https://www.wanted.co.kr/wd/109974"
           }
         ]
       }
