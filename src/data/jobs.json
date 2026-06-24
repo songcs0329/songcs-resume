@@ -1,9 +1,217 @@
 {
   "meta": {
     "last_collected": "2026-06-24",
-    "total": 40
+    "total": 44
   },
   "jobs": [
+    {
+      "id": "grodel-hanwha-fe-2026-06",
+      "company": "그로들 (한화 그룹 계열)",
+      "title": "프론트엔드 개발자 (시니어)",
+      "level": "시니어",
+      "scale": "한화 그룹 스타트업 계열사 (대기업 계열)",
+      "source": "wanted",
+      "url": "https://www.wanted.co.kr/wd/220792",
+      "location": "서울",
+      "exp": "6년 이상",
+      "exp_min_years": 6,
+      "posted_date": null,
+      "first_seen": "2026-06-24",
+      "domains": [
+        "이커머스",
+        "AI솔루션",
+        "셀러플랫폼"
+      ],
+      "deadline": null,
+      "deadline_type": "rolling",
+      "deadline_label": "상시채용",
+      "process": null,
+      "process_confirmed": false,
+      "has_codingtest": "미확인",
+      "fit_score": 73,
+      "fit_tier": "상",
+      "fit_reasons": [
+        "국내외 온라인 마켓플레이스 셀러 대상 이커머스 AI 솔루션 — 창석 이커머스 결제·CVR 개선 경험 어필 가능",
+        "한화 그룹 스타트업 계열사 — 대기업 계열 안정성 + 스타트업 속도 병행",
+        "React/Vue/Angular 경험 필요 — 창석 React+Vue/Nuxt 스택 모두 보유로 완전 충족"
+      ],
+      "tier": "문샷",
+      "is_new": true,
+      "brief": {
+        "company_status": "한화 그룹 스타트업 계열사. 이커머스 시장 AI 솔루션 개발 (국내외 온라인 마켓플레이스 셀러 대상). 학사 이상·6년+ 시니어 FE 포지션.",
+        "verdict": "이커머스 AI 솔루션 도메인으로 창석 커머스 결제·CVR 개선 이력 어필 가능. 한화 대기업 계열 문샷. React/Vue 스택 창석 보유. 단, 실제 제품 규모·팀 규모 확인 필요.",
+        "strengths": [
+          "한화 그룹 계열 안정성 + 이커머스 AI 도메인 성장성",
+          "React/Vue/Angular 필요 — 창석 React+Vue/Nuxt 완전 충족",
+          "6년+ 시니어 요건 — 창석 7년+ over-qualify 없이 적합"
+        ],
+        "gaps": [
+          "실제 이커머스 결제·PG 연동 여부 공고에서 불명확",
+          "스타트업 계열사라 팀 규모·제품 성숙도 미확인"
+        ],
+        "pass_odds": "중간",
+        "strategy": "이커머스 결제·CVR +14.27% 개선·PG 연동 이력으로 셀러 커머스 솔루션 FE 어필. Vue/React 양쪽 경험으로 스택 유연성 강조.",
+        "sources": [
+          "https://www.wanted.co.kr/wd/220792"
+        ]
+      }
+    },
+    {
+      "id": "mrblue-partjang-fe-2026-06",
+      "company": "미스터블루",
+      "title": "프론트엔드 파트장 (Typescript, React)",
+      "level": "시니어",
+      "scale": "코스닥 상장사 (KOSDAQ) · 웹툰/웹소설 플랫폼",
+      "source": "wanted",
+      "url": "https://www.wanted.co.kr/wd/222400",
+      "location": "서울 강서구",
+      "exp": "5년 이상",
+      "exp_min_years": 5,
+      "posted_date": null,
+      "first_seen": "2026-06-24",
+      "domains": [
+        "콘텐츠플랫폼",
+        "웹툰",
+        "구독커머스"
+      ],
+      "deadline": null,
+      "deadline_type": "rolling",
+      "deadline_label": "상시채용",
+      "process": null,
+      "process_confirmed": false,
+      "has_codingtest": "코드리뷰",
+      "fit_score": 67,
+      "fit_tier": "중",
+      "fit_reasons": [
+        "TypeScript/React/Next.js 파트장 — 창석 7년+ 시니어 경력으로 파트장 레벨 적합",
+        "코스닥 상장사 문샷 — 20년 이상 안정 운영, 서비스 전체 FE 설계·리딩 경험 가능",
+        "콘텐츠 플랫폼 도메인 — 이커머스 결제 강점 직접 어필 어려움"
+      ],
+      "tier": "문샷",
+      "is_new": true,
+      "brief": {
+        "company_status": "웹툰/웹소설 플랫폼 최초 코스닥 상장사. 20년+ 운영. 서울 강서구. TypeScript/React/Next.js 기반 FE 파트장 채용.",
+        "verdict": "React/TypeScript/Next.js 스택 완전 일치. 파트장 레벨 창석 경력에 적합. 코스닥 안정 문샷이지만 콘텐츠 도메인이라 이커머스 결제 강점 어필 제한적.",
+        "strengths": [
+          "TypeScript/React/Next.js 스택 완전 일치",
+          "파트장 리딩 포지션 — 7년+ 창석 경력 레벨에 정합",
+          "코스닥 상장 안정성 + 웹툰 성장 시장"
+        ],
+        "gaps": [
+          "콘텐츠 플랫폼 — 이커머스 결제·PG 강점 직접 연결 어려움",
+          "코드리뷰 전형 포함 — 코드 준비 필요"
+        ],
+        "pass_odds": "중간",
+        "strategy": "React/TypeScript/Next.js 기술 역량 + 팀 리딩 경험 강조. 서비스 전체 FE 설계 이력으로 파트장 역할 적합성 어필.",
+        "sources": [
+          "https://www.wanted.co.kr/wd/222400"
+        ]
+      }
+    },
+    {
+      "id": "gomi-fe-2026-06",
+      "company": "고미코퍼레이션",
+      "title": "커머스 프론트엔드 개발자",
+      "level": "미들~시니어",
+      "scale": "시리즈B 125억 (2022) · 글로벌 이커머스 솔루션",
+      "source": "wanted",
+      "url": "https://www.wanted.co.kr/wd/33252",
+      "location": "서울",
+      "exp": "3년 이상",
+      "exp_min_years": 3,
+      "posted_date": null,
+      "first_seen": "2026-06-24",
+      "domains": [
+        "커머스",
+        "글로벌이커머스",
+        "결제"
+      ],
+      "deadline": null,
+      "deadline_type": "rolling",
+      "deadline_label": "상시채용",
+      "process": null,
+      "process_confirmed": false,
+      "has_codingtest": "미확인",
+      "fit_score": 76,
+      "fit_tier": "상",
+      "fit_reasons": [
+        "동남아 글로벌 이커머스 플랫폼 FE — 창석 이커머스 결제·주문 플로우 강점 직접 연계",
+        "TypeScript/Vue.js/React/Tailwind CSS 스택 완전 일치 — 창석 React+Vue/Nuxt+TypeScript+Tailwind 보유",
+        "시리즈B 125억 커머스 솔루션 — 고미페이 자회사 보유로 결제 도메인 어필 가능"
+      ],
+      "tier": "메인",
+      "is_new": true,
+      "brief": {
+        "company_status": "2019년 설립 크로스보더 이커머스 솔루션. 국내 브랜드사 동남아 시장 진출 지원(입점·유통·물류·마케팅 올인원). 시리즈B 125억(2022). 자회사 고미페이(결제)·고미에너지딜리버리. 서울.",
+        "verdict": "커머스 도메인 직결 + TypeScript/Vue/React/Tailwind 스택 완전 일치. 고미페이 결제 자회사로 PG·결제 도메인 경험 어필 강점. 동남아 글로벌 성장 시장.",
+        "strengths": [
+          "이커머스 커머스 도메인 — 글로벌(동남아) 플랫폼 창석 CVR·결제 이력 직접 연결",
+          "TypeScript/Vue.js/React/Tailwind CSS 스택 완전 일치",
+          "고미페이 자회사 — 결제 인프라 관련 개발 경험 어필 가능"
+        ],
+        "gaps": [
+          "3년+ 요건으로 창석 7년은 과잉 — 시니어 레벨로 차별화 전략 필요",
+          "글로벌(동남아) 시장 특성 — 로컬 커머스와 다소 다른 요구사항 가능"
+        ],
+        "pass_odds": "중간",
+        "strategy": "이커머스 결제·CVR +14.27%·PG 연동 이력으로 커머스 솔루션 FE 어필. Vue+React 양쪽 경험과 Tailwind 스택 일치 강조.",
+        "sources": [
+          "https://www.wanted.co.kr/wd/33252"
+        ]
+      }
+    },
+    {
+      "id": "alfred-hyeum-fe-2026-06",
+      "company": "알프레드 (혜움랩스)",
+      "title": "프론트엔드 엔지니어 (5년 이상)",
+      "level": "시니어",
+      "scale": "누적 210억 투자 · B2B SaaS FinTech AI Agent",
+      "source": "wanted",
+      "url": "https://www.wanted.co.kr/wd/236187",
+      "location": "서울 강남구",
+      "exp": "5년 이상",
+      "exp_min_years": 5,
+      "posted_date": null,
+      "first_seen": "2026-06-24",
+      "domains": [
+        "핀테크",
+        "B2BSaaS",
+        "AI에이전트"
+      ],
+      "deadline": null,
+      "deadline_type": "rolling",
+      "deadline_label": "상시채용",
+      "process": null,
+      "process_confirmed": false,
+      "has_codingtest": "미확인",
+      "fit_score": 68,
+      "fit_tier": "중",
+      "fit_reasons": [
+        "Vue.js/Nuxt 기반 B2B SaaS — 창석 Vue/Nuxt 실무 경험으로 스택 직접 충족",
+        "5년+ 시니어 포지션 — 창석 7년+ 경력 레벨에 정합",
+        "세무·재무 AI Agent SaaS — 이커머스 결제 도메인 직접 연결은 제한적이나 핀테크 인접"
+      ],
+      "tier": "메인",
+      "is_new": true,
+      "brief": {
+        "company_status": "세무법인 IT 연구소 출발, 2026.05 사명 혜움→알프레드 변경. 소상공인·법인 대상 세무·재무·AI Agent B2B SaaS. 매출 170억(세무업계 전국 5위). 누적 210억 투자(IBK기업은행·쿼드벤처스·키움인베스트먼트). 서울 강남구.",
+        "verdict": "Vue.js/Nuxt 기반으로 창석 Vue 경험 직접 충족. 누적 210억 안정 SaaS. 세무·재무 도메인으로 이커머스 결제 강점 직접 어필은 제한적이지만 B2B SaaS 백오피스 개발 이력 연결 가능.",
+        "strengths": [
+          "Vue.js/Nuxt 프레임워크 — 창석 Vue/Nuxt 실무 경험 직접 충족",
+          "누적 210억 안정 FinTech SaaS — 견고한 B2B 비즈니스",
+          "5년+ 포지션 — 창석 7년+ 경력 적합"
+        ],
+        "gaps": [
+          "세무·재무 전문 도메인 — 학습 필요, 이커머스 결제 강점 간접 어필만 가능",
+          "이커머스·커머스 도메인 아님 — 주축 강점 활용 제한"
+        ],
+        "pass_odds": "중간",
+        "strategy": "Vue/Nuxt 기술 역량 + B2B SaaS 백오피스 구축 이력 강조. 복잡한 업무 도메인(세무·재무) 이해 의지와 TypeScript 기반 안정적 코드 작성 능력 어필.",
+        "sources": [
+          "https://www.wanted.co.kr/wd/236187"
+        ]
+      }
+    },
     {
       "id": "marpple-corp-fe-2026-06",
       "company": "마플 코퍼레이션",
@@ -2211,7 +2419,12 @@
       "exp_min_years": 3,
       "posted_date": null,
       "first_seen": "2026-06-24",
-      "domains": ["패션", "이커머스", "앱", "웹뷰"],
+      "domains": [
+        "패션",
+        "이커머스",
+        "앱",
+        "웹뷰"
+      ],
       "deadline": null,
       "deadline_type": "rolling",
       "deadline_label": "채용 시 마감",
@@ -2226,7 +2439,7 @@
         "시리즈C 기업가치 3조 유니콘 (알리바바 1000억 전략 투자) — 유니콘 문샷"
       ],
       "tier": "문샷",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "패션 이커머스 플랫폼 에이블리 운영사. 시리즈C 1000억(알리바바 전략투자, 2024.12), 기업가치 3조. 누적 투자 2,730억+. MAU 850만+, 거래액 1조+ 유니콘. 글로벌 사업 확장 중.",
         "verdict": "패션 이커머스 플랫폼 FE 및 웹뷰 서비스 개발이 창석 웹뷰 하이브리드 주축과 직접 접점. 스택 완전 일치. 캐치패션 럭셔리 커머스 경험으로 패션 도메인 어필 가능. 기업가치 3조 유니콘 문샷.",
@@ -2267,7 +2480,11 @@
       "exp_min_years": 3,
       "posted_date": null,
       "first_seen": "2026-06-24",
-      "domains": ["커머스SaaS", "이커머스", "웹빌더"],
+      "domains": [
+        "커머스SaaS",
+        "이커머스",
+        "웹빌더"
+      ],
       "deadline": null,
       "deadline_type": "rolling",
       "deadline_label": "채용 시 마감",
@@ -2282,7 +2499,7 @@
         "시리즈A 알토스벤처스 100억, 매출 255억 흑자, 누적 거래액 6조 — 안정 성장 단계"
       ],
       "tier": "메인",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "커머스 솔루션·웹빌더 SaaS 아임웹 운영사. 알토스벤처스 시리즈A 100억(2021). 2024년 매출 255억 흑자(YoY +27%). 고객사 누적 거래액 6조+, 사이트 100만개+. FT선정 아태 고성장 기업 3년 연속.",
         "verdict": "커머스 + 웹빌더 SaaS FE 개발로 이커머스 도메인 간접 어필 가능. React/TypeScript 스택 일치. 단, 창석 주축(결제 플로우 직접 구현)과는 거리 있음. 메인 후보로 스택 일치 + 이커머스 배경 어필.",
