@@ -1,9 +1,150 @@
 {
   "meta": {
     "last_collected": "2026-06-25",
-    "total": 45
+    "total": 48
   },
   "jobs": [
+    {
+      "id": "kurly-fintech-fe-2026-06",
+      "company": "컬리 (마켓컬리)",
+      "title": "핀테크 프론트엔드 개발자",
+      "level": "시니어",
+      "scale": "상장 추진 대기업급 · 컬리페이 결제 서비스",
+      "source": "wanted",
+      "url": "https://www.wanted.co.kr/wd/220136",
+      "location": "서울",
+      "exp": "SPA 프레임워크 개발 7년 이상",
+      "exp_min_years": 7,
+      "posted_date": null,
+      "first_seen": "2026-06-25",
+      "domains": ["핀테크", "결제", "이커머스"],
+      "deadline": null,
+      "deadline_type": "rolling",
+      "deadline_label": "상시채용",
+      "process": null,
+      "process_confirmed": false,
+      "has_codingtest": "미확인",
+      "fit_score": 82,
+      "fit_tier": "상",
+      "fit_reasons": [
+        "컬리페이 PG 시스템 및 간편결제 개발 — 창석 토스페이·카카오페이·이니시스 PG 연동 이력 직접 어필 가능",
+        "상장 추진 대기업급 이커머스 — 컬리 마켓컬리 규모 문샷 서비스",
+        "React/Angular/Vue 7년+ 요건 — 창석 7년+ 경력 충족"
+      ],
+      "tier": "문샷",
+      "is_new": true,
+      "brief": {
+        "company_status": "국내 프리미엄 이커머스 마켓컬리 운영사. 2015년 설립, 누적 투자 1조원+. 컬리페이(간편결제·PG·핀테크) 서비스 운영. 2024년 코스피 상장 재추진 중. 일평균 주문 건수 수십만 건.",
+        "verdict": "컬리페이 PG 시스템 및 간편결제 서비스 FE 개발로 창석 PG 연동(토스페이·카카오페이·이니시스·팝빌) 이력 직접 어필 가능. 대기업급 문샷. 단, TypeScript 명시 없고 7년+로 경쟁 치열.",
+        "strengths": [
+          "컬리페이 PG 시스템·간편결제 FE — 창석 PG 연동·결제 플로우 직접 매칭",
+          "대규모 이커머스(마켓컬리) — 주문·결제 서비스 깊이 어필 최적 무대",
+          "상장 추진 대기업급 안정성 + 성장"
+        ],
+        "gaps": [
+          "7년+ 요건 — 창석 7년+ 딱 맞아 경쟁 치열",
+          "TypeScript 명시 없음 — 스택 불명확",
+          "컬리페이 핀테크 특수 도메인 — 일부 러닝커브"
+        ],
+        "pass_odds": "중간",
+        "strategy": "PG 연동(토스페이·카카오페이·이니시스) + CVR +14.27% 결제 플로우 개선 이력 전면. 대규모 트래픽 서비스 경험과 결제 도메인 깊이 강조.",
+        "sources": ["https://www.wanted.co.kr/wd/220136"]
+      }
+    },
+    {
+      "id": "wisely-company-fe-2026-06",
+      "company": "와이즐리컴퍼니",
+      "title": "시니어 프론트엔드 엔지니어",
+      "level": "시니어",
+      "scale": "시리즈B · 누적 218억 · D2C 구독 커머스",
+      "source": "wanted",
+      "url": "https://www.wanted.co.kr/wd/21853",
+      "location": "서울",
+      "exp": "5년 이상",
+      "exp_min_years": 5,
+      "posted_date": null,
+      "first_seen": "2026-06-25",
+      "domains": ["구독커머스", "D2C", "이커머스"],
+      "deadline": null,
+      "deadline_type": "rolling",
+      "deadline_label": "상시채용",
+      "process": ["서류전형", "실무과제", "실무인터뷰", "경영진인터뷰"],
+      "process_confirmed": true,
+      "has_codingtest": "과제",
+      "fit_score": 71,
+      "fit_tier": "상",
+      "fit_reasons": [
+        "D2C 구독 생활용품 통합 스토어 FE — 구독·결제 플로우 창석 이커머스 경험 연결 가능",
+        "시리즈B 218억 안정 D2C 커머스 — 문샷 tier 커리어 레벨업",
+        "5년+ 시니어 FE + 실무과제 전형 — 창석 7년+ 역량 증명 기회"
+      ],
+      "tier": "문샷",
+      "is_new": true,
+      "brief": {
+        "company_status": "면도기·스킨케어·헤어케어·건강기능식품 4카테고리 D2C 구독 커머스 운영사. 2018년 설립. 시리즈B(2020), 누적 218억(알토스벤처스 등). '고객 친화적 통합 스토어 경험' 구축 중. 서울.",
+        "verdict": "D2C 구독 커머스 통합 스토어로 결제·구독 플로우 FE 개발. 시리즈B 218억 문샷. 5년+ 요건에 창석 7년+ 적합. 실무과제 전형으로 기술 역량 직접 증명 가능. 단, React/TypeScript 스택 명시 없음.",
+        "strengths": [
+          "D2C 구독·결제 플로우 FE — 이커머스 결제·주문 경험 연결 가능",
+          "시리즈B 218억 안정 성장 — 알토스벤처스 포트폴리오",
+          "실무과제 전형 — 코드 퀄리티로 역량 직접 증명"
+        ],
+        "gaps": [
+          "React/TypeScript 스택 명시 없음 — 실제 기술스택 확인 필요",
+          "구독 커머스 특성 — PG 직접 연동보다 정기결제 패턴 중심 가능성",
+          "경영진 인터뷰까지 다단계 전형"
+        ],
+        "pass_odds": "중간",
+        "strategy": "구독 결제 플로우 구현 이력 + CVR +14.27% 이커머스 개선 성과 어필. 통합 스토어 설계 경험과 컴포넌트 아키텍처 강점 강조. 실무과제에서 코드 퀄리티 집중.",
+        "sources": ["https://www.wanted.co.kr/wd/21853"]
+      }
+    },
+    {
+      "id": "artlami-tuunu-fe-2026-06",
+      "company": "아트라미 (뚜누)",
+      "title": "뚜누 프론트개발자 (시니어)",
+      "level": "시니어",
+      "scale": "시리즈A · D2C 아트상품 커머스 (무신사파트너스 투자)",
+      "source": "wanted",
+      "url": "https://www.wanted.co.kr/wd/248823",
+      "location": "대구 남구",
+      "exp": "5년 이상",
+      "exp_min_years": 5,
+      "posted_date": null,
+      "first_seen": "2026-06-25",
+      "domains": ["D2C커머스", "아트상품", "글로벌이커머스"],
+      "deadline": null,
+      "deadline_type": "rolling",
+      "deadline_label": "상시채용",
+      "process": null,
+      "process_confirmed": false,
+      "has_codingtest": "미확인",
+      "fit_score": 65,
+      "fit_tier": "중",
+      "fit_reasons": [
+        "커머스 도메인 깊이 있는 분 필수 요건 — 창석 이커머스 결제·주문·CVR 개선 이력 직접 어필 가능",
+        "TypeScript/React/NextJS/Recoil/React-Query 스택 — 창석 주요 스택 완전 일치",
+        "시리즈A 무신사파트너스 투자 D2C 커머스 — 커머스 도메인 검증"
+      ],
+      "tier": "문열기",
+      "is_new": true,
+      "brief": {
+        "company_status": "아트 인테리어 소품 D2C 커머스 브랜드 뚜누 운영사. 2025.10 시리즈A(무신사파트너스·신용보증기금). 2024년 BEP 달성 빠른 성장. 글로벌 아티스트 협업 상품 제조·판매. 대구 남구.",
+        "verdict": "TypeScript/React/NextJS 스택 완전 일치 + 커머스 도메인 필수 요건으로 창석 이커머스 경험 직접 어필 가능. 단, 대구 소재가 서울 거주자에게 현실적 장벽. 시리즈A 투자금 비공개로 문열기 분류.",
+        "strengths": [
+          "커머스 도메인 깊이 필수 요건 — 창석 이커머스 결제·CVR 이력 최적 어필",
+          "TypeScript/React/NextJS/Recoil/React-Query 스택 완전 일치",
+          "무신사파트너스 투자 — 패션·커머스 생태계 내 성장 검증"
+        ],
+        "gaps": [
+          "대구 남구 소재 — 서울 거주 지원자에게 물리적 장벽",
+          "시리즈A 투자금 비공개 — 회사 규모·지속성 판단 어려움",
+          "아트 D2C 니치 도메인 — 주류 이커머스와 다른 성격"
+        ],
+        "pass_odds": "중간",
+        "strategy": "커머스 도메인 필수 요건 공략: 이커머스 결제·주문·CVR +14.27% 이력 전면. TypeScript/React/NextJS 스택 완전 일치 강조. 대구 이전 의향 명시 필요.",
+        "sources": ["https://www.wanted.co.kr/wd/248823"]
+      }
+    },
     {
       "id": "grodel-hanwha-fe-2026-06",
       "company": "그로들 (한화 그룹 계열)",
@@ -2556,7 +2697,7 @@
         "GS그룹 컨소시엄 계열 대기업 → 문샷 자동 배정"
       ],
       "tier": "문샷",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "국내 2위 배달앱 요기요 운영사 위대한상상. 2021년 GS리테일·어피니티에쿼티파트너스·퍼미라 컨소시엄이 약 8,000억에 인수. GS그룹 사실상 계열사. 배달·외식 O2O 플랫폼, 4년 이상 FE 경력 채용.",
         "verdict": "GS그룹 계열 대기업으로 문샷 자동 배정. React/TypeScript 스택 일치 + 어드민 포털 개발로 백오피스 가산점 어필 가능. 배달 푸드테크 도메인은 이커머스 결제 주축과 직접 연관성 낮음.",
