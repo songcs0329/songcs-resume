@@ -71,7 +71,7 @@ function JobRadar() {
   const [strategyFilter, setStrategyFilter] = useState<'all' | StrategyTier>('all');
   const [commerceOnly, setCommerceOnly] = useState(false);
   const [newOnly, setNewOnly] = useState(false);
-  const [sort, setSort] = useState<SortKey>('fit');
+  const [sort, setSort] = useState<SortKey>('new');
 
   const filtered = useMemo(() => {
     let jobs = jobsData.jobs.slice();
@@ -137,7 +137,7 @@ function JobRadar() {
     } else {
       jobs.sort((a, b) => {
         if (sort === 'company') return a.company.localeCompare(b.company, 'ko');
-        if (sort === 'new') return Number(b.is_new ?? false) - Number(a.is_new ?? false) || b.fit_score - a.fit_score;
+        if (sort === 'new') return (b.first_seen ?? '').localeCompare(a.first_seen ?? '') || b.fit_score - a.fit_score;
         return b.fit_score - a.fit_score;
       });
     }
@@ -233,7 +233,7 @@ function JobRadar() {
               >
                 <option value="fit">적합도순</option>
                 <option value="deadline">마감임박순(그룹)</option>
-                <option value="new">신규순</option>
+                <option value="new">최신순</option>
                 <option value="company">회사명순</option>
               </select>
               <svg
