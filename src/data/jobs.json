@@ -1,9 +1,207 @@
 {
   "meta": {
-    "last_collected": "2026-06-27",
-    "total": 16
+    "last_collected": "2026-06-28",
+    "total": 20
   },
   "jobs": [
+    {
+      "id": "techtaka-argo-fe-2026-06",
+      "company": "테크타카(ARGO)",
+      "title": "Frontend Web Engineer (Typescript / React)",
+      "level": "미드~시니어",
+      "scale": "시리즈B · 누적 251억 (알토스벤처스 등) · 포브스아시아 100대 유망기업",
+      "source": "wanted",
+      "url": "https://www.wanted.co.kr/wd/293236",
+      "location": "서울 강남구",
+      "exp": "3년 이상의 프론트엔드 개발 경력",
+      "exp_min_years": 3,
+      "posted_date": null,
+      "first_seen": "2026-06-28",
+      "domains": ["이커머스B2B", "물류", "풀필먼트", "SaaS"],
+      "deadline": null,
+      "deadline_type": "rolling",
+      "deadline_label": "상시채용",
+      "process": null,
+      "process_confirmed": false,
+      "has_codingtest": "미확인",
+      "fit_score": 66,
+      "fit_tier": "중",
+      "fit_reasons": [
+        "이커머스 5PL 통합물류 플랫폼 — 커머스 생태계 인접 도메인, 수요예측·주문·배송 플로우 구현",
+        "React/Vue/TypeScript 3년+ 요건 충족 — 창석 스택 일치",
+        "시리즈B 251억 포브스 아시아 100대 유망기업 — 고성장 B2B SaaS 문샷 환경"
+      ],
+      "tier": "문샷",
+      "is_new": true,
+      "brief": {
+        "company_status": "아마존·쿠팡 출신 양수영 대표가 2020년 설립한 이커머스 5PL 통합물류 자동화 플랫폼 ARGO. 수요예측부터 주문·재고·배송까지 이커머스 전 과정 통합 운영. 2021년 시리즈A 125억, 2024년 2월 알토스벤처스로부터 시리즈B 126억 유치, 누적 251억. 2024년 포브스 아시아 100대 유망기업 선정. 서울 강남구.",
+        "verdict": "이커머스 물류 B2B SaaS 도메인. TypeScript/React 스택 일치, 3년+ 요건 충족. 이커머스 생태계 인접이나 직접 결제·주문 플로우 경험 어필은 제한적. 문샷 규모(251억) 달성, 포브스아시아 선정 고성장 환경.",
+        "strengths": [
+          "이커머스 물류 플랫폼 — 커머스 생태계 인접 도메인, 주문·재고·배송 플로우 이해도 어필",
+          "React/TypeScript 스택 일치, 3년+ 요건 충족 (창석 5년+)",
+          "시리즈B 251억 포브스아시아 100대 유망기업 — 고성장 B2B 문샷"
+        ],
+        "gaps": [
+          "B2B SaaS 물류 플랫폼 — 이커머스 직접 결제·CVR 경험 어필 여지 제한",
+          "Vue/Angular도 포함된 광범위한 스택 요구 — React 전문성 차별화 필요",
+          "공고 게시일 불명확 (URL 낮은 편)"
+        ],
+        "pass_odds": "중간",
+        "strategy": "이커머스 주문·재고·배송 플로우 도메인 이해도 강조. TypeScript/React 5년+ 강점 및 이커머스 B2B SaaS 관심도 어필. CVR 개선·이커머스 결제 플로우 이력을 커머스 물류 비즈니스 로직과 연결.",
+        "sources": [
+          "https://www.wanted.co.kr/wd/293236",
+          "https://byline.network/2024/02/19_techtaka/",
+          "https://platum.kr/archives/172993"
+        ]
+      }
+    },
+    {
+      "id": "teamot2-camoa-fe-2026-06",
+      "company": "팀오투(카모아)",
+      "title": "프론트엔드 개발자(React)",
+      "level": "미드~시니어",
+      "scale": "시리즈B · 누적 136억 (SK렌터카·가디언펀드·YG인베스트먼트 등)",
+      "source": "wanted",
+      "url": "https://www.wanted.co.kr/wd/243853",
+      "location": "서울",
+      "exp": "경력직",
+      "exp_min_years": null,
+      "posted_date": null,
+      "first_seen": "2026-06-28",
+      "domains": ["O2O", "모빌리티", "렌트카", "여행커머스"],
+      "deadline": null,
+      "deadline_type": "rolling",
+      "deadline_label": "상시채용",
+      "process": null,
+      "process_confirmed": false,
+      "has_codingtest": "미확인",
+      "fit_score": 60,
+      "fit_tier": "하",
+      "fit_reasons": [
+        "렌트카·호텔 예약·결제 플로우 — O2O 여행커머스 결제 플로우 일부 어필 가능",
+        "React 기반 프론트엔드 개발 — 기술 스택 기본 일치",
+        "시리즈B 136억 규모 O2O 모빌리티 — 문샷 성장 환경"
+      ],
+      "tier": "문샷",
+      "is_new": true,
+      "brief": {
+        "company_status": "렌트카 가격비교 1위 앱 카모아·호텔모아 운영사 팀오투. 2021년 시리즈B 100억 유치(SK렌터카·가디언펀드·아이온자산운용·YG인베스트먼트 등), 누적 136억. O2O 모빌리티 플랫폼, 글로벌 모빌리티 기업 M&A 추진.",
+        "verdict": "O2O 렌트카·여행 예약·결제 플로우 개발. React 기반. 이커머스 결제 도메인과 거리 있지만 O2O 예약·결제 플로우 일부 경험 전이 가능. 시리즈B 136억 문샷 규모. TypeScript 명시 없어 스택 일치 일부 불확실.",
+        "strengths": [
+          "O2O 여행커머스 예약·결제 플로우 — 이커머스 결제 경험 일부 전이 가능",
+          "시리즈B 136억 O2O 모빌리티 — 문샷 성장 단계"
+        ],
+        "gaps": [
+          "렌트카·모빌리티 도메인 — 이커머스·커머스 직접 경험 어필 어려움",
+          "TypeScript 요건 미명시 — 스택 일치 불확실",
+          "공고 게시일 불명확 (wd/243853 구형 번호 — 포스팅 시점 확인 필요)"
+        ],
+        "pass_odds": "낮음",
+        "strategy": "O2O 결제·예약 플로우 도메인 접점 강조. React 기반 성능 최적화·CVR 개선 이력 어필. 모빌리티 서비스 관심도 피력.",
+        "sources": [
+          "https://www.wanted.co.kr/wd/243853",
+          "https://platum.kr/archives/159861"
+        ]
+      }
+    },
+    {
+      "id": "checa-chexcar-fe-2026-06",
+      "company": "체카(Chexcar)",
+      "title": "Frontend Developer",
+      "level": "미드~시니어",
+      "scale": "시리즈B · 70억 · 2024 아기유니콘 선정 (중소벤처기업부)",
+      "source": "wanted",
+      "url": "https://www.wanted.co.kr/wd/250887",
+      "location": "서울",
+      "exp": "경력직 (년수 미명시)",
+      "exp_min_years": null,
+      "posted_date": null,
+      "first_seen": "2026-06-28",
+      "domains": ["중고차", "O2O", "커머스", "모바일앱"],
+      "deadline": null,
+      "deadline_type": "rolling",
+      "deadline_label": "상시채용",
+      "process": null,
+      "process_confirmed": false,
+      "has_codingtest": "미확인",
+      "fit_score": 63,
+      "fit_tier": "하",
+      "fit_reasons": [
+        "웹 및 모바일 앱 프론트엔드 개발 — React.js/TypeScript 스택 일치, O2O 커머스 도메인",
+        "React Query 실무 사용 환경 — 창석 스택(TanStack Query) 일치",
+        "2024 아기유니콘·시리즈B 70억 — 성장 초기 스타트업"
+      ],
+      "tier": "메인",
+      "is_new": true,
+      "brief": {
+        "company_status": "중고차 거래 플랫폼 체카(Chexcar). 174가지 검수 기준으로 연간 2만대 이상 차량 인증·상품화. 2024년 중소벤처기업부 아기유니콘 선정. 시리즈B 70억 유치. O2O 중고차 거래 서비스.",
+        "verdict": "React.js/TypeScript 스택 일치. React Native 포함으로 웹+모바일 통합 개발 환경. 중고차 O2O 도메인이나 이커머스 결제·주문 직접 어필 여지 제한. 메인 70억 규모.",
+        "strengths": [
+          "React.js/React Query/TypeScript 스택 일치",
+          "O2O 커머스 도메인 — 결제·거래 플로우 일부 접점",
+          "아기유니콘 선정 성장 스타트업 — 시리즈B 70억"
+        ],
+        "gaps": [
+          "중고차 O2O 도메인 — 이커머스 결제·CVR 주축과 거리",
+          "React Native 포함 — 웹 중심 창석 프로필과 일부 차이",
+          "경력 요건 미명시 — 포지션 레벨 불확실"
+        ],
+        "pass_odds": "낮음",
+        "strategy": "React/TypeScript 스택 일치 및 커머스 플로우 경험 어필. 웹+모바일 통합 개발에 대한 적응력과 O2O 서비스 관심도 강조.",
+        "sources": [
+          "https://www.wanted.co.kr/wd/250887"
+        ]
+      }
+    },
+    {
+      "id": "urilift-codingvalley-fe-2026-06",
+      "company": "유리프트(코딩밸리)",
+      "title": "프론트엔드 개발자(4년-10년, Next.js/React/Typescript)",
+      "level": "미드~시니어",
+      "scale": "시리즈A · 누적 80억 (본엔젤스·TIPS 포함) · 2025 아기유니콘 선정",
+      "source": "wanted",
+      "url": "https://www.wanted.co.kr/wd/286219",
+      "location": "서울 강남구",
+      "exp": "개발관련 경력 4년 이상 10년 이하",
+      "exp_min_years": 4,
+      "posted_date": null,
+      "first_seen": "2026-06-28",
+      "domains": ["에듀테크", "코딩교육", "SaaS", "글로벌"],
+      "deadline": null,
+      "deadline_type": "rolling",
+      "deadline_label": "상시채용",
+      "process": null,
+      "process_confirmed": false,
+      "has_codingtest": "미확인",
+      "fit_score": 68,
+      "fit_tier": "중",
+      "fit_reasons": [
+        "TypeScript/Next.js/React 스택 완전 일치 — 경력 4~10년 요건 창석 7년+에 딱 맞음",
+        "FE 파트 리딩 역할 — 코드 리뷰·기술 결정·팀 빌딩 경험 어필 가능",
+        "글로벌 확장(일본·미국) 추진 — 서비스 성장 방향성과 창석 SEO 경험 연계 가능"
+      ],
+      "tier": "메인",
+      "is_new": true,
+      "brief": {
+        "company_status": "AI 코딩 교육 플랫폼 코딩밸리 운영사. 이투스·스피킹맥스 CEO 출신 이비호 대표 설립. 본엔젤스 초기투자+TIPS+Pre-A+시리즈A 완료, 누적 80억. 2025년 아기유니콘 선정. 글로벌 확장(일본·미국) 추진 에듀테크.",
+        "verdict": "TypeScript/Next.js/React 스택 완전 일치. 경력 4~10년 포지션으로 창석 7년+ 프로필 딱 맞음. FE 파트 리딩 포함 역할. 에듀테크 도메인이나 이커머스 결제·CVR 직접 어필 여지 제한.",
+        "strengths": [
+          "TypeScript/Next.js/React 스택 완전 일치",
+          "경력 4~10년 요건 — 창석 7년+ 딱 부합, 리딩 역할 경험 어필 가능",
+          "글로벌 서비스 확장 추진 — SEO·성능 최적화 경험 어필 가능"
+        ],
+        "gaps": [
+          "에듀테크 코딩 교육 도메인 — 이커머스·결제 주축과 거리",
+          "시리즈A 누적 80억 — 메인 초기 단계 (성장성은 있으나 규모 작음)",
+          "이커머스 결제 플로우 직접 어필 여지 제한"
+        ],
+        "pass_odds": "중간",
+        "strategy": "메인 무기: TypeScript/Next.js/React 스택 완전 일치 + FE 파트 리딩 경험 전면 배치. 글로벌 서비스 SEO 최적화 이력(CTR 11.3%, 활성사용자 +61%) 어필. 아기유니콘 성장 단계 관심도 피력.",
+        "sources": [
+          "https://www.wanted.co.kr/wd/286219"
+        ]
+      }
+    },
     {
       "id": "bind-athler-fe-2026-06",
       "company": "바인드 (ATHLER)",
@@ -32,7 +230,7 @@
         "시리즈B 100억 고성장 버티컬 — MAU 100만 달성, BEP 실현"
       ],
       "tier": "문샷",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "40대 이상 남성 패션 버티컬 앱 ATHLER 운영. 2023년 출시 후 연간 6,487% 성장, MAU 100만 돌파, BEP 달성(2024년 10월). 2025년 시리즈B 100억 유치. 서울 마포구.",
         "verdict": "버티컬 패션 이커머스(구매·결제 플로우)로 창석 이커머스 경험 연계 가능. React 스택 일치. 시리즈B 100억 문샷 조건 충족. 단, React Native 요구 및 패션/남성 도메인은 창석 주력과 약간 거리.",
@@ -81,7 +279,7 @@
         "시리즈B+ · IPO 목표 · 영업흑자 달성 — 업계 1위 지식교육 플랫폼 문샷 환경"
       ],
       "tier": "문샷",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "국내 1위 크리에이터·지식교육 플랫폼 CLASS101. 6,000+ 콘텐츠, 업계 1위 Learning MAU. 2020년 $25M 시리즈B(소프트뱅크벤처스 등). 6개월 연속 영업이익 흑자 달성. IPO 목표(현재 가치 10배 목표). 서울 강남구.",
         "verdict": "React/TypeScript 대규모 서비스 개발 경험 요구. 웹 성능 최적화·마이크로 FE 아키텍처 주요 업무. 창석 SEO·성능 최적화 경험 어필 가능하나, GraphQL/Apollo 추가 학습 필요 및 이커머스 결제 주축과 도메인 거리 있음.",
