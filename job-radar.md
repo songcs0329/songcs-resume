@@ -108,10 +108,7 @@
 
 현재 공고 목록은 `src/data/jobs.json` (`meta.last_collected`, `meta.total`, `jobs[]`) 참조. 이 문서에 별도 기재하지 않음 — 이중 관리 방지.
 
-알려진 제약 변경사항:
-- Wanted API `/api/v4/jobs/{id}` 차단(HTTP 422) 확인 → WebSearch snippet 기반 마감 감지로 전환.
-- THE VC(403)·혁신의숲(접근 불가) → Platum.kr 역방향 탐색으로 대체.
-- 점핏(SSR·HTML 직접 파싱) → 신규 공고 수집 1순위 소스로 전환.
+수집 로직·소스·마감 감지 방법은 `~/.claude/scheduled-tasks/job-radar-curation/SKILL.md` 참조.
 
 ## 9. 티어별 타깃 회사 리스트
 
