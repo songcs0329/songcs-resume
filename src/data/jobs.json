@@ -1,7 +1,7 @@
 {
   "meta": {
     "last_collected": "2026-06-30",
-    "total": 5
+    "total": 9
   },
   "jobs": [
     {
@@ -292,6 +292,242 @@
           {
             "title": "고위드 [핀테크] Frontend Engineer — 랠릿",
             "url": "https://www.rallit.com/positions/4222/%ED%95%80%ED%85%8C%ED%81%AC-frontend-engineer"
+          }
+        ]
+      }
+    },
+    {
+      "id": "orangesquare-wowpass-senior-fe-2026-06",
+      "company": "오렌지스퀘어(WOWPASS)",
+      "title": "Senior Frontend Developer",
+      "level": "시니어",
+      "scale": "시리즈B · 누적 160억+ · IPO 추진(코스닥, 한투증권 대표주관)",
+      "source": "wanted",
+      "url": "https://www.wanted.co.kr/wd/347033",
+      "location": "서울",
+      "exp": "FE 경력 5년 이상",
+      "exp_min_years": 5,
+      "posted_date": null,
+      "first_seen": "2026-06-30",
+      "domains": [
+        "핀테크",
+        "외국인결제",
+        "글로벌커머스",
+        "여행",
+        "웹뷰"
+      ],
+      "deadline": null,
+      "deadline_type": "rolling",
+      "deadline_label": "상시채용",
+      "process": null,
+      "process_confirmed": false,
+      "has_codingtest": "미확인",
+      "fit_score": 82,
+      "fit_tier": "상",
+      "fit_reasons": [
+        "TypeScript/React/Next.js/Tailwind CSS 스택 완전 일치 — 핵심 기술 전부 커버",
+        "외국인 대상 결제·교통·쇼핑 플로우 — 이커머스·결제 PG 이력 직접 어필 가능",
+        "시리즈B 160억+·IPO 추진(코스닥) — 상장 전 성장 단계 문샷 포지션"
+      ],
+      "tier": "문샷",
+      "is_new": true,
+      "brief": {
+        "company_status": "외국인 방한 여행자용 올인원 결제·혜택 앱 WOWPASS 운영. 교통카드·환전·쇼핑·관광 통합 서비스. 시리즈B 누적 160억+(추정), 코스닥 IPO 추진(한투증권 대표주관). 글로벌 13개국 서비스 확장 중.",
+        "verdict": "이커머스·결제 PG 연동 이력이 외국인 결제·교통 플로우와 직접 연결. TypeScript/React/Next.js/Tailwind CSS 스택 완전 일치. IPO 추진 성장 단계 문샷. 원티드 API 확인 불가(프록시 차단) — 수동 상태 확인 권장.",
+        "strengths": [
+          "TypeScript/React/Next.js/Tailwind CSS/Yarn Berry/GitHub Actions 스택 완전 일치",
+          "결제·PG 연동 이력 — WOWPASS 외국인 결제 플로우와 도메인 직접 연결",
+          "시리즈B·IPO 추진 — 상장 전 문샷 포지션으로 커리어 레버리지 최대"
+        ],
+        "gaps": [
+          "외국인·여행 도메인 — 국내 이커머스 주축과 결이 다름",
+          "글로벌 다국어 지원 경험 필요 가능성",
+          "원티드 API 확인 불가(프록시 차단) — 공고 마감 여부 수동 확인 권장"
+        ],
+        "pass_odds": "서류 통과 가능성 높음",
+        "strategy": "문샷 무기: PG 연동(이니시스·토스페이·카카오페이)·결제 플로우 CVR +14.27% 이력 전면 배치. Next.js 5년+ 요건 충족. IPO 성장 단계 합류 의지 어필.",
+        "sources": [
+          {
+            "title": "오렌지스퀘어 Senior Frontend Developer — 원티드",
+            "url": "https://www.wanted.co.kr/wd/347033"
+          }
+        ]
+      }
+    },
+    {
+      "id": "inflab-inflearn-fe-2026-06",
+      "company": "인프랩(인프런)",
+      "title": "프론트엔드 개발자",
+      "level": "미드~시니어",
+      "scale": "시리즈A · 누적 55억 · 아기유니콘(2025) · 가입자 150만+",
+      "source": "rallit",
+      "url": "https://www.rallit.com/positions/4125/%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C-%EA%B0%9C%EB%B0%9C%EC%9E%90",
+      "location": "경기 성남시 분당구 판교",
+      "exp": "경력 무관(경력직 우대)",
+      "exp_min_years": null,
+      "posted_date": null,
+      "first_seen": "2026-06-30",
+      "domains": [
+        "에듀테크",
+        "이커머스",
+        "커뮤니티",
+        "SEO",
+        "B2C"
+      ],
+      "deadline": null,
+      "deadline_type": "rolling",
+      "deadline_label": "채용 시 마감",
+      "process": [
+        "서류전형",
+        "과제전형",
+        "실무면접",
+        "문화면접"
+      ],
+      "process_confirmed": true,
+      "has_codingtest": false,
+      "fit_score": 78,
+      "fit_tier": "상",
+      "fit_reasons": [
+        "React/Next.js/TypeScript 스택 완전 일치 + SEO·성능 최적화 핵심 업무",
+        "강의 구매·수강·결제 이커머스 플로우 — 이커머스 결제 PG 이력 직접 어필 가능",
+        "아기유니콘(2025) 선정·가입자 150만+ — 국내 최대 개발자 에듀테크 플랫폼"
+      ],
+      "tier": "메인",
+      "is_new": true,
+      "brief": {
+        "company_status": "국내 최대 개발자·IT 교육 플랫폼 인프런 운영. 가입자 150만+(2025), 강의 수 6만+. 2025년 중소벤처기업부 아기유니콘 선정. 시리즈A 누적 55억(스트롱벤처스·카카오벤처스·패스트인베스트먼트 등).",
+        "verdict": "React/Next.js/TypeScript 스택 완전 일치. 강의 구매·결제 이커머스 플로우가 창석 결제 PG 이력과 직접 연결. SEO·성능 최적화 업무 중점 — SEO CTR 11.3% 이력 직접 어필 최적. 개발자 커뮤니티 친숙도 플러스.",
+        "strengths": [
+          "React/Next.js/TypeScript 스택 완전 일치 + SEO·성능 최적화 주요 업무",
+          "강의 구매·결제 이커머스 플로우 — PG 연동·CVR +14.27% 이력 직접 매칭",
+          "개발자 커뮤니티 1위 — 입사 지원 자체가 브랜드 어필"
+        ],
+        "gaps": [
+          "에듀테크 도메인 — 이커머스 주축과 결이 일부 다름",
+          "과제전형 포함 — 준비 공수 추가 필요",
+          "판교 오피스 — 서울 대비 출퇴근 검토 필요"
+        ],
+        "pass_odds": "서류·과제 통과 가능성 높음",
+        "strategy": "메인 무기: SEO CTR 11.3%·활성 사용자 +61% 수치 + 결제 CVR +14.27% 이력 전면 배치. Next.js SSR/SSG SEO 최적화 경험 강조. 과제전형 대비 포트폴리오 준비 권장.",
+        "sources": [
+          {
+            "title": "인프랩 프론트엔드 개발자 — 랠릿",
+            "url": "https://www.rallit.com/positions/4125/%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C-%EA%B0%9C%EB%B0%9C%EC%9E%90"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doers-zvzo-fe-2026-06",
+      "company": "두어스(ZVZO)",
+      "title": "프론트엔드 개발자 (3년 이상)",
+      "level": "미드",
+      "scale": "시리즈A · 누적 125억 (2025.03 IMM인베스트먼트·베이스벤처스·한국투자파트너스 등)",
+      "source": "wanted",
+      "url": "https://www.wanted.co.kr/wd/242469",
+      "location": "서울",
+      "exp": "FE 경력 3년 이상",
+      "exp_min_years": 3,
+      "posted_date": null,
+      "first_seen": "2026-06-30",
+      "domains": [
+        "커머스",
+        "크리에이터커머스",
+        "어필리에이트",
+        "글로벌"
+      ],
+      "deadline": null,
+      "deadline_type": "rolling",
+      "deadline_label": "상시채용",
+      "process": null,
+      "process_confirmed": false,
+      "has_codingtest": "미확인",
+      "fit_score": 72,
+      "fit_tier": "중",
+      "fit_reasons": [
+        "커머스·크리에이터커머스·어필리에이트 도메인 — 이커머스 결제·주문 플로우 이력 직접 연결",
+        "React/TypeScript/SSR 스택 일치 (우대: React Native·Next.js)",
+        "시리즈A 125억(IMM인베스트먼트·베이스벤처스·한국투자파트너스) — 검증된 투자사 라인업"
+      ],
+      "tier": "메인",
+      "is_new": true,
+      "brief": {
+        "company_status": "크리에이터 기반 커머스·어필리에이트 플랫폼 ZVZO 운영. 2025년 3월 시리즈A 125억 유치(IMM인베스트먼트·베이스벤처스·한국투자파트너스·KOFC 등). 글로벌 확장 진행 중.",
+        "verdict": "커머스·어필리에이트 도메인이 이커머스 결제·주문 플로우 이력과 직접 연결. React/TypeScript/SSR 스택 일치. 시리즈A 125억 검증된 투자사 라인업. 원티드 API 확인 불가(프록시 차단) — 수동 상태 확인 권장.",
+        "strengths": [
+          "커머스·어필리에이트 도메인 — 결제·주문·CVR 이력 직접 연결",
+          "React/TypeScript/SSR 스택 일치 + React Native·Next.js 우대 충족",
+          "IMM인베스트먼트·한국투자파트너스 등 검증 투자사 — 성장 안정성"
+        ],
+        "gaps": [
+          "크리에이터커머스 — 이커머스 주축과 결이 일부 다름",
+          "원티드 API 확인 불가(프록시 차단) — 공고 마감 여부 수동 확인 권장",
+          "경력 요건 3년+ — 경쟁 풀 상대적으로 넓음"
+        ],
+        "pass_odds": "서류 통과 가능성 중상",
+        "strategy": "메인 무기: 이커머스 결제·주문 플로우 CVR +14.27% 이력 + React Native 웹뷰 하이브리드 경험 강조. 크리에이터커머스 글로벌 확장 합류 의지 어필.",
+        "sources": [
+          {
+            "title": "두어스 ZVZO 프론트엔드 개발자 — 원티드",
+            "url": "https://www.wanted.co.kr/wd/242469"
+          }
+        ]
+      }
+    },
+    {
+      "id": "safedoc-frontend-2026-06",
+      "company": "세이프닥",
+      "title": "프론트엔드 개발자 (5년 이상)",
+      "level": "시니어",
+      "scale": "투자정보 미확인",
+      "source": "wanted",
+      "url": "https://www.wanted.co.kr/wd/302680",
+      "location": "서울",
+      "exp": "FE 경력 5년 이상",
+      "exp_min_years": 5,
+      "posted_date": null,
+      "first_seen": "2026-06-30",
+      "domains": [
+        "헬스케어",
+        "복지몰",
+        "커머스",
+        "웹뷰",
+        "백오피스"
+      ],
+      "deadline": null,
+      "deadline_type": "rolling",
+      "deadline_label": "상시채용",
+      "process": null,
+      "process_confirmed": false,
+      "has_codingtest": "미확인",
+      "fit_score": 65,
+      "fit_tier": "중",
+      "fit_reasons": [
+        "React/Next.js/TypeScript/React Query/Zustand/Tailwind CSS 스택 완전 일치",
+        "복지몰·커머스·웹뷰·백오피스 도메인 — 이커머스·웹뷰 하이브리드 이력 어필 가능",
+        "5년+ 요건 충족"
+      ],
+      "tier": "문열기",
+      "is_new": true,
+      "brief": {
+        "company_status": "병원 대상 헬스케어 복지몰·커머스 플랫폼 세이프닥. 투자정보 미확인. React/Next.js/Ant Design 5/React Query 5/Zustand 4/Tailwind CSS 최신 스택 사용.",
+        "verdict": "스택(React/Next.js/TypeScript/React Query/Zustand/Tailwind)이 창석과 완전 일치. 복지몰·커머스·웹뷰 도메인이 이커머스·웹뷰 하이브리드 이력과 연결. 투자정보 미확인이 단점. 원티드 API 확인 불가(프록시 차단) — 수동 상태 확인 권장.",
+        "strengths": [
+          "React/Next.js/TypeScript/React Query 5/Zustand 4/Tailwind CSS 스택 완전 일치",
+          "복지몰·커머스·웹뷰·백오피스 — 이커머스·웹뷰 하이브리드 이력 전반 어필 가능",
+          "5년+ 요건 충족"
+        ],
+        "gaps": [
+          "투자정보 미확인 — 회사 성장성·안정성 판단 어려움",
+          "헬스케어 도메인 — 이커머스 주축과 거리",
+          "원티드 API 확인 불가(프록시 차단) — 공고 마감 여부 수동 확인 권장"
+        ],
+        "pass_odds": "서류 통과 가능성 중",
+        "strategy": "문열기 무기: 스택 완전 일치 + 이커머스 결제·웹뷰 하이브리드 이력 강조. 백오피스 구축 경험(정산·어드민) 어필.",
+        "sources": [
+          {
+            "title": "세이프닥 프론트엔드 개발자 — 원티드",
+            "url": "https://www.wanted.co.kr/wd/302680"
           }
         ]
       }
