@@ -1,9 +1,65 @@
 {
   "meta": {
-    "last_collected": "2026-06-29",
-    "total": 20
+    "last_collected": "2026-06-30",
+    "total": 21
   },
   "jobs": [
+    {
+      "id": "bucketplace-oneulhouse-fe-2026-06",
+      "company": "버킷플레이스 (오늘의집)",
+      "title": "Software Engineer, Frontend",
+      "level": "미드~시니어",
+      "scale": "유니콘 · 기업가치 1.8조 (시리즈D · 2022년 2,300억 유치) · 매출 2,879억 · 2024년 첫 흑자",
+      "source": "rallit",
+      "url": "https://www.rallit.com/positions/1061",
+      "location": "서울",
+      "exp": "개발 경력 4년 이상",
+      "exp_min_years": 4,
+      "posted_date": null,
+      "first_seen": "2026-06-30",
+      "domains": ["O2O", "인테리어커머스", "시공서비스", "웹뷰"],
+      "deadline": null,
+      "deadline_type": "rolling",
+      "deadline_label": "채용 시 마감",
+      "process": null,
+      "process_confirmed": false,
+      "has_codingtest": "있음",
+      "fit_score": 70,
+      "fit_tier": "중",
+      "fit_reasons": [
+        "인테리어 커머스 + 시공서비스 O2O — 커머스 결제·주문 플로우 일부 어필 가능",
+        "React/TypeScript/SSR 스택 일치, 4년+ 요건 충족 (창석 7년+)",
+        "유니콘 · 기업가치 1.8조 · 2024년 첫 흑자 달성 — 문샷 최상위"
+      ],
+      "tier": "문샷",
+      "is_new": true,
+      "brief": {
+        "company_status": "국내 1위 인테리어 O2O 커머스 오늘의집 운영사. 2022년 5월 시리즈D 2,300억 유치(KDB산업은행·소프트뱅크벤처스·Vertex Growth·BOND 등), 기업가치 1.8조 유니콘. 2024년 창립 10년 만에 첫 연간 흑자(매출 2,879억·영업이익 5.7억). 인테리어 커뮤니티·쇼핑·시공서비스 원스톱 O2O 커머스 플랫폼.",
+        "verdict": "React/TypeScript 스택 일치, 4년+ 경력 요건 충족. O2O 커머스 구매·시공 결제 플로우 경험 일부 어필 가능. 인테리어 도메인이나 커머스 결제 본질 동일. 코딩테스트 있음. 유니콘 기업가치 1.8조 문샷 최상위.",
+        "strengths": [
+          "React/TypeScript/SSR 스택 일치, 4년+ 충족 (창석 7년+)",
+          "O2O 커머스 플랫폼 — 커머스 결제·주문 플로우 일부 연계 가능",
+          "유니콘 기업가치 1.8조 · 2024년 첫 흑자 · 시리즈D"
+        ],
+        "gaps": [
+          "인테리어 홈커머스 도메인 — 이커머스 결제·PG 연동 주축과 거리",
+          "MSA·BFF 아키텍처 이해 요구 — 창석 주축 스택 외 추가 학습 필요",
+          "코딩테스트 있음 — 알고리즘 사전 준비 필요"
+        ],
+        "pass_odds": "서류 통과 가능성 중",
+        "strategy": "문샷 무기: 커머스 결제·주문 플로우 구현(CVR +14.27%) + React/TypeScript 7년 이력 전면 배치. O2O 커머스 도메인 관심도 어필. 코딩테스트 대비 필수.",
+        "sources": [
+          {
+            "title": "버킷플레이스(오늘의집) Software Engineer Frontend — 랠릿",
+            "url": "https://www.rallit.com/positions/1061"
+          },
+          {
+            "title": "버킷플레이스 시리즈D 투자 및 유니콘 기업정보 — THE VC",
+            "url": "https://thevc.kr/bucketplace"
+          }
+        ]
+      }
+    },
     {
       "id": "iicombined-gentlemonster-fe-2026-06",
       "company": "아이아이컴바인드 (젠틀몬스터)",
@@ -32,7 +88,7 @@
         "비상장 유니콘 기업가치 3.7조 (Google 1450억 투자) · 매출 6,234억 · 영업이익률 30% — 문샷 최상위"
       ],
       "tier": "문샷",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "글로벌 럭셔리 아이웨어·패션 브랜드 젠틀몬스터·탬버린즈·누데이크·어티슈 운영사. 2024년 매출 6,234억·영업이익 2,338억(영업이익률 30%). 2025년 6월 Google이 차세대 스마트글래스 디자인 파트너로 선정 후 1450억원 투자(지분 4%), 기업가치 3.7조원. 직원 1,191명, 서울 성동구.",
         "verdict": "이커머스 웹/앱 FE 개발과 백오피스(ADM/OMS) 구현이 창석 이커머스 결제·주문·백오피스 경험과 직접 연계. Next.js/TypeScript/TanStack Query/Zustand/Tailwind CSS 스택 완전 일치. 럭셔리 아이웨어 도메인이나 이커머스 본질 동일. 기업가치 3.7조 구글 파트너십 최상위 문샷.",
