@@ -1,9 +1,169 @@
 {
   "meta": {
     "last_collected": "2026-06-30",
-    "total": 21
+    "total": 24
   },
   "jobs": [
+    {
+      "id": "payhere-pos-fe-2026-06",
+      "company": "페이히어",
+      "title": "프론트엔드 엔지니어 (React)",
+      "level": "미들~시니어",
+      "scale": "시리즈B2 · 누적 500억+ (굿워터캐피탈·SBVA·소프트뱅크벤처스 등) · 포브스 아시아 100대 유망기업",
+      "source": "rallit",
+      "url": "https://www.rallit.com/positions/1144/%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C-%EC%97%94%EC%A7%80%EB%8B%88%EC%96%B4-react",
+      "location": "서울 강남구",
+      "exp": "React 혹은 React Native 개발 경험 2년 이상",
+      "exp_min_years": 2,
+      "posted_date": null,
+      "first_seen": "2026-06-30",
+      "domains": [
+        "핀테크",
+        "결제",
+        "POS",
+        "SaaS"
+      ],
+      "deadline": null,
+      "deadline_type": "rolling",
+      "deadline_label": "상시채용",
+      "process": null,
+      "process_confirmed": false,
+      "has_codingtest": "미확인",
+      "fit_score": 84,
+      "fit_tier": "상",
+      "fit_reasons": [
+        "클라우드 POS·결제·예약·주문 통합 솔루션 — 창석 PG 연동(토스페이·카카오페이·이니시스) 경험과 직접 매칭",
+        "시리즈B2 · 누적 500억 · 포브스 아시아 100대 유망기업 — 확실한 문샷",
+        "React·React Native·TypeScript 스택 일치, 2년+ 요건 (창석 7년+)"
+      ],
+      "tier": "문샷",
+      "is_new": true,
+      "brief": {
+        "company_status": "국내 최초 클라우드 기반 POS 서비스 페이히어. 예약·배달·주문·결제·고객관리 통합 솔루션. 2024년 8월 시리즈B2 150억 (굿워터캐피탈·SBVA), 누적 500억 달성. 월 거래액 3천억 (2025). 2022년 포브스 아시아 100대 유망기업 선정. 서울 강남구.",
+        "verdict": "결제·POS SaaS 도메인으로 창석 PG 연동 경험 최강 어필 포인트. React/TypeScript 스택 일치. 클라우드 POS·예약·결제 플로우 → 창석 강점 1번(이커머스 결제) 직접 매칭. 문샷 규모 확실.",
+        "strengths": [
+          "결제 도메인 완전 매칭 — 토스페이·카카오페이·이니시스 PG 연동 경험 직접 어필",
+          "클라우드 POS·예약·주문 통합 SaaS — CVR 개선·결제 플로우 최적화 이력 적합",
+          "누적 500억 문샷 · 포브스 아시아 100대 유망기업"
+        ],
+        "gaps": [
+          "오프라인 매장 SaaS POS 서비스 — B2B 도메인 (온라인 이커머스와 다소 차이)",
+          "Rallit 포스팅(positions/1144) 오래된 공고일 가능성 — 실제 채용 여부 확인 필요"
+        ],
+        "pass_odds": "높음",
+        "strategy": "문샷 무기: PG 연동(토스페이·카카오페이·이니시스) + 결제 플로우 CVR +14.27% 개선 경험 전면 어필. 클라우드 POS 결제 SaaS 도메인 관심도 피력. React/TypeScript 스택 일치 강조.",
+        "sources": [
+          "https://www.rallit.com/positions/1144/%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C-%EC%97%94%EC%A7%80%EB%8B%88%EC%96%B4-react",
+          "https://economist.co.kr/article/view/ecn202408200047"
+        ]
+      }
+    },
+    {
+      "id": "rebit-alwayz-fe-2026-06",
+      "company": "레브잇 (올웨이즈)",
+      "title": "Software Engineer (Frontend)",
+      "level": "미들~시니어",
+      "scale": "시리즈B · 누적 869억 (DST글로벌파트너스·본드캐피털·KB인베스트먼트 등)",
+      "source": "wanted",
+      "url": "https://www.wanted.co.kr/wd/277925",
+      "location": "서울",
+      "exp": "만 3년 이상의 Frontend 개발 경력",
+      "exp_min_years": 3,
+      "posted_date": null,
+      "first_seen": "2026-06-30",
+      "domains": [
+        "이커머스",
+        "커머스플랫폼",
+        "그로스해킹"
+      ],
+      "deadline": null,
+      "deadline_type": "rolling",
+      "deadline_label": "상시채용",
+      "process": null,
+      "process_confirmed": false,
+      "has_codingtest": "미확인",
+      "fit_score": 73,
+      "fit_tier": "중",
+      "fit_reasons": [
+        "MAU 340만·월 거래액 640억 대규모 커머스 플랫폼 — 이커머스 결제·CVR 개선 경험 어필 가능",
+        "시리즈B 600억 · 누적 869억 (DST글로벌파트너스) — 검증된 고성장 문샷",
+        "React/TypeScript·Vue 스택 일치, 3년+ 요건 충족 (창석 7년+)"
+      ],
+      "tier": "문샷",
+      "is_new": true,
+      "brief": {
+        "company_status": "초저가 커머스 플랫폼 '올웨이즈' 운영사 레브잇. MAU 340만, DAU 160만, 월 거래액 640억 달성. 2023년 6월 시리즈B 600억 (DST글로벌파트너스 리드, 본드캐피털 등), 누적 869억. 2025년 1월 첫 영업이익 달성.",
+        "verdict": "대규모 커머스 플랫폼. 이커머스 결제·CVR 개선 이력이 잘 맞는 도메인. React/TypeScript 스택 일치. 초저가 모델 중심으로 직접 PG 결제 연동 경험보다 그로스/커머스 UX 개선 중심.",
+        "strengths": [
+          "대규모 이커머스 (MAU 340만·월 거래액 640억) — 성능 최적화·결제 플로우 경험 어필 적합",
+          "React/TypeScript 스택 일치, 그로스/커머스 제품 개발",
+          "시리즈B 869억 문샷 — DST글로벌파트너스 투자 고성장 환경"
+        ],
+        "gaps": [
+          "초저가 소셜커머스 모델 — 직접 PG 결제 연동 경험 어필 여지 제한",
+          "공고 게시일 불명확 (wd/277925 — 포스팅 시점 확인 필요)"
+        ],
+        "pass_odds": "중간",
+        "strategy": "커머스 플랫폼 대규모 서비스 경험 강조. CVR +14.27% 성과 수치 전면 제시. React 기반 성능 최적화 이력 및 이커머스 그로스 기여 경험 어필.",
+        "sources": [
+          "https://www.wanted.co.kr/wd/277925",
+          "https://platum.kr/archives/209044"
+        ]
+      }
+    },
+    {
+      "id": "rapportlabs-quint-fe-2026-06",
+      "company": "라포랩스 (퀸잇)",
+      "title": "프론트엔드 엔지니어",
+      "level": "미들~시니어",
+      "scale": "시리즈B2 · 누적 700억 (알토스벤처스·카카오벤처스·에이티넘인베스트먼트)",
+      "source": "wanted",
+      "url": "https://www.wanted.co.kr/wd/247925",
+      "location": "서울 강남구",
+      "exp": "프론트엔드 개발 경력 1년 이상",
+      "exp_min_years": 1,
+      "posted_date": null,
+      "first_seen": "2026-06-30",
+      "domains": [
+        "패션커머스",
+        "이커머스",
+        "모바일앱"
+      ],
+      "deadline": null,
+      "deadline_type": "rolling",
+      "deadline_label": "상시채용",
+      "process": null,
+      "process_confirmed": false,
+      "has_codingtest": "미확인",
+      "fit_score": 70,
+      "fit_tier": "중",
+      "fit_reasons": [
+        "4050 여성 패션 커머스 — 이커머스 결제·주문 플로우 경험 어필 가능, 매출 854억 대형",
+        "시리즈B2 · 누적 700억 (알토스벤처스 리드) — 2025년 매출 YoY +49.8% 고성장 문샷",
+        "TypeScript·React·React Native·Next.js·React Query·Jotai 스택 일치"
+      ],
+      "tier": "문샷",
+      "is_new": true,
+      "brief": {
+        "company_status": "X세대 여성 패션 커머스 '퀸잇' 운영사 라포랩스. 2023년 7월 시리즈B2 340억 (알토스벤처스 리드, 카카오벤처스·에이티넘인베스트먼트), 누적 700억 달성. 2025년 매출 854.6억 (YoY +49.8%). 23년부터 월 흑자 달성. 서울 강남구.",
+        "verdict": "고성장 패션 커머스 문샷. 이커머스 결제·CVR 개선 경험 어필 가능. TypeScript/React/Next.js 스택 완전 일치. 앱 중심 서비스(React Native)이며 패션 버티컬 특화.",
+        "strengths": [
+          "고성장 이커머스 (매출 YoY +49.8%) — 대형 커머스 경험 어필 적합",
+          "TypeScript/React/React Native/Next.js/React Query 스택 완전 일치",
+          "시리즈B2 · 누적 700억 · 알토스벤처스 — 최상급 문샷"
+        ],
+        "gaps": [
+          "패션 버티컬 특화 (4050 여성 타깃) — 직접 PG 결제 연동 경험보다 앱 UX 중심",
+          "경력 1년+ 명시지만 '스쿼드 최종 책임자' 역할 → 실제 기대 레벨 미들~시니어"
+        ],
+        "pass_odds": "중간",
+        "strategy": "이커머스 결제 플로우 및 CVR 개선 경험 강조. React/Next.js/React Query 스택 일치 어필. 패션 커머스 플랫폼 성장에 기여할 수 있는 이커머스 전문성 피력.",
+        "sources": [
+          "https://www.wanted.co.kr/wd/247925",
+          "https://www.newsis.com/view/NISX20230731_0002396812"
+        ]
+      }
+    },
     {
       "id": "bucketplace-oneulhouse-fe-2026-06",
       "company": "버킷플레이스 (오늘의집)",
@@ -17,7 +177,12 @@
       "exp_min_years": 4,
       "posted_date": null,
       "first_seen": "2026-06-30",
-      "domains": ["O2O", "인테리어커머스", "시공서비스", "웹뷰"],
+      "domains": [
+        "O2O",
+        "인테리어커머스",
+        "시공서비스",
+        "웹뷰"
+      ],
       "deadline": null,
       "deadline_type": "rolling",
       "deadline_label": "채용 시 마감",
@@ -73,7 +238,12 @@
       "exp_min_years": 3,
       "posted_date": null,
       "first_seen": "2026-06-29",
-      "domains": ["럭셔리패션", "이커머스", "아이웨어", "글로벌"],
+      "domains": [
+        "럭셔리패션",
+        "이커머스",
+        "아이웨어",
+        "글로벌"
+      ],
       "deadline": null,
       "deadline_type": "rolling",
       "deadline_label": "채용 시 마감",
@@ -105,8 +275,14 @@
         "pass_odds": "서류 통과 가능성 중상",
         "strategy": "문샷 무기: 이커머스 결제·주문 플로우 구현(CVR +14.27%) + 백오피스 구축 이력 강조. Next.js/TypeScript/TanStack Query/Zustand/Tailwind 스택 완전 일치 어필. 글로벌 럭셔리 이커머스 도메인 관심도 피력.",
         "sources": [
-          { "title": "아이아이컴바인드 프론트엔드 개발자 — 원티드", "url": "https://www.wanted.co.kr/wd/297626" },
-          { "title": "구글, 젠틀몬스터에 1450억 투자 — 스마트글래스 파트너십", "url": "https://thevc.kr/iicombined" }
+          {
+            "title": "아이아이컴바인드 프론트엔드 개발자 — 원티드",
+            "url": "https://www.wanted.co.kr/wd/297626"
+          },
+          {
+            "title": "구글, 젠틀몬스터에 1450억 투자 — 스마트글래스 파트너십",
+            "url": "https://thevc.kr/iicombined"
+          }
         ]
       }
     },
@@ -123,7 +299,12 @@
       "exp_min_years": 3,
       "posted_date": null,
       "first_seen": "2026-06-28",
-      "domains": ["이커머스B2B", "물류", "풀필먼트", "SaaS"],
+      "domains": [
+        "이커머스B2B",
+        "물류",
+        "풀필먼트",
+        "SaaS"
+      ],
       "deadline": null,
       "deadline_type": "rolling",
       "deadline_label": "상시채용",
@@ -174,7 +355,12 @@
       "exp_min_years": null,
       "posted_date": null,
       "first_seen": "2026-06-28",
-      "domains": ["O2O", "모빌리티", "렌트카", "여행커머스"],
+      "domains": [
+        "O2O",
+        "모빌리티",
+        "렌트카",
+        "여행커머스"
+      ],
       "deadline": null,
       "deadline_type": "rolling",
       "deadline_label": "상시채용",
@@ -223,7 +409,12 @@
       "exp_min_years": null,
       "posted_date": null,
       "first_seen": "2026-06-28",
-      "domains": ["중고차", "O2O", "커머스", "모바일앱"],
+      "domains": [
+        "중고차",
+        "O2O",
+        "커머스",
+        "모바일앱"
+      ],
       "deadline": null,
       "deadline_type": "rolling",
       "deadline_label": "상시채용",
@@ -272,7 +463,12 @@
       "exp_min_years": 4,
       "posted_date": null,
       "first_seen": "2026-06-28",
-      "domains": ["에듀테크", "코딩교육", "SaaS", "글로벌"],
+      "domains": [
+        "에듀테크",
+        "코딩교육",
+        "SaaS",
+        "글로벌"
+      ],
       "deadline": null,
       "deadline_type": "rolling",
       "deadline_label": "상시채용",
@@ -321,7 +517,12 @@
       "exp_min_years": 3,
       "posted_date": null,
       "first_seen": "2026-06-27",
-      "domains": ["패션커머스", "버티컬커머스", "남성패션", "모바일앱"],
+      "domains": [
+        "패션커머스",
+        "버티컬커머스",
+        "남성패션",
+        "모바일앱"
+      ],
       "deadline": null,
       "deadline_type": "rolling",
       "deadline_label": "채용 시 마감",
@@ -370,7 +571,12 @@
       "exp_min_years": null,
       "posted_date": null,
       "first_seen": "2026-06-27",
-      "domains": ["에듀테크", "지식커머스", "구독서비스", "크리에이터경제"],
+      "domains": [
+        "에듀테크",
+        "지식커머스",
+        "구독서비스",
+        "크리에이터경제"
+      ],
       "deadline": null,
       "deadline_type": "rolling",
       "deadline_label": "상시채용",
@@ -418,7 +624,12 @@
       "exp_min_years": 3,
       "posted_date": null,
       "first_seen": "2026-06-26",
-      "domains": ["커머스", "인플루언서커머스", "크리에이터커머스", "어필리에이트"],
+      "domains": [
+        "커머스",
+        "인플루언서커머스",
+        "크리에이터커머스",
+        "어필리에이트"
+      ],
       "deadline": null,
       "deadline_type": "rolling",
       "deadline_label": "상시채용",
@@ -449,7 +660,9 @@
         ],
         "pass_odds": "중간",
         "strategy": "메인 무기: 이커머스 결제·주문 플로우 구현 경험 + 커머스 플랫폼 CVR 개선 이력 강조. 빠른 실행력과 소규모 팀 전 영역 커버 역량 어필.",
-        "sources": ["https://www.wanted.co.kr/wd/242469"]
+        "sources": [
+          "https://www.wanted.co.kr/wd/242469"
+        ]
       }
     },
     {
@@ -465,7 +678,12 @@
       "exp_min_years": 5,
       "posted_date": null,
       "first_seen": "2026-06-26",
-      "domains": ["헬스케어", "복지몰", "웹뷰", "B2B SaaS"],
+      "domains": [
+        "헬스케어",
+        "복지몰",
+        "웹뷰",
+        "B2B SaaS"
+      ],
       "deadline": null,
       "deadline_type": "rolling",
       "deadline_label": "상시채용",
@@ -496,7 +714,9 @@
         ],
         "pass_odds": "중간",
         "strategy": "문열기 무기: 웹뷰 OS별 분기 처리·브릿지 경험 + 복지몰(커머스) 결제 연계 강조. React/Zustand/Tailwind 스택 완전 일치 어필.",
-        "sources": ["https://www.wanted.co.kr/wd/302680"]
+        "sources": [
+          "https://www.wanted.co.kr/wd/302680"
+        ]
       }
     },
     {
@@ -915,7 +1135,13 @@
       "exp_min_years": 5,
       "posted_date": null,
       "first_seen": "2026-06-26",
-      "domains": ["여행금융", "결제", "커머스", "웹뷰", "글로벌"],
+      "domains": [
+        "여행금융",
+        "결제",
+        "커머스",
+        "웹뷰",
+        "글로벌"
+      ],
       "deadline": null,
       "deadline_type": "rolling",
       "deadline_label": "상시채용",
@@ -947,9 +1173,18 @@
         "pass_odds": "서류 통과 가능성 높음",
         "strategy": "문샷 무기: 결제·커머스 비즈니스 로직 구현(PG 연동·CVR +14.27%) + 모바일 웹 최적화 경험 전면 배치. TypeScript/React/Next.js 5년+ 요건 충족 및 IPO 성장 단계 관심도 어필.",
         "sources": [
-          { "title": "오렌지스퀘어 시니어 프론트엔드 개발자 — 원티드", "url": "https://www.wanted.co.kr/wd/347033" },
-          { "title": "오렌지스퀘어 시리즈B 100억 투자 유치 — 플래텀", "url": "https://platum.kr/archives/221167" },
-          { "title": "오렌지스퀘어 코스닥 상장 절차 돌입 — 한국금융신문", "url": "https://www.fntimes.com/html/view.php?ud=20240725160609191722f8e8c22c_18" }
+          {
+            "title": "오렌지스퀘어 시니어 프론트엔드 개발자 — 원티드",
+            "url": "https://www.wanted.co.kr/wd/347033"
+          },
+          {
+            "title": "오렌지스퀘어 시리즈B 100억 투자 유치 — 플래텀",
+            "url": "https://platum.kr/archives/221167"
+          },
+          {
+            "title": "오렌지스퀘어 코스닥 상장 절차 돌입 — 한국금융신문",
+            "url": "https://www.fntimes.com/html/view.php?ud=20240725160609191722f8e8c22c_18"
+          }
         ]
       }
     },
