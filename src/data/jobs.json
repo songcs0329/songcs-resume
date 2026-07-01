@@ -1,9 +1,128 @@
 {
   "meta": {
     "last_collected": "2026-07-01",
-    "total": 8
+    "total": 10
   },
   "jobs": [
+    {
+      "id": "levit-alwayz-sr-frontend-2026-07",
+      "company": "레브잇(올웨이즈)",
+      "title": "Sr. Software Engineer (Frontend)",
+      "level": "시니어",
+      "scale": "시리즈B · 600억 · MAU 340만 · 월 거래액 640억",
+      "source": "자사홈",
+      "url": "https://team.alwayz.co/o/110374",
+      "location": "서울",
+      "exp": "FE 경력 5년 이상",
+      "exp_min_years": 5,
+      "posted_date": null,
+      "first_seen": "2026-07-01",
+      "domains": [
+        "커머스",
+        "이커머스",
+        "모바일",
+        "웹뷰"
+      ],
+      "deadline": null,
+      "deadline_type": "rolling",
+      "deadline_label": "상시채용",
+      "process": null,
+      "process_confirmed": false,
+      "has_codingtest": "미확인",
+      "fit_score": 83,
+      "fit_tier": "상",
+      "fit_reasons": [
+        "이커머스 Growth/Commerce Platform — 결제·주문·상품전시 플로우 구현 이력 직접 매칭",
+        "React/TypeScript/React Query/Zustand 스택 일치 — 핵심 기술 커버",
+        "MAU 340만 커머스 대규모 서비스 — 고트래픽 이커머스 이력 어필 가능"
+      ],
+      "tier": "문샷",
+      "is_new": true,
+      "brief": {
+        "company_status": "모바일 커머스 플랫폼 '올웨이즈' 운영. MAU 340만, 월 거래액 640억, 시리즈B 600억 유치. 2021년 런칭 후 빠른 성장. Growth Feature·Commerce Platform팀 FE 채용 중.",
+        "verdict": "이커머스 커머스 도메인이 창석 주축과 직접 일치. React/TS/React Query/Zustand 스택 일치. 결제·주문·상품 플로우 이력 연결 최적. GraphQL/Relay는 러닝커브 필요하나 핵심 강점 충분.",
+        "strengths": [
+          "이커머스 Growth/Commerce Platform — 결제·CVR +14.27%·주문 플로우 이력 직접 매칭",
+          "React/TypeScript/React Query/Zustand 스택 일치",
+          "MAU 340만 대규모 이커머스 — 고트래픽 최적화 이력 어필"
+        ],
+        "gaps": [
+          "GraphQL/Relay 사용 경험 필요 — 러닝커브",
+          "React Native 웹/앱 혼합 — 앱 경험 일부 필요",
+          "공고 게시 최신 여부 WebFetch 차단으로 직접 확인 불가(자사홈 존치 기준 적용)"
+        ],
+        "pass_odds": "높음",
+        "strategy": "핵심 무기: 이커머스 결제·CVR +14.27%·PG 연동(4종) 이력 전면 배치. 모바일 웹뷰 하이브리드 경험 연결. React/TS/Zustand/React Query 스택 일치 강조.",
+        "sources": [
+          {
+            "title": "레브잇(올웨이즈) Sr. Software Engineer (Frontend) — 자사홈",
+            "url": "https://team.alwayz.co/o/110374"
+          }
+        ]
+      }
+    },
+    {
+      "id": "datarize-frontend-engineer-2026-07",
+      "company": "데이터라이즈",
+      "title": "Frontend Engineer",
+      "level": "미드~시니어",
+      "scale": "시리즈B · 누적 265억 · 이커머스 CRM 1,000+ 고객사",
+      "source": "자사홈",
+      "url": "https://team.datarize.ai/ko/apply",
+      "location": "서울",
+      "exp": "미확인",
+      "exp_min_years": null,
+      "posted_date": null,
+      "first_seen": "2026-07-01",
+      "domains": [
+        "이커머스",
+        "CRM",
+        "마케팅 자동화",
+        "SaaS",
+        "B2B"
+      ],
+      "deadline": null,
+      "deadline_type": "rolling",
+      "deadline_label": "채용 시 마감",
+      "process": null,
+      "process_confirmed": false,
+      "has_codingtest": "미확인",
+      "fit_score": 70,
+      "fit_tier": "중",
+      "fit_reasons": [
+        "이커머스 CRM·마케팅 자동화 SaaS — 이커머스 결제·CVR 개선 이력과 도메인 접점",
+        "프론트엔드챕터 보유 · 복잡한 콘솔 UI/UX 구현 — 상태 관리·비즈니스 로직 이력 어필",
+        "시리즈B 150억 · 누적 265억 · 재구독률 98% — 안정적 성장 단계"
+      ],
+      "tier": "문샷",
+      "is_new": true,
+      "brief": {
+        "company_status": "이커머스 고객사 대상 AI 기반 CRM 마케팅 자동화 SaaS '데이터라이즈' 운영. 고객사 1,000+, 재구독률 98%. 시리즈B 150억(에이티넘인베스트먼트 리드), 누적 265억. 2024년 매출 전년 초과 달성.",
+        "verdict": "이커머스 CRM SaaS로 도메인 접점 있음. FE 챕터 보유로 FE 중심 조직 확인. 시리즈B 265억 문샷 티어지만 B2B SaaS 콘솔 특성상 결제·CVR 직접 어필 여지 제한적.",
+        "strengths": [
+          "이커머스 CRM 자동화 SaaS — 이커머스 도메인 접점 + 복잡한 콘솔 UI/UX 구현 역량 어필",
+          "시리즈B 265억 · 재구독률 98% · 고객사 급성장 — 안정적 성장",
+          "프론트엔드챕터 클린코드 지향 — 코드 품질 중심 조직 문화"
+        ],
+        "gaps": [
+          "B2B SaaS 콘솔 — 이커머스 결제·주문 플로우 직접 어필 여지 제한",
+          "구체적 경력 요건·기술스택 미확인 (WebFetch 차단으로 JD 직접 접근 불가)",
+          "FE 채용 공고 현재 활성 여부 직접 확인 불가 (자사홈 존치 기준 적용)"
+        ],
+        "pass_odds": "중간",
+        "strategy": "무기: 이커머스 CVR +14.27%·PG 연동 이력으로 이커머스 도메인 친숙도 강조. 복잡한 어드민/콘솔 UI 상태관리 이력 연결. 재구독률 98% 고성장 회사의 성장성 어필.",
+        "sources": [
+          {
+            "title": "데이터라이즈 채용 공고",
+            "url": "https://team.datarize.ai/ko/apply"
+          },
+          {
+            "title": "이커머스 CRM 마케팅 데이터라이즈 150억 시리즈B - 플래텀",
+            "url": "https://platum.kr/archives/227388"
+          }
+        ]
+      }
+    },
     {
       "id": "daangn-pay-fe-2026-07",
       "company": "당근페이",
