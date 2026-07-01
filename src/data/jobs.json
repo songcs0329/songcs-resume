@@ -1,77 +1,9 @@
 {
   "meta": {
     "last_collected": "2026-07-01",
-    "total": 12
+    "total": 8
   },
   "jobs": [
-    {
-      "id": "bucketplace-senior-fe-commerce-2026-07",
-      "company": "버킷플레이스(오늘의집)",
-      "title": "Senior Frontend Engineer, Tech Lead & Manager, Commerce",
-      "level": "시니어",
-      "scale": "유니콘 · 누적 3,230억 · 기업가치 2조 · 2025년 연간 흑자전환",
-      "source": "자사홈",
-      "url": "https://bucketplace.career.greetinghr.com/ko/o/167314",
-      "location": "서울",
-      "exp": "시니어 이상",
-      "exp_min_years": null,
-      "posted_date": null,
-      "first_seen": "2026-07-01",
-      "domains": [
-        "이커머스",
-        "커머스",
-        "결제",
-        "쿠폰",
-        "인테리어"
-      ],
-      "deadline": null,
-      "deadline_type": "rolling",
-      "deadline_label": "상시채용",
-      "process": [
-        "서류전형",
-        "코딩테스트",
-        "기술 인터뷰",
-        "조직문화 인터뷰",
-        "처우협의"
-      ],
-      "process_confirmed": true,
-      "has_codingtest": "코딩테스트",
-      "fit_score": 80,
-      "fit_tier": "상",
-      "fit_reasons": [
-        "커머스 도메인 명시(주문·결제·쿠폰·포인트·정산) — PG 연동·CVR +14.27% 이력 직접 매칭",
-        "이커머스 대규모 플랫폼(유니콘·흑자전환) — 창석 커머스 결제 도메인 깊이 어필 최적",
-        "React/TypeScript 기반 FE — 스택 일치"
-      ],
-      "tier": "문샷",
-      "is_new": true,
-      "brief": {
-        "company_status": "국내 인테리어·라이프스타일 이커머스 1위 플랫폼. 누적 3,230억 투자(시리즈D, 2022년 2,300억 포함). 기업가치 2조원 유니콘. 2025년 창업 10년 만에 첫 연간 영업이익 흑자전환. MAU 1,000만+.",
-        "verdict": "커머스팀 시니어 FE 테크리드 포지션 — 주문·결제·쿠폰·포인트·정산 도메인이 창석 주축(이커머스 결제·주문 플로우)과 직접 매칭. 테크리드/매니저 역할이 추가 요건이나 커머스 도메인 깊이 어필로 서류 경쟁력 있음.",
-        "strengths": [
-          "커머스 도메인 핵심(주문·결제·쿠폰·포인트·정산) — 창석 이커머스 결제 플로우 이력 직접 어필",
-          "유니콘 흑자전환 대규모 플랫폼 — 안정성·성장성 모두 확보",
-          "그리팅HR 자사 채용페이지(SSR) — 마감 감지 가능한 신뢰 소스"
-        ],
-        "gaps": [
-          "Tech Lead & Manager 역할 — 팀 관리 경험 별도 어필 필요",
-          "인테리어 라이프스타일 도메인 — 패션·이커머스 주축과 결이 일부 다름",
-          "코딩테스트 포함 — 사전 준비 필요"
-        ],
-        "pass_odds": "중간",
-        "strategy": "문샷 무기: 결제·주문·쿠폰 이커머스 플로우 CVR +14.27% + 정산 백오피스 구축 이력 전면 배치. 커머스 도메인 테크리드 포지션이므로 팀 성과·영향력(CVR 개선, SEO +61%) 수치 강조. 코딩테스트 사전 준비 필요.",
-        "sources": [
-          {
-            "title": "오늘의집 Senior Frontend Engineer, Commerce — 자사 채용",
-            "url": "https://bucketplace.career.greetinghr.com/ko/o/167314"
-          },
-          {
-            "title": "오늘의집 유니콘 투자 및 흑자전환 — 유니콘팩토리",
-            "url": "https://www.unicornfactory.co.kr/article/2025040110502558926"
-          }
-        ]
-      }
-    },
     {
       "id": "daangn-pay-fe-2026-07",
       "company": "당근페이",
@@ -180,67 +112,6 @@
           {
             "title": "당근 Software Engineer, Frontend - 커머스 — 당근 채용",
             "url": "https://careers.daangn.com/jobs/role/6692173003/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "orangesquare-senior-fe-2026-07",
-      "company": "오렌지스퀘어",
-      "title": "시니어 프론트엔드 개발자",
-      "level": "시니어",
-      "scale": "시리즈B · 누적 160억 · IPO 추진 (한국투자파트너스·미래에셋벤처·IMM인베스트먼트·JYP SI)",
-      "source": "wanted",
-      "url": "https://www.wanted.co.kr/wd/347033",
-      "location": "서울 구로구",
-      "exp": "FE 경력 5년 이상",
-      "exp_min_years": 5,
-      "posted_date": null,
-      "first_seen": "2026-07-01",
-      "domains": [
-        "여행금융",
-        "결제",
-        "커머스",
-        "웹뷰",
-        "글로벌"
-      ],
-      "deadline": null,
-      "deadline_type": "rolling",
-      "deadline_label": "상시채용",
-      "process": null,
-      "process_confirmed": false,
-      "has_codingtest": "미확인",
-      "fit_score": 90,
-      "fit_tier": "최상",
-      "fit_reasons": [
-        "결제+커머스 복잡한 비즈니스 로직 — PG 연동·CVR +14.27% 이력 직접 매칭",
-        "모바일 웹뷰(WebView) 최적화 — 네이티브 브릿지·safe-area·웹뷰 분기 이력 직접 매칭",
-        "React/TypeScript + SSR 스택 일치 + 5년+ 요건 충족"
-      ],
-      "tier": "문샷",
-      "is_new": false,
-      "brief": {
-        "company_status": "방한 외국인 전용 올인원 서비스 WOWPASS 운영. 환전·결제·교통카드 통합 플랫폼. 앱 가입자 300만명·카드 발급 250만·거래액 1.6조. 2024년 1월 시리즈B 100억(한국투자파트너스·미래에셋벤처투자·IMM인베스트먼트·나우IB) + JYP엔터 SI 유치. 누적 160억. 코스닥 IPO 추진(주관사 한국투자증권). 2025년 매출 250~300억 예상·영업흑자 기반.",
-        "verdict": "공고 JD에 '결제와 커머스가 결합된 복잡한 비즈니스 로직 + 모바일 웹뷰 환경 최상의 사용자 경험' 직접 명시 — 창석 주축 두 가지 모두 정면 매칭. 5년+ 요건 충족(7년+). 문샷 최우선 타겟.",
-        "strengths": [
-          "결제·커머스 비즈니스 로직 구현 공고 명시 — PG 연동·이니시스·토스페이·카카오페이·CVR +14.27% 이력 직접 어필",
-          "모바일 웹뷰 최적화 공고 명시 — safe-area·네이티브 브릿지·웹뷰 인증 분기 이력 직접 어필",
-          "시리즈B · 누적 160억 · IPO 추진 — 문샷 확정 대형 성장 스테이지"
-        ],
-        "gaps": [
-          "글로벌 여행금융(환전·선불카드) 도메인 — 기존 국내 이커머스와 도메인 차이",
-          "서울 구로구 위치 — 출퇴근 동선 검토 필요"
-        ],
-        "pass_odds": "서류 통과 가능성 높음",
-        "strategy": "문샷 무기: 결제+커머스 복잡한 비즈니스 로직(PG·CVR +14.27%) + 웹뷰 하이브리드(safe-area·네이티브 브릿지) 전면 배치. 글로벌 결제 서비스에 대한 관심 어필. 임팩트 수치(CVR +14.27%·CTR 11.3%) 전부 넣기.",
-        "sources": [
-          {
-            "title": "오렌지스퀘어 시니어 프론트엔드 개발자 — 원티드",
-            "url": "https://www.wanted.co.kr/wd/347033"
-          },
-          {
-            "title": "오렌지스퀘어 시리즈B 100억 투자 유치 — 플래텀",
-            "url": "https://platum.kr/archives/221167"
           }
         ]
       }
@@ -427,63 +298,6 @@
       }
     },
     {
-      "id": "doers-zvzo-fe-2026-07",
-      "company": "두어스(ZVZO)",
-      "title": "프론트엔드 엔지니어",
-      "level": "미드~시니어",
-      "scale": "시리즈A · 누적 125억",
-      "source": "wanted",
-      "url": "https://www.wanted.co.kr/wd/242469",
-      "location": "서울 강남구",
-      "exp": "FE 경력 3년 이상",
-      "exp_min_years": 3,
-      "posted_date": null,
-      "first_seen": "2026-07-01",
-      "domains": [
-        "크리에이터 커머스",
-        "인플루언서 커머스",
-        "커머스",
-        "SNS"
-      ],
-      "deadline": null,
-      "deadline_type": "rolling",
-      "deadline_label": "상시채용",
-      "process": null,
-      "process_confirmed": false,
-      "has_codingtest": "미확인",
-      "fit_score": 70,
-      "fit_tier": "중",
-      "fit_reasons": [
-        "커머스 도메인 — 이커머스 결제·주문 플로우 이력 간접 어필 가능",
-        "React/TypeScript + SSR 필수 스택 일치",
-        "시리즈A · 누적 125억 메인 타겟 — 데이터 기반 빠른 실험 환경"
-      ],
-      "tier": "메인",
-      "is_new": false,
-      "brief": {
-        "company_status": "크리에이터가 SNS 채널에서 브랜드 상품을 추천·판매하고 수수료를 받는 크리에이터-브랜드 연결 커머스 플랫폼 ZVZO 운영. 업력 2년 · 인원 22명 · 서울 강남구. 시리즈A · 누적 125억. 성과급 기반 업계 최대처우 표방.",
-        "verdict": "커머스 도메인 있으나 PG 연동·결제 플로우 직접 어필 여지는 제한적. React/TypeScript + SSR 스택 일치. 소규모 팀 빠른 실험·데이터 드리븐 환경. §9 타겟 회사 포함.",
-        "strengths": [
-          "커머스 도메인 — 이커머스 결제·주문 이력 간접 어필 가능",
-          "React/TypeScript + SSR 스택 일치",
-          "시리즈A · 누적 125억 메인 타겟 확인 · 성과급 최대처우"
-        ],
-        "gaps": [
-          "크리에이터 커머스 SaaS — PG 직접 연동·결제 플로우 어필 여지 제한",
-          "React Native 우대 — 직접 경험 없음",
-          "업력 2년 초기 스타트업 — 불확실성"
-        ],
-        "pass_odds": "서류 통과 가능성 중",
-        "strategy": "메인 무기: 이커머스 결제·주문 플로우 CVR +14.27% 이력 + 빠른 실험 환경에서 전 영역 커버 가능한 강점 어필. React/TypeScript + SSR 스택 일치 강조. 크리에이터 커머스 성장 가능성 관심 표명.",
-        "sources": [
-          {
-            "title": "두어스(ZVZO) 프론트엔드 엔지니어 — 원티드",
-            "url": "https://www.wanted.co.kr/wd/242469"
-          }
-        ]
-      }
-    },
-    {
       "id": "gowid-fintech-frontend-2026-06",
       "company": "고위드",
       "title": "[핀테크] Frontend Engineer",
@@ -597,63 +411,6 @@
           {
             "title": "사이오닉에이아이 Frontend Developer — 원티드",
             "url": "https://www.wanted.co.kr/wd/369391"
-          }
-        ]
-      }
-    },
-    {
-      "id": "safedoc-fe-2026-07",
-      "company": "세이프닥",
-      "title": "Front End 개발자(React/Next.js)",
-      "level": "시니어",
-      "scale": "투자정보 미확인",
-      "source": "wanted",
-      "url": "https://www.wanted.co.kr/wd/302680",
-      "location": "서울 강남구",
-      "exp": "FE 경력 5년 이상",
-      "exp_min_years": 5,
-      "posted_date": null,
-      "first_seen": "2026-07-01",
-      "domains": [
-        "헬스케어",
-        "복지몰",
-        "웹뷰",
-        "백오피스"
-      ],
-      "deadline": null,
-      "deadline_type": "rolling",
-      "deadline_label": "상시채용",
-      "process": null,
-      "process_confirmed": false,
-      "has_codingtest": "미확인",
-      "fit_score": 74,
-      "fit_tier": "중",
-      "fit_reasons": [
-        "복지몰(이커머스류) + 웹뷰 연계 개발 — 창석 결제·웹뷰 주축 간접 매칭",
-        "React/Next.js/TypeScript/React Query/Zustand/Tailwind 스택 완전 일치",
-        "백오피스 구축 업무 — 어바웃피싱 백오피스 이력 직접 어필"
-      ],
-      "tier": "문열기",
-      "is_new": false,
-      "brief": {
-        "company_status": "기업 복지몰 헬스케어 플랫폼 세이프닥. 복지몰 FE·백오피스·웹뷰 연계 개발이 주요 업무. 서울 강남구. 투자정보 미확인.",
-        "verdict": "복지몰(이커머스류) + 웹뷰 연계가 창석 주축과 간접 접점. React/Next.js/TypeScript/React Query/Zustand/Tailwind 스택 완전 일치. 백오피스 구축 이력 직접 매칭. 투자정보 미확인 초기 스타트업.",
-        "strengths": [
-          "복지몰 이커머스 + 웹뷰 연계 — 창석 주축(결제·웹뷰) 간접 어필 가능",
-          "React/Next.js/TypeScript/React Query/Zustand/Tailwind 스택 완전 일치",
-          "백오피스 개발 — 어바웃피싱 백오피스 구축 이력 직접 매칭"
-        ],
-        "gaps": [
-          "투자정보 미확인 — 성장성·안정성 판단 어려움",
-          "헬스케어 복지몰 도메인 — 이커머스 결제 주축과 도메인 거리",
-          "5년+ 시니어 포지션 — 경쟁 풀 파악 어려움"
-        ],
-        "pass_odds": "서류 통과 가능성 중상",
-        "strategy": "문열기 무기: 스택 완전 일치 강조 + 웹뷰 하이브리드(safe-area·네이티브 브릿지) 이력 + 백오피스 구축 경험 전면 어필. 이커머스 결제 이력으로 복지몰 도메인 연결.",
-        "sources": [
-          {
-            "title": "세이프닥 Front End 개발자(React/Next.js) — 원티드",
-            "url": "https://www.wanted.co.kr/wd/302680"
           }
         ]
       }
