@@ -1,9 +1,77 @@
 {
   "meta": {
     "last_collected": "2026-07-01",
-    "total": 11
+    "total": 12
   },
   "jobs": [
+    {
+      "id": "bucketplace-senior-fe-commerce-2026-07",
+      "company": "버킷플레이스(오늘의집)",
+      "title": "Senior Frontend Engineer, Tech Lead & Manager, Commerce",
+      "level": "시니어",
+      "scale": "유니콘 · 누적 3,230억 · 기업가치 2조 · 2025년 연간 흑자전환",
+      "source": "자사홈",
+      "url": "https://bucketplace.career.greetinghr.com/ko/o/167314",
+      "location": "서울",
+      "exp": "시니어 이상",
+      "exp_min_years": null,
+      "posted_date": null,
+      "first_seen": "2026-07-01",
+      "domains": [
+        "이커머스",
+        "커머스",
+        "결제",
+        "쿠폰",
+        "인테리어"
+      ],
+      "deadline": null,
+      "deadline_type": "rolling",
+      "deadline_label": "상시채용",
+      "process": [
+        "서류전형",
+        "코딩테스트",
+        "기술 인터뷰",
+        "조직문화 인터뷰",
+        "처우협의"
+      ],
+      "process_confirmed": true,
+      "has_codingtest": "코딩테스트",
+      "fit_score": 80,
+      "fit_tier": "상",
+      "fit_reasons": [
+        "커머스 도메인 명시(주문·결제·쿠폰·포인트·정산) — PG 연동·CVR +14.27% 이력 직접 매칭",
+        "이커머스 대규모 플랫폼(유니콘·흑자전환) — 창석 커머스 결제 도메인 깊이 어필 최적",
+        "React/TypeScript 기반 FE — 스택 일치"
+      ],
+      "tier": "문샷",
+      "is_new": true,
+      "brief": {
+        "company_status": "국내 인테리어·라이프스타일 이커머스 1위 플랫폼. 누적 3,230억 투자(시리즈D, 2022년 2,300억 포함). 기업가치 2조원 유니콘. 2025년 창업 10년 만에 첫 연간 영업이익 흑자전환. MAU 1,000만+.",
+        "verdict": "커머스팀 시니어 FE 테크리드 포지션 — 주문·결제·쿠폰·포인트·정산 도메인이 창석 주축(이커머스 결제·주문 플로우)과 직접 매칭. 테크리드/매니저 역할이 추가 요건이나 커머스 도메인 깊이 어필로 서류 경쟁력 있음.",
+        "strengths": [
+          "커머스 도메인 핵심(주문·결제·쿠폰·포인트·정산) — 창석 이커머스 결제 플로우 이력 직접 어필",
+          "유니콘 흑자전환 대규모 플랫폼 — 안정성·성장성 모두 확보",
+          "그리팅HR 자사 채용페이지(SSR) — 마감 감지 가능한 신뢰 소스"
+        ],
+        "gaps": [
+          "Tech Lead & Manager 역할 — 팀 관리 경험 별도 어필 필요",
+          "인테리어 라이프스타일 도메인 — 패션·이커머스 주축과 결이 일부 다름",
+          "코딩테스트 포함 — 사전 준비 필요"
+        ],
+        "pass_odds": "중간",
+        "strategy": "문샷 무기: 결제·주문·쿠폰 이커머스 플로우 CVR +14.27% + 정산 백오피스 구축 이력 전면 배치. 커머스 도메인 테크리드 포지션이므로 팀 성과·영향력(CVR 개선, SEO +61%) 수치 강조. 코딩테스트 사전 준비 필요.",
+        "sources": [
+          {
+            "title": "오늘의집 Senior Frontend Engineer, Commerce — 자사 채용",
+            "url": "https://bucketplace.career.greetinghr.com/ko/o/167314"
+          },
+          {
+            "title": "오늘의집 유니콘 투자 및 흑자전환 — 유니콘팩토리",
+            "url": "https://www.unicornfactory.co.kr/article/2025040110502558926"
+          }
+        ]
+      }
+    },
     {
       "id": "daangn-pay-fe-2026-07",
       "company": "당근페이",
@@ -37,7 +105,7 @@
         "React/TypeScript 스택 일치 + 핀테크 결제 도메인 주력 매칭"
       ],
       "tier": "문샷",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "당근(Karrot) 계열 핀테크 서비스. 송금·결제·포인트 시스템 운영. 2,000만 당근 사용자 기반 핀테크 플랫폼. 대규모 트래픽·금융 안정성 요구.",
         "verdict": "결제/PG 연동 이력이 핵심 우대사항(결제·송금·포인트 시스템 UI/UX)과 가장 직접 매칭되는 포지션. 웹뷰 개발 경험도 우대사항 직격. 빅테크 문샷이지만 이력 연계 밀도 최고.",
@@ -93,7 +161,7 @@
         "TypeScript·React·Recoil/Zustand 스택 일치"
       ],
       "tier": "문샷",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "당근(Karrot) 커머스팀. MAU 2,000만 기반 로컬 커머스 신규 구축 중. 공동구매·로컬MD 등 기존 이커머스에 없는 지역 기반 쇼핑 경험 개발. 초기 스타트업 방식으로 운영.",
         "verdict": "이커머스 도메인·웹뷰 경험 우대사항이 이력과 직접 연결. TypeScript/React/상태관리 스택 일치. 빅테크 경쟁 강도 있으나 커머스 도메인 밀도 높음.",
@@ -150,7 +218,7 @@
         "React/TypeScript + SSR 스택 일치 + 5년+ 요건 충족"
       ],
       "tier": "문샷",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "방한 외국인 전용 올인원 서비스 WOWPASS 운영. 환전·결제·교통카드 통합 플랫폼. 앱 가입자 300만명·카드 발급 250만·거래액 1.6조. 2024년 1월 시리즈B 100억(한국투자파트너스·미래에셋벤처투자·IMM인베스트먼트·나우IB) + JYP엔터 SI 유치. 누적 160억. 코스닥 IPO 추진(주관사 한국투자증권). 2025년 매출 250~300억 예상·영업흑자 기반.",
         "verdict": "공고 JD에 '결제와 커머스가 결합된 복잡한 비즈니스 로직 + 모바일 웹뷰 환경 최상의 사용자 경험' 직접 명시 — 창석 주축 두 가지 모두 정면 매칭. 5년+ 요건 충족(7년+). 문샷 최우선 타겟.",
@@ -391,7 +459,7 @@
         "시리즈A · 누적 125억 메인 타겟 — 데이터 기반 빠른 실험 환경"
       ],
       "tier": "메인",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "크리에이터가 SNS 채널에서 브랜드 상품을 추천·판매하고 수수료를 받는 크리에이터-브랜드 연결 커머스 플랫폼 ZVZO 운영. 업력 2년 · 인원 22명 · 서울 강남구. 시리즈A · 누적 125억. 성과급 기반 업계 최대처우 표방.",
         "verdict": "커머스 도메인 있으나 PG 연동·결제 플로우 직접 어필 여지는 제한적. React/TypeScript + SSR 스택 일치. 소규모 팀 빠른 실험·데이터 드리븐 환경. §9 타겟 회사 포함.",
@@ -566,7 +634,7 @@
         "백오피스 구축 업무 — 어바웃피싱 백오피스 이력 직접 어필"
       ],
       "tier": "문열기",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "기업 복지몰 헬스케어 플랫폼 세이프닥. 복지몰 FE·백오피스·웹뷰 연계 개발이 주요 업무. 서울 강남구. 투자정보 미확인.",
         "verdict": "복지몰(이커머스류) + 웹뷰 연계가 창석 주축과 간접 접점. React/Next.js/TypeScript/React Query/Zustand/Tailwind 스택 완전 일치. 백오피스 구축 이력 직접 매칭. 투자정보 미확인 초기 스타트업.",
