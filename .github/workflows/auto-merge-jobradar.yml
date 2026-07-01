@@ -1,0 +1,26 @@
+name: Auto-merge Job Radar PR
+
+on:
+  pull_request:
+    branches: [main]
+    paths: ["src/data/jobs.json"]
+
+jobs:
+  auto-merge:
+    if: startsWith(github.head_ref, 'claude/')
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+    steps:
+      - name: Auto-merge job radar PR
+        uses: actions/github-script@v7
+        with:
+          script: |
+            await github.rest.pulls.merge({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              pull_number: context.payload.pull_request.number,
+              merge_method: 'squash',
+              commit_title: context.payload.pull_request.title,
+            })
