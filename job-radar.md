@@ -93,9 +93,45 @@
 
 ## 6. 운영 루틴 (역할 분담)
 
-- **수집(자동):** Mac + Claude 앱 켜져 있을 때 스케줄 태스크가 `src/data/jobs.json` 갱신 → git commit·push까지 수행. 놓치면 다음 실행 시 보충.
+- **수집(자동):** Mac + Claude 앱 켜져 있을 때 스케줄 태스크가 `src/data/jobs.json` 갱신 → git commit·push → **PR 생성**까지 수행. 놓치면 다음 실행 시 보충.
 - **반영(자동):** main 푸시 → GitHub Actions 빌드·배포(1~2분) → Pages 최신.
 - **열람:** 배포된 페이지는 항상 열림. 데이터 갱신도 코드(UI) 변경도 모두 "푸시"라는 동일한 경로.
+
+### Phase 4 상세 — Git commit · push · PR
+
+```bash
+# 1. 중복 실행 방지 체크
+LAST=$(python3 -c "import json; d=json.load(open('src/data/jobs.json')); print(d['meta']['last_collected'])")
+TODAY=$(date '+%Y-%m-%d')
+# LAST == TODAY & 신규 0건 & 만료 0건 → 커밋 생략
+
+# 2. rebase (충돌 시 원격 base에 내 신규 jobs 삽입 후 재커밋)
+git pull --rebase origin main
+
+# 3. commit & push
+git add src/data/jobs.json data/raw-jobs.md
+git diff --staged --quiet || git commit -m \
+  "chore(job-radar): YYYY-MM-DD 공고 수집 — 신규 N건 추가 [만료 M건 정리]"
+git push -u origin <branch>
+
+# 4. PR 생성 (GitHub MCP: mcp__github__create_pull_request)
+#    - owner: songcs0329 / repo: songcs-resume
+#    - head: 작업 브랜치 / base: main
+#    - title: "chore(job-radar): YYYY-MM-DD FE 채용공고 수집 — 신규 N건"
+#    - body: Phase 0~1 결과 요약 (만료 건수, 신규 공고 테이블, meta 변경)
+#    PR 템플릿이 없으면 아래 형식 사용:
+#
+#    ## 변경 내용
+#    ### Phase 0 — 만료 처리
+#    제거 건수: N건 (사유 요약)
+#    ### Phase 1 — 신규 공고 N건
+#    | 티어 | 회사 | 포지션 | fit_score | 소스 |
+#    |------|------|--------|-----------|------|
+#    | ...  | ...  | ...    | ...       | ...  |
+#    ### meta
+#    - total: 이전 → 현재
+#    - last_collected: YYYY-MM-DD
+```
 
 ## 7. 알려진 제약·주의
 
