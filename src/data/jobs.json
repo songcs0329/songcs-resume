@@ -1,8 +1,7 @@
 {
   "meta": {
     "last_collected": "2026-07-02",
-    "total": 13,
-    "ci_test": "auto-merge-deploy-trigger-verify"
+    "total": 13
   },
   "jobs": [
     {
