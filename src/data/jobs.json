@@ -1,9 +1,180 @@
 {
   "meta": {
-    "last_collected": "2026-07-01",
-    "total": 10
+    "last_collected": "2026-07-02",
+    "total": 13
   },
   "jobs": [
+    {
+      "id": "bucketplace-commerce-fe-2026-07",
+      "company": "버킷플레이스(오늘의집)",
+      "title": "Commerce Frontend Engineer",
+      "level": "시니어/리드",
+      "scale": "빅테크 · 유니콘급 · 누적 투자 $180M+ · MAU 수백만",
+      "source": "자사홈",
+      "url": "https://bucketplace.career.greetinghr.com/ko/o/167314",
+      "location": "서울",
+      "exp": "FE 5년 이상, React/TypeScript 2년 이상",
+      "exp_min_years": 5,
+      "posted_date": null,
+      "first_seen": "2026-07-02",
+      "domains": [
+        "커머스",
+        "이커머스",
+        "라이프스타일",
+        "인테리어"
+      ],
+      "deadline": null,
+      "deadline_type": "rolling",
+      "deadline_label": "채용 시 마감",
+      "process": null,
+      "process_confirmed": false,
+      "has_codingtest": "미확인",
+      "fit_score": 80,
+      "fit_tier": "상",
+      "fit_reasons": [
+        "커머스 서비스 FE 개발 주요 업무 — 이커머스 결제·주문·상품전시 플로우 이력 직접 매칭",
+        "React/TypeScript/SSR 스택 일치 — 핵심 기술 전부 커버",
+        "백오피스·셀러페이지 개발 포함 — 어드민 UI 상태관리 이력 어필 가능"
+      ],
+      "tier": "문샷",
+      "is_new": true,
+      "brief": {
+        "company_status": "국내 최대 인테리어·라이프스타일 커머스 플랫폼 '오늘의집' 운영. 유니콘급 밸류에이션, 누적 투자 $180M+. 커머스팀 FE 채용 중. 오늘의집 커머스 서비스·백오피스·셀러 플랫폼 구축.",
+        "verdict": "커머스 서비스 FE 개발이 주업무로 이커머스 결제·주문 이력과 직접 매칭. React/TS/SSR 스택 일치. 유니콘급 빅테크라 경쟁 강도 높지만 이력 연계 밀도 우수. 포지션이 리드 역할 포함 가능성 있어 JD 직접 확인 권장.",
+        "strengths": [
+          "커머스 서비스 FE 개발 — 이커머스 결제·CVR +14.27%·주문 플로우 이력 직접 어필",
+          "React/TypeScript/SSR — 스택 완전 일치",
+          "대규모 커머스 플랫폼 — 고트래픽 최적화 이력 레버리지"
+        ],
+        "gaps": [
+          "유니콘급 빅테크 — 경쟁 강도 매우 높음",
+          "Tech Lead & Manager 수준 포지션 가능성 — JD 직접 확인 권장",
+          "자사홈 WebFetch 403 — 현재 활성 여부 직접 확인 불가(자사홈 존치 기준 적용)"
+        ],
+        "pass_odds": "낮음",
+        "strategy": "핵심 무기: 이커머스 결제·CVR +14.27% 구체 수치 + React/TS/SSR 스택 전면 배치. 백오피스·셀러 페이지 구축 이력 연결.",
+        "sources": [
+          {
+            "title": "버킷플레이스(오늘의집) Commerce Frontend Engineer — 자사홈",
+            "url": "https://bucketplace.career.greetinghr.com/ko/o/167314"
+          }
+        ]
+      }
+    },
+    {
+      "id": "myrealtrip-fe-dev-2026-07",
+      "company": "마이리얼트립",
+      "title": "Frontend 개발자",
+      "level": "시니어",
+      "scale": "시리즈F · 누적 1,980억 · IPO 준비 중 · 월 거래액 2,171억(2025)",
+      "source": "자사홈",
+      "url": "https://myrealtrip.career.greetinghr.com/ko/home",
+      "location": "서울 서초구",
+      "exp": "경력 5~10년",
+      "exp_min_years": 5,
+      "posted_date": null,
+      "first_seen": "2026-07-02",
+      "domains": [
+        "여행 이커머스",
+        "O2O",
+        "결제",
+        "항공·숙박"
+      ],
+      "deadline": null,
+      "deadline_type": "rolling",
+      "deadline_label": "채용 시 마감",
+      "process": null,
+      "process_confirmed": false,
+      "has_codingtest": "미확인",
+      "fit_score": 72,
+      "fit_tier": "중",
+      "fit_reasons": [
+        "여행 이커머스 결제·예약 플로우 — PG 연동·결제 CVR 개선 이력 연결 가능",
+        "React/TypeScript/Emotion/SSR 스택 일치 — 핵심 기술 커버",
+        "시리즈F · IPO 준비 · 월 거래액 2,171억 — 대규모 트래픽 최적화 이력 어필"
+      ],
+      "tier": "문샷",
+      "is_new": true,
+      "brief": {
+        "company_status": "국내 최대 여행 플랫폼 마이리얼트립. 2025년 매출 1,120억(전년比 +26%), 월 거래액 2,171억 돌파. 시리즈F 756억 유치(누적 1,980억). IPO 주관사 숏리스트 선정(미래에셋·삼성·신한 삼파전, 2025년).",
+        "verdict": "여행 이커머스 결제·예약 플로우가 창석 PG 연동 이력과 연결 가능. React/TS/Emotion/SSR 스택 일치. IPO 준비 대형 여행 플랫폼이나 여행 도메인 특화 필요. 빅테크급 경쟁 강도 높음.",
+        "strengths": [
+          "여행 이커머스 결제·예약 플로우 — PG 연동·CVR 개선 이력 도메인 연결",
+          "React/TypeScript/Emotion/SSR 스택 일치",
+          "IPO 준비 대형 플랫폼 — 커리어 레버리지"
+        ],
+        "gaps": [
+          "여행 도메인 특화 — 이커머스·결제 주축과 결이 다름",
+          "시리즈F 빅테크급 — 경쟁 강도 높음",
+          "자사홈 WebFetch 403 — 포지션 활성 여부 직접 확인 불가(자사홈 존치 기준 적용)"
+        ],
+        "pass_odds": "중간",
+        "strategy": "핵심: PG 연동(토스페이·카카오페이·이니시스) + 결제 CVR 개선 이력으로 여행 예약·결제 플로우 개발 역량 강조. React/TS/SSR 스택 일치 어필.",
+        "sources": [
+          {
+            "title": "마이리얼트립 Frontend 개발자 — 자사홈",
+            "url": "https://myrealtrip.career.greetinghr.com/ko/home"
+          }
+        ]
+      }
+    },
+    {
+      "id": "featuring-fe-engineer-2026-07",
+      "company": "피처링(Featuring Corp.)",
+      "title": "Frontend Engineer",
+      "level": "시니어",
+      "scale": "시리즈A · 57억 · 누적 75억 · 아기유니콘(2024)",
+      "source": "자사홈",
+      "url": "https://featuring.career.greetinghr.com/ko/career",
+      "location": "서울 강남구",
+      "exp": "경력 5년 이상",
+      "exp_min_years": 5,
+      "posted_date": null,
+      "first_seen": "2026-07-02",
+      "domains": [
+        "인플루언서 마케팅",
+        "크리에이터 이코노미",
+        "데이터 분석",
+        "B2B SaaS"
+      ],
+      "deadline": "2026-08-12",
+      "deadline_type": "date",
+      "deadline_label": "2026-08-12 14:59",
+      "process": null,
+      "process_confirmed": false,
+      "has_codingtest": "미확인",
+      "fit_score": 62,
+      "fit_tier": "하",
+      "fit_reasons": [
+        "경력 5년+ 요건 충족 — 시니어 포지션 지원 가능",
+        "인플루언서 마케팅 SaaS 도메인 — 이커머스·결제 주축과 거리",
+        "시리즈A 57억 · 2024년 아기유니콘 — 안정적 성장 단계"
+      ],
+      "tier": "메인",
+      "is_new": true,
+      "brief": {
+        "company_status": "아시아 최대 규모 인플루언서 데이터 엔진 'Featuring AI' 기반 인플루언서 마케팅 플랫폼 운영. 1,600만 소셜미디어 채널·3억건 콘텐츠 분석. 시리즈A 57억(스파크랩·미래에셋벤처투자·스틱벤처스 등), 누적 75억. 2024년 아기유니콘·기술혁신형 중소기업 선정.",
+        "verdict": "인플루언서 마케팅 데이터 SaaS로 이커머스·결제 주축과 거리가 있음. 마감일 명확(2026-08-12)하고 시리즈A 성장 안정적. 데이터 기반 대시보드·B2B SaaS FE 특성상 복잡한 상태 관리 이력 부분 어필 가능.",
+        "strengths": [
+          "마감일 명확 (2026-08-12 14:59) — 지원 타이밍 관리 가능",
+          "시리즈A 57억 · 2024 아기유니콘 — 안정적 성장",
+          "경력 5년+ 충족 — 시니어 포지션"
+        ],
+        "gaps": [
+          "인플루언서 마케팅 SaaS — 이커머스·결제 주축과 거리",
+          "기술 스택 미확인 — 자사홈 403으로 JD 직접 접근 불가",
+          "이커머스 이력 직접 어필 여지 제한적"
+        ],
+        "pass_odds": "낮음",
+        "strategy": "SEO 기반 성과(CTR 11.3%·활성 사용자 +61%) 및 데이터 분석 대시보드 구축 이력 강조. B2B SaaS FE 복잡도 적응력 어필.",
+        "sources": [
+          {
+            "title": "피처링(Featuring Corp.) Frontend Engineer — 자사홈",
+            "url": "https://featuring.career.greetinghr.com/ko/career"
+          }
+        ]
+      }
+    },
     {
       "id": "levit-alwayz-sr-frontend-2026-07",
       "company": "레브잇(올웨이즈)",
@@ -37,7 +208,7 @@
         "MAU 340만 커머스 대규모 서비스 — 고트래픽 이커머스 이력 어필 가능"
       ],
       "tier": "문샷",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "모바일 커머스 플랫폼 '올웨이즈' 운영. MAU 340만, 월 거래액 640억, 시리즈B 600억 유치. 2021년 런칭 후 빠른 성장. Growth Feature·Commerce Platform팀 FE 채용 중.",
         "verdict": "이커머스 커머스 도메인이 창석 주축과 직접 일치. React/TS/React Query/Zustand 스택 일치. 결제·주문·상품 플로우 이력 연결 최적. GraphQL/Relay는 러닝커브 필요하나 핵심 강점 충분.",
@@ -95,7 +266,7 @@
         "시리즈B 150억 · 누적 265억 · 재구독률 98% — 안정적 성장 단계"
       ],
       "tier": "문샷",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "이커머스 고객사 대상 AI 기반 CRM 마케팅 자동화 SaaS '데이터라이즈' 운영. 고객사 1,000+, 재구독률 98%. 시리즈B 150억(에이티넘인베스트먼트 리드), 누적 265억. 2024년 매출 전년 초과 달성.",
         "verdict": "이커머스 CRM SaaS로 도메인 접점 있음. FE 챕터 보유로 FE 중심 조직 확인. 시리즈B 265억 문샷 티어지만 B2B SaaS 콘솔 특성상 결제·CVR 직접 어필 여지 제한적.",
