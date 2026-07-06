@@ -1,9 +1,128 @@
 {
   "meta": {
-    "last_collected": "2026-07-03",
-    "total": 13
+    "last_collected": "2026-07-06",
+    "total": 15
   },
   "jobs": [
+    {
+      "id": "orangesquare-wowpass-sr-fe-2026-07",
+      "company": "오렌지스퀘어(WOWPASS)",
+      "title": "시니어 프론트엔드 개발자",
+      "level": "시니어",
+      "scale": "시리즈B · 누적 160억 · 2025년 매출 253억 · 흑자 달성 · IPO 검토",
+      "source": "자사홈",
+      "url": "https://orangesquare.career.greetinghr.com/ko/intro",
+      "location": "서울 구로구",
+      "exp": "FE 경력 5년 이상",
+      "exp_min_years": 5,
+      "posted_date": null,
+      "first_seen": "2026-07-06",
+      "domains": [
+        "결제",
+        "핀테크",
+        "이커머스",
+        "여행·관광"
+      ],
+      "deadline": null,
+      "deadline_type": "rolling",
+      "deadline_label": "채용 시 마감",
+      "process": null,
+      "process_confirmed": false,
+      "has_codingtest": "미확인",
+      "fit_score": 80,
+      "fit_tier": "상",
+      "fit_reasons": [
+        "결제+커머스 플랫폼 FE 개발 — PG 연동·결제 CVR +14.27% 이력 직접 매칭",
+        "TypeScript/React/SSR 스택 일치 — 핵심 기술 커버",
+        "외국인 결제+환전+커머스 올인원 — 결제 도메인 직접 어필 가능"
+      ],
+      "tier": "문샷",
+      "is_new": true,
+      "brief": {
+        "company_status": "외국인 관광객 전용 올인원 서비스 'WOWPASS' 운영. 앱 가입자 300만, 카드 발급 250만, 환전/결제 거래액 1.6조(2026년 4월 기준). 2024년 시리즈B 100억(미래에셋벤처투자·IMM인베스트먼트·나우IB·한국투자파트너스·JYP 전략 투자), 누적 160억. 2025년 매출 253억(+40%), 흑자 달성. IPO 검토 중.",
+        "verdict": "결제+커머스 도메인이 창석 주축과 직접 매칭. TypeScript/React/SSR 스택 일치. 흑자 달성 시리즈B 기업으로 성장성·안정성 우수. greetinghr 자사홈 403으로 세부 JD 직접 확인 필요 (FE 포지션은 원티드 wd/347033에도 게재 확인).",
+        "strengths": [
+          "결제+커머스 FE 개발 — PG 연동·CVR +14.27%·결제 플로우 이력 직접 어필",
+          "TypeScript/React/SSR 스택 일치",
+          "흑자 달성 시리즈B 문샷 기업 — IPO 검토 커리어 레버리지"
+        ],
+        "gaps": [
+          "외국인 관광객 특화 도메인 — 국내 이커머스 주축과 결이 다름",
+          "자사홈 403으로 세부 JD·경력 요건 직접 확인 불가",
+          "그룹(JYP 전략 투자) 방향성 변화 가능성"
+        ],
+        "pass_odds": "중간",
+        "strategy": "결제 PG 연동(4종) + CVR +14.27% 이력 전면 배치. TypeScript/React SSR 스택 강조. 외국인 결제 플랫폼 비즈니스 확장성 관심도 어필.",
+        "sources": [
+          {
+            "title": "오렌지스퀘어(WOWPASS) 채용 홈페이지 — 자사홈",
+            "url": "https://orangesquare.career.greetinghr.com/ko/intro"
+          },
+          {
+            "title": "오렌지스퀘어 시리즈B 100억 투자유치 — 와우테일",
+            "url": "https://wowtale.net/2024/01/17/69757/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "safedoc-fe-developer-2026-07",
+      "company": "세이프닥",
+      "title": "Front End 개발자 (React/Next.js)",
+      "level": "시니어",
+      "scale": "투자정보 미확인",
+      "source": "자사홈",
+      "url": "https://safedoc.kr/html/sub4-2_%EC%B1%84%EC%9A%A9_careers.html",
+      "location": "서울 강남구",
+      "exp": "FE 경력 5년 이상",
+      "exp_min_years": 5,
+      "posted_date": null,
+      "first_seen": "2026-07-06",
+      "domains": [
+        "헬스케어",
+        "복지몰",
+        "이커머스",
+        "웹뷰",
+        "백오피스"
+      ],
+      "deadline": null,
+      "deadline_type": "rolling",
+      "deadline_label": "상시채용",
+      "process": null,
+      "process_confirmed": false,
+      "has_codingtest": "미확인",
+      "fit_score": 70,
+      "fit_tier": "중",
+      "fit_reasons": [
+        "React/Next.js/TypeScript/React Query 5/Zustand 4/Tailwind CSS 스택 완전 일치",
+        "웹뷰(Webview) 연계 개발 — 네이티브 브릿지 상태 동기화 이력 직접 어필",
+        "복지몰 이커머스·백오피스 개발 — 이커머스 주문·결제 플로우 이력 연결 가능"
+      ],
+      "tier": "문열기",
+      "is_new": true,
+      "brief": {
+        "company_status": "의료복지 플랫폼 세이프닥 운영. 전국 병·의원 시술 정보·비용·이용후기 제공 + 기업 복지몰 서비스. 복지몰 프론트엔드·백오피스·웹뷰 FE 개발 주요 업무. 2018년 설립, 투자정보 미확인.",
+        "verdict": "스택 완전 일치(React Query 5/Zustand 4/Tailwind CSS/Next.js). 웹뷰 연계 개발이 창석 네이티브 브릿지 강점과 직접 연결. 복지몰 이커머스 도메인으로 결제·주문 이력 어필 가능. 투자정보 미확인이라 안정성 판단 어려움.",
+        "strengths": [
+          "React/Next.js/TypeScript/React Query 5/Zustand 4 스택 완전 일치",
+          "웹뷰(Webview) 연계 개발 — 네이티브 브릿지·상태 동기화 이력 어필",
+          "복지몰 이커머스·백오피스 — 결제·주문 플로우 이력 도메인 연결"
+        ],
+        "gaps": [
+          "투자정보 미확인 — 회사 안정성·성장성 판단 어려움",
+          "헬스케어 복지몰 도메인 — 이커머스 결제 주축과 거리",
+          "자사홈 403으로 상세 JD 직접 확인 불가 (원티드 wd/302680 참고)"
+        ],
+        "pass_odds": "중간",
+        "strategy": "무기: React Query 5/Zustand 4 스택 일치 + 웹뷰 네이티브 브릿지 경험 강조. 복지몰 이커머스·주문 플로우 이력 연결. 백오피스 상태 관리 이력 어필.",
+        "sources": [
+          {
+            "title": "세이프닥 채용 페이지 — 자사홈",
+            "url": "https://safedoc.kr/html/sub4-2_%EC%B1%84%EC%9A%A9_careers.html"
+          }
+        ]
+      }
+    },
     {
       "id": "bucketplace-commerce-fe-2026-07",
       "company": "버킷플레이스(오늘의집)",
