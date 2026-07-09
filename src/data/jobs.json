@@ -1,9 +1,132 @@
 {
   "meta": {
-    "last_collected": "2026-07-08",
-    "total": 21
+    "last_collected": "2026-07-09",
+    "total": 23
   },
   "jobs": [
+    {
+      "id": "payhere-sr-frontend-2026-07",
+      "company": "페이히어",
+      "title": "시니어 프론트엔드 엔지니어",
+      "level": "시니어",
+      "scale": "시리즈B2 · 누적 500억+ · 클라우드 POS·O2O 결제 SaaS · 포브스아시아 100대 유망기업",
+      "source": "자사홈",
+      "url": "https://careers.payhere.in/job_posting/6VZvtoKU",
+      "location": "서울",
+      "exp": "시니어 경력직",
+      "exp_min_years": null,
+      "posted_date": null,
+      "first_seen": "2026-07-09",
+      "domains": [
+        "결제",
+        "O2O",
+        "POS",
+        "매장관리",
+        "SaaS"
+      ],
+      "deadline": null,
+      "deadline_type": "rolling",
+      "deadline_label": "채용 시 마감",
+      "process": null,
+      "process_confirmed": false,
+      "has_codingtest": "미확인",
+      "fit_score": 72,
+      "fit_tier": "중",
+      "fit_reasons": [
+        "O2O POS·주문·결제 SaaS FE 개발 — PG 연동·결제 CVR +14.27% 이력 도메인 연결",
+        "React/React Native 크로스 플랫폼 스택 일치 + 시니어 FE 포지션",
+        "시리즈B2 누적 500억+ 문샷 기업 — 포브스 아시아 100대 유망기업 선정"
+      ],
+      "tier": "문샷",
+      "is_new": true,
+      "brief": {
+        "company_status": "국내 최초 클라우드 기반 POS 서비스 페이히어 운영. 예약·배달·주문·결제·고객관리 매장 운영 통합 SaaS. 시리즈A 120억(소프트뱅크벤처스·미래에셋캐피탈·해시드) + 시리즈B 200억 + 시리즈B2 150억(2024-08), 누적 500억+. 포브스 아시아 100대 유망 기업 선정.",
+        "verdict": "O2O 결제·주문·매장관리 SaaS FE 개발이 주업무로 결제 플로우·CVR 이력과 도메인 연결 가능. React/React Native 크로스 플랫폼 스택 일치. 시리즈B2 누적 500억+ 문샷 기업이나 B2B SaaS 소상공인 POS라 이커머스 결제 직접 어필보다 간접 연결.",
+        "strengths": [
+          "O2O POS·결제·주문·배달 SaaS FE — 결제 플로우·CVR +14.27% 이력 도메인 연결",
+          "React/React Native 크로스 플랫폼 스택 일치 + 시니어 포지션",
+          "시리즈B2 누적 500억+ 문샷 기업 — 포브스 아시아 100대 유망기업"
+        ],
+        "gaps": [
+          "B2B SaaS 소상공인 POS — 이커머스 결제·주문 주축과 결이 다름",
+          "자사홈 WebFetch 403 — 상세 JD·경력 요건 직접 확인 불가",
+          "React Native + 크로스 플랫폼 개발 특성 — 순수 웹 FE 아님"
+        ],
+        "pass_odds": "중간",
+        "strategy": "무기: PG 연동(토스페이·카카오페이·이니시스·팝빌) + 결제 CVR +14.27% 이력으로 결제 SaaS 친숙도 강조. React/React Native 크로스 플랫폼 경험 어필. O2O 주문·결제 플로우 이해도 서술.",
+        "sources": [
+          {
+            "title": "페이히어 시니어 프론트엔드 엔지니어 채용 — 자사홈",
+            "url": "https://careers.payhere.in/job_posting/6VZvtoKU"
+          },
+          {
+            "title": "페이히어 시리즈B 200억 투자유치 — 이코노미스트",
+            "url": "https://economist.co.kr/article/view/ecn202304130024"
+          }
+        ]
+      }
+    },
+    {
+      "id": "bind-athler-fe-engineer-2026-07",
+      "company": "바인드(애슬러)",
+      "title": "Frontend Engineer",
+      "level": "미드~시니어",
+      "scale": "시리즈B · 100억 · MAU 303만 · 매출성장 407% · 35+ 남성 패션 이커머스",
+      "source": "자사홈",
+      "url": "https://teambind.ninehire.site/",
+      "location": "서울 강남구",
+      "exp": "React/React Native 경력 3년 이상",
+      "exp_min_years": 3,
+      "posted_date": null,
+      "first_seen": "2026-07-09",
+      "domains": [
+        "이커머스",
+        "패션",
+        "모바일 웹/앱",
+        "백오피스"
+      ],
+      "deadline": null,
+      "deadline_type": "rolling",
+      "deadline_label": "채용 시 마감",
+      "process": null,
+      "process_confirmed": false,
+      "has_codingtest": "미확인",
+      "fit_score": 68,
+      "fit_tier": "중",
+      "fit_reasons": [
+        "TypeScript/React/ReactQuery/Zustand 스택 완전 일치 — 핵심 기술 전부 커버",
+        "이커머스 모바일 Web/App + 백오피스 FE 개발 — 이커머스·어드민·웹뷰 이력 연결 가능",
+        "시리즈B 100억(2026-03) MAU 303만 패션 이커머스 — 성장 단계 우수"
+      ],
+      "tier": "문샷",
+      "is_new": true,
+      "brief": {
+        "company_status": "35+ 남성 패션 이커머스 플랫폼 '애슬러(athler)' 운영 바인드. 2025년 대비 매출 407% 성장, MAU 303만. 2026년 3월 시리즈B 100억 유치(컴퍼니케이파트너스 리드, 라구나인베스트먼트+유니스트기술지주 신규 + 카카오벤처스·베이스벤처스·다성벤처스·디캠프 후속 참여). 직원 19명, 서울 강남구.",
+        "verdict": "TypeScript/React/ReactQuery/Zustand 스택 완전 일치. 이커머스 모바일 웹/앱 FE + 백오피스 개발이 주업무로 이커머스·어드민 이력과 연결 가능. 시리즈B 100억 문샷 기업. 패션 이커머스라 결제·PG 직접 어필 여지는 제한적이나 이커머스 커머스 도메인 폭넓게 매칭.",
+        "strengths": [
+          "TypeScript/React/ReactQuery/Zustand 스택 완전 일치",
+          "이커머스 모바일 Web/App + 백오피스 FE — 이커머스·어드민·웹뷰 이력 연결",
+          "시리즈B 100억 성장 기업 — MAU 303만·거래액 240배 성장·매출 407% 성장"
+        ],
+        "gaps": [
+          "패션 이커머스 — PG 연동·결제 CVR 직접 어필 여지 제한적",
+          "React Native 앱 경험 필요 — 러닝커브 일부 있을 수 있음",
+          "소규모 팀(19명) — 채용 정보 직접 확인 어려움"
+        ],
+        "pass_odds": "중간",
+        "strategy": "무기: TypeScript/React/ReactQuery/Zustand 스택 완전 일치 + 이커머스 커머스 도메인 이력 어필. 백오피스 어드민 상태관리 이력 연결. 모바일 웹뷰 경험으로 React Native 앱 연계 이해도 어필.",
+        "sources": [
+          {
+            "title": "바인드(애슬러) 채용 홈페이지 — 자사홈",
+            "url": "https://teambind.ninehire.site/"
+          },
+          {
+            "title": "애슬러 시리즈B 100억 투자유치 — 플래텀",
+            "url": "https://platum.kr/archives/283659"
+          }
+        ]
+      }
+    },
     {
       "id": "leferi-ecommerce-frontend-2026-07",
       "company": "레페리",
@@ -37,7 +160,7 @@
         "React/TypeScript 스택 일치"
       ],
       "tier": "메인",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "인플루언서 마케팅 플랫폼 및 뷰티·패션 이커머스 서비스 운영. IPO 추진 중으로 상장 전 성장 단계. 국내 인플루언서 커머스 시장 선도.",
         "verdict": "인플루언서 이커머스 플랫폼 FE 개발 포지션. IPO 추진으로 성장·안정성 기대. 이커머스 결제·주문 플로우 이력 도메인 매칭. React/TypeScript 스택 일치.",
@@ -99,7 +222,7 @@
         "React/TypeScript 스택 일치 + 시리즈B 문샷 기업"
       ],
       "tier": "문샷",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "대한민국 No.1 비대면 주문·결제 솔루션 '패스오더' 운영. 앱 가입자 900만, 서비스 업체 5만+. 시리즈B 121억 유치, 누적 200억 달성. 카페·음식점·편의점 등 O2O 주문결제 플랫폼. 2026년 진행 중인 공고 9건.",
         "verdict": "주문·결제·백오피스 FE 개발이 주업무로 창석 PG 연동·CVR +14.27%·결제 플로우 이력과 직접 매칭. 네이티브 앱 연계 서비스 개발로 웹뷰 경험 어필 가능. React/TypeScript 스택 일치. 시리즈B 누적 200억 문샷 기업.",
@@ -161,7 +284,7 @@
         "React 스택 일치 + 경력 최소 2년(과스펙 부담 없음)"
       ],
       "tier": "메인",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "DTC(Direct to Consumer) 브랜드 판매자 올인원 이커머스 플랫폼 식스샵 운영. 17,000 활성 판매자, 연 거래액 2,000억+, 1,560만 연간 주문. 카카오 전략투자(2억)·토스(비바리퍼블리카) 전략투자(8억) 등 누적 100억+. 서울 강남구, 직원 44명.",
         "verdict": "연 거래액 2,000억+ 이커머스 판매자 플랫폼 FE 구축이 주업무로 이커머스 결제·주문 플로우 이력과 도메인 연결 가능. React 스택 일치. 카카오·토스 전략투자로 결제 핀테크 도메인 접점. 비교적 소규모(44명) 팀으로 자율성 높음.",
