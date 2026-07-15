@@ -1,9 +1,66 @@
 {
   "meta": {
-    "last_collected": "2026-07-14",
-    "total": 31
+    "last_collected": "2026-07-15",
+    "total": 32
   },
   "jobs": [
+    {
+      "id": "kakaopay-fe-assetservice-2026-07",
+      "company": "카카오페이",
+      "title": "프론트엔드 개발자 - 자산 서비스",
+      "level": "미드~시니어",
+      "scale": "빅테크 · 코스피 상장 · 간편결제 1위 · 자산서비스(투자/금융) FE",
+      "source": "자사홈",
+      "url": "https://kakaopay.career.greetinghr.com/ko/fe-assetservice",
+      "location": "경기 성남시 분당구 (판교)",
+      "exp": "프론트엔드 경력 3년 이상",
+      "exp_min_years": 3,
+      "posted_date": null,
+      "first_seen": "2026-07-15",
+      "domains": [
+        "핀테크",
+        "금융자산",
+        "투자",
+        "자산관리"
+      ],
+      "deadline": null,
+      "deadline_type": "rolling",
+      "deadline_label": "채용 시 마감 (집중채용 ~08/17)",
+      "process": null,
+      "process_confirmed": false,
+      "has_codingtest": "미확인",
+      "fit_score": 72,
+      "fit_tier": "중",
+      "fit_reasons": [
+        "React/Jotai/Zustand/React Query/Next.js(SSR) 스택 일치 — 핵심 기술 전부 커버",
+        "Next.js SSR + SEO/성능 개선 선호 — SEO CTR 11.3%·활성 사용자 +61% 이력 직접 연계 가능",
+        "카카오페이 자산서비스(투자·금융자산) — 핀테크 결제 생태계 이해도 부분 어필"
+      ],
+      "tier": "문샷",
+      "is_new": true,
+      "brief": {
+        "company_status": "카카오페이 자산서비스팀. 투자·펀드·금융자산 관리 서비스 FE 개발 담당. 코스피 상장 빅테크. 2026년 집중채용(~08/17) 진행 중.",
+        "verdict": "React/Jotai/Zustand/React Query/Next.js(SSR) 스택 완전 일치. SEO/성능 개선 선호사항이 창석 SEO CTR 11.3%·활성 사용자 +61% 이력과 직접 연결. 단, 금융자산(투자/펀드) 도메인이라 이커머스 결제·PG 이력 직접 어필 여지 제한적. 코스피 상장 빅테크 경쟁 강도 높음.",
+        "strengths": [
+          "React/Jotai/Zustand/React Query/Next.js(SSR) 스택 완전 일치",
+          "SEO/성능 개선 선호 — SEO CTR 11.3%·활성 사용자 +61% 이력 직접 어필 최적",
+          "카카오페이 집중채용(~08/17) — 복수 포지션 병렬 채용으로 서류 통과 기회 확대"
+        ],
+        "gaps": [
+          "금융자산(투자/펀드) 도메인 — 이커머스 결제·PG 직접 어필 여지 제한적",
+          "코스피 상장 빅테크 — 경쟁 강도 높음",
+          "greetinghr 자사홈 WebFetch 403 — 세부 JD 직접 확인 불가"
+        ],
+        "pass_odds": "낮음",
+        "strategy": "SEO CTR 11.3%·활성 사용자 +61% 수치 전면 배치 + React/Zustand/React Query/Next.js(SSR) 스택 일치 어필. 카카오페이 금융자산 서비스 UX 개선 관심 표현. 집중채용 기간 중 오프라인 결제 포지션과 병행 지원 고려.",
+        "sources": [
+          {
+            "title": "카카오페이 프론트엔드 개발자 - 자산 서비스 — 자사홈(greetinghr)",
+            "url": "https://kakaopay.career.greetinghr.com/ko/fe-assetservice"
+          }
+        ]
+      }
+    },
     {
       "id": "miridi-miricanvas-sr-fe-2026-07",
       "company": "미리디(미리캔버스)",
@@ -38,7 +95,7 @@
         "비즈하우스(PoD 커머스) 도메인 — 이커머스 결제·주문 플로우 이력 간접 연결"
       ],
       "tier": "메인",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "국내 1위 디자인 플랫폼 미리캔버스·온라인 PoD 커머스 비즈하우스 운영사. 2025년 매출 942억·가입자 2,000만. 누적 투자 100억+. 글로벌 확장·AI 기술 고도화 집중 중. 시니어 FE 포지션 마감 2026-07-22 임박.",
         "verdict": "스택 완전 일치(Turborepo·react-query·jotai) + Micro Frontends 아키텍처 설계·웹 성능 최적화 중점 업무. SEO·성능 최적화 이력(CTR 11.3%·활성 사용자 +61%) 직접 연계. 비즈하우스 커머스 도메인으로 이커머스 이력 부분 어필 가능. 마감 2026-07-22 임박(8일) — 즉시 지원 필요.",
@@ -94,7 +151,7 @@
         "SK 계열 대기업 · 안정적 대규모 플랫폼 — 커리어 레버리지"
       ],
       "tier": "문샷",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "국내 1위 온라인 중고차 거래 플랫폼 엔카닷컴 운영. SK그룹 계열사. 중고차 매물 탐색·거래·금융 서비스 통합 플랫폼. 안정적 대기업 규모. 입사 후 3개월 OJT 제공.",
         "verdict": "ReactJS/TypeScript/NextJS/SSR/Redux 스택 일치. 중고차 마켓플레이스라 이커머스 CVR·탐색 UX 이력 부분 연결 가능. SK 계열 대기업으로 안정적이나 이커머스 결제·PG 직접 어필 여지 제한적.",
@@ -150,7 +207,7 @@
         "MAU 1,400만 홈쇼핑 앱 신사업 — 대규모 커머스 트래픽 경험 어필 가능"
       ],
       "tier": "문열기",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "국내 1위 홈쇼핑·라이브커머스 앱 '홈쇼핑모아' 운영 버즈니. MAU 1,400만, 18개 홈쇼핑·T커머스 채널 통합. 커머스 신사업 프론트엔드 채용. 투자정보 미확인.",
         "verdict": "React/TypeScript/React Query 스택 일치. 라이브커머스 신사업이라 이커머스 결제·전환율 이력 연결 가능. MAU 1,400만 대규모 서비스. 투자정보 미확인으로 성장성 판단 어려움. 초봉 5천 명시. 관악구 위치.",
