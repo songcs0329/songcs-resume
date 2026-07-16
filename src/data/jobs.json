@@ -1,9 +1,132 @@
 {
   "meta": {
-    "last_collected": "2026-07-15",
-    "total": 32
+    "last_collected": "2026-07-16",
+    "total": 34
   },
   "jobs": [
+    {
+      "id": "wefun-sr-frontend-engineer-2026-07",
+      "company": "위펀(WEFUN)",
+      "title": "Senior Frontend Engineer (React)",
+      "level": "시니어",
+      "scale": "시리즈B · 매출 1,430억(2024) · Pre-IPO 추진 · B2B BaaS No.1",
+      "source": "자사홈",
+      "url": "https://wefuncorp.career.greetinghr.com/o/74495",
+      "location": "서울",
+      "exp": "웹 프론트엔드 경력 7년 이상",
+      "exp_min_years": 7,
+      "posted_date": null,
+      "first_seen": "2026-07-16",
+      "domains": [
+        "B2B SaaS",
+        "이커머스",
+        "도매 플랫폼",
+        "BaaS"
+      ],
+      "deadline": null,
+      "deadline_type": "rolling",
+      "deadline_label": "채용 시 마감",
+      "process": null,
+      "process_confirmed": false,
+      "has_codingtest": "미확인",
+      "fit_score": 65,
+      "fit_tier": "중",
+      "fit_reasons": [
+        "B2B 이커머스 플랫폼 FE 개발 — 이커머스 커머스 도메인 접점",
+        "React/TypeScript 스택 일치 + 7년 이상 요건 충족",
+        "매출 1,430억 Pre-IPO 기업 — IPO 전 커리어 레버리지 기회"
+      ],
+      "tier": "문샷",
+      "is_new": true,
+      "brief": {
+        "company_status": "B2B BaaS 플랫폼 위펀(WEFUN) 운영. 스낵24·커피24·선물24·선물24마켓 등 법인 복지 구독+이커머스 통합 서비스. 2024년 매출 1,430억, 고객사 9,400+. 2021년 시리즈B(A벤처스·하나은행·NICE투자파트너스·농협은행·스프링캠프). 직원 425명. 2026년 말 IPO 추진 중. 2026년 대규모 공개채용(67개 포지션) 진행.",
+        "verdict": "B2B 이커머스 SaaS 플랫폼으로 커머스 도메인 접점 있으나 이커머스 결제·주문 플로우 직접 어필 여지 제한적. React/TypeScript 스택 일치. 7년+ 요건이 창석 경력과 정확히 일치. 매출 1,430억 대기업 규모로 경쟁 강도 높을 수 있음. GraphQL 러닝커브 주의.",
+        "strengths": [
+          "B2B 이커머스 플랫폼 FE — 커머스 도메인 폭넓게 매칭",
+          "React/TypeScript 스택 일치 + 7년+ 요건 충족",
+          "매출 1,430억 Pre-IPO 기업 — IPO 전 스톡옵션·커리어 레버리지 기대"
+        ],
+        "gaps": [
+          "B2B 식자재·사무용품 도매 플랫폼 — 이커머스 결제·PG 직접 어필 여지 제한",
+          "GraphQL 사용 경험 필요 — 러닝커브",
+          "대기업 규모(직원 425명) — 스타트업 감성과 거리 있음"
+        ],
+        "pass_odds": "중간",
+        "strategy": "무기: React/TypeScript 7년+ 시니어 역량 + 이커머스 커머스 도메인 경험 어필. B2B 플랫폼 복잡한 상태 관리·비즈니스 로직 구현 이력 강조. Pre-IPO 성장 단계 기여 의지 표현.",
+        "sources": [
+          {
+            "title": "위펀(WEFUN) Senior Frontend Engineer — 자사홈(greetinghr)",
+            "url": "https://wefuncorp.career.greetinghr.com/o/74495"
+          },
+          {
+            "title": "위펀 2024 연매출 1430억 달성 — WEFUN 블로그",
+            "url": "https://wefuncorp.com/blog/wefun-2024results"
+          }
+        ]
+      }
+    },
+    {
+      "id": "fastfive-fe-developer-2026-07",
+      "company": "패스트파이브",
+      "title": "프론트엔드 개발자 (React)",
+      "level": "미드~시니어",
+      "scale": "시리즈E · 누적 1,000억+ · 코워킹스페이스 No.1 · 직원 300명+",
+      "source": "자사홈",
+      "url": "https://recruit.fastfive.co.kr/b467660c-c034-406d-8042-91f8bb0f66a0",
+      "location": "서울 강남구",
+      "exp": "웹 프론트엔드 경력 3년 이상",
+      "exp_min_years": 3,
+      "posted_date": null,
+      "first_seen": "2026-07-16",
+      "domains": [
+        "O2O",
+        "공유오피스",
+        "결제",
+        "IoT",
+        "웹뷰"
+      ],
+      "deadline": null,
+      "deadline_type": "rolling",
+      "deadline_label": "채용 시 마감",
+      "process": [
+        "서류",
+        "1차 직무역량 면접",
+        "2차 Culture & Fit 면접"
+      ],
+      "process_confirmed": true,
+      "has_codingtest": "미확인",
+      "fit_score": 70,
+      "fit_tier": "중",
+      "fit_reasons": [
+        "앱 내 결제 + O2O 공간 서비스 FE 개발 — 결제 플로우·웹뷰 경험 도메인 연결 가능",
+        "멤버용 모바일앱·관리자 웹앱 개발 — 웹뷰·어드민 이력 직접 어필 가능",
+        "React/Next.js/TypeScript 스택 일치 + 시리즈E 누적 1,000억+ 플랫폼"
+      ],
+      "tier": "문샷",
+      "is_new": true,
+      "brief": {
+        "company_status": "국내 최대 공유오피스 플랫폼 패스트파이브 운영. 서울·부산·인천 70여 개 지점, 직원 300명+. 시리즈E 누적 1,000억+ 유치. 앱 내 결제·출입(IoT)·공간관리 솔루션·CRM·어드민 FE 채용. 2026년 상반기 채용 진행 중.",
+        "verdict": "앱 내 결제 시스템 + O2O 공유오피스 플랫폼이 창석 결제 플로우·웹뷰 경험과 연결 가능. React/Next.js/TypeScript 스택 일치. 시리즈E 누적 1,000억+ 안정적 규모. 단, 공유오피스 도메인이라 이커머스 결제·PG 직접 어필 여지 제한적이며, 경력 3년+ 요건으로 경쟁 풀 넓음.",
+        "strengths": [
+          "앱 내 결제 + O2O 서비스 FE — 결제 플로우·웹뷰·어드민 이력 연결",
+          "React/Next.js/TypeScript 스택 일치 + AWS Serverless 경험 우대",
+          "시리즈E 누적 1,000억+ 코워킹스페이스 No.1 — 안정적 규모"
+        ],
+        "gaps": [
+          "공유오피스 도메인 — 이커머스 결제·주문 플로우 직접 어필 여지 제한적",
+          "경력 3년+ 요건 — 7년+ 창석에게 경쟁 대상 폭 넓음",
+          "자사홈 recruit.fastfive.co.kr — 마감 여부 직접 확인 권장"
+        ],
+        "pass_odds": "중간",
+        "strategy": "무기: 앱 내 결제 시스템 이해도 + 웹뷰·모바일앱 연계 경험 강조. React/Next.js/TypeScript 스택 일치 어필. O2O 멤버 관리 어드민 UX 개선 관심 표현.",
+        "sources": [
+          {
+            "title": "패스트파이브 프론트엔드 개발자 채용 — 자사홈",
+            "url": "https://recruit.fastfive.co.kr/b467660c-c034-406d-8042-91f8bb0f66a0"
+          }
+        ]
+      }
+    },
     {
       "id": "kakaopay-fe-assetservice-2026-07",
       "company": "카카오페이",
@@ -37,7 +160,7 @@
         "카카오페이 자산서비스(투자·금융자산) — 핀테크 결제 생태계 이해도 부분 어필"
       ],
       "tier": "문샷",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "카카오페이 자산서비스팀. 투자·펀드·금융자산 관리 서비스 FE 개발 담당. 코스피 상장 빅테크. 2026년 집중채용(~08/17) 진행 중.",
         "verdict": "React/Jotai/Zustand/React Query/Next.js(SSR) 스택 완전 일치. SEO/성능 개선 선호사항이 창석 SEO CTR 11.3%·활성 사용자 +61% 이력과 직접 연결. 단, 금융자산(투자/펀드) 도메인이라 이커머스 결제·PG 이력 직접 어필 여지 제한적. 코스피 상장 빅테크 경쟁 강도 높음.",
