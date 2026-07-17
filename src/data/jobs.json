@@ -1,9 +1,185 @@
 {
   "meta": {
-    "last_collected": "2026-07-16",
-    "total": 34
+    "last_collected": "2026-07-17",
+    "total": 37
   },
   "jobs": [
+    {
+      "id": "musinsa-29cm-fe-engineer-2026-07",
+      "company": "무신사(29CM)",
+      "title": "Frontend Engineer (29CM 프론트엔드팀)",
+      "level": "시니어",
+      "scale": "유니콘급 · 매출 1.4조(2025) · 연 거래액 5조 · IPO 준비 · 패션커머스 1위",
+      "source": "자사홈",
+      "url": "https://www.musinsacareers.com/o/117184",
+      "location": "서울 성동구",
+      "exp": "7년 이상",
+      "exp_min_years": 7,
+      "posted_date": null,
+      "first_seen": "2026-07-17",
+      "domains": [
+        "이커머스",
+        "패션",
+        "커머스",
+        "감성 라이프스타일"
+      ],
+      "deadline": null,
+      "deadline_type": "rolling",
+      "deadline_label": "채용 시 마감",
+      "process": null,
+      "process_confirmed": false,
+      "has_codingtest": "미확인",
+      "fit_score": 78,
+      "fit_tier": "상",
+      "fit_reasons": [
+        "React/TypeScript/Next.js/TanStack Query/Zustand/TailwindCSS 스택 완전 일치 — 핵심 기술 전부 커버",
+        "29CM 이커머스 패션 커머스 FE 개발 — 이커머스 결제·주문 플로우 이력 도메인 연결 가능",
+        "매출 1.4조 유니콘급 IPO 준비 기업 · 7년+ 경력 요건 정확 충족"
+      ],
+      "tier": "문샷",
+      "is_new": true,
+      "brief": {
+        "company_status": "국내 1위 패션 플랫폼 무신사 계열 감성 라이프스타일 커머스 29CM 운영. 2025년 무신사 그룹 매출 1.4조, 영업이익 1,405억(+36.7% YoY), 연 거래액 5조, 회원 1,700만+. 무신사 IPO 준비 중(기업가치 3조+ 추정). 29CM은 2021년 무신사가 3,000억에 인수한 감성 패션·라이프스타일 커머스.",
+        "verdict": "React/TypeScript/Next.js/TanStack Query/Zustand/TailwindCSS 스택 완전 일치. 이커머스 패션 커머스 FE 개발이 주업무로 이커머스 결제·주문 플로우 이력 도메인 연결 가능. 유니콘급 IPO 준비 기업으로 커리어 레버리지 우수. 7년+ 경력 요건 충족. 단, 패션 감성 커머스 도메인이라 결제 PG 직접 어필 여지 제한적.",
+        "strengths": [
+          "React/TypeScript/Next.js/TanStack Query/Zustand/TailwindCSS 스택 완전 일치",
+          "29CM 이커머스 패션 커머스 FE 개발 — 이커머스 결제·주문 플로우 이력 도메인 연결",
+          "매출 1.4조 유니콘급 IPO 준비 · 7년+ 요건 정확 충족"
+        ],
+        "gaps": [
+          "패션 감성 커머스 — 이커머스 결제 PG 직접 어필 여지 제한적",
+          "유니콘급 빅테크 — 경쟁 강도 높음",
+          "자사홈(musinsacareers.com) WebFetch 403 — 상세 JD 직접 확인 권장"
+        ],
+        "pass_odds": "중간",
+        "strategy": "무기: React/TypeScript/Next.js/TanStack Query/Zustand 스택 완전 일치 어필. 이커머스 결제·주문 플로우 CVR +14.27% 이력 강조. 29CM 감성 커머스 브랜드 관심도 어필.",
+        "sources": [
+          {
+            "title": "무신사(29CM) Frontend Engineer — 자사홈",
+            "url": "https://www.musinsacareers.com/o/117184"
+          }
+        ]
+      }
+    },
+    {
+      "id": "imweb-webbuilder-fe-engineer-2026-07",
+      "company": "아임웹(imweb)",
+      "title": "[노코드 웹빌더 스쿼드] Front-end Engineer",
+      "level": "시니어",
+      "scale": "시리즈A · 100억(알토스벤처스) · 매출 307억(2025) · 누적 거래액 7조 · 국내 1위 노코드 웹빌더",
+      "source": "자사홈",
+      "url": "https://career.imweb.me/o/151177",
+      "location": "서울 강남구",
+      "exp": "5년 이상 (React/TypeScript 3년 이상)",
+      "exp_min_years": 5,
+      "posted_date": null,
+      "first_seen": "2026-07-17",
+      "domains": [
+        "이커머스",
+        "쇼핑몰",
+        "노코드 SaaS",
+        "DTC"
+      ],
+      "deadline": null,
+      "deadline_type": "rolling",
+      "deadline_label": "채용 시 마감",
+      "process": [
+        "서류 전형",
+        "코딩 테스트",
+        "1차 직무 인터뷰",
+        "2차 컬쳐 인터뷰"
+      ],
+      "process_confirmed": true,
+      "has_codingtest": "코딩테스트",
+      "fit_score": 68,
+      "fit_tier": "중",
+      "fit_reasons": [
+        "React/TypeScript 스택 일치 — 핵심 기술 커버",
+        "이커머스 쇼핑몰 빌더 SaaS — 이커머스 커머스 도메인 간접 접점",
+        "5년+ 요건 충족 · 국내 1위 노코드 웹빌더 매출 307억 메인 기업"
+      ],
+      "tier": "메인",
+      "is_new": true,
+      "brief": {
+        "company_status": "국내 1위 노코드 웹사이트·쇼핑몰 빌더 아임웹 운영. 2021년 시리즈A 100억(알토스벤처스). 2025년 매출 307억, 영업이익 19억. 누적 거래액 7조, 누적 사이트 100만개 돌파. 직원 100명, 서울 강남구 테헤란로 VPLEX 14층.",
+        "verdict": "노코드 웹빌더 스쿼드 FE 개발이 주업무. React/TypeScript 스택 일치. 이커머스 쇼핑몰 빌더 SaaS로 이커머스 커머스 도메인 간접 접점 있으나 결제 PG 직접 어필 여지 제한적. 코딩 테스트 포함. 5년+ 요건 충족. 메인 티어 안정 성장 기업.",
+        "strengths": [
+          "React/TypeScript 스택 일치 + 노코드 SaaS 스쿼드 독립 오너십",
+          "이커머스 쇼핑몰 빌더 도메인 — 이커머스 커머스 간접 접점",
+          "2025년 매출 307억 흑자 안정 기업 · 누적 거래액 7조 플랫폼"
+        ],
+        "gaps": [
+          "노코드 웹빌더 SaaS — 이커머스 결제·PG 직접 어필 여지 제한적",
+          "코딩 테스트 포함 — 사전 준비 필요",
+          "자사홈(career.imweb.me) WebFetch 403 — 상세 JD 직접 확인 권장"
+        ],
+        "pass_odds": "중간",
+        "strategy": "무기: React/TypeScript 스택 일치 + 이커머스 쇼핑몰 사용자 경험(CVR +14.27%) 이력 어필. 노코드 플랫폼 UX 최적화 관심도 표현. 코딩 테스트 대비 사전 준비 권장.",
+        "sources": [
+          {
+            "title": "아임웹 [노코드 웹빌더 스쿼드] Front-end Engineer — 자사홈",
+            "url": "https://career.imweb.me/o/151177"
+          }
+        ]
+      }
+    },
+    {
+      "id": "kakaopay-fe-telecom-card-2026-07",
+      "company": "카카오페이",
+      "title": "프론트엔드 개발자 - 통신비교 및 카드추천 플랫폼",
+      "level": "미드~시니어",
+      "scale": "빅테크 · 코스피 상장 · 간편결제 1위 · 집중채용 ~08/17",
+      "source": "자사홈",
+      "url": "https://kakaopay.career.greetinghr.com/o/127244",
+      "location": "경기 성남시 분당구 (판교)",
+      "exp": "프론트엔드 경력 3년 이상",
+      "exp_min_years": 3,
+      "posted_date": null,
+      "first_seen": "2026-07-17",
+      "domains": [
+        "핀테크",
+        "통신",
+        "카드추천",
+        "플랫폼"
+      ],
+      "deadline": null,
+      "deadline_type": "rolling",
+      "deadline_label": "채용 시 마감 (집중채용 ~08/17)",
+      "process": null,
+      "process_confirmed": false,
+      "has_codingtest": "미확인",
+      "fit_score": 65,
+      "fit_tier": "중",
+      "fit_reasons": [
+        "React/Next.js/TypeScript 스택 일치 — 핵심 기술 커버",
+        "카카오페이 집중채용(~08/17) — 복수 포지션 병렬 채용으로 서류 통과 기회 확대",
+        "성능 최적화 우대 — SEO CTR 11.3%·활성 사용자 +61% 이력 연계 가능"
+      ],
+      "tier": "문샷",
+      "is_new": true,
+      "brief": {
+        "company_status": "카카오페이 통신비교·카드추천 플랫폼 서비스 FE 개발팀. 2026년 집중채용(~08/17) 진행 중. 카카오페이 코스피 상장 빅테크. 기존 추적 포지션(자산서비스·오프라인결제·파트너플랫폼)과 병행 운영.",
+        "verdict": "React/Next.js/TypeScript 스택 일치. 통신비교·카드추천 도메인으로 이커머스 결제 주축과 거리가 있음. 카카오페이 집중채용(~08/17) 참여 포지션으로 기존 3개 카카오페이 포지션과 병행 지원 고려. 성능 최적화 우대가 SEO 이력 어필 접점.",
+        "strengths": [
+          "React/Next.js/TypeScript 스택 일치",
+          "카카오페이 집중채용(~08/17) — 복수 포지션 병렬 채용 기회",
+          "성능 최적화 우대 — SEO CTR 11.3%·활성 사용자 +61% 이력 어필 가능"
+        ],
+        "gaps": [
+          "통신비교·카드추천 도메인 — 이커머스 결제·PG 직접 어필 여지 제한적",
+          "빅테크 경쟁 강도 높음",
+          "greetinghr 자사홈 403 — 상세 JD 직접 확인 불가"
+        ],
+        "pass_odds": "낮음",
+        "strategy": "카카오페이 기존 오프라인 결제·파트너플랫폼 포지션과 병행 지원. 성능 최적화(SEO CTR 11.3%) 이력 전면 배치. React/Next.js/TypeScript 스택 일치 강조.",
+        "sources": [
+          {
+            "title": "카카오페이 프론트엔드 개발자 - 통신비교 및 카드추천 플랫폼 — 자사홈",
+            "url": "https://kakaopay.career.greetinghr.com/o/127244"
+          }
+        ]
+      }
+    },
     {
       "id": "wefun-sr-frontend-engineer-2026-07",
       "company": "위펀(WEFUN)",
@@ -37,7 +213,7 @@
         "매출 1,430억 Pre-IPO 기업 — IPO 전 커리어 레버리지 기회"
       ],
       "tier": "문샷",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "B2B BaaS 플랫폼 위펀(WEFUN) 운영. 스낵24·커피24·선물24·선물24마켓 등 법인 복지 구독+이커머스 통합 서비스. 2024년 매출 1,430억, 고객사 9,400+. 2021년 시리즈B(A벤처스·하나은행·NICE투자파트너스·농협은행·스프링캠프). 직원 425명. 2026년 말 IPO 추진 중. 2026년 대규모 공개채용(67개 포지션) 진행.",
         "verdict": "B2B 이커머스 SaaS 플랫폼으로 커머스 도메인 접점 있으나 이커머스 결제·주문 플로우 직접 어필 여지 제한적. React/TypeScript 스택 일치. 7년+ 요건이 창석 경력과 정확히 일치. 매출 1,430억 대기업 규모로 경쟁 강도 높을 수 있음. GraphQL 러닝커브 주의.",
@@ -103,7 +279,7 @@
         "React/Next.js/TypeScript 스택 일치 + 시리즈E 누적 1,000억+ 플랫폼"
       ],
       "tier": "문샷",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "국내 최대 공유오피스 플랫폼 패스트파이브 운영. 서울·부산·인천 70여 개 지점, 직원 300명+. 시리즈E 누적 1,000억+ 유치. 앱 내 결제·출입(IoT)·공간관리 솔루션·CRM·어드민 FE 채용. 2026년 상반기 채용 진행 중.",
         "verdict": "앱 내 결제 시스템 + O2O 공유오피스 플랫폼이 창석 결제 플로우·웹뷰 경험과 연결 가능. React/Next.js/TypeScript 스택 일치. 시리즈E 누적 1,000억+ 안정적 규모. 단, 공유오피스 도메인이라 이커머스 결제·PG 직접 어필 여지 제한적이며, 경력 3년+ 요건으로 경쟁 풀 넓음.",
