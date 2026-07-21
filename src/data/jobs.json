@@ -1,9 +1,67 @@
 {
   "meta": {
-    "last_collected": "2026-07-20",
-    "total": 37
+    "last_collected": "2026-07-21",
+    "total": 38
   },
   "jobs": [
+    {
+      "id": "tosspayments-fe-developer-2026-07",
+      "company": "토스페이먼츠",
+      "title": "Frontend Developer",
+      "level": "시니어",
+      "scale": "빅테크 · 비바리퍼블리카 계열 · 국내 1위 PG · 코스피 준상장급",
+      "source": "자사홈",
+      "url": "https://toss.im/career/job-detail?job_id=4664498003",
+      "location": "서울 강남구 (테헤란로 131)",
+      "exp": "경력 4년 이상",
+      "exp_min_years": 4,
+      "posted_date": null,
+      "first_seen": "2026-07-21",
+      "domains": [
+        "결제",
+        "PG",
+        "핀테크",
+        "SDK",
+        "멀티플랫폼"
+      ],
+      "deadline": null,
+      "deadline_type": "rolling",
+      "deadline_label": "채용 시 마감",
+      "process": null,
+      "process_confirmed": false,
+      "has_codingtest": "미확인",
+      "fit_score": 82,
+      "fit_tier": "상",
+      "fit_reasons": [
+        "결제위젯 SDK 설계·개발 주업무 — PG 연동(토스페이·카카오페이·이니시스·팝빌) + 결제 CVR +14.27% 이력 도메인 직접 매칭",
+        "TypeScript 기반 결제 플로우 아키텍처 설계 — 결제수단위젯·약관위젯·배송지위젯 통신 이벤트 흐름 설계 경험 어필",
+        "국내 1위 PG 결제 빅테크 — 결제 도메인 핵심 커리어 레버리지"
+      ],
+      "tier": "문샷",
+      "is_new": true,
+      "brief": {
+        "company_status": "국내 1위 결제 PG 토스페이먼츠. 비바리퍼블리카(토스) 계열. 온/오프라인 결제위젯·결제SDK·정산 서비스 운영. 2026년 진행 중인 공고 8건. 결제위젯 기반 주문서 화면 재구성, 결제수단위젯·약관위젯·배송지위젯 통신 이벤트 흐름 설계가 핵심 업무.",
+        "verdict": "결제위젯 SDK 설계·개발이 주업무로 PG 연동(4종) + 결제 CVR +14.27% 이력이 가장 직접 매칭되는 포지션 중 하나. TypeScript Core SDK 기반 Web·React Native·Flutter 등 멀티플랫폼 대응. 4년+ 경력 요건 충족. 국내 1위 PG 결제 빅테크이나 경쟁 강도 높음. toss.im 자사홈 WebFetch 403으로 현재 활성 여부 간접 확인(saramin·catch 8건 진행 중 기준).",
+        "strengths": [
+          "결제위젯 SDK 설계·개발 주업무 — PG 연동(토스페이·카카오페이·이니시스·팝빌) + CVR +14.27% 이력 직접 매칭",
+          "TypeScript 정적 타입·Core SDK — 결제 플로우 아키텍처 이해도 직접 어필",
+          "국내 1위 PG 결제 빅테크 — 결제 도메인 커리어 레버리지 최고"
+        ],
+        "gaps": [
+          "멀티플랫폼 SDK (React Native·Flutter·iOS·Android) — 순수 웹 FE 주축과 다름",
+          "빅테크급 경쟁 강도 높음 — 기술 면접 준비 필요",
+          "toss.im 자사홈 WebFetch 403 — 현재 상세 JD 직접 확인 권장"
+        ],
+        "pass_odds": "중간",
+        "strategy": "핵심 무기: PG 연동(토스페이·카카오페이·이니시스·팝빌) + 결제 CVR +14.27% 이력 전면 배치. 결제 플로우 아키텍처 설계 경험 강조. TypeScript SDK 개발 이해도 어필. 결제 도메인 관심도 표현.",
+        "sources": [
+          {
+            "title": "토스페이먼츠 Frontend Developer — 자사홈(toss.im)",
+            "url": "https://toss.im/career/job-detail?job_id=4664498003"
+          }
+        ]
+      }
+    },
     {
       "id": "musinsa-29cm-fe-engineer-2026-07",
       "company": "무신사(29CM)",
