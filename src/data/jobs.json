@@ -1,9 +1,131 @@
 {
   "meta": {
-    "last_collected": "2026-07-21",
-    "total": 38
+    "last_collected": "2026-07-22",
+    "total": 40
   },
   "jobs": [
+    {
+      "id": "kakaostyle-zigzag-fe-developer-2026-07",
+      "company": "카카오스타일(지그재그)",
+      "title": "웹 프론트엔드 개발자 (지그재그)",
+      "level": "미드~시니어",
+      "scale": "카카오 계열 대기업 · 패션 이커머스 1위 · 여성 쇼핑앱 1위",
+      "source": "자사홈",
+      "url": "https://career.kakaostyle.com/jobs",
+      "location": "경기 성남시 분당구 (판교)",
+      "exp": "웹 프론트엔드 경력 5년 이상",
+      "exp_min_years": 5,
+      "posted_date": null,
+      "first_seen": "2026-07-22",
+      "domains": [
+        "이커머스",
+        "패션",
+        "버티컬커머스",
+        "웹뷰",
+        "어드민"
+      ],
+      "deadline": null,
+      "deadline_type": "rolling",
+      "deadline_label": "채용 시 마감",
+      "process": null,
+      "process_confirmed": false,
+      "has_codingtest": "미확인",
+      "fit_score": 72,
+      "fit_tier": "중",
+      "fit_reasons": [
+        "지그재그 앱 내 웹뷰 + 백오피스 툴 FE 개발 — 네이티브 브릿지·어드민 이력 직접 어필 가능",
+        "이커머스 패션 버티컬 FE 개발 — 이커머스 결제·주문 플로우 이력 도메인 연결",
+        "React/TypeScript 스택 일치 + 카카오 계열 대기업 패션 이커머스 1위"
+      ],
+      "tier": "문샷",
+      "is_new": true,
+      "brief": {
+        "company_status": "카카오 계열 패션 버티컬 커머스 지그재그·포스티·패션바이카카오 운영 카카오스타일. 국내 여성 쇼핑앱 1위, 4,000개+ 쇼핑몰 통합 플랫폼. 유저플랫폼·코어팀·광고팀·상품팀 등 다수 FE 포지션 수시 채용 중.",
+        "verdict": "지그재그 앱 내 웹뷰·어드민 백오피스 FE 개발이 주요 업무로 창석 네이티브 브릿지·어드민 이력 연결 가능. React/TypeScript 5년+ 요건 충족. 이커머스 패션 플랫폼이나 PG 연동·결제 CVR 직접 어필 여지 제한적.",
+        "strengths": [
+          "지그재그 앱 내 웹뷰 개발 — 네이티브 브릿지 상태 동기화 이력 직접 어필",
+          "패션 이커머스 버티컬 — 이커머스 결제·주문 도메인 연결",
+          "카카오 계열 대기업 패션 1위 플랫폼 — 커리어 레버리지"
+        ],
+        "gaps": [
+          "카카오 계열 대기업 — 경쟁 강도 높음",
+          "패션 버티컬 — 이커머스 결제·PG 직접 어필 여지 제한적",
+          "자사홈 WebFetch 403 — 상세 JD 직접 확인 권장"
+        ],
+        "pass_odds": "낮음",
+        "strategy": "무기: 웹뷰 네이티브 브릿지 경험 + 어드민 백오피스 상태 관리 이력 강조. React/TypeScript 5년+ 스택 일치 어필. 이커머스 결제·주문 플로우 이해도 연결.",
+        "sources": [
+          {
+            "title": "카카오스타일(지그재그) 채용 — 자사홈",
+            "url": "https://career.kakaostyle.com/jobs"
+          }
+        ]
+      }
+    },
+    {
+      "id": "11st-frontend-developer-2026-07",
+      "company": "11번가",
+      "title": "프론트엔드 개발자 (Front-end Developer)",
+      "level": "미드~시니어",
+      "scale": "SK 계열 대기업 · 이커머스 No.1 · 거래액 수조 규모",
+      "source": "자사홈",
+      "url": "https://11st.career.greetinghr.com/ko/career",
+      "location": "서울",
+      "exp": "JavaScript 경력 3년 이상, React/Vue/Angular 1년 이상",
+      "exp_min_years": 3,
+      "posted_date": null,
+      "first_seen": "2026-07-22",
+      "domains": [
+        "이커머스",
+        "오픈마켓",
+        "커머스",
+        "검색",
+        "상품전시"
+      ],
+      "deadline": null,
+      "deadline_type": "rolling",
+      "deadline_label": "채용 시 마감 (수시채용)",
+      "process": [
+        "서류전형",
+        "코딩테스트",
+        "직무면접",
+        "인성검사",
+        "임원면접"
+      ],
+      "process_confirmed": true,
+      "has_codingtest": "코딩테스트",
+      "fit_score": 65,
+      "fit_tier": "중",
+      "fit_reasons": [
+        "이커머스 FE 개발 주요 업무 — 이커머스 결제·주문·상품전시 플로우 이력 도메인 연결",
+        "성능 최적화 경험 우대 — SEO CTR 11.3%·활성 사용자 +61% 이력 어필 가능",
+        "SK 계열 대기업 이커머스 No.1 플랫폼 — 커리어 레버리지"
+      ],
+      "tier": "문샷",
+      "is_new": true,
+      "brief": {
+        "company_status": "SK그룹 계열 오픈마켓 이커머스 플랫폼 11번가 운영. 2008년 출범, 국내 이커머스 3대 플랫폼. FE개발팀이 서비스 전반 프론트 개발 담당. 코딩테스트 포함 전형(서류→코딩테스트→직무면접→인성검사→임원면접). 2026년 수시채용 진행 중.",
+        "verdict": "이커머스 FE 개발이 주업무로 결제·주문·상품전시 플로우 이력 도메인 연결 가능. 성능 최적화 프로젝트 경험 우대로 SEO CTR 이력 어필 가능. 코딩테스트 포함으로 사전 준비 필요. SK 계열 대기업이라 경쟁 강도 높음.",
+        "strengths": [
+          "이커머스 FE 개발 — 결제·주문·상품전시 플로우 이력 도메인 직접 연결",
+          "성능 최적화 우대 — SEO CTR 11.3%·활성 사용자 +61% 이력 어필 가능",
+          "SK 계열 대기업 이커머스 No.1 안정성 — 커리어 레버리지"
+        ],
+        "gaps": [
+          "코딩테스트 포함 — 사전 준비 필요",
+          "SK 계열 대기업 — 경쟁 강도 높음",
+          "greetinghr 자사홈 WebFetch 403 — 상세 JD 직접 확인 권장"
+        ],
+        "pass_odds": "낮음",
+        "strategy": "무기: 이커머스 결제·주문 플로우 CVR +14.27% + 성능 최적화(SEO CTR 11.3%) 이력 어필. React/TypeScript 스택 강조. 코딩테스트 사전 준비 필수.",
+        "sources": [
+          {
+            "title": "11번가 프론트엔드 개발자 채용 — 자사홈",
+            "url": "https://11st.career.greetinghr.com/ko/career"
+          }
+        ]
+      }
+    },
     {
       "id": "tosspayments-fe-developer-2026-07",
       "company": "토스페이먼츠",
@@ -38,7 +160,7 @@
         "국내 1위 PG 결제 빅테크 — 결제 도메인 핵심 커리어 레버리지"
       ],
       "tier": "문샷",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "국내 1위 결제 PG 토스페이먼츠. 비바리퍼블리카(토스) 계열. 온/오프라인 결제위젯·결제SDK·정산 서비스 운영. 2026년 진행 중인 공고 8건. 결제위젯 기반 주문서 화면 재구성, 결제수단위젯·약관위젯·배송지위젯 통신 이벤트 흐름 설계가 핵심 업무.",
         "verdict": "결제위젯 SDK 설계·개발이 주업무로 PG 연동(4종) + 결제 CVR +14.27% 이력이 가장 직접 매칭되는 포지션 중 하나. TypeScript Core SDK 기반 Web·React Native·Flutter 등 멀티플랫폼 대응. 4년+ 경력 요건 충족. 국내 1위 PG 결제 빅테크이나 경쟁 강도 높음. toss.im 자사홈 WebFetch 403으로 현재 활성 여부 간접 확인(saramin·catch 8건 진행 중 기준).",
