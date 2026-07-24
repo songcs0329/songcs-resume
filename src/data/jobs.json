@@ -1,9 +1,73 @@
 {
   "meta": {
-    "last_collected": "2026-07-23",
+    "last_collected": "2026-07-24",
     "total": 40
   },
   "jobs": [
+    {
+      "id": "kakaomobility-web-fe-2026-07",
+      "company": "카카오모빌리티",
+      "title": "웹 프론트엔드 개발자",
+      "level": "시니어",
+      "scale": "카카오 계열 대기업 · 모빌리티 플랫폼 No.1 · 카카오T·카카오내비 운영",
+      "source": "자사홈",
+      "url": "https://kakaomobility.career.greetinghr.com/ko/o/196106",
+      "location": "경기 성남시 분당구 (판교)",
+      "exp": "경력 6년 이상",
+      "exp_min_years": 6,
+      "posted_date": null,
+      "first_seen": "2026-07-24",
+      "domains": [
+        "O2O",
+        "모빌리티",
+        "웹뷰",
+        "광고플랫폼"
+      ],
+      "deadline": null,
+      "deadline_type": "rolling",
+      "deadline_label": "채용 시 마감",
+      "process": [
+        "지원",
+        "온라인 코딩테스트",
+        "서류 검토",
+        "1차 면접",
+        "2차 면접",
+        "처우 협의"
+      ],
+      "process_confirmed": true,
+      "has_codingtest": "코딩테스트",
+      "fit_score": 73,
+      "fit_tier": "중",
+      "fit_reasons": [
+        "카카오T·카카오내비 앱 웹뷰 서비스 개발 주업무 — 네이티브 브릿지 상태 동기화 이력 직접 어필",
+        "TypeScript/React/Next.js 스택 일치 — 핵심 기술 커버",
+        "카카오 계열 대기업 모빌리티 플랫폼 — 문샷 커리어 레버리지"
+      ],
+      "tier": "문샷",
+      "is_new": true,
+      "brief": {
+        "company_status": "카카오 계열 모빌리티 플랫폼 카카오모빌리티. 카카오T(택시·대리·바이크·주차·항공)·카카오내비 운영, 국내 모빌리티 플랫폼 No.1. 판교 소재.",
+        "verdict": "카카오T·카카오내비 앱 내 웹뷰 서비스 개발이 주업무로 창석 네이티브 브릿지 상태 동기화 이력과 직접 연결. TypeScript/React/Next.js 스택 일치. 경력 6년 이상 요건 충족. 코딩테스트 필수로 사전 준비 필요. 카카오 계열 대기업으로 경쟁 강도 높음.",
+        "strengths": [
+          "카카오T·카카오내비 앱 웹뷰 서비스 개발 — 네이티브 브릿지 상태 동기화 이력 직접 어필",
+          "TypeScript/React/Next.js 스택 일치",
+          "카카오 계열 대기업 모빌리티 플랫폼 No.1 — 문샷 커리어 레버리지"
+        ],
+        "gaps": [
+          "모빌리티·광고플랫폼 도메인 — 이커머스·결제 주축과 거리",
+          "코딩테스트 필수 — 사전 준비 필요",
+          "카카오 계열 대기업 — 경쟁 강도 높음"
+        ],
+        "pass_odds": "낮음",
+        "strategy": "무기: 카카오T·카카오내비 앱 웹뷰 서비스 개발 이력과 네이티브 브릿지 상태 동기화 경험 직접 어필. TypeScript/React/Next.js 스택 일치 강조. 코딩테스트 사전 준비 필수.",
+        "sources": [
+          {
+            "title": "카카오모빌리티 웹 프론트엔드 개발자 — 자사홈",
+            "url": "https://kakaomobility.career.greetinghr.com/ko/o/196106"
+          }
+        ]
+      }
+    },
     {
       "id": "backpackr-idus-backoffice-fe-2026-07",
       "company": "백패커(아이디어스)",
@@ -38,7 +102,7 @@
         "시리즈C+ 누적 200억+ 핸드메이드 마켓플레이스 No.1 · 누적 거래액 1조 — 커리어 레버리지"
       ],
       "tier": "문샷",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "국내 최대 핸드메이드 크래프트 마켓플레이스 '아이디어스(idus)' 운영사 백패커. 작가·크리에이터와 구매자 연결 플랫폼. 서비스 9년 만에 누적 거래액 1조 돌파, MAU 500만(2023). 시리즈C+, 누적 투자 200억+. 현재 백오피스 어드민 서비스 통합 및 React 기반 기술 스택 전환 프로젝트 진행 중.",
         "verdict": "아이디어스 운영·작가 관리를 위한 어드민 백오피스 FE 개발이 주업무. React/TypeScript 스택 일치. 기존 Vue 기반에서 React 기술 스택 전환 및 어드민 서비스 통합 과제 진행 중으로 마이그레이션 이력 어필 가능. 결제·PG 직접 어필 여지 제한적이나 이커머스 어드민·마켓플레이스 도메인 연결 가능.",
@@ -2120,73 +2184,6 @@
           {
             "title": "리걸테크 로앤컴퍼니 500억 시리즈C-2 투자유치 — 플래텀",
             "url": "https://platum.kr/archives/266198"
-          }
-        ]
-      }
-    },
-    {
-      "id": "inflab-inflearn-fe-2026-06",
-      "company": "인프랩(인프런)",
-      "title": "프론트엔드 개발자",
-      "level": "미드~시니어",
-      "scale": "시리즈A · 누적 55억 · 아기유니콘(2025) · 가입자 150만+",
-      "source": "rallit",
-      "url": "https://www.rallit.com/positions/4125/%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C-%EA%B0%9C%EB%B0%9C%EC%9E%90",
-      "location": "경기 성남시 분당구 판교",
-      "exp": "경력 무관(경력직 우대)",
-      "exp_min_years": null,
-      "posted_date": null,
-      "first_seen": "2026-06-30",
-      "domains": [
-        "에듀테크",
-        "이커머스",
-        "커뮤니티",
-        "SEO",
-        "B2C"
-      ],
-      "deadline": "2026-07-23",
-      "deadline_type": "date",
-      "deadline_label": "2026-07-23 마감",
-      "process": [
-        "서류전형",
-        "과제전형",
-        "실무면접",
-        "문화면접"
-      ],
-      "process_confirmed": true,
-      "has_codingtest": false,
-      "fit_score": 78,
-      "fit_tier": "상",
-      "fit_reasons": [
-        "React/Next.js/TypeScript 스택 완전 일치 + SEO·성능 최적화 핵심 업무",
-        "강의 구매·수강·결제 이커머스 플로우 — 이커머스 결제 PG 이력 직접 어필 가능",
-        "아기유니콘(2025) 선정·가입자 150만+ — 국내 최대 개발자 에듀테크 플랫폼"
-      ],
-      "tier": "메인",
-      "is_new": false,
-      "brief": {
-        "company_status": "국내 최대 개발자·IT 교육 플랫폼 인프런 운영. 가입자 150만+(2025), 강의 수 6만+. 2025년 중소벤처기업부 아기유니콘 선정. 시리즈A 누적 55억(스트롱벤처스·카카오벤처스·패스트인베스트먼트 등).",
-        "verdict": "React/Next.js/TypeScript 스택 완전 일치. 강의 구매·결제 이커머스 플로우가 창석 결제 PG 이력과 직접 연결. SEO·성능 최적화 업무 중점 — SEO CTR 11.3% 이력 직접 어필 최적. 개발자 커뮤니티 친숙도 플러스.",
-        "strengths": [
-          "React/Next.js/TypeScript 스택 완전 일치 + SEO·성능 최적화 주요 업무",
-          "강의 구매·결제 이커머스 플로우 — PG 연동·CVR +14.27% 이력 직접 매칭",
-          "개발자 커뮤니티 1위 — 입사 지원 자체가 브랜드 어필"
-        ],
-        "gaps": [
-          "에듀테크 도메인 — 이커머스 주축과 결이 일부 다름",
-          "과제전형 포함 — 준비 공수 추가 필요",
-          "판교 오피스 — 서울 대비 출퇴근 검토 필요"
-        ],
-        "pass_odds": "서류·과제 통과 가능성 높음",
-        "strategy": "메인 무기: SEO CTR 11.3%·활성 사용자 +61% 수치 + 결제 CVR +14.27% 이력 전면 배치. Next.js SSR/SSG SEO 최적화 경험 강조. 과제전형 대비 포트폴리오 준비 권장.",
-        "sources": [
-          {
-            "title": "인프랩 프론트엔드 개발자 — 랠릿",
-            "url": "https://www.rallit.com/positions/4125/%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C-%EA%B0%9C%EB%B0%9C%EC%9E%90"
-          },
-          {
-            "title": "인프랩(인프런) 채용 — 자사홈",
-            "url": "https://www.inflearn.com/pages?type=withus"
           }
         ]
       }
