@@ -1,9 +1,182 @@
 {
   "meta": {
-    "last_collected": "2026-07-24",
-    "total": 40
+    "last_collected": "2026-07-27",
+    "total": 43
   },
   "jobs": [
+    {
+      "id": "buzzvil-product-growth-fe-2026-07",
+      "company": "버즈빌",
+      "title": "[Product Growth팀] 프론트엔드 개발자 (경력 3년 이상)",
+      "level": "미드~시니어",
+      "scale": "시리즈C · 누적 365억 · 매출 783억(2025) · AdTech 글로벌",
+      "source": "자사홈",
+      "url": "https://buzzvil.career.greetinghr.com/ko/o/196715",
+      "location": "서울",
+      "exp": "경력 3년 이상",
+      "exp_min_years": 3,
+      "posted_date": null,
+      "first_seen": "2026-07-27",
+      "domains": [
+        "광고플랫폼",
+        "AdTech",
+        "퍼포먼스마케팅",
+        "B2B"
+      ],
+      "deadline": "2026-07-31",
+      "deadline_type": "date",
+      "deadline_label": "2026-07-31 14:59 (D-4)",
+      "process": null,
+      "process_confirmed": false,
+      "has_codingtest": "미확인",
+      "fit_score": 63,
+      "fit_tier": "하",
+      "fit_reasons": [
+        "Next.js/Turborepo/Zustand/TypeScript/TanStack Query 스택 일치 — 핵심 기술 커버",
+        "광고 퍼포먼스 마케팅 Product Growth FE — CVR·A/B테스트 성장 이력 간접 연결",
+        "D-4 긴급 마감 (2026-07-31 14:59) — 지원 즉시 필요"
+      ],
+      "tier": "문샷",
+      "is_new": true,
+      "brief": {
+        "company_status": "글로벌 AdTech 리워드 광고 플랫폼 버즈빌 운영. 락스크린·인앱 리워드 광고로 국내·동남아·북미 진출. 2025년 매출 783억, 시리즈C 누적 365억. Product Growth팀은 광고주·퍼블리셔 대상 B2B 퍼포먼스 마케팅 FE 담당.",
+        "verdict": "Next.js/Zustand/TypeScript/TanStack Query 스택 일치. Product Growth팀으로 CVR·A/B테스트 성장 이력 간접 연결 가능. 단, AdTech 광고플랫폼 도메인이 이커머스·결제 주축과 거리 있고 fit_score 낮음(63). 가장 중요한 것은 D-4 마감(2026-07-31 14:59) — 지금 즉시 지원 결정 필요.",
+        "strengths": [
+          "Next.js/Turborepo/Zustand/TypeScript/TanStack Query 스택 완전 일치",
+          "Product Growth 팀 — CVR·퍼포먼스 마케팅 성장 이력 간접 어필",
+          "시리즈C 누적 365억 · 매출 783억 글로벌 AdTech — 문샷 커리어 레버리지"
+        ],
+        "gaps": [
+          "AdTech 광고플랫폼 도메인 — 이커머스·결제·O2O 주축과 거리",
+          "D-4 긴급 마감 (2026-07-31 14:59) — 즉시 지원 결정 필요",
+          "greetinghr 자사홈 WebFetch 403 — 상세 JD 직접 확인 권장"
+        ],
+        "pass_odds": "낮음",
+        "strategy": "⚠️ D-4 긴급: 지금 즉시 지원 결정 필요. 무기: Next.js/TypeScript 스택 일치 + CVR +14.27% 성장 이력 어필. Product Growth 팀 퍼포먼스 마케팅 관심 표현. fit_score 63으로 낮으나 마감 임박으로 빠른 결정 권장.",
+        "sources": [
+          {
+            "title": "버즈빌 Product Growth팀 프론트엔드 개발자 — 자사홈",
+            "url": "https://buzzvil.career.greetinghr.com/ko/o/196715"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mycle-o2o-frontend-2026-07",
+      "company": "마카롱팩토리(마이클)",
+      "title": "프론트엔드 개발자 (5년 이상)",
+      "level": "시니어",
+      "scale": "시리즈A · 누적 77억 · 매출 408억(2024) · 2년 연속 흑자 · O2O 차량관리 1위",
+      "source": "자사홈",
+      "url": "https://mycle.career.greetinghr.com/ko/interview-webteam",
+      "location": "서울",
+      "exp": "경력 5년 이상",
+      "exp_min_years": 5,
+      "posted_date": null,
+      "first_seen": "2026-07-27",
+      "domains": [
+        "O2O",
+        "차량관리",
+        "웹뷰",
+        "모바일",
+        "정비"
+      ],
+      "deadline": null,
+      "deadline_type": "rolling",
+      "deadline_label": "채용 시 마감",
+      "process": null,
+      "process_confirmed": false,
+      "has_codingtest": "미확인",
+      "fit_score": 74,
+      "fit_tier": "중",
+      "fit_reasons": [
+        "모바일 웹뷰 환경 JavaScript interface 네이티브 연동 경험 — 창석 네이티브 브릿지 상태 동기화 이력 직접 매칭",
+        "React/TypeScript 스택 일치 + O2O 차량관리 서비스 FE 개발",
+        "2년 연속 흑자 매출 408억 시리즈A — 메인 티어 안정 성장 기업"
+      ],
+      "tier": "메인",
+      "is_new": true,
+      "brief": {
+        "company_status": "차량 정비·관리 O2O 플랫폼 마카롱팩토리(마이클) 운영. 마카롱(정비 예약)·마이클(차량관리) 앱 서비스. 2024년 매출 408억, 2년 연속 흑자. 시리즈A 누적 77억. 직원 150명+. 웹FE팀이 앱 내 웹뷰·웹 서비스 전반 FE 개발 담당.",
+        "verdict": "모바일 웹뷰 환경 JavaScript interface 네이티브 연동 경험이 주요 우대사항으로 창석 네이티브 브릿지 상태 동기화 이력과 직접 매칭. React/TypeScript 스택 일치. O2O 차량관리 서비스로 이커머스 결제·PG 직접 어필 여지 제한적이나 웹뷰·O2O 도메인 강점. 2년 연속 흑자 안정 기업.",
+        "strengths": [
+          "모바일 웹뷰 JavaScript interface 네이티브 연동 — 창석 네이티브 브릿지 이력 직접 매칭 (핵심 차별점)",
+          "React/TypeScript 스택 일치 + O2O 차량관리 도메인",
+          "2년 연속 흑자 · 매출 408억 안정 성장 기업"
+        ],
+        "gaps": [
+          "O2O 차량관리 도메인 — 이커머스 결제·PG 직접 어필 여지 제한적",
+          "시리즈A 누적 77억 — 빅테크 대비 스케일 작음",
+          "greetinghr 자사홈 WebFetch 403 — 상세 JD 직접 확인 권장"
+        ],
+        "pass_odds": "중간",
+        "strategy": "핵심 무기: 모바일 웹뷰 JavaScript interface 네이티브 브릿지 상태 동기화 이력 전면 배치 — 창석 최대 차별점. React/TypeScript 5년+ 시니어 역량 강조. O2O 서비스 UX 최적화 관심 어필.",
+        "sources": [
+          {
+            "title": "마카롱팩토리(마이클) 프론트엔드 개발자 — 자사홈",
+            "url": "https://mycle.career.greetinghr.com/ko/interview-webteam"
+          }
+        ]
+      }
+    },
+    {
+      "id": "onulsiktsk-commerce-fe-2026-07",
+      "company": "오늘식탁(오늘회)",
+      "title": "[커머스] 개발3팀 프론트엔드 개발자",
+      "level": "미드~시니어",
+      "scale": "시리즈B · 누적 140억 · 수산 버티컬 커머스 No.1",
+      "source": "자사홈",
+      "url": "https://onul-hoi.career.greetinghr.com/o/15800",
+      "location": "서울",
+      "exp": "경력 3년 이상",
+      "exp_min_years": 3,
+      "posted_date": null,
+      "first_seen": "2026-07-27",
+      "domains": [
+        "이커머스",
+        "신선식품",
+        "수산",
+        "버티컬커머스",
+        "커머스"
+      ],
+      "deadline": null,
+      "deadline_type": "rolling",
+      "deadline_label": "채용 시 마감",
+      "process": null,
+      "process_confirmed": false,
+      "has_codingtest": "미확인",
+      "fit_score": 68,
+      "fit_tier": "중",
+      "fit_reasons": [
+        "버티컬 이커머스 커머스 FE 개발 — 이커머스 결제·주문 플로우 이력 도메인 직접 연결",
+        "React/TypeScript 기반 스택 — 핵심 기술 커버",
+        "시리즈B 누적 140억 수산 버티컬 커머스 No.1 — 문샷 버티컬 커머스 레버리지"
+      ],
+      "tier": "문샷",
+      "is_new": true,
+      "brief": {
+        "company_status": "수산·신선식품 버티컬 이커머스 오늘회(오늘식탁) 운영. 2017년 창업, 시리즈B 누적 투자 140억. 수산물 새벽배송·당일배송 커머스 No.1. 개발3팀이 커머스 FE 전반(상품상세·주문·결제·마이페이지) 담당.",
+        "verdict": "버티컬 이커머스 커머스 FE 개발로 창석 이커머스 결제·주문 플로우 이력과 직접 도메인 연결. React/TypeScript 스택 일치. 수산 신선식품 버티컬이라 PG 직접 어필은 제한적이나 이커머스 결제 플로우 이해도 어필 가능. 시리즈B 누적 140억으로 메인-문샷 경계.",
+        "strengths": [
+          "버티컬 이커머스 커머스 FE — 이커머스 결제·주문 플로우 이력 도메인 직접 연결",
+          "React/TypeScript 스택 일치",
+          "시리즈B 수산 버티컬 커머스 No.1 — 이커머스 도메인 레버리지"
+        ],
+        "gaps": [
+          "수산 신선식품 버티컬 도메인 — PG 직접 연동 어필 여지 제한적",
+          "시리즈B 누적 140억 — 빅테크 대비 스케일",
+          "greetinghr 자사홈 WebFetch 403 — 상세 JD 직접 확인 권장"
+        ],
+        "pass_odds": "중간",
+        "strategy": "무기: 이커머스 결제·주문 플로우 CVR +14.27% 이력 + React/TypeScript 스택 일치 어필. 버티컬 이커머스 신선식품 도메인 관심 표현. 커머스 UX 최적화 경험 강조.",
+        "sources": [
+          {
+            "title": "오늘식탁(오늘회) 개발3팀 프론트엔드 개발자 — 자사홈",
+            "url": "https://onul-hoi.career.greetinghr.com/o/15800"
+          }
+        ]
+      }
+    },
     {
       "id": "kakaomobility-web-fe-2026-07",
       "company": "카카오모빌리티",
@@ -44,7 +217,7 @@
         "카카오 계열 대기업 모빌리티 플랫폼 — 문샷 커리어 레버리지"
       ],
       "tier": "문샷",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "카카오 계열 모빌리티 플랫폼 카카오모빌리티. 카카오T(택시·대리·바이크·주차·항공)·카카오내비 운영, 국내 모빌리티 플랫폼 No.1. 판교 소재.",
         "verdict": "카카오T·카카오내비 앱 내 웹뷰 서비스 개발이 주업무로 창석 네이티브 브릿지 상태 동기화 이력과 직접 연결. TypeScript/React/Next.js 스택 일치. 경력 6년 이상 요건 충족. 코딩테스트 필수로 사전 준비 필요. 카카오 계열 대기업으로 경쟁 강도 높음.",
