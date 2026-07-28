@@ -1,9 +1,66 @@
 {
   "meta": {
-    "last_collected": "2026-07-27",
-    "total": 43
+    "last_collected": "2026-07-28",
+    "total": 44
   },
   "jobs": [
+    {
+      "id": "kakaopay-fe-stablecoin-2026-07",
+      "company": "카카오페이",
+      "title": "프론트엔드 개발자 - 스테이블코인 서비스",
+      "level": "시니어",
+      "scale": "빅테크 · 코스피 상장 · 간편결제 1위 · 스테이블코인 블록체인 서비스",
+      "source": "자사홈",
+      "url": "https://kakaopay.career.greetinghr.com/ko/fe-stablecoinservice",
+      "location": "경기 성남시 분당구 (판교)",
+      "exp": "프론트엔드 경력 5년 이상",
+      "exp_min_years": 5,
+      "posted_date": null,
+      "first_seen": "2026-07-28",
+      "domains": [
+        "핀테크",
+        "블록체인",
+        "스테이블코인",
+        "웹뷰"
+      ],
+      "deadline": null,
+      "deadline_type": "rolling",
+      "deadline_label": "채용 시 마감",
+      "process": null,
+      "process_confirmed": false,
+      "has_codingtest": "미확인",
+      "fit_score": 65,
+      "fit_tier": "중",
+      "fit_reasons": [
+        "React/Next.js/TypeScript/Tanstack Query/Jotai 스택 일치 — 핵심 기술 커버",
+        "웹뷰 기반 프론트엔드 서비스 개발 필수 경험 — 창석 웹뷰·네이티브 브릿지 이력 직접 어필",
+        "카카오페이 빅테크 — 결제 도메인 커리어 레버리지 가능"
+      ],
+      "tier": "문샷",
+      "is_new": true,
+      "brief": {
+        "company_status": "카카오페이 스테이블코인 서비스팀. 블록체인 기반 스테이블코인 전송·관리 서비스 웹뷰 FE 개발 담당. React/Next.js/TypeScript/Tanstack Query/Jotai/웹소켓 스택. SSR/CSR·E2E 테스트·관측성 도구 경험 필수.",
+        "verdict": "React/Next.js/TypeScript/Tanstack Query 스택 완전 일치. 웹뷰 기반 FE 필수 경험이 창석 웹뷰·네이티브 브릿지 이력과 직접 연결. 단, 블록체인/스테이블코인 도메인이 이커머스 결제 PG 주축과 거리가 있고 컴퓨터공학 전공 우대. 카카오페이 빅테크이나 스테이블코인이라 이커머스 결제 직접 어필 여지 제한적.",
+        "strengths": [
+          "React/Next.js/TypeScript/Tanstack Query/Jotai 스택 완전 일치",
+          "웹뷰 기반 FE 개발 필수 경험 — 창석 웹뷰·네이티브 브릿지 이력 직접 어필",
+          "카카오페이 빅테크 스테이블코인 — 블록체인 결제 신규 영역 경험 가능"
+        ],
+        "gaps": [
+          "블록체인/스테이블코인 도메인 — 이커머스 결제·PG 직접 어필 여지 제한적",
+          "컴퓨터공학 전공 또는 이에 준하는 전공 지식 필요 — 비전공 시 추가 어필 필요",
+          "카카오페이 빅테크 경쟁 강도 높음"
+        ],
+        "pass_odds": "낮음",
+        "strategy": "무기: React/Next.js/TypeScript 스택 일치 + 웹뷰 기반 FE 경험 전면 배치. 카카오페이 블록체인 결제 도메인 관심도 표현. E2E 테스트 경험 어필.",
+        "sources": [
+          {
+            "title": "카카오페이 프론트엔드 개발자 - 스테이블코인 서비스 — 자사홈(greetinghr)",
+            "url": "https://kakaopay.career.greetinghr.com/ko/fe-stablecoinservice"
+          }
+        ]
+      }
+    },
     {
       "id": "buzzvil-product-growth-fe-2026-07",
       "company": "버즈빌",
@@ -37,7 +94,7 @@
         "D-4 긴급 마감 (2026-07-31 14:59) — 지원 즉시 필요"
       ],
       "tier": "문샷",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "글로벌 AdTech 리워드 광고 플랫폼 버즈빌 운영. 락스크린·인앱 리워드 광고로 국내·동남아·북미 진출. 2025년 매출 783억, 시리즈C 누적 365억. Product Growth팀은 광고주·퍼블리셔 대상 B2B 퍼포먼스 마케팅 FE 담당.",
         "verdict": "Next.js/Zustand/TypeScript/TanStack Query 스택 일치. Product Growth팀으로 CVR·A/B테스트 성장 이력 간접 연결 가능. 단, AdTech 광고플랫폼 도메인이 이커머스·결제 주축과 거리 있고 fit_score 낮음(63). 가장 중요한 것은 D-4 마감(2026-07-31 14:59) — 지금 즉시 지원 결정 필요.",
@@ -95,7 +152,7 @@
         "2년 연속 흑자 매출 408억 시리즈A — 메인 티어 안정 성장 기업"
       ],
       "tier": "메인",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "차량 정비·관리 O2O 플랫폼 마카롱팩토리(마이클) 운영. 마카롱(정비 예약)·마이클(차량관리) 앱 서비스. 2024년 매출 408억, 2년 연속 흑자. 시리즈A 누적 77억. 직원 150명+. 웹FE팀이 앱 내 웹뷰·웹 서비스 전반 FE 개발 담당.",
         "verdict": "모바일 웹뷰 환경 JavaScript interface 네이티브 연동 경험이 주요 우대사항으로 창석 네이티브 브릿지 상태 동기화 이력과 직접 매칭. React/TypeScript 스택 일치. O2O 차량관리 서비스로 이커머스 결제·PG 직접 어필 여지 제한적이나 웹뷰·O2O 도메인 강점. 2년 연속 흑자 안정 기업.",
@@ -153,7 +210,7 @@
         "시리즈B 누적 140억 수산 버티컬 커머스 No.1 — 문샷 버티컬 커머스 레버리지"
       ],
       "tier": "문샷",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "수산·신선식품 버티컬 이커머스 오늘회(오늘식탁) 운영. 2017년 창업, 시리즈B 누적 투자 140억. 수산물 새벽배송·당일배송 커머스 No.1. 개발3팀이 커머스 FE 전반(상품상세·주문·결제·마이페이지) 담당.",
         "verdict": "버티컬 이커머스 커머스 FE 개발로 창석 이커머스 결제·주문 플로우 이력과 직접 도메인 연결. React/TypeScript 스택 일치. 수산 신선식품 버티컬이라 PG 직접 어필은 제한적이나 이커머스 결제 플로우 이해도 어필 가능. 시리즈B 누적 140억으로 메인-문샷 경계.",
