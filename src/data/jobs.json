@@ -1,9 +1,67 @@
 {
   "meta": {
-    "last_collected": "2026-07-28",
-    "total": 44
+    "last_collected": "2026-07-30",
+    "total": 45
   },
   "jobs": [
+    {
+      "id": "portone-fe-engineer-2026-07",
+      "company": "포트원(코리아포트원)",
+      "title": "Front-end Engineer",
+      "level": "미드~시니어",
+      "scale": "투자정보 미확인 · 연간 취급거래액 11조 · 3,000+ 가맹점 · 통합결제 PG 인프라",
+      "source": "자사홈",
+      "url": "https://portone.career.greetinghr.com/o/88955",
+      "location": "서울 성동구",
+      "exp": "경력직 (연차 미명시)",
+      "exp_min_years": null,
+      "posted_date": null,
+      "first_seen": "2026-07-30",
+      "domains": [
+        "결제",
+        "PG",
+        "핀테크",
+        "결제인프라",
+        "B2B SaaS"
+      ],
+      "deadline": null,
+      "deadline_type": "rolling",
+      "deadline_label": "채용 시 마감",
+      "process": null,
+      "process_confirmed": false,
+      "has_codingtest": "미확인",
+      "fit_score": 78,
+      "fit_tier": "상",
+      "fit_reasons": [
+        "PG 통합 결제 플랫폼 FE 개발 — 토스페이·카카오페이·이니시스·팝빌 PG 연동 + CVR +14.27% 이력 도메인 최직접 매칭",
+        "결제 도메인 관심·이해 우대 명시 — 창석 PG 연동 4종 이력 최강 어필 포인트",
+        "가맹점 경험 개선 웹 서비스 FE — 어드민·디자인 시스템 공통 라이브러리 개발 이력 직접 연결"
+      ],
+      "tier": "문열기",
+      "is_new": true,
+      "brief": {
+        "company_status": "국내 최대 통합 결제 PG 플랫폼 포트원(코리아포트원) 운영. 2011년 설립, 국내외 약 25개 PG사 통합 연동. 연간 취급거래액 11조, 3,000+ 가맹점 고객사. 결제위젯·정산 자동화·글로벌 커머스 결제 인프라 서비스. 서울 성동구 소재, 직원 약 59명. 투자정보 미확인(장기 운영 B2B SaaS).",
+        "verdict": "PG 통합 결제 플랫폼으로 창석 PG 연동(토스페이·카카오페이·이니시스·팝빌) + 결제 CVR +14.27% 이력이 도메인 최직접 매칭. JD에서 결제 도메인 관심·이해를 우대로 명시 — 창석 최강 어필 포인트. 가맹점 경험 개선 웹 서비스 FE + 공통 라이브러리·디자인 시스템 개발이 업무. 투자정보 미확인으로 문열기 티어이나 11조 취급액 장기 운영 기업으로 안정성 있음.",
+        "strengths": [
+          "PG 통합 결제 플랫폼 FE — 창석 PG 연동 4종 이력 도메인 최직접 매칭",
+          "결제 도메인 관심·이해 우대 명시 — 결제 CVR +14.27% + PG 연동 이력 최강 어필",
+          "가맹점 경험 개선 FE + 디자인 시스템 — 어드민·공통 라이브러리 이력 직접 연결 가능"
+        ],
+        "gaps": [
+          "투자정보 미확인·직원 59명 중소기업 — 커리어 레버리지 제한적",
+          "구체적 기술 스택 미확인 — greetinghr 자사홈 WebFetch 403으로 JD 직접 확인 불가",
+          "exp 연차 불명 — 자사홈 직접 확인 필요"
+        ],
+        "pass_odds": "높음",
+        "strategy": "핵심 무기: PG 연동(토스페이·카카오페이·이니시스·팝빌) + 결제 CVR +14.27% 이력 전면 배치. 결제 도메인 관심도 최강 어필. 가맹점 FE 개발·공통 라이브러리·디자인 시스템 이력 강조.",
+        "sources": [
+          {
+            "title": "포트원(코리아포트원) Front-end Engineer — 자사홈(greetinghr)",
+            "url": "https://portone.career.greetinghr.com/o/88955"
+          }
+        ]
+      }
+    },
     {
       "id": "kakaopay-fe-stablecoin-2026-07",
       "company": "카카오페이",
@@ -37,7 +95,7 @@
         "카카오페이 빅테크 — 결제 도메인 커리어 레버리지 가능"
       ],
       "tier": "문샷",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "카카오페이 스테이블코인 서비스팀. 블록체인 기반 스테이블코인 전송·관리 서비스 웹뷰 FE 개발 담당. React/Next.js/TypeScript/Tanstack Query/Jotai/웹소켓 스택. SSR/CSR·E2E 테스트·관측성 도구 경험 필수.",
         "verdict": "React/Next.js/TypeScript/Tanstack Query 스택 완전 일치. 웹뷰 기반 FE 필수 경험이 창석 웹뷰·네이티브 브릿지 이력과 직접 연결. 단, 블록체인/스테이블코인 도메인이 이커머스 결제 PG 주축과 거리가 있고 컴퓨터공학 전공 우대. 카카오페이 빅테크이나 스테이블코인이라 이커머스 결제 직접 어필 여지 제한적.",
