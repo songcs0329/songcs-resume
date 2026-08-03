@@ -1,9 +1,123 @@
 {
   "meta": {
-    "last_collected": "2026-07-31",
-    "total": 44
+    "last_collected": "2026-08-03",
+    "total": 42
   },
   "jobs": [
+    {
+      "id": "kakaopay-fe-mydata-2026-08",
+      "company": "카카오페이",
+      "title": "프론트엔드 개발자 - 마이데이터",
+      "level": "시니어",
+      "scale": "빅테크 · 코스피 상장 · 간편결제 1위 · 마이데이터 자산관리",
+      "source": "자사홈",
+      "url": "https://kakaopay.career.greetinghr.com/en/fe-mydata",
+      "location": "경기 성남시 분당구 (판교)",
+      "exp": "JavaScript 경력 5년 이상",
+      "exp_min_years": 5,
+      "posted_date": null,
+      "first_seen": "2026-08-03",
+      "domains": [
+        "핀테크",
+        "마이데이터",
+        "자산관리",
+        "금융"
+      ],
+      "deadline": null,
+      "deadline_type": "rolling",
+      "deadline_label": "채용 시 마감",
+      "process": null,
+      "process_confirmed": false,
+      "has_codingtest": "미확인",
+      "fit_score": 70,
+      "fit_tier": "중",
+      "fit_reasons": [
+        "React/TypeScript/Next.js SSR 스택 일치 — 핵심 기술 커버",
+        "마이데이터 기반 자산관리 서비스 FE 개발 — 핀테크 결제 생태계 이해도 부분 어필",
+        "카카오페이 코스피 상장 빅테크 — 결제 도메인 커리어 레버리지 가능"
+      ],
+      "tier": "문샷",
+      "is_new": true,
+      "brief": {
+        "company_status": "카카오페이 마이데이터서비스팀. 마이데이터 기반 개인 자산 통합 관리 서비스 FE 개발 담당. JavaScript 5년+ 필수, React/TypeScript/Next.js SSR 경험 요구. 판교 소재, 코스피 상장 빅테크.",
+        "verdict": "React/TypeScript/Next.js SSR 스택 일치. JavaScript 5년+ 경력 요건 충족. 마이데이터 자산관리 서비스 FE 개발이 주업무로 카카오페이 자산서비스와 유사한 핀테크 금융 도메인. 이커머스 결제·PG 직접 어필 여지 제한적이나 핀테크 생태계 이해도 어필 가능. 코스피 상장 빅테크 경쟁 강도 높음. greetinghr 자사홈 403으로 상세 JD 직접 확인 불가(WebSearch 기반 수집).",
+        "strengths": [
+          "React/TypeScript/Next.js SSR 스택 일치 — 핵심 기술 전부 커버",
+          "마이데이터 기반 자산 통합 관리 FE — 핀테크 결제 생태계 내 도메인",
+          "카카오페이 코스피 상장 빅테크 — 결제·금융 커리어 레버리지"
+        ],
+        "gaps": [
+          "마이데이터 자산관리 도메인 — 이커머스 결제·PG 직접 어필 여지 제한적",
+          "코스피 상장 빅테크 — 경쟁 강도 높음",
+          "greetinghr 자사홈 WebFetch 403 — 상세 JD 직접 확인 불가(WebSearch 기반)"
+        ],
+        "pass_odds": "낮음",
+        "strategy": "무기: React/TypeScript/Next.js SSR 스택 일치 + 카카오페이 결제·금융 생태계 이해도 어필. 자산관리 UX 최적화 관심 표현. SEO/성능 최적화 이력(SEO CTR 11.3%) 어필 가능.",
+        "sources": [
+          {
+            "title": "카카오페이 프론트엔드 개발자 - 마이데이터 — 자사홈(greetinghr)",
+            "url": "https://kakaopay.career.greetinghr.com/en/fe-mydata"
+          }
+        ]
+      }
+    },
+    {
+      "id": "kakaopaysec-fe-stock-2026-08",
+      "company": "카카오페이증권",
+      "title": "Frontend Engineer",
+      "level": "미드~시니어",
+      "scale": "카카오 계열 빅테크 · 카카오페이(코스피 상장) 증권 계열사 · 웹뷰 기반 주식서비스",
+      "source": "자사홈",
+      "url": "https://career.kakaopaysec.com/job_posting/Br2LassA",
+      "location": "경기 성남시 분당구 (판교)",
+      "exp": "실무 경력 3년 이상",
+      "exp_min_years": 3,
+      "posted_date": null,
+      "first_seen": "2026-08-03",
+      "domains": [
+        "핀테크",
+        "증권",
+        "주식",
+        "웹뷰"
+      ],
+      "deadline": null,
+      "deadline_type": "rolling",
+      "deadline_label": "채용 시 마감",
+      "process": null,
+      "process_confirmed": false,
+      "has_codingtest": "미확인",
+      "fit_score": 68,
+      "fit_tier": "중",
+      "fit_reasons": [
+        "React/TypeScript 스택 일치 + 웹뷰 기반 주식서비스 FE 개발 — 네이티브 브릿지 상태 동기화 이력 직접 어필",
+        "카카오톡·카카오페이 앱 내 웹뷰 환경 — 창석 웹뷰·인앱 브릿지 경험 도메인 연결",
+        "카카오페이증권 빅테크 계열 — 결제·금융 커리어 레버리지 가능"
+      ],
+      "tier": "문샷",
+      "is_new": true,
+      "brief": {
+        "company_status": "카카오페이증권(주). 카카오페이(코스피 상장) 100% 자회사. 카카오톡·카카오페이 앱 내 웹뷰 기반 주식 매매·자산관리 서비스 FE 개발 담당. React/TypeScript 기반. 판교 소재.",
+        "verdict": "React/TypeScript 스택 일치. 카카오톡·카카오페이 앱 내 웹뷰 기반 주식 서비스 FE 개발이 주업무로 창석 웹뷰 네이티브 브릿지 상태 동기화 이력과 직접 연결 가능. 증권·주식 도메인이라 이커머스 결제 PG 직접 어필 여지 제한적. 카카오 계열 빅테크 경쟁 강도 높음. 3년+ 요건으로 창석 7년 기준 경쟁 풀 넓음.",
+        "strengths": [
+          "카카오톡·카카오페이 앱 내 웹뷰 주식서비스 FE — 네이티브 브릿지·인앱 웹뷰 이력 직접 어필",
+          "React/TypeScript 스택 일치",
+          "카카오페이증권 빅테크 계열 — 카카오페이 결제·금융 생태계 커리어 레버리지"
+        ],
+        "gaps": [
+          "증권·주식 도메인 — 이커머스 결제·PG 직접 어필 여지 제한적",
+          "카카오 계열 빅테크 — 경쟁 강도 높음",
+          "3년+ 요건 — 창석 7년+ 경쟁 대상 풀 넓음"
+        ],
+        "pass_odds": "낮음",
+        "strategy": "무기: 카카오페이 앱 내 웹뷰 기반 서비스 개발 경험과 네이티브 브릿지 상태 동기화 이력 전면 배치. React/TypeScript 스택 일치 강조. 핀테크·결제 도메인 이해도 어필.",
+        "sources": [
+          {
+            "title": "카카오페이증권 Frontend Engineer — 자사홈",
+            "url": "https://career.kakaopaysec.com/job_posting/Br2LassA"
+          }
+        ]
+      }
+    },
     {
       "id": "portone-fe-engineer-2026-07",
       "company": "포트원(코리아포트원)",
@@ -115,63 +229,6 @@
           {
             "title": "카카오페이 프론트엔드 개발자 - 스테이블코인 서비스 — 자사홈(greetinghr)",
             "url": "https://kakaopay.career.greetinghr.com/ko/fe-stablecoinservice"
-          }
-        ]
-      }
-    },
-    {
-      "id": "buzzvil-product-growth-fe-2026-07",
-      "company": "버즈빌",
-      "title": "[Product Growth팀] 프론트엔드 개발자 (경력 3년 이상)",
-      "level": "미드~시니어",
-      "scale": "시리즈C · 누적 365억 · 매출 783억(2025) · AdTech 글로벌",
-      "source": "자사홈",
-      "url": "https://buzzvil.career.greetinghr.com/ko/o/196715",
-      "location": "서울",
-      "exp": "경력 3년 이상",
-      "exp_min_years": 3,
-      "posted_date": null,
-      "first_seen": "2026-07-27",
-      "domains": [
-        "광고플랫폼",
-        "AdTech",
-        "퍼포먼스마케팅",
-        "B2B"
-      ],
-      "deadline": "2026-07-31",
-      "deadline_type": "date",
-      "deadline_label": "2026-07-31 14:59 (D-4)",
-      "process": null,
-      "process_confirmed": false,
-      "has_codingtest": "미확인",
-      "fit_score": 63,
-      "fit_tier": "하",
-      "fit_reasons": [
-        "Next.js/Turborepo/Zustand/TypeScript/TanStack Query 스택 일치 — 핵심 기술 커버",
-        "광고 퍼포먼스 마케팅 Product Growth FE — CVR·A/B테스트 성장 이력 간접 연결",
-        "D-4 긴급 마감 (2026-07-31 14:59) — 지원 즉시 필요"
-      ],
-      "tier": "문샷",
-      "is_new": false,
-      "brief": {
-        "company_status": "글로벌 AdTech 리워드 광고 플랫폼 버즈빌 운영. 락스크린·인앱 리워드 광고로 국내·동남아·북미 진출. 2025년 매출 783억, 시리즈C 누적 365억. Product Growth팀은 광고주·퍼블리셔 대상 B2B 퍼포먼스 마케팅 FE 담당.",
-        "verdict": "Next.js/Zustand/TypeScript/TanStack Query 스택 일치. Product Growth팀으로 CVR·A/B테스트 성장 이력 간접 연결 가능. 단, AdTech 광고플랫폼 도메인이 이커머스·결제 주축과 거리 있고 fit_score 낮음(63). 가장 중요한 것은 D-4 마감(2026-07-31 14:59) — 지금 즉시 지원 결정 필요.",
-        "strengths": [
-          "Next.js/Turborepo/Zustand/TypeScript/TanStack Query 스택 완전 일치",
-          "Product Growth 팀 — CVR·퍼포먼스 마케팅 성장 이력 간접 어필",
-          "시리즈C 누적 365억 · 매출 783억 글로벌 AdTech — 문샷 커리어 레버리지"
-        ],
-        "gaps": [
-          "AdTech 광고플랫폼 도메인 — 이커머스·결제·O2O 주축과 거리",
-          "D-4 긴급 마감 (2026-07-31 14:59) — 즉시 지원 결정 필요",
-          "greetinghr 자사홈 WebFetch 403 — 상세 JD 직접 확인 권장"
-        ],
-        "pass_odds": "낮음",
-        "strategy": "⚠️ D-4 긴급: 지금 즉시 지원 결정 필요. 무기: Next.js/TypeScript 스택 일치 + CVR +14.27% 성장 이력 어필. Product Growth 팀 퍼포먼스 마케팅 관심 표현. fit_score 63으로 낮으나 마감 임박으로 빠른 결정 권장.",
-        "sources": [
-          {
-            "title": "버즈빌 Product Growth팀 프론트엔드 개발자 — 자사홈",
-            "url": "https://buzzvil.career.greetinghr.com/ko/o/196715"
           }
         ]
       }
@@ -2411,185 +2468,6 @@
           {
             "title": "미리디 [미리캔버스] 프론트엔드 개발자 (프로덕트) — 랠릿",
             "url": "https://www.rallit.com/positions/4230/%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C-%EA%B0%9C%EB%B0%9C%EC%9E%90-%ED%94%84%EB%A1%9C%EB%8D%95%ED%8A%B8"
-          }
-        ]
-      }
-    },
-    {
-      "id": "lawandcompany-superlawyerfe-2026-06",
-      "company": "로앤컴퍼니(lawtalk)",
-      "title": "슈퍼로이어 프론트엔드 개발자 (5년 이상)",
-      "level": "시니어",
-      "scale": "시리즈C-2 · 500억 (2025년 7월, IMM인베스트먼트·KDB산업은행·대성창업투자 등)",
-      "source": "wanted",
-      "url": "https://www.wanted.co.kr/wd/369552",
-      "location": "서울",
-      "exp": "FE 경력 5년 이상",
-      "exp_min_years": 5,
-      "posted_date": null,
-      "first_seen": "2026-06-19",
-      "domains": [
-        "리걸테크",
-        "AI SaaS",
-        "LegalAI",
-        "SEO"
-      ],
-      "deadline": null,
-      "deadline_type": "rolling",
-      "deadline_label": "상시채용",
-      "process": null,
-      "process_confirmed": false,
-      "has_codingtest": "미확인",
-      "fit_score": 77,
-      "fit_tier": "상",
-      "fit_reasons": [
-        "React/Next.js 스택 일치 + 웹 성능 최적화·SEO 우대 — 창석 핵심 SEO 강점 직접 어필",
-        "5년+ 요건 충족, 생성형 AI 기반 법률 서비스 프론트엔드 개발",
-        "시리즈C-2 500억(IMM인베스트먼트·KDB산업은행) — 국내 1위 리걸테크, 반기 흑자 달성"
-      ],
-      "tier": "문샷",
-      "is_new": false,
-      "brief": {
-        "company_status": "국내 1위 리걸테크 로앤컴퍼니. 로톡(법률 종합 포털)·빅케이스(AI 법률정보)·슈퍼로이어(생성형 AI 법률비서)·로탑(로펌 업무관리) 운영. 2025년 7월 시리즈C-2 500억 유치(IMM인베스트먼트·KDB산업은행·대성창업투자·신한벤처투자 신규 참여). 2026년 반기 흑자 달성, 변호사 2.5만명 회원(국내 등록 변호사 69%).",
-        "verdict": "슈퍼로이어(생성형 AI 법률비서) FE 개발이 주요 업무. React/Next.js 5년+ 요건 충족. SEO+웹 성능 최적화 우대사항이 창석 핵심 강점과 직접 매칭. 법률 도메인 러닝커브 있지만 시리즈C-2 흑자 전환 국내 1위 리걸테크.",
-        "strengths": [
-          "웹 성능 최적화·SEO 우대 — SEO CTR 11.3%·활성 사용자 +61% 이력 직접 어필 가능",
-          "React/Next.js 스택 일치, 5년+ 요건 충족",
-          "시리즈C-2 500억 흑자 전환 — 국내 1위 리걸테크 안정성"
-        ],
-        "gaps": [
-          "법률 리걸테크 도메인 — 이커머스·결제 주축과 거리",
-          "이커머스 결제·주문 플로우 직접 어필 여지 제한적",
-          "공고 게시 시점 불명확"
-        ],
-        "pass_odds": "서류 통과 가능성 중상",
-        "strategy": "문샷 무기: SEO CTR 11.3%·활성 사용자 +61% 수치 전면 + Next.js 5년+ 요건 충족. 웹 성능 최적화 실적 강조. 법률 AI 관심도 어필.",
-        "sources": [
-          {
-            "title": "로앤컴퍼니 슈퍼로이어 프론트엔드 개발자 — 원티드",
-            "url": "https://www.wanted.co.kr/wd/369552"
-          },
-          {
-            "title": "리걸테크 로앤컴퍼니 500억 시리즈C-2 투자유치 — 플래텀",
-            "url": "https://platum.kr/archives/266198"
-          }
-        ]
-      }
-    },
-    {
-      "id": "gowid-fintech-frontend-2026-06",
-      "company": "고위드",
-      "title": "[핀테크] Frontend Engineer",
-      "level": "경력 3년 이상",
-      "scale": "투자단계 일부 미확인 · 누적 100억+ (공고 배지 기준)",
-      "source": "rallit",
-      "url": "https://www.rallit.com/positions/4222/%ED%95%80%ED%85%8C%ED%81%AC-frontend-engineer",
-      "location": "서울 강남구",
-      "exp": "React 기반 FE 경력 3년 이상",
-      "exp_min_years": 3,
-      "posted_date": null,
-      "first_seen": "2026-06-17",
-      "domains": [
-        "핀테크",
-        "결제",
-        "B2B SaaS"
-      ],
-      "deadline": null,
-      "deadline_type": "rolling",
-      "deadline_label": "채용 시 마감",
-      "process": [
-        "서류접수",
-        "직무인터뷰",
-        "조직적합성인터뷰",
-        "처우협의"
-      ],
-      "process_confirmed": true,
-      "has_codingtest": "미확인",
-      "fit_score": 68,
-      "fit_tier": "중",
-      "fit_reasons": [
-        "법인카드 한도·정산·리스크 금융 코어 시스템 — PG 연동·정산 백오피스 구축 경험과 도메인 접점",
-        "React/TypeScript/Vite/TanStack Query — 현재 스택 일치",
-        "5년차 BEP 달성 + 누적 100억+ B2B 핀테크 플랫폼 — 안정적 성장 단계"
-      ],
-      "tier": "메인",
-      "is_new": false,
-      "brief": {
-        "company_status": "스타트업 전용 법인카드 '고위드카드' 운영 B2B 핀테크. 2020년 출시 후 5년 만에 3,500여 고객사·BEP 달성, 누적 신용 사용액 1.3조원. 해시드 등 투자 유치(50억+), 공고 기준 누적 투자 100억 이상이나 정확한 최신 라운드 단계는 미확인.",
-        "verdict": "한도·정산·리스크 등 금융 코어 로직 구현이 PG 연동·정산 백오피스 이력과 접점이 있으나, 이커머스 결제·주문 주축과는 결이 다른 B2B SaaS 핀테크 도메인.",
-        "strengths": [
-          "정산·한도·리스크 로직 구현 — PG 연동·정산 백오피스 경험과 도메인 접점",
-          "React/TypeScript/Vite/TanStack Query 스택 일치",
-          "BEP 달성 + 3,500여 고객사 — 안정적 성장 단계"
-        ],
-        "gaps": [
-          "B2B SaaS 핀테크 — 이커머스 결제·주문 주축과 거리",
-          "정확한 투자 라운드 단계 미확인(누적 100억+만 확인)",
-          "복잡한 금융 트랜잭션 비즈니스 로직 — 도메인 러닝커브"
-        ],
-        "pass_odds": "서류 통과 가능성 중",
-        "strategy": "메인 무기: PG 연동(이니시스·토스페이·카카오페이)·정산 백오피스 구축 이력 + 복잡한 비즈니스 로직 구현 경험 강조.",
-        "sources": [
-          {
-            "title": "고위드 [핀테크] Frontend Engineer — 랠릿",
-            "url": "https://www.rallit.com/positions/4222/%ED%95%80%ED%85%8C%ED%81%AC-frontend-engineer"
-          }
-        ]
-      }
-    },
-    {
-      "id": "sionicai-storm-frontend-2026-06",
-      "company": "사이오닉에이아이(Sionic AI)",
-      "title": "Frontend Developer (3년 이상)",
-      "level": "미드",
-      "scale": "투자정보 미확인",
-      "source": "wanted",
-      "url": "https://www.wanted.co.kr/wd/369391",
-      "location": "서울",
-      "exp": "FE 경력 3년 이상",
-      "exp_min_years": 3,
-      "posted_date": null,
-      "first_seen": "2026-06-19",
-      "domains": [
-        "AI SaaS",
-        "AI Agent",
-        "엔터프라이즈",
-        "노코드"
-      ],
-      "deadline": null,
-      "deadline_type": "rolling",
-      "deadline_label": "상시채용",
-      "process": null,
-      "process_confirmed": false,
-      "has_codingtest": "미확인",
-      "fit_score": 68,
-      "fit_tier": "중",
-      "fit_reasons": [
-        "React/TypeScript/Next.js/TanStack Query/Zustand/pnpm/Turborepo — 스택 완전 일치",
-        "비주얼 워크플로우 빌더·SSE 스트리밍·복잡한 폼 시스템 — 복잡한 FE 상태 관리 이력 어필 가능",
-        "AI Agent 빌더 플랫폼 STORM — AI SaaS 고성장 도메인"
-      ],
-      "tier": "문열기",
-      "is_new": false,
-      "brief": {
-        "company_status": "기업용 AI Agent 생성 플랫폼 'STORM' 운영 Sionic AI. LLM/RAG/Parser 핵심 기술 자체 보유. 비개발자도 자연어로 AI Agent 생성·업무 자동화 가능. 투자정보 미확인(한일 AI 스타트업 밋업 참가, 도쿄TiB 진출 이력).",
-        "verdict": "스택이 창석과 완전 일치(React/Next.js/Zustand/Turborepo). 노코드 비주얼 워크플로우 빌더·SSE 스트리밍 실시간 로그 등 복잡한 FE 상태 관리 이력 어필 가능. 이커머스 결제 도메인과 거리 있지만 AI SaaS 성장성 높음.",
-        "strengths": [
-          "React/TypeScript/Next.js/TanStack Query/Zustand/pnpm/Turborepo 스택 완전 일치",
-          "비주얼 워크플로우 빌더·복잡한 폼 시스템 — 복잡한 상태 관리·비즈니스 로직 구현 이력 매칭",
-          "한일 글로벌 진출 AI 스타트업 — 빠른 성장 가능성"
-        ],
-        "gaps": [
-          "투자정보 미확인 — 회사 안정성·성장성 판단 어려움",
-          "AI Agent 빌더 도메인 — 이커머스·결제 주축과 거리",
-          "이커머스·결제 경험 직접 어필 여지 제한"
-        ],
-        "pass_odds": "서류 통과 가능성 중",
-        "strategy": "문열기 무기: 스택 완전 일치(Turborepo·Zustand) + 복잡한 FE 상태 관리 이력 강조. AI SaaS 도메인 관심도 어필.",
-        "sources": [
-          {
-            "title": "사이오닉에이아이 Frontend Developer — 원티드",
-            "url": "https://www.wanted.co.kr/wd/369391"
           }
         ]
       }
