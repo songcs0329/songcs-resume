@@ -1,9 +1,66 @@
 {
   "meta": {
-    "last_collected": "2026-08-03",
-    "total": 42
+    "last_collected": "2026-08-04",
+    "total": 43
   },
   "jobs": [
+    {
+      "id": "banksalad-web-tech-lead-2026-08",
+      "company": "뱅크샐러드",
+      "title": "웹 테크 리드 (Web Tech Lead)",
+      "level": "시니어",
+      "scale": "시리즈D · 누적 1,269억 · 핀테크 마이데이터 자산관리 · IPO 준비",
+      "source": "자사홈",
+      "url": "https://corp.banksalad.com/jobs/",
+      "location": "서울 마포구",
+      "exp": "프론트엔드 개발 7년 이상",
+      "exp_min_years": 7,
+      "posted_date": null,
+      "first_seen": "2026-08-04",
+      "domains": [
+        "핀테크",
+        "마이데이터",
+        "자산관리",
+        "웹뷰"
+      ],
+      "deadline": null,
+      "deadline_type": "rolling",
+      "deadline_label": "채용 시 마감",
+      "process": null,
+      "process_confirmed": false,
+      "has_codingtest": "미확인",
+      "fit_score": 73,
+      "fit_tier": "중",
+      "fit_reasons": [
+        "React/Next.js/TypeScript 실무 경험 필수 — 핵심 기술 스택 완전 일치",
+        "웹뷰 기반 하이브리드 앱 개발 경험 우대 — 창석 네이티브 브릿지 상태 동기화 이력 직접 어필",
+        "7년+ 프론트엔드 리드 경험 요건 — 창석 7년+ 시니어 역량 정확 충족"
+      ],
+      "tier": "문샷",
+      "is_new": true,
+      "brief": {
+        "company_status": "국내 1위 마이데이터 기반 개인 종합 자산관리 플랫폼 뱅크샐러드(주식회사 레이니스트). 2012년 설립, 시리즈D 누적 투자 1,269억. 2026년 코스닥 IPO 준비 중. 직원 약 250명. 서울 마포구 소재.",
+        "verdict": "React/Next.js/TypeScript 실무 경험 필수로 창석 스택 완전 일치. 7년+ 프론트엔드 리드 경험 요건이 창석 경력과 정확 매칭. 웹뷰 기반 하이브리드 앱 개발 경험 우대로 창석 네이티브 브릿지 상태 동기화 이력 직접 어필 가능. 단, 핀테크 마이데이터 자산관리 도메인이라 이커머스 결제·PG 직접 어필 여지 제한적. IPO 준비 문샷 기업으로 경쟁 강도 높음.",
+        "strengths": [
+          "React/Next.js/TypeScript 스택 완전 일치 + 7년+ 리드 경험 요건 정확 충족",
+          "웹뷰 기반 하이브리드 앱 우대 — 창석 네이티브 브릿지 상태 동기화 이력 직접 어필",
+          "IPO 준비 핀테크 유니콘급 — 커리어 레버리지 및 성장 기회"
+        ],
+        "gaps": [
+          "핀테크 마이데이터 자산관리 도메인 — 이커머스 결제·PG 직접 어필 여지 제한적",
+          "시리즈D IPO 준비 대기업급 — 경쟁 강도 높음",
+          "corp.banksalad.com WebFetch 403 — 공고 현 활성 여부 직접 확인 권장"
+        ],
+        "pass_odds": "중간",
+        "strategy": "핵심 무기: React/Next.js/TypeScript 스택 완전 일치 + 7년+ 시니어 리드 역량. 웹뷰 기반 하이브리드 앱·네이티브 브릿지 상태 동기화 이력 전면 배치. 마이데이터 자산관리 FE 리드로서 UX·SEO 최적화 이력 어필 가능.",
+        "sources": [
+          {
+            "title": "뱅크샐러드 채용 — 자사홈(corp.banksalad.com)",
+            "url": "https://corp.banksalad.com/jobs/"
+          }
+        ]
+      }
+    },
     {
       "id": "kakaopay-fe-mydata-2026-08",
       "company": "카카오페이",
@@ -37,7 +94,7 @@
         "카카오페이 코스피 상장 빅테크 — 결제 도메인 커리어 레버리지 가능"
       ],
       "tier": "문샷",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "카카오페이 마이데이터서비스팀. 마이데이터 기반 개인 자산 통합 관리 서비스 FE 개발 담당. JavaScript 5년+ 필수, React/TypeScript/Next.js SSR 경험 요구. 판교 소재, 코스피 상장 빅테크.",
         "verdict": "React/TypeScript/Next.js SSR 스택 일치. JavaScript 5년+ 경력 요건 충족. 마이데이터 자산관리 서비스 FE 개발이 주업무로 카카오페이 자산서비스와 유사한 핀테크 금융 도메인. 이커머스 결제·PG 직접 어필 여지 제한적이나 핀테크 생태계 이해도 어필 가능. 코스피 상장 빅테크 경쟁 강도 높음. greetinghr 자사홈 403으로 상세 JD 직접 확인 불가(WebSearch 기반 수집).",
@@ -94,7 +151,7 @@
         "카카오페이증권 빅테크 계열 — 결제·금융 커리어 레버리지 가능"
       ],
       "tier": "문샷",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "카카오페이증권(주). 카카오페이(코스피 상장) 100% 자회사. 카카오톡·카카오페이 앱 내 웹뷰 기반 주식 매매·자산관리 서비스 FE 개발 담당. React/TypeScript 기반. 판교 소재.",
         "verdict": "React/TypeScript 스택 일치. 카카오톡·카카오페이 앱 내 웹뷰 기반 주식 서비스 FE 개발이 주업무로 창석 웹뷰 네이티브 브릿지 상태 동기화 이력과 직접 연결 가능. 증권·주식 도메인이라 이커머스 결제 PG 직접 어필 여지 제한적. 카카오 계열 빅테크 경쟁 강도 높음. 3년+ 요건으로 창석 7년 기준 경쟁 풀 넓음.",
