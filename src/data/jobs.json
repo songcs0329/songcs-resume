@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_collected": "2026-08-05",
+    "last_collected": "2026-08-06",
     "total": 43
   },
   "jobs": [
@@ -38,7 +38,7 @@
         "리드 경험 우대 + React/Vue 스택 — 창석 7년+ 시니어 리드·React 주축 어필 가능"
       ],
       "tier": "문샷",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "숙박·항공·렌터카·레저·티켓 등 종합 여행·여가 플랫폼 여기어때 운영. 여기어때컴퍼니(구 위드이노베이션). 시리즈C 유치. 2025년 매출 2,794억, 영업이익 732억(영업이익률 26.2%). 누적 다운로드 4,200만, MAU 420만. 직원 600명+. 서울 소재.",
         "verdict": "7년+ 프론트엔드 경력 필수 요건으로 창석 경력 정확 충족. 웹뷰·반응형 웹 서비스 개발이 주업무로 창석 네이티브 브릿지 상태 동기화 이력 어필 가능. React/Vue 모두 사용 가능해 스택 일치. 여행·숙박 O2O 도메인이라 이커머스 결제 PG 직접 어필 여지 제한적이나 숙박·레저 결제 플로우 이해도 간접 어필 가능. 시리즈C 영업이익 흑자 안정 기업으로 커리어 레버리지 우수.",
@@ -904,8 +904,8 @@
         "카드추천",
         "플랫폼"
       ],
-      "deadline": null,
-      "deadline_type": "rolling",
+      "deadline": "2026-08-17",
+      "deadline_type": "date",
       "deadline_label": "채용 시 마감 (집중채용 ~08/17)",
       "process": null,
       "process_confirmed": false,
@@ -1084,8 +1084,8 @@
         "투자",
         "자산관리"
       ],
-      "deadline": null,
-      "deadline_type": "rolling",
+      "deadline": "2026-08-17",
+      "deadline_type": "date",
       "deadline_label": "채용 시 마감 (집중채용 ~08/17)",
       "process": null,
       "process_confirmed": false,
@@ -1971,8 +1971,8 @@
         "O2O",
         "커머스 플랫폼"
       ],
-      "deadline": null,
-      "deadline_type": "rolling",
+      "deadline": "2026-08-09",
+      "deadline_type": "date",
       "deadline_label": "채용 시 마감",
       "process": null,
       "process_confirmed": false,
