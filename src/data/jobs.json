@@ -1,9 +1,59 @@
 {
   "meta": {
-    "last_collected": "2026-08-06",
-    "total": 43
+    "last_collected": "2026-08-07",
+    "total": 44
   },
   "jobs": [
+    {
+      "id": "brandi-sr-fe-developer-2026-08",
+      "company": "브랜디",
+      "title": "시니어 프론트엔드 개발자 (Front-end Developer)",
+      "level": "시니어",
+      "scale": "시리즈C급 · 누적 450억+ · 패션 이커머스 버티컬 플랫폼 (브랜디·하이버·서울스토어)",
+      "source": "자사홈",
+      "url": "https://brandi-recruit.career.greetinghr.com/o/60439",
+      "location": "서울",
+      "exp": "3년 이상 이커머스 개발 경험 (웹 프론트엔드)",
+      "exp_min_years": 3,
+      "posted_date": null,
+      "first_seen": "2026-08-07",
+      "domains": ["이커머스", "패션", "버티컬커머스", "어드민", "SSR"],
+      "deadline": null,
+      "deadline_type": "rolling",
+      "deadline_label": "채용 시 마감",
+      "process": null,
+      "process_confirmed": false,
+      "has_codingtest": "미확인",
+      "fit_score": 72,
+      "fit_tier": "중",
+      "fit_reasons": [
+        "3년+ 이커머스 FE 경험 필수 — 창석 이커머스 결제·할인·주문 도메인 7년+ 직접 충족",
+        "TypeScript·Next.js SSR 필수 — 창석 주 스택 정확 일치",
+        "Redux 상태관리 경험 우대 — 창석 Redux/Zustand 실무 경험 어필 가능",
+        "이커머스 백오피스 개발 경험 우대 — 창석 어드민 개발 이력 직접 어필"
+      ],
+      "tier": "문샷",
+      "is_new": true,
+      "brief": {
+        "company_status": "패션 이커머스 버티컬 플랫폼 브랜디·하이버·서울스토어 운영. 시리즈C급, 누적 투자 450억+. 국내 여성 패션 버티컬 커머스 주요 플레이어. 서울 강남 소재.",
+        "verdict": "이커머스 FE 3년+ 필수 요건에 창석 이커머스 결제·할인·주문 PG 연동 경험 직접 어필 가능. Next.js·TypeScript 주 스택 완전 일치. 패션 도메인 특화 경험은 없으나 이커머스 구조(상품·결제·주문) 이해도로 보완 가능. 백오피스 경험 우대 사항도 창석 이력 보유. 문샷 티어 기업으로 커리어 레버리지 우수.",
+        "strengths": [
+          "이커머스 FE 경험 필수 요건 — 창석 7년 경력 PG 연동·주문·결제 도메인 직접 어필",
+          "Next.js·TypeScript 필수 스택 완전 일치",
+          "시리즈C급 누적 450억+ — 문샷 티어 성장 기업"
+        ],
+        "gaps": [
+          "패션 이커머스 도메인 특화 경험 無 (의류 MD·스타일링 UX 맥락 차이)",
+          "그리팅HR 플랫폼 기반 자사홈 — 실제 서비스 접근 불가(403) 공고 진위 직접 확인 필요"
+        ],
+        "sources": [
+          {
+            "title": "브랜디 시니어 프론트엔드 개발자 채용공고 — 자사홈(그리팅HR)",
+            "url": "https://brandi-recruit.career.greetinghr.com/o/60439"
+          }
+        ]
+      }
+    },
     {
       "id": "goodchoice-frontend-engineer-2026-08",
       "company": "여기어때컴퍼니",
