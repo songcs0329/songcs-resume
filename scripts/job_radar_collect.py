@@ -397,6 +397,8 @@ def main():
     ap.add_argument("--skip-phase0", action="store_true", help="링크 생존 확인 건너뛰기")
     ap.add_argument("--skip-phase1", action="store_true", help="신규 공고 수집 건너뛰기")
     ap.add_argument("--limit-sources", type=int, default=0, help="앞에서 N개 소스만 순회(테스트용)")
+    ap.add_argument("--max-new", type=int, default=20,
+                    help="1회 적재 상한. 큐레이터가 한 세션에 읽을 수 있는 양으로 제한한다")
     ap.add_argument("--selfcheck", action="store_true", help="네트워크 없이 로직만 검사")
     args = ap.parse_args()
 
@@ -434,7 +436,12 @@ def main():
         print(f"-> 자사홈 신규 {len(company_entries)}건\n")
 
         new_entries += company_entries
-        print(f"-> 검증 통과 합계 {len(new_entries)}건\n")
+        # 남는 건 버리지 않는다 — 다음 실행에서 다시 발견되어 순차 적재된다
+        if args.max_new and len(new_entries) > args.max_new:
+            print(f"-> 검증 통과 {len(new_entries)}건 중 상한 {args.max_new}건만 적재 "
+                  f"(나머지는 다음 실행에서 재수집)")
+            new_entries = new_entries[: args.max_new]
+        print(f"-> 적재 대상 {len(new_entries)}건\n")
 
     if removed:
         data["jobs"] = jobs
