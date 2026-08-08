@@ -423,6 +423,11 @@ def main():
     ap.add_argument("--limit-sources", type=int, default=0, help="앞에서 N개 소스만 순회(테스트용)")
     ap.add_argument("--max-pending", type=int, default=20,
                     help="Pending 큐 총량 상한. 큐레이터가 한 세션에 읽을 수 있는 양으로 제한한다")
+    ap.add_argument("--only", nargs="+", metavar="TYPE", default=None,
+                    help="지정한 플랫폼 타입만 수집 (예: --only wanted). "
+                         "자사 페이지는 건너뛴다")
+    ap.add_argument("--skip-platform", nargs="+", metavar="TYPE", default=(),
+                    help="지정한 플랫폼을 건너뛴다 (예: --skip-platform wanted)")
     ap.add_argument("--selfcheck", action="store_true", help="네트워크 없이 로직만 검사")
     args = ap.parse_args()
 
@@ -447,6 +452,12 @@ def main():
         cfg = json.loads(SOURCES_PATH.read_text(encoding="utf-8"))
         platforms = cfg.get("platforms", [])
         sources = cfg["sources"]
+        # 원티드는 데이터센터 IP에서 403이라 Actions에선 건너뛰고 Mac에서 따로 돈다
+        if args.only:
+            platforms = [p for p in platforms if p["type"] in args.only]
+            sources = []
+        if args.skip_platform:
+            platforms = [p for p in platforms if p["type"] not in args.skip_platform]
         if args.limit_sources:
             sources = sources[: args.limit_sources]
         known = {j["url"] for j in jobs} | pending_urls(raw)

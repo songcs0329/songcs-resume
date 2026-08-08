@@ -27,8 +27,10 @@ jobs:
         with:
           python-version: "3.12"
 
+      # 원티드는 데이터센터 IP에서 403이 나므로 여기서 돌리지 않는다.
+      # Mac의 launchd(scripts/job_radar_local.sh)가 담당한다 — job-radar.md §6 참조.
       - name: 링크 검증 · 신규 공고 수집
-        run: python3 scripts/job_radar_collect.py
+        run: python3 scripts/job_radar_collect.py --skip-platform wanted
 
       - name: 변경분 커밋
         run: |
