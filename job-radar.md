@@ -58,18 +58,17 @@
 
 ## 4. 대시보드 기능 명세
 
-- **★ URL 실검증 (절대 규칙):** 직접 열어서 **HTTP 200 + 공고 본문 확인**을 통과한 URL만 jobs.json에 넣는다. 기억·추측으로 URL을 조합하는 것 금지. 신규 0건은 실패가 아니고, 미검증 공고를 넣는 것이 실패다.
-- **자동수집:** 평일 매일 클라우드 루틴(claude.ai routine). 게시일 3개월 이내 공고만(§2 수집 기간 필터). **원티드·랠릿은 자동 수집 금지** — SPA라 마감 확인 불가. 수집 가능 소스:
-  1. **자사 채용페이지 직접 순회 (주력)** — 회사 루트 HTML에서 개별 공고 링크를 추출해 각각 검증. greetinghr 계열은 `/o/{숫자}` 링크가 그대로 나옴.
-  2. **Platum 역방향 탐색** — 시리즈A~B 유치 스타트업 발굴 후 그 회사의 careers 페이지를 1번 방식으로 순회.
-  3. **타깃 회사 모니터** — SKILL.md §소스 3 참조.
-  4. **수동 추가** — 창석이 직접 "이 공고 추가해줘 [URL]"로 요청 시. 원티드·랠릿 포함 가능.
-  - **점핏은 목록 기반 수집 불가** (목록 페이지가 SPA라 링크 추출 불가). 기존 점핏 공고의 생존 확인에만 사용.
-- **보드 균형 규칙:** 매 수집 시 메인 티어 후보를 최소 2건 이상 탐색 시도(문샷 쏠림 완화 목표). 메인 후보를 못 찾았으면 커밋 메시지에 "메인 후보 없음"을 명시해 추적 가능하게 할 것.
-- **만료 처리:** 매 수집 시 아래 순서로 제거. 커밋 메시지에 "만료 N건 정리" 표기.
-  1. `deadline_type: 'date'` && 오늘 > deadline → 제거
-  2. **원티드·랠릿 공고 TTL:** `first_seen` 기준 **45일 초과** → 제거. (SPA라 마감 확인 자체가 불가 — TTL이 유일한 수단)
-  3. **전 공고 링크 생존 확인:** curl로 HTTP 상태 확인 → **404(3회 재시도 후에도) 제거**, 200이어도 본문에 마감 텍스트 있으면 제거. 000·403·429·5xx는 일시 오류로 보고 존치.
+- **★ URL 실검증 (절대 규칙):** **HTTP 200 + 공고 본문 확인**을 통과한 URL만 jobs.json에 들어간다. 검증은 수집기(Actions)가 하고, 큐레이터는 `data/raw-jobs.md`에 적힌 url을 **글자 그대로 복사**한다. 기억·추측으로 URL을 조합하는 것 금지.
+- **자동수집(Actions):** 평일 08:30 KST `job-radar-collect.yml`. 플랫폼을 먼저 돌고 자사 페이지로 보완한다.
+  1. **채용 플랫폼 목록 API (주력)** — 원티드·점핏. **새 회사 발굴은 사실상 여기서만 일어난다.** 경력 범위를 API가 숫자로 주므로 연차 필터를 수집 단계에서 건다(하한 8년 이상·상한 3년 미만 제외). 점핏은 `closedAt`으로 마감일까지 따라온다.
+  2. **자사 채용페이지** — 플랫폼에 공고를 안 올리는 회사 보완(카카오페이·무신사·당근). 루트 HTML에서 상세 링크를 추출해 각각 검증. 목록을 클라이언트에서 그리는 사이트(SPA)는 링크가 안 나와 제외.
+  3. **수동 추가** — 창석이 "이 공고 추가해줘 [URL]"로 요청 시. 플랫폼 무관.
+  - 사람인·잡코리아·랠릿·프로그래머스·로켓펀치는 **연결 차단**으로 사용 불가.
+  - **1회 적재 상한 20건.** 초과분은 버리지 않고 다음 실행에서 재발견되어 순차 적재된다(큐가 저절로 소진됨).
+- **만료 처리(Actions Phase 0):** 매 수집 시 `jobs.json` 전 건의 URL 상태를 확인.
+  1. **404(3회 재시도 후에도) → 제거**
+  2. 200이어도 본문에 마감 문구가 있으면 → 제거
+  3. `000·403·429·5xx`는 **일시 오류로 보고 존치** — 다음 실행에서 재확인
   4. **전체 TTL:** `first_seen` 기준 **90일 초과** → 소스 무관 제거
 - **누적·중복제거:** `src/data/jobs.json`에 누적. 공고 id 유지로 추적 끊김 방지. 신규엔 NEW 뱃지.
 - **적합도 스코어링:** §2 프레임 기준 0~100점 + 티어 배정 + fit_reasons.
@@ -84,9 +83,12 @@
 - 호스팅: GitHub Pages — 레포 `songcs0329/songcs-resume`, 주소 https://songcs0329.github.io/songcs-resume/job-radar (React 라우트, 404.html SPA 폴백)
 - 스택: Vite + React 19 + react-router 7 + Tailwind 4. Firebase 등 외부 DB 없음.
 - 파일 구성:
-  - `src/data/jobs.json` — 공고 누적 데이터(수집기가 갱신하는 유일한 파일). `meta.last_collected` + `jobs[]`
+  - `src/data/jobs.json` — 공고 누적 데이터. `meta.last_collected` + `jobs[]`
   - `src/data/jobRadar.ts` — 타입·티어 무기 문구·버킷 순서 등 상수 (UI 변경 시에만 수정)
   - `src/pages/JobRadar/` — 대시보드 페이지 컴포넌트
+  - `scripts/job_radar_collect.py` — 수집·검증기(표준 라이브러리만). `--dry-run`·`--selfcheck`·`--max-new N` 등으로 로컬 테스트 가능
+  - `scripts/job_radar_sources.json` — 순회 대상. **회사 추가는 이 파일만 고치면 된다.** 추가 전 루트 HTML에서 링크가 실제로 뽑히는지 확인할 것
+  - `data/raw-jobs.md` — 수집기 → 큐레이터 인계 큐. `## Pending` / `## Archived`
 - **수집기 필드 규칙 (jobs.json 작성 시 반드시 지킬 것):**
   - `first_seen` — 최초 수집일(YYYY-MM-DD), 모든 공고 필수. `posted_date` — 게시일 확인 시 기록.
   - `scale` — 티어 판정 근거 필수 기록 (예: "시리즈B · 누적 290억", "상장사 계열", "투자정보 미확인").
@@ -97,52 +99,35 @@
 
 ## 6. 운영 루틴 (역할 분담)
 
-- **수집(자동):** Mac + Claude 앱 켜져 있을 때 스케줄 태스크가 `src/data/jobs.json` 갱신 → git commit·push → **PR 생성**까지 수행. 놓치면 다음 실행 시 보충.
-- **반영(자동):** main 푸시 → GitHub Actions 빌드·배포(1~2분) → Pages 최신.
+**네트워크가 필요한 일과 판단이 필요한 일을 분리했다.** 클라우드 루틴 세션은 외부 egress가 막혀 있어 URL 검증을 할 수 없고, 검증 없이 공고를 만들면 죽은 링크가 쌓인다. 검증은 판단이 아니라 상태코드 확인이므로 Actions로 내렸다.
+
+| 단계 | 실행 주체 | 시각 | 하는 일 | 산출물 |
+|------|-----------|------|---------|--------|
+| 수집·검증 | GitHub Actions `job-radar-collect.yml` | 평일 08:30 KST | 링크 생존 확인, 플랫폼·자사페이지 순회, 전 건 200 검증 | `data/raw-jobs.md` Pending + `jobs.json` 만료 정리 → **main 직접 커밋** |
+| 큐레이션 | Claude 루틴 (클라우드) | 평일 09:00 KST | Pending을 읽어 채점·브리프·티어 배정 | `jobs.json` → `claude/` 브랜치 PR |
+| 머지 | `auto-merge-jobradar.yml` | PR 생성 시 | squash merge + deploy 트리거 | main |
+| 배포 | `deploy.yml` | main 푸시 | 빌드 → Pages (1~2분) | 대시보드 반영 |
+
+- 수집기는 PR을 만들지 않고 main에 직접 커밋한다 — 기계적 결과라 리뷰할 게 없고, `GITHUB_TOKEN`으로 만든 PR은 다른 워크플로를 트리거하지 못한다.
+- 큐레이터는 **웹을 보지 않는다.** Pending에 없는 공고를 만들어 넣지 않는다.
 - **열람:** 배포된 페이지는 항상 열림. 데이터 갱신도 코드(UI) 변경도 모두 "푸시"라는 동일한 경로.
 
-### Phase 4 상세 — Git commit · push · PR
+### 로컬에서 수집기 돌려보기
 
 ```bash
-# 1. 중복 실행 방지 체크
-LAST=$(python3 -c "import json; d=json.load(open('src/data/jobs.json')); print(d['meta']['last_collected'])")
-TODAY=$(date '+%Y-%m-%d')
-# LAST == TODAY & 신규 0건 & 만료 0건 → 커밋 생략
-
-# 2. rebase (충돌 시 원격 base에 내 신규 jobs 삽입 후 재커밋)
-git pull --rebase origin main
-
-# 3. commit & push
-git add src/data/jobs.json data/raw-jobs.md
-git diff --staged --quiet || git commit -m \
-  "chore(job-radar): YYYY-MM-DD 공고 수집 — 신규 N건 추가 [만료 M건 정리]"
-git push -u origin <branch>
-
-# 4. PR 생성 (GitHub MCP: mcp__github__create_pull_request)
-#    - owner: songcs0329 / repo: songcs-resume
-#    - head: 작업 브랜치 / base: main
-#    - title: "chore(job-radar): YYYY-MM-DD FE 채용공고 수집 — 신규 N건"
-#    - body: Phase 0~1 결과 요약 (만료 건수, 신규 공고 테이블, meta 변경)
-#    PR 템플릿이 없으면 아래 형식 사용:
-#
-#    ## 변경 내용
-#    ### Phase 0 — 만료 처리
-#    제거 건수: N건 (사유 요약)
-#    ### Phase 1 — 신규 공고 N건
-#    | 티어 | 회사 | 포지션 | fit_score | 소스 |
-#    |------|------|--------|-----------|------|
-#    | ...  | ...  | ...    | ...       | ...  |
-#    ### meta
-#    - total: 이전 → 현재
-#    - last_collected: YYYY-MM-DD
+python3 scripts/job_radar_collect.py --selfcheck              # 네트워크 없이 로직 검사
+python3 scripts/job_radar_collect.py --dry-run                # 파일 안 쓰고 결과만
+python3 scripts/job_radar_collect.py --skip-phase0            # 링크 확인 건너뛰고 수집만
+python3 scripts/job_radar_collect.py --max-new 5              # 적재 상한 조정
 ```
 
 ## 7. 알려진 제약·주의
 
-- **원티드·랠릿은 자동 수집 불가.** SPA라 마감 확인 수단이 없음(API 차단, 빈 페이지, 검색 snippet 신뢰 불가). 자동 수집 시 마감 공고가 반드시 섞임. → 발견한 공고는 "이 공고 추가해줘 [URL]"로 수동 요청.
-- 원티드·랠릿으로 수동 추가된 공고는 **45일 TTL** 적용 — 이후 자동 만료.
-- **루틴 환경 제약:** 클라우드 세션이라 로컬 Mac 파일·경로에 접근 불가. 사용 가능한 도구는 `Bash / Read / Write / Edit / Glob / Grep / WebFetch` 뿐 — `ctx_fetch_and_index`·`WebSearch`는 **없다**. 도구 목록을 바꾸려면 루틴의 `allowed_tools`를 함께 수정해야 함.
-  - 2026-08-08 이전 수집분은 이 제약 때문에 웹 접근 없이 URL이 생성되어 죽은 링크 21건이 섞여 있었음 → 정리 완료.
+- **루틴 세션은 외부 웹에 접근할 수 없다.** curl·WebFetch 모두 403(정책 차단) — 특정 사이트가 아니라 egress 자체가 막혀 있다. 그래서 수집·검증을 Actions로 분리했다. 루틴 프롬프트에 웹 접근을 전제한 지시를 다시 넣지 말 것.
+  - 2026-08-08 이전 수집분은 이 제약 때문에 웹을 못 보는 채로 URL이 생성되어 **죽은 링크 21건**이 섞여 있었음(존재하지 않는 서브도메인까지 조합됨) → 정리 완료.
+- **원티드·점핏 API는 비공식이다.** 공개 문서가 없어 응답 형태가 예고 없이 바뀔 수 있다. 바뀌면 해당 플랫폼만 건너뛰고 자사 페이지 수집은 계속되도록 예외 처리돼 있다. 호출 간 1초 간격, 하루 1회.
+- **회사가 제목과 메타데이터를 다르게 적는 경우가 있다.** 점핏에서 제목은 "9년~"인데 API `minCareer`는 6인 공고가 실제로 있었다. 연차 필터는 API 값을 쓰므로 이런 건 통과한다 — 최종 판단은 본문을 읽는 큐레이터 몫.
+- **기존 공고 중 일부는 개별 공고가 아니라 채용 목록 루트 URL이다** (`ably.team/recruit`, `career.kakaostyle.com/jobs` 등 9건). 200이라 Phase 0에서 안 걸러진다. 열어도 해당 공고가 없으니 별도 정리 필요.
 - 스케줄 태스크는 활성 1개만 유지(중복 사용량 방지). 데이터 반영에 배포 시간 1~2분 소요.
 - 데이터 갱신 커밋이 레포 히스토리에 쌓임. 부담되면 추후 Firebase(Firestore) 전환 — 데이터 로딩 레이어만 교체하면 됨.
 - 지원함·메모는 기기별 localStorage라 PC·폰 간 동기화 안 됨.
@@ -151,8 +136,17 @@ git push -u origin <branch>
 
 현재 공고 목록은 `src/data/jobs.json` (`meta.last_collected`, `meta.total`, `jobs[]`) 참조. 이 문서에 별도 기재하지 않음 — 이중 관리 방지.
 
-수집 로직·소스·마감 감지 방법은 `~/.claude/scheduled-tasks/job-radar-curation/SKILL.md` 참조.
+- **수집 로직·소스**: `scripts/job_radar_collect.py` + `scripts/job_radar_sources.json` (레포 안, 단일 관리)
+- **채점·브리프 기준**: `~/.claude/scheduled-tasks/job-radar-curation/SKILL.md` (= 루틴 프롬프트와 동일 내용)
 
-## 9. 티어별 타깃 회사 리스트
+## 9. 순회 대상 회사 추가하기
 
-`~/.claude/scheduled-tasks/job-radar-curation/SKILL.md` §Phase 1 소스 4(타깃 회사 모니터)가 관리 주체. 이 문서에 별도 기재하지 않음 — SKILL.md 단일 관리.
+`scripts/job_radar_sources.json`의 `sources`에 한 줄 추가하면 된다. 추가 전 링크가 실제로 뽑히는지 확인:
+
+```bash
+curl -s -L -A 'Mozilla/5.0' "https://회사.career.greetinghr.com/" | grep -o -E '/o/[0-9]+' | sort -u
+```
+
+0건이면 목록을 클라이언트에서 그리는 사이트(SPA)라 순회 불가 — 추가하지 말 것. greetinghr도 회사에 따라 SSR/SPA가 갈린다.
+
+플랫폼에 공고를 올리는 회사는 원티드·점핏에서 자동으로 잡히므로 **자사 페이지에 따로 넣을 필요가 없다.** 여기 넣는 건 플랫폼에 안 올리는 회사(당근 등)뿐.
