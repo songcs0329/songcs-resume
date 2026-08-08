@@ -1,0 +1,43 @@
+name: Job Radar Collect
+
+# 네트워크가 필요한 일(링크 생존 확인 · 공고 발견)만 여기서 한다.
+# 채점·브리프는 Claude 루틴이 data/raw-jobs.md 를 읽어서 처리한다 —
+# 루틴 세션은 외부 egress가 막혀 있어 URL 검증을 할 수 없기 때문.
+# 평일 08:30 KST 에 돌아 루틴(09:00 KST)보다 30분 앞선다.
+
+on:
+  schedule:
+    - cron: "30 23 * * 0-4"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: job-radar-collect
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: 링크 검증 · 신규 공고 수집
+        run: python3 scripts/job_radar_collect.py
+
+      - name: 변경분 커밋
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add src/data/jobs.json data/raw-jobs.md
+          if git diff --staged --quiet; then
+            echo "변경 없음 — 커밋 생략"
+            exit 0
+          fi
+          git commit -m "chore(job-radar): $(date -u '+%Y-%m-%d') 링크 검증 · 공고 수집"
+          git push origin HEAD:main
