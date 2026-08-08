@@ -151,13 +151,16 @@ def out_of_range(low, high):
     return high is not None and high < JUNIOR_CEILING
 
 
-def fetch_json(url):
+def fetch_json(url, label=""):
+    """실패 원인을 남긴다 — 차단(403)과 빈 응답(200)은 대응이 다르다."""
     status, body = fetch(url, retries=2, accept="application/json")
     if status != 200:
+        print(f"    [{label}] HTTP {status} — {url[:80]}")
         return None
     try:
         return json.loads(body)
     except json.JSONDecodeError:
+        print(f"    [{label}] JSON 파싱 실패 (len={len(body)}) — 앞부분: {body[:120]!r}")
         return None
 
 
@@ -165,9 +168,11 @@ def platform_wanted(source):
     """원티드 목록 API. 경력 범위를 API가 주므로 연차 필터를 여기서 건다."""
     out = []
     for offset in range(0, source.get("max_offset", 60) + 1, 20):
-        data = fetch_json(f"{source['list_api']}&limit=20&offset={offset}")
+        data = fetch_json(f"{source['list_api']}&limit=20&offset={offset}", "원티드")
         items = (data or {}).get("data") or []
         if not items:
+            if data is not None and offset == 0:
+                print(f"    [원티드] 200이지만 data 비어 있음 — 응답 키: {sorted(data)[:6]}")
             break
         for it in items:
             if it.get("is_newbie") or out_of_range(it.get("annual_from"), it.get("annual_to")):
@@ -185,9 +190,11 @@ def platform_jumpit(source):
     """점핏 목록 API. closedAt(마감일)·minCareer를 직접 주므로 그대로 활용한다."""
     out = []
     for page in range(1, source.get("max_pages", 4) + 1):
-        data = fetch_json(f"{source['list_api']}&page={page}")
+        data = fetch_json(f"{source['list_api']}&page={page}", "점핏")
         positions = ((data or {}).get("result") or {}).get("positions") or []
         if not positions:
+            if data is not None and page == 1:
+                print(f"    [점핏] 200이지만 positions 비어 있음 — 응답 키: {sorted(data)[:6]}")
             break
         for p in positions:
             if p.get("newcomer") or out_of_range(p.get("minCareer"), p.get("maxCareer")):
@@ -355,6 +362,16 @@ def pending_urls(raw):
     return set(re.findall(r"^- url: (\S+)", raw, re.M))
 
 
+def pending_blocks(raw):
+    """Pending 섹션에 남아 있는 공고 블록 제목 목록. Archived는 세지 않는다."""
+    start = raw.find(PENDING_HEADER)
+    if start < 0:
+        return []
+    m = ARCHIVED_RE.search(raw, start)
+    section = raw[start : m.start() if m else len(raw)]
+    return re.findall(r"^### (.+)$", section, re.M)
+
+
 # ---------------------------------------------------------------- main
 
 def selfcheck():
@@ -382,6 +399,13 @@ def selfcheck():
     assert is_closed("<p>이 공고는 채용이 종료되었습니다</p>")
     assert not is_closed("<p>상시 채용 중입니다</p>")
 
+    # Pending 잔량은 Archived를 빼고 센다
+    sample = (
+        f"{PENDING_HEADER}\n\n### A - 1\n\n- url: u1\n\n"
+        f"{ARCHIVED_HEADER}\n\n### B - 2\n\n- url: u2\n"
+    )
+    assert pending_blocks(sample) == ["A - 1"], pending_blocks(sample)
+
     # 경력 범위 필터
     assert out_of_range(8, 20), "하한 8년은 제외 대상"
     assert out_of_range(1, 2), "상한 2년은 주니어 전용"
@@ -397,8 +421,8 @@ def main():
     ap.add_argument("--skip-phase0", action="store_true", help="링크 생존 확인 건너뛰기")
     ap.add_argument("--skip-phase1", action="store_true", help="신규 공고 수집 건너뛰기")
     ap.add_argument("--limit-sources", type=int, default=0, help="앞에서 N개 소스만 순회(테스트용)")
-    ap.add_argument("--max-new", type=int, default=20,
-                    help="1회 적재 상한. 큐레이터가 한 세션에 읽을 수 있는 양으로 제한한다")
+    ap.add_argument("--max-pending", type=int, default=20,
+                    help="Pending 큐 총량 상한. 큐레이터가 한 세션에 읽을 수 있는 양으로 제한한다")
     ap.add_argument("--selfcheck", action="store_true", help="네트워크 없이 로직만 검사")
     args = ap.parse_args()
 
@@ -436,11 +460,15 @@ def main():
         print(f"-> 자사홈 신규 {len(company_entries)}건\n")
 
         new_entries += company_entries
-        # 남는 건 버리지 않는다 — 다음 실행에서 다시 발견되어 순차 적재된다
-        if args.max_new and len(new_entries) > args.max_new:
-            print(f"-> 검증 통과 {len(new_entries)}건 중 상한 {args.max_new}건만 적재 "
-                  f"(나머지는 다음 실행에서 재수집)")
-            new_entries = new_entries[: args.max_new]
+        # 상한은 큐 '총량' 기준이다 — 1회 적재량으로 잡으면 큐레이터가 소진하는
+        # 속도보다 수집이 빠를 때 Pending이 계속 불어난다.
+        # 넘치는 건 버려도 된다. 다음 실행에서 다시 발견되어 순차 적재된다.
+        backlog = len(pending_blocks(raw))
+        room = max(0, args.max_pending - backlog)
+        if len(new_entries) > room:
+            print(f"-> 검증 통과 {len(new_entries)}건 · 기존 Pending {backlog}건 "
+                  f"→ 여유 {room}건만 적재 (나머지는 다음 실행에서 재수집)")
+            new_entries = new_entries[:room]
         print(f"-> 적재 대상 {len(new_entries)}건\n")
 
     if removed:
