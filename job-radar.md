@@ -103,13 +103,18 @@
 
 | 단계 | 실행 주체 | 시각 | 하는 일 | 산출물 |
 |------|-----------|------|---------|--------|
-| 수집·검증 | GitHub Actions `job-radar-collect.yml` | 평일 08:30 KST | 링크 생존 확인, 플랫폼·자사페이지 순회, 전 건 200 검증 | `data/raw-jobs.md` Pending + `jobs.json` 만료 정리 → **main 직접 커밋** |
+| 원티드 수집 | **Mac launchd** `job_radar_local.sh` | 평일 08:00 KST | 원티드만 수집·검증 | `data/raw-jobs.md` → main 직접 커밋 |
+| 수집·검증 | GitHub Actions `job-radar-collect.yml` | 평일 08:30 KST | 링크 생존 확인, 점핏·자사페이지 순회, 전 건 200 검증 | `data/raw-jobs.md` + `jobs.json` 만료 정리 → main 직접 커밋 |
 | 큐레이션 | Claude 루틴 (클라우드) | 평일 09:00 KST | Pending을 읽어 채점·브리프·티어 배정 | `jobs.json` → `claude/` 브랜치 PR |
 | 머지 | `auto-merge-jobradar.yml` | PR 생성 시 | squash merge + deploy 트리거 | main |
 | 배포 | `deploy.yml` | main 푸시 | 빌드 → Pages (1~2분) | 대시보드 반영 |
 
+- **원티드만 Mac에서 도는 이유:** 원티드 API는 데이터센터 IP에 **403**을 준다(Actions 러너에서 실측). 같은 요청이 주거용 IP인 Mac에서는 200이라 이것만 로컬로 분리했다. Actions는 `--skip-platform wanted`로 건너뛴다.
+  - Mac이 꺼져 있으면 그냥 건너뛴다 — 같은 공고가 다음 실행에 다시 잡히므로 손실이 없다.
+  - 등록: `launchctl load ~/Library/LaunchAgents/com.songcs.job-radar-local.plist` / 로그: `.job-radar-local.log`
 - 수집기는 PR을 만들지 않고 main에 직접 커밋한다 — 기계적 결과라 리뷰할 게 없고, `GITHUB_TOKEN`으로 만든 PR은 다른 워크플로를 트리거하지 못한다.
 - 큐레이터는 **웹을 보지 않는다.** Pending에 없는 공고를 만들어 넣지 않는다.
+- **Pending 큐는 총량 20건으로 고정.** 넘치는 건은 버려지고 다음 실행에서 다시 발견된다. 큐레이터가 처리해 Archived로 내려야 새 공고가 들어올 자리가 생긴다.
 - **열람:** 배포된 페이지는 항상 열림. 데이터 갱신도 코드(UI) 변경도 모두 "푸시"라는 동일한 경로.
 
 ### 로컬에서 수집기 돌려보기
@@ -118,14 +123,18 @@
 python3 scripts/job_radar_collect.py --selfcheck              # 네트워크 없이 로직 검사
 python3 scripts/job_radar_collect.py --dry-run                # 파일 안 쓰고 결과만
 python3 scripts/job_radar_collect.py --skip-phase0            # 링크 확인 건너뛰고 수집만
-python3 scripts/job_radar_collect.py --max-new 5              # 적재 상한 조정
+python3 scripts/job_radar_collect.py --only wanted            # 원티드만 (로컬 수집과 동일)
+python3 scripts/job_radar_collect.py --skip-platform wanted   # 원티드 제외 (Actions와 동일)
+python3 scripts/job_radar_collect.py --max-pending 5          # 큐 총량 상한 조정
+bash scripts/job_radar_local.sh                               # launchd가 도는 것과 동일 경로
 ```
 
 ## 7. 알려진 제약·주의
 
 - **루틴 세션은 외부 웹에 접근할 수 없다.** curl·WebFetch 모두 403(정책 차단) — 특정 사이트가 아니라 egress 자체가 막혀 있다. 그래서 수집·검증을 Actions로 분리했다. 루틴 프롬프트에 웹 접근을 전제한 지시를 다시 넣지 말 것.
   - 2026-08-08 이전 수집분은 이 제약 때문에 웹을 못 보는 채로 URL이 생성되어 **죽은 링크 21건**이 섞여 있었음(존재하지 않는 서브도메인까지 조합됨) → 정리 완료.
-- **원티드·점핏 API는 비공식이다.** 공개 문서가 없어 응답 형태가 예고 없이 바뀔 수 있다. 바뀌면 해당 플랫폼만 건너뛰고 자사 페이지 수집은 계속되도록 예외 처리돼 있다. 호출 간 1초 간격, 하루 1회.
+- **원티드·점핏 API는 비공식이다.** 공개 문서가 없어 응답 형태가 예고 없이 바뀔 수 있다. 바뀌면 해당 플랫폼만 건너뛰고 나머지 수집은 계속되도록 예외 처리돼 있다. 호출 간 1초 간격, 하루 1회.
+- **원티드는 데이터센터 IP를 403으로 막는다.** GitHub Actions 러너에서 재현됨 — 그래서 Mac launchd로 분리했다. Actions 워크플로에 원티드를 다시 넣지 말 것. 점핏은 러너에서도 정상.
 - **회사가 제목과 메타데이터를 다르게 적는 경우가 있다.** 점핏에서 제목은 "9년~"인데 API `minCareer`는 6인 공고가 실제로 있었다. 연차 필터는 API 값을 쓰므로 이런 건 통과한다 — 최종 판단은 본문을 읽는 큐레이터 몫.
 - **기존 공고 중 일부는 개별 공고가 아니라 채용 목록 루트 URL이다** (`ably.team/recruit`, `career.kakaostyle.com/jobs` 등 9건). 200이라 Phase 0에서 안 걸러진다. 열어도 해당 공고가 없으니 별도 정리 필요.
 - 스케줄 태스크는 활성 1개만 유지(중복 사용량 방지). 데이터 반영에 배포 시간 1~2분 소요.
