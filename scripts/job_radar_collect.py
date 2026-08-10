@@ -36,6 +36,7 @@ ROOT = Path(__file__).resolve().parent.parent
 JOBS_PATH = ROOT / "src/data/jobs.json"
 SOURCES_PATH = ROOT / "scripts/job_radar_sources.json"
 RAW_PATH = ROOT / "data/raw-jobs.md"
+ARCHIVE_PATH = ROOT / "data/raw-jobs-archive.md"
 
 UA = (
     "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
@@ -321,21 +322,18 @@ def phase1_company_pages(sources, known_urls, verbose=True):
 # ---------------------------------------------------------------- raw-jobs.md
 
 PENDING_HEADER = "## Pending"
-ARCHIVED_HEADER = "## Archived"
-# 줄머리의 헤더만 잡는다. 안내문 안에 섹션 이름을 언급하면 그걸 헤더로 오인해
-# 엉뚱한 위치에 공고가 끼어든다.
-ARCHIVED_RE = re.compile(r"^## Archived", re.M)
 RAW_INTRO = (
     "# Job Radar 원본 공고 (수집기 → 큐레이터 인계 파일)\n\n"
     "`scripts/job_radar_collect.py`가 **URL 200 검증을 통과한** 공고만 여기에 적는다.\n"
-    "Claude 루틴은 이 파일의 Pending 섹션만 읽어 채점·브리프를 붙여 `src/data/jobs.json`으로 옮기고,\n"
-    "처리한 블록은 Archived 섹션으로 내린다. Pending에 없는 공고를 임의로 만들어 넣지 말 것.\n\n"
+    "Claude 루틴은 이 파일을 읽어 채점·브리프를 붙여 `src/data/jobs.json`으로 옮기고,\n"
+    "처리한 블록은 `data/raw-jobs-archive.md` 끝에 덧붙인다. 여기 없는 공고를 임의로 만들어 넣지 말 것.\n\n"
+    "처리 대기분만 남기는 파일이다 — 루틴이 매 실행 통째로 읽으므로 작게 유지한다.\n\n"
 )
 
 
 def read_raw():
     if not RAW_PATH.exists():
-        return RAW_INTRO + PENDING_HEADER + "\n\n" + ARCHIVED_HEADER + "\n"
+        return RAW_INTRO + PENDING_HEADER + "\n"
     return RAW_PATH.read_text(encoding="utf-8")
 
 
@@ -351,37 +349,42 @@ def append_pending(raw, entries, today):
             f"{deadline}\n"
             f"```\n{e['text']}\n```\n"
         )
-    addition = "\n".join(blocks)
-    m = ARCHIVED_RE.search(raw)
-    if m:
-        return f"{raw[:m.start()].rstrip()}\n\n{addition}\n{raw[m.start():]}"
-    return f"{raw.rstrip()}\n\n{addition}"
+    return f"{raw.rstrip()}\n\n" + "\n".join(blocks)
 
 
-def pending_urls(raw):
-    return set(re.findall(r"^- url: (\S+)", raw, re.M))
+def urls_in(text):
+    return set(re.findall(r"^- url: (\S+)", text, re.M))
+
+
+def archived_urls():
+    """이미 처리한 공고 url. 큐레이션에서 제외된 건은 jobs.json에 없으므로
+    이 파일을 봐야 매일 다시 수집되는 걸 막을 수 있다."""
+    if not ARCHIVE_PATH.exists():
+        return set()
+    return urls_in(ARCHIVE_PATH.read_text(encoding="utf-8"))
 
 
 def pending_blocks(raw):
-    """Pending 섹션에 남아 있는 공고 블록 제목 목록. Archived는 세지 않는다."""
+    """처리 대기 중인 공고 블록 제목 목록."""
     start = raw.find(PENDING_HEADER)
     if start < 0:
         return []
-    m = ARCHIVED_RE.search(raw, start)
-    section = raw[start : m.start() if m else len(raw)]
-    return re.findall(r"^### (.+)$", section, re.M)
+    return re.findall(r"^### (.+)$", raw[start:], re.M)
 
 
 # ---------------------------------------------------------------- main
 
 def selfcheck():
     """의존성 없이 도는 최소 검사. `--selfcheck` 로 실행."""
-    # 안내문이 섹션 이름을 언급해도 공고는 Pending 끝에 붙어야 한다
+    # 신규 공고는 대기 목록 끝에 붙는다
     raw = read_raw()
     out = append_pending(raw, [{"company": "A", "title": "T", "url": "u", "text": "x"}], "2026-01-01")
-    body = out[out.index(PENDING_HEADER):]
-    assert body.index("### A - T") < body.index("\n" + ARCHIVED_HEADER), "공고가 Archived 뒤로 밀렸다"
-    assert out.count(ARCHIVED_HEADER) == raw.count(ARCHIVED_HEADER), "Archived 헤더가 중복 생성됐다"
+    assert out.startswith(raw.rstrip()), "기존 내용이 잘렸다"
+    assert out.count(PENDING_HEADER) == 1, "Pending 헤더가 중복 생성됐다"
+    assert "### A - T" in out[out.index(PENDING_HEADER):], "공고가 Pending 밖에 붙었다"
+
+    # 아카이브는 별도 파일 — 여기서 세면 큐가 안 빈 걸로 보인다
+    assert "## Archived" not in out, "아카이브 섹션이 대기 파일에 남았다"
 
     # 제목 필터
     assert looks_like_fe("Software Engineer, Frontend - 커뮤니티")
@@ -399,12 +402,9 @@ def selfcheck():
     assert is_closed("<p>이 공고는 채용이 종료되었습니다</p>")
     assert not is_closed("<p>상시 채용 중입니다</p>")
 
-    # Pending 잔량은 Archived를 빼고 센다
-    sample = (
-        f"{PENDING_HEADER}\n\n### A - 1\n\n- url: u1\n\n"
-        f"{ARCHIVED_HEADER}\n\n### B - 2\n\n- url: u2\n"
-    )
+    sample = f"{RAW_INTRO}{PENDING_HEADER}\n\n### A - 1\n\n- url: u1\n"
     assert pending_blocks(sample) == ["A - 1"], pending_blocks(sample)
+    assert urls_in(sample) == {"u1"}, urls_in(sample)
 
     # 경력 범위 필터
     assert out_of_range(10, 20), "하한 10년은 제외 대상"
@@ -460,7 +460,7 @@ def main():
             platforms = [p for p in platforms if p["type"] not in args.skip_platform]
         if args.limit_sources:
             sources = sources[: args.limit_sources]
-        known = {j["url"] for j in jobs} | pending_urls(raw)
+        known = {j["url"] for j in jobs} | urls_in(raw) | archived_urls()
 
         print(f"== Phase 1a — 채용 플랫폼 ({len(platforms)}개) ==")
         new_entries = phase1_platforms(platforms, known)

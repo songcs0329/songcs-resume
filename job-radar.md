@@ -89,7 +89,8 @@
   - `src/pages/JobRadar/` — 대시보드 페이지 컴포넌트
   - `scripts/job_radar_collect.py` — 수집·검증기(표준 라이브러리만). `--dry-run`·`--selfcheck`·`--max-new N` 등으로 로컬 테스트 가능
   - `scripts/job_radar_sources.json` — 순회 대상. **회사 추가는 이 파일만 고치면 된다.** 추가 전 루트 HTML에서 링크가 실제로 뽑히는지 확인할 것
-  - `data/raw-jobs.md` — 수집기 → 큐레이터 인계 큐. `## Pending` / `## Archived`
+  - `data/raw-jobs.md` — 수집기 → 큐레이터 인계 큐. **처리 대기분만** 남긴다
+  - `data/raw-jobs-archive.md` — 처리 완료분 보관. 중복 수집을 막는 url 원장이고, **루틴은 읽지 않고 덧붙이기만 한다** (읽으면 매 실행 수만 토큰을 태운다)
 - **수집기 필드 규칙 (jobs.json 작성 시 반드시 지킬 것):**
   - `first_seen` — 최초 수집일(YYYY-MM-DD), 모든 공고 필수. `posted_date` — 게시일 확인 시 기록.
   - `scale` — 티어 판정 근거 필수 기록 (예: "시리즈B · 누적 290억", "상장사 계열", "투자정보 미확인").
@@ -106,7 +107,7 @@
 |------|-----------|------|---------|--------|
 | 원티드 수집 | **Mac launchd** `job_radar_local.sh` | 평일 08:00 KST | 원티드만 수집·검증 | `data/raw-jobs.md` → main 직접 커밋 |
 | 수집·검증 | GitHub Actions `job-radar-collect.yml` | 평일 08:30 KST | 링크 생존 확인, 점핏·자사페이지 순회, 전 건 200 검증 | `data/raw-jobs.md` + `jobs.json` 만료 정리 → main 직접 커밋 |
-| 큐레이션 | Claude 루틴 (클라우드) | 평일 09:00 KST | Pending을 읽어 채점·브리프·티어 배정 | `jobs.json` → `claude/` 브랜치 PR |
+| 큐레이션 | Claude 루틴 (클라우드) | 평일 09:00 KST | 대기 공고를 읽어 채점·브리프·티어 배정 | `jobs.json` → `claude/` 브랜치 PR |
 | 머지 | `auto-merge-jobradar.yml` | PR 생성 시 | squash merge + deploy 트리거 | main |
 | 배포 | `deploy.yml` | main 푸시 | 빌드 → Pages (1~2분) | 대시보드 반영 |
 
@@ -114,8 +115,9 @@
   - Mac이 꺼져 있으면 그냥 건너뛴다 — 같은 공고가 다음 실행에 다시 잡히므로 손실이 없다.
   - 등록: `launchctl load ~/Library/LaunchAgents/com.songcs.job-radar-local.plist` / 로그: `.job-radar-local.log`
 - 수집기는 PR을 만들지 않고 main에 직접 커밋한다 — 기계적 결과라 리뷰할 게 없고, `GITHUB_TOKEN`으로 만든 PR은 다른 워크플로를 트리거하지 못한다.
-- 큐레이터는 **웹을 보지 않는다.** Pending에 없는 공고를 만들어 넣지 않는다.
-- **Pending 큐는 총량 20건으로 고정.** 넘치는 건은 버려지고 다음 실행에서 다시 발견된다. 큐레이터가 처리해 Archived로 내려야 새 공고가 들어올 자리가 생긴다.
+- 큐레이터는 **웹을 보지 않는다.** `raw-jobs.md`에 없는 공고를 만들어 넣지 않는다.
+- **대기 큐는 총량 20건으로 고정.** 넘치는 건은 버려지고 다음 실행에서 다시 발견된다. 큐레이터가 처리해 아카이브로 내려야 새 공고가 들어올 자리가 생긴다.
+- **제외한 공고도 아카이브에 넣는다.** jobs.json에 안 들어가므로 아카이브에서 빠지면 수집기가 매일 다시 주워온다.
 - **열람:** 배포된 페이지는 항상 열림. 데이터 갱신도 코드(UI) 변경도 모두 "푸시"라는 동일한 경로.
 
 ### 로컬에서 수집기 돌려보기
