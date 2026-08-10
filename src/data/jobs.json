@@ -1,9 +1,1197 @@
 {
   "meta": {
-    "last_collected": "2026-08-07",
-    "total": 23
+    "last_collected": "2026-08-10",
+    "total": 38
   },
   "jobs": [
+    {
+      "id": "miridi-frontend-product-2026-08",
+      "company": "미리디",
+      "title": "[미리캔버스] 프론트엔드 개발자 (프로덕트)",
+      "level": "미들",
+      "scale": "투자정보 미확인 (2025년 매출 942억원, 4년간 약 5배 성장)",
+      "source": "wanted",
+      "url": "https://www.wanted.co.kr/wd/345787",
+      "location": "서울 구로구",
+      "exp": "경력 3-6년",
+      "exp_min_years": 3,
+      "posted_date": null,
+      "first_seen": "2026-08-10",
+      "domains": [
+        "디자인플랫폼",
+        "프로덕트",
+        "AI"
+      ],
+      "deadline": null,
+      "deadline_type": "unknown",
+      "deadline_label": null,
+      "process": null,
+      "process_confirmed": false,
+      "has_codingtest": "미확인",
+      "fit_score": 76,
+      "fit_tier": "상",
+      "fit_reasons": [
+        "React/TypeScript/Next.js/React-Query 스택이 후보자 스택과 정확히 일치",
+        "2,200만 가입자 규모 프로덕트에서 대용량 트래픽 대응 경험 가능",
+        "결제/지도/SEO 등 후보자 핵심 도메인과 직접 매치되는 업무는 없음"
+      ],
+      "tier": "문열기",
+      "is_new": true,
+      "brief": {
+        "company_status": "미리캔버스(가입자 2,200만)와 비즈하우스(PoD 커머스)를 운영하는 디자인 올인원 플랫폼 기업으로, 2025년 매출 942억원을 기록하며 4년간 약 5배 성장했습니다.",
+        "verdict": "결제/지도/SEO 도메인 직접 매치는 없으나 스택이 후보자와 완전히 일치하고 대규모 프로덕트 경험을 쌓을 수 있는 상 등급 포지션입니다.",
+        "strengths": [
+          "React/TypeScript/Next.js 등 핵심 스택 100% 일치",
+          "대규모 트래픽·사용자 서비스 운영 경험 보유",
+          "SEO 개선 경험(CTR 11.3%, 액티브유저 +61%)이 홈페이지/템플릿 페이지 개발에 활용 가능"
+        ],
+        "gaps": [
+          "결제/지도 도메인과 직접 연관된 업무는 명시되어 있지 않음",
+          "jotai/styled-components 등 후보자가 주로 쓰지 않던 툴 일부 사용"
+        ],
+        "pass_odds": "중간",
+        "strategy": "React/TS/Next.js 프로젝트 경험과 SEO·트래픽 개선 성과를 강조하여 대규모 프로덕트 대응 역량을 어필하는 방향으로 지원.",
+        "sources": [
+          {
+            "title": "[미리디] [미리캔버스] 프론트엔드 개발자 (프로덕트)",
+            "url": "https://www.wanted.co.kr/wd/345787"
+          }
+        ]
+      }
+    },
+    {
+      "id": "wavedeck-frontend-2026-08",
+      "company": "웨이브덱",
+      "title": "프론트엔드 개발자 (3년 이상)",
+      "level": "미들",
+      "scale": "투자정보 미확인",
+      "source": "wanted",
+      "url": "https://www.wanted.co.kr/wd/379529",
+      "location": "서울 영등포구",
+      "exp": "경력 3-8년",
+      "exp_min_years": 3,
+      "posted_date": null,
+      "first_seen": "2026-08-10",
+      "domains": [
+        "SaaS",
+        "결제",
+        "AI"
+      ],
+      "deadline": null,
+      "deadline_type": "rolling",
+      "deadline_label": "상시채용",
+      "process": null,
+      "process_confirmed": false,
+      "has_codingtest": "미확인",
+      "fit_score": 79,
+      "fit_tier": "상",
+      "fit_reasons": [
+        "회원가입/요금제/결제·구독 등 SaaS 핵심 기능 개발이 후보자의 결제 도메인 경험과 부합",
+        "React/TypeScript/Next.js/React Query 스택 정확히 일치",
+        "상시채용으로 지원 타이밍 부담이 적음"
+      ],
+      "tier": "문열기",
+      "is_new": true,
+      "brief": {
+        "company_status": "AI 음성 합성·보이스클로닝 서비스 VOLI를 운영하는 오디오 AI 스타트업으로, 이용자 17만명을 보유하고 2022년 NIPA AI 경진대회에서 1위를 기록했습니다.",
+        "verdict": "결제·구독 등 SaaS 핵심 기능 개발이 업무에 포함되어 후보자의 결제 도메인 경험과 부합하며, 스택도 정확히 일치하는 상 등급 매치입니다.",
+        "strengths": [
+          "결제·구독·요금제 플로우 개발 경험(PG 연동, CVR 개선)을 직접 활용 가능",
+          "React/TypeScript/Next.js/React Query 스택 100% 일치",
+          "다국어(한/영/일) 반응형 서비스 경험도 후보자 역량과 부합"
+        ],
+        "gaps": [
+          "오디오/영상 렌더링(FFmpeg, Remotion) 등 새로운 도메인 학습 필요",
+          "지도/웹뷰 도메인과는 직접 연관 없음"
+        ],
+        "pass_odds": "중간",
+        "strategy": "PG 연동 및 결제·구독 플로우 개발 경험을 결제/구독 UI 구현 사례로 구체화하여 지원.",
+        "sources": [
+          {
+            "title": "[웨이브덱] 프론트엔드 개발자 (3년 이상)",
+            "url": "https://www.wanted.co.kr/wd/379529"
+          }
+        ]
+      }
+    },
+    {
+      "id": "bemyfriends-frontend-2026-08",
+      "company": "비마이프렌즈",
+      "title": "Front-end Developer",
+      "level": "시니어",
+      "scale": "투자정보 미확인",
+      "source": "wanted",
+      "url": "https://www.wanted.co.kr/wd/305712",
+      "location": "서울 강남구",
+      "exp": "경력 5년 이상",
+      "exp_min_years": 5,
+      "posted_date": null,
+      "first_seen": "2026-08-10",
+      "domains": [
+        "웹뷰",
+        "커머스",
+        "SaaS"
+      ],
+      "deadline": null,
+      "deadline_type": "rolling",
+      "deadline_label": "상시채용",
+      "process": null,
+      "process_confirmed": false,
+      "has_codingtest": "미확인",
+      "fit_score": 86,
+      "fit_tier": "최상",
+      "fit_reasons": [
+        "WebView(In-App) 개발 경험을 명시적으로 요구 - 후보자의 지도/웹뷰 하이브리드 강점과 직접 매치",
+        "React/TypeScript/Next.js/Zustand/React-Query 스택 100% 일치",
+        "글로벌 커머스/커뮤니티 서비스로 커머스 도메인 경험도 활용 가능"
+      ],
+      "tier": "문열기",
+      "is_new": true,
+      "brief": {
+        "company_status": "글로벌 커머스/커뮤니티 SaaS 서비스 bstage를 운영하며 동영상, 에디터, 결제, 채팅 등 다양한 도메인의 대용량 트래픽 서비스를 개발하는 회사입니다.",
+        "verdict": "WebView(In-App) 개발 경험을 명시적으로 요구해 후보자의 지도/웹뷰 하이브리드 강점과 정확히 일치하며 스택도 100% 동일한 최상 등급 매치입니다.",
+        "strengths": [
+          "네이버 지도 클라이언트 클러스터링/네이티브 브릿지 상태 동기화 경험이 WebView 요구사항과 직접 연결",
+          "React/TypeScript/Next.js/Zustand/React-Query 스택 완전 일치",
+          "커머스 도메인 경험(PG 연동, CVR 개선) 보유"
+        ],
+        "gaps": [
+          "동영상 스트리밍/DRM, 위지윅 에디터 등은 새로운 도메인",
+          "프로젝트 리드 경험을 구체적 사례로 증명할 필요"
+        ],
+        "pass_odds": "높음",
+        "strategy": "네이버 지도 웹뷰/네이티브 브릿지 연동 경험을 WebView(In-App) 요구사항에 맞춰 최우선으로 강조하여 지원.",
+        "sources": [
+          {
+            "title": "[비마이프렌즈] Front-end Developer",
+            "url": "https://www.wanted.co.kr/wd/305712"
+          }
+        ]
+      }
+    },
+    {
+      "id": "pullim-frontend-2026-08",
+      "company": "풀림",
+      "title": "[신사업] 프론트 엔지니어 (3년 이상)",
+      "level": "미들",
+      "scale": "투자정보 미확인 (2025년 매출 180억원, 사원수 32명)",
+      "source": "wanted",
+      "url": "https://www.wanted.co.kr/wd/379196",
+      "location": "서울 강남구",
+      "exp": "경력 3-5년",
+      "exp_min_years": 3,
+      "posted_date": null,
+      "first_seen": "2026-08-10",
+      "domains": [
+        "결제",
+        "구독",
+        "에듀테크"
+      ],
+      "deadline": "2026-08-31",
+      "deadline_type": "date",
+      "deadline_label": "2026.08.31",
+      "process": null,
+      "process_confirmed": false,
+      "has_codingtest": "미확인",
+      "fit_score": 85,
+      "fit_tier": "최상",
+      "fit_reasons": [
+        "결제/구독 플로우 구현이 핵심 업무로 명시되어 후보자의 PG 연동/결제 강점과 직접 매치",
+        "React/Next.js 스택 일치",
+        "초기 신사업 단계 스타트업 - 성장 및 안정성 리스크 존재"
+      ],
+      "tier": "문열기",
+      "is_new": true,
+      "brief": {
+        "company_status": "2022년 설립된 애드테크 기업으로 2025년 매출 180억원, 사원수 32명이며, 2026년 강의 플랫폼 등 신사업 확장을 위해 초기 팀을 구성 중입니다.",
+        "verdict": "결제/구독 플로우 구현이 핵심 업무로 명시되어 후보자의 PG 연동·결제 도메인 강점과 직접 연결되는 최상 등급 매치입니다.",
+        "strengths": [
+          "Toss Pay/Kakao Pay/Inicis 등 PG 연동 경험이 결제/구독 플로우 구현 요구사항과 직접 매치",
+          "CVR +14.27% 개선 등 결제 관련 성과를 구체적으로 어필 가능",
+          "React/Next.js 기반 반응형 웹 개발 경험 부합"
+        ],
+        "gaps": [
+          "영상 스트리밍 UX/재생 안정화는 새로운 도메인",
+          "신사업 초기 단계로 조직·프로세스 미성숙 가능성"
+        ],
+        "pass_odds": "높음",
+        "strategy": "Toss Pay/Kakao Pay/Inicis/Popbill PG 연동 경험과 CVR 개선 성과를 결제/구독 플로우 구현 역량으로 직접 연결하여 지원.",
+        "sources": [
+          {
+            "title": "[풀림] [신사업] 프론트 엔지니어 (3년 이상)",
+            "url": "https://www.wanted.co.kr/wd/379196"
+          }
+        ]
+      }
+    },
+    {
+      "id": "coupang-eats-staff-fe-2026-08",
+      "company": "쿠팡",
+      "title": "Staff Frontend Engineer (Coupang Eats)",
+      "level": "시니어",
+      "scale": "상장 대기업 (자동 문샷)",
+      "source": "wanted",
+      "url": "https://www.wanted.co.kr/wd/376128",
+      "location": "서울 강남구 (선릉역 부근)",
+      "exp": "경력 7-14년",
+      "exp_min_years": 7,
+      "posted_date": null,
+      "first_seen": "2026-08-10",
+      "domains": [
+        "커머스",
+        "배달",
+        "웹 아키텍처"
+      ],
+      "deadline": null,
+      "deadline_type": "rolling",
+      "deadline_label": "상시채용",
+      "process": null,
+      "process_confirmed": false,
+      "has_codingtest": "미확인",
+      "fit_score": 82,
+      "fit_tier": "상",
+      "fit_reasons": [
+        "이커머스/배달 도메인이 후보자 커머스·결제 핵심 강점과 직접 매칭",
+        "React/Vue/Node 등 요구 스택 및 7년 이상 경력이 정확히 부합",
+        "Staff급 '팀 엔지니어 아키텍처 가이드' 역할 명시로 Lead+IC 성격 -10점 감점 적용"
+      ],
+      "tier": "문샷",
+      "is_new": true,
+      "brief": {
+        "company_status": "쿠팡은 국내 최대 이커머스 상장기업이며, 쿠팡이츠는 무제한 무료배달로 급성장 중인 배달 플랫폼 자회사입니다.",
+        "verdict": "이커머스 결제·주문 도메인 강점과 직접 맞닿은 Staff급 프론트엔드 포지션으로 적합도가 매우 높으나, 팀 아키텍처 품질을 가이드하는 역할이 명시되어 Lead+IC 감점(-10)을 적용했습니다.",
+        "strengths": [
+          "PG 연동/결제·주문 플로우 CVR 개선 경험이 쿠팡이츠 도메인과 직접 연결",
+          "요구 경력(7-14년)과 후보자 경력이 정확히 부합",
+          "React/Vue/Node 등 요구 웹 프레임워크 스택 보유"
+        ],
+        "gaps": [
+          "Staff급 팀 아키텍처 가이드 역할에 대한 공식적 리드 실적 증빙 필요",
+          "상장 대기업 규모의 대용량 트래픽/조직 환경 적응 여부"
+        ],
+        "pass_odds": "중간",
+        "strategy": "이커머스 결제·주문 플로우 성과(CVR +14.27%)와 웹 아키텍처 개선 경험을 중심으로 어필하고, 동료 코드 품질 가이드 사례를 보강해 지원.",
+        "sources": [
+          {
+            "title": "쿠팡 - Staff Frontend Engineer (Coupang Eats) - 원티드",
+            "url": "https://www.wanted.co.kr/wd/376128"
+          }
+        ]
+      }
+    },
+    {
+      "id": "growingsales-fe-2026-08",
+      "company": "그로잉세일즈",
+      "title": "프론트엔드 엔지니어",
+      "level": "미들",
+      "scale": "투자정보 미확인",
+      "source": "wanted",
+      "url": "https://www.wanted.co.kr/wd/379321",
+      "location": "서울 마포구",
+      "exp": "경력 2년 이상 4년 이하",
+      "exp_min_years": 2,
+      "posted_date": null,
+      "first_seen": "2026-08-10",
+      "domains": [
+        "커머스",
+        "리테일테크"
+      ],
+      "deadline": "2026-08-13",
+      "deadline_type": "date",
+      "deadline_label": "2026.08.13",
+      "process": null,
+      "process_confirmed": false,
+      "has_codingtest": "미확인",
+      "fit_score": 58,
+      "fit_tier": "하",
+      "fit_reasons": [
+        "React Native 태블릿 POS/키오스크 앱 개발 비중이 상당해 웹 중심 강점과 다소 어긋남",
+        "요구 경력(2-4년)이 후보자 경력(7년+)보다 크게 낮아 레벨 불일치",
+        "실시간 데이터 동기화 UX 최적화 업무는 결제/주문 플로우 경험과 일부 연결"
+      ],
+      "tier": "문열기",
+      "is_new": true,
+      "brief": {
+        "company_status": "그로잉세일즈는 오프라인 매장 POS·키오스크·CRM·재고관리를 통합하는 온오프라인 멤버십 솔루션 스타트업으로, 도입 브랜드 유지율 96%를 보유하고 있습니다.",
+        "verdict": "React Native 기반 태블릿 POS/키오스크 앱 개발과 React.js 어드민 대시보드 개발이 함께 요구되는 크로스플랫폼 역할로, 실제 웹 프론트엔드 업무는 존재하나 네이티브 앱 비중도 상당합니다.",
+        "strengths": [
+          "결제/주문/재고 실시간 동기화 UX 최적화 경험이 기존 결제 플로우 경험과 연결",
+          "Redux/Zustand/React Query 등 상태관리 스택 일치",
+          "디자인 시스템 구축·컴포넌트화 경험 보유"
+        ],
+        "gaps": [
+          "React Native 앱 개발 비중이 높아 웹 중심 경력과 다소 불일치",
+          "요구 경력 레벨이 후보자보다 낮아 오버스펙 우려"
+        ],
+        "pass_odds": "낮음",
+        "strategy": "웹 어드민 대시보드/서비스 웹사이트 프론트엔드 업무 중심으로 지원 포인트를 좁히고, RN 경험이 제한적임을 사전에 인지시켜 기대치를 조율.",
+        "sources": [
+          {
+            "title": "그로잉세일즈 - 프론트엔드 엔지니어 - 원티드",
+            "url": "https://www.wanted.co.kr/wd/379321"
+          }
+        ]
+      }
+    },
+    {
+      "id": "clo-virtual-fashion-fe-2026-08",
+      "company": "클로버추얼패션(CLOVirtualFashion)",
+      "title": "Frontend Developer",
+      "level": null,
+      "scale": "투자정보 미확인",
+      "source": "wanted",
+      "url": "https://www.wanted.co.kr/wd/368858",
+      "location": "서울 강남구",
+      "exp": "경력 3년 이상",
+      "exp_min_years": 3,
+      "posted_date": null,
+      "first_seen": "2026-08-10",
+      "domains": [
+        "SaaS",
+        "디자인시스템"
+      ],
+      "deadline": null,
+      "deadline_type": "rolling",
+      "deadline_label": "상시채용",
+      "process": null,
+      "process_confirmed": false,
+      "has_codingtest": "미확인",
+      "fit_score": 74,
+      "fit_tier": "중",
+      "fit_reasons": [
+        "React/TS/상태관리(Redux, Zustand, React Query) 스택이 요구사항과 완전히 일치",
+        "포지션 자체는 3D 렌더링이 아닌 CLO-SET 웹 협업 플랫폼의 순수 프론트엔드 개발",
+        "패션테크 도메인은 후보자 핵심 강점(커머스/결제/지도/SEO)과 직접적 연관성 낮음"
+      ],
+      "tier": "문열기",
+      "is_new": true,
+      "brief": {
+        "company_status": "클로버추얼패션은 2009년 설립된 3D 패션 시뮬레이션 소프트웨어 기업으로, 13개국 16개 오피스를 운영하는 글로벌 디지털 패션테크 기업입니다.",
+        "verdict": "본 포지션은 3D 의상 렌더링이 아닌 CLO-SET(클라우드 기반 패션 에셋 협업 플랫폼)의 웹 프론트엔드 개발이 핵심으로, React/TypeScript 스택이 후보자 경력과 잘 맞습니다.",
+        "strengths": [
+          "React, TypeScript, Redux/Zustand/React Query 스택 완전 일치",
+          "Tailwind 계열 CSS 라이브러리(Emotion) 및 Vite/Rollup 빌드 환경 경험 보유",
+          "REST API 연동 및 웹 성능 최적화 경험 다수"
+        ],
+        "gaps": [
+          "패션/디지털 에셋 관리 도메인 경험 부재",
+          "결제·지도·SEO 등 핵심 강점 도메인과 직접 연결되는 요소 없음"
+        ],
+        "pass_odds": "중간",
+        "strategy": "React/TS 기반 프론트엔드 아키텍처 설계 및 웹 성능 최적화 경험을 중심으로 어필하고, 도메인 무관 범용 역량임을 강조.",
+        "sources": [
+          {
+            "title": "클로버추얼패션(CLOVirtualFashion) - Frontend Developer - 원티드",
+            "url": "https://www.wanted.co.kr/wd/368858"
+          }
+        ]
+      }
+    },
+    {
+      "id": "roai-senior-fe-2026-08",
+      "company": "로아이",
+      "title": "Senior Frontend Engineer (React.js)",
+      "level": "시니어",
+      "scale": "시리즈A, 130억원 (2026.04)",
+      "source": "wanted",
+      "url": "https://www.wanted.co.kr/wd/361516",
+      "location": "서울 강남구",
+      "exp": "경력 5년 이상",
+      "exp_min_years": 5,
+      "posted_date": null,
+      "first_seen": "2026-08-10",
+      "domains": [
+        "B2C",
+        "SSR/BFF"
+      ],
+      "deadline": null,
+      "deadline_type": "rolling",
+      "deadline_label": "상시채용",
+      "process": null,
+      "process_confirmed": false,
+      "has_codingtest": "미확인",
+      "fit_score": 72,
+      "fit_tier": "중",
+      "fit_reasons": [
+        "React.js 컴포넌트 아키텍처 및 SSR/BFF 개발 경험 요구가 후보자 스택과 일치",
+        "로보틱스/공간지능 도메인은 후보자 핵심 강점(커머스/결제/지도)과 직접 연관성 낮음",
+        "B2C 대용량 트래픽 대응 요구는 SEO/트래픽 개선 성과(active users +61%)와 일부 연결"
+      ],
+      "tier": "메인",
+      "is_new": true,
+      "brief": {
+        "company_status": "로아이(ROAI)는 산업용 로봇의 공간 지능(Spatial Intelligence) 기술을 개발하는 딥테크 스타트업으로, 2026년 4월 130억원 규모 시리즈A 투자를 유치했습니다.",
+        "verdict": "채용 공고 자체는 3D 렌더링이 아닌 React.js 기반 인터랙티브 웹 콘텐츠/협업 툴 개발이 핵심 업무이며, SSR/BFF 및 B2C 대용량 트래픽 대응 경험이 요구되어 후보자 스택과 부합합니다.",
+        "strengths": [
+          "React.js 컴포넌트 아키텍처 설계 및 실무 개발 요구와 일치",
+          "SSR/BFF 서버사이드 개발 경험 요구가 후보자의 Next.js 실무 경험과 연결",
+          "B2C 대용량 트래픽 대응 경험은 SEO/트래픽 개선 성과와 연관 가능"
+        ],
+        "gaps": [
+          "로보틱스/공간지능 도메인 지식 부재",
+          "결제·지도 등 핵심 도메인 직접 연관성 낮음"
+        ],
+        "pass_odds": "중간",
+        "strategy": "SSR/BFF 기반 웹 아키텍처 구축 경험과 B2C 대용량 트래픽 대응 성과를 중심으로 어필.",
+        "sources": [
+          {
+            "title": "로아이 - Senior Frontend Engineer (React.js) - 원티드",
+            "url": "https://www.wanted.co.kr/wd/361516"
+          }
+        ]
+      }
+    },
+    {
+      "id": "scatterlab-fe-2026-08",
+      "company": "스캐터랩(Scatterlab)",
+      "title": "Frontend Engineer",
+      "level": "미들",
+      "scale": "투자정보 미확인",
+      "source": "wanted",
+      "url": "https://www.wanted.co.kr/wd/347680",
+      "location": "서울 성동구",
+      "exp": "경력 3년 이상",
+      "exp_min_years": 3,
+      "posted_date": null,
+      "first_seen": "2026-08-10",
+      "domains": [
+        "웹뷰",
+        "AI서비스"
+      ],
+      "deadline": null,
+      "deadline_type": "unknown",
+      "deadline_label": null,
+      "process": null,
+      "process_confirmed": false,
+      "has_codingtest": "미확인",
+      "fit_score": 71,
+      "fit_tier": "중",
+      "fit_reasons": [
+        "Next.js/React Native 하이브리드 웹·앱 개발 경험이 웹뷰-네이티브 브릿지 상태 동기화 강점과 유사한 성격",
+        "채팅/이벤트/어드민 등 다양한 접점의 실제 웹(Next.js) 프론트엔드 비중이 충분히 존재",
+        "AI 엔터테인먼트 도메인은 후보자 핵심 도메인(커머스/결제)과 직접 연관성 낮음"
+      ],
+      "tier": "문열기",
+      "is_new": true,
+      "brief": {
+        "company_status": "스캐터랩은 AI 기반 인터랙티브 엔터테인먼트 서비스 '제타'를 운영하며, 글로벌 누적 가입자 1000만 명을 확보한 한일 1위 AI 엔터테인먼트 플랫폼입니다.",
+        "verdict": "Next.js와 React Native를 함께 사용하는 하이브리드 웹/앱 프론트엔드 포지션으로, 채팅 UI·이벤트·어드민 등 다양한 접점 개발이 핵심이며 실제 웹(Next.js) 비중이 충분히 존재해 네이티브 전용 역할로 보기 어렵습니다.",
+        "strengths": [
+          "Next.js 기반 웹 개발 경험과 직접 일치",
+          "웹/앱 하이브리드 개발 경험이 웹뷰-네이티브 브릿지 상태 동기화 강점과 유사",
+          "A/B 테스트·로그 설계 기반 UI/UX 개선 경험이 SEO/트래픽 개선 경험과 연결 가능"
+        ],
+        "gaps": [
+          "React Native 앱 개발 비중 존재로 순수 웹 프론트엔드 대비 추가 학습 필요",
+          "AI/엔터테인먼트 도메인 경험 부재"
+        ],
+        "pass_odds": "중간",
+        "strategy": "웹뷰/네이티브 브릿지 상태 동기화 경험과 Next.js 실무 경험을 중심으로 어필.",
+        "sources": [
+          {
+            "title": "스캐터랩(Scatterlab) - Frontend Engineer - 원티드",
+            "url": "https://www.wanted.co.kr/wd/347680"
+          }
+        ]
+      }
+    },
+    {
+      "id": "koistory-fullstack-travel-wanted-2026-08",
+      "company": "코이스토리",
+      "title": "풀스택 개발자 (4~6년차) — 인플루언서 여행플랫폼",
+      "level": "미들",
+      "scale": "투자정보 미확인",
+      "source": "wanted",
+      "url": "https://www.wanted.co.kr/wd/378872",
+      "location": "서울 강남구 강남대로 364, 12층",
+      "exp": "경력 4-6년",
+      "exp_min_years": 4,
+      "posted_date": null,
+      "first_seen": "2026-08-10",
+      "domains": [
+        "커머스",
+        "여행",
+        "결제",
+        "풀스택"
+      ],
+      "deadline": null,
+      "deadline_type": "rolling",
+      "deadline_label": "상시채용",
+      "process": null,
+      "process_confirmed": false,
+      "has_codingtest": "미확인",
+      "fit_score": 72,
+      "fit_tier": "중",
+      "fit_reasons": [
+        "결제·재고·정산 등 커머스 핵심 도메인이 후보자 강점과 직접 일치",
+        "BE 비중 있는 풀스택 (-10점): DB 스키마 설계·마이그레이션 등 백엔드 실무 요구도 높음",
+        "언어 무관 4~6년 풀스택 요건으로 진입장벽은 낮으나 백엔드 단독 책임 필요"
+      ],
+      "tier": "문열기",
+      "is_new": true,
+      "brief": {
+        "company_status": "코이스토리는 인플루언서 기반 여행 예약 플랫폼 '예스트래블'을 운영하며 숙박·패키지·이티켓 예약/결제 전 과정을 자체 개발·운영합니다. 24년 매출 37억에서 26년 상반기 84억으로 빠르게 성장 중이나 투자 유치 정보는 공개되지 않았습니다.",
+        "verdict": "결제/재고 정합성을 다루는 커머스 도메인은 후보자의 강점과 잘 맞으나, 라우터·엔티티·마이그레이션까지 혼자 구현해야 하는 구조입니다. FE 5 : BE 5 — 화면 구현뿐 아니라 DB 스키마 설계, 데이터 정합성 로직 등 백엔드 비중이 절반 이상으로 판단됩니다.",
+        "strengths": [
+          "결제·재고·정산 등 커머스 핵심 도메인 경험과 직접 일치",
+          "PG 연동(Toss Pay, Kakao Pay 등) 경험이 '외부 시스템 연동(결제, 소셜로그인 등)' 요건과 부합",
+          "실서비스 화면 구현 경험 풍부"
+        ],
+        "gaps": [
+          "관계형 DB 직접 설계·마이그레이션 등 백엔드 실무 경험 요구도가 높음",
+          "언어 무관이라지만 서버 로직을 단독으로 책임져야 하는 구조"
+        ],
+        "pass_odds": "중간",
+        "strategy": "백엔드 실무(스키마 설계, 외부 API 연동) 경험을 포트폴리오에서 구체적으로 강조하고, 결제/재고 정합성 프로젝트 사례를 앞세워 지원.",
+        "sources": [
+          {
+            "title": "코이스토리 - 풀스택 개발자 (4~6년차) — 인플루언서 여행플랫폼 (wanted)",
+            "url": "https://www.wanted.co.kr/wd/378872"
+          }
+        ]
+      }
+    },
+    {
+      "id": "koistory-fullstack-travel-jumpit-2026-08",
+      "company": "코이스토리",
+      "title": "풀스택 개발자(4~6년)-인플루언서 여행플랫폼",
+      "level": "미들",
+      "scale": "투자정보 미확인",
+      "source": "jumpit",
+      "url": "https://jumpit.saramin.co.kr/position/54655831",
+      "location": "서울 강남구 (강남역 인근, 패스트파이브)",
+      "exp": "경력 4~6년",
+      "exp_min_years": 4,
+      "posted_date": null,
+      "first_seen": "2026-08-10",
+      "domains": [
+        "커머스",
+        "여행",
+        "결제",
+        "풀스택"
+      ],
+      "deadline": "2026-09-03",
+      "deadline_type": "date",
+      "deadline_label": "2026-09-03 마감",
+      "process": [
+        "서류 전형",
+        "1차 실무 인터뷰 (약 1시간 30분)",
+        "2차 대표자 인터뷰 및 처우 협의"
+      ],
+      "process_confirmed": true,
+      "has_codingtest": "미확인",
+      "fit_score": 72,
+      "fit_tier": "중",
+      "fit_reasons": [
+        "결제·재고·정산 등 커머스 핵심 도메인이 후보자 강점과 직접 일치",
+        "BE 비중 있는 풀스택 (-10점): DB 스키마 설계·마이그레이션 등 백엔드 실무 요구도 높음",
+        "동일 회사·직무가 wanted(378872)에도 게시되어 있으나 URL이 달라 별도 공고로 평가"
+      ],
+      "tier": "문열기",
+      "is_new": true,
+      "brief": {
+        "company_status": "코이스토리는 인플루언서 기반 여행 예약 플랫폼 '예스트래블'을 운영하며 숙박·패키지·이티켓 예약/결제 전 과정을 자체 개발·운영합니다. 강남역 인근 패스트파이브를 사용하는 소수 정예 팀이며 투자 유치 정보는 공개되지 않았습니다.",
+        "verdict": "결제/재고 정합성을 다루는 커머스 도메인은 후보자의 강점과 잘 맞으나, 라우터·엔티티·마이그레이션까지 혼자 구현해야 하는 구조입니다. FE 5 : BE 5 — 화면 구현뿐 아니라 DB 스키마 설계, 데이터 정합성 로직 등 백엔드 비중이 절반 이상으로 판단됩니다.",
+        "strengths": [
+          "결제·재고·정산 등 커머스 핵심 도메인 경험과 직접 일치",
+          "PG 연동 경험이 '외부 시스템 연동(결제, 소셜로그인 등)' 요건과 부합",
+          "채용 절차가 3단계로 명시되어 있어 지원 전략 수립이 용이"
+        ],
+        "gaps": [
+          "관계형 DB 직접 설계·마이그레이션 등 백엔드 실무 경험 요구도가 높음",
+          "언어 무관이라지만 서버 로직을 단독으로 책임져야 하는 구조"
+        ],
+        "pass_odds": "중간",
+        "strategy": "1차 실무 인터뷰(1시간30분)에서 AI 활용 경험까지 질문한다고 명시된 만큼, 백엔드 실무 사례와 AI 활용 사례를 함께 준비해 지원.",
+        "sources": [
+          {
+            "title": "코이스토리 - 풀스택 개발자(4~6년)-인플루언서 여행플랫폼 (jumpit)",
+            "url": "https://jumpit.saramin.co.kr/position/54655831"
+          }
+        ]
+      }
+    },
+    {
+      "id": "fastlane-frontend-2026-08",
+      "company": "패스트레인",
+      "title": "프론트엔드 개발자",
+      "level": "시니어",
+      "scale": "시리즈B 투자유치, 매출액 100억 이상 (누적 투자금액 미상)",
+      "source": "jumpit",
+      "url": "https://jumpit.saramin.co.kr/position/54634040",
+      "location": "서울 강남구 테헤란로423, 8층, 10층",
+      "exp": "경력 7년 이상",
+      "exp_min_years": 7,
+      "posted_date": null,
+      "first_seen": "2026-08-10",
+      "domains": [
+        "플랫폼",
+        "웹뷰",
+        "SEO"
+      ],
+      "deadline": "2026-09-05",
+      "deadline_type": "date",
+      "deadline_label": "2026-09-05 마감",
+      "process": [
+        "서류전형",
+        "1차 실무면접(기술면접 2회)",
+        "2차 임원면접",
+        "합격통보 및 처우협의",
+        "최종 입사"
+      ],
+      "process_confirmed": true,
+      "has_codingtest": "미확인",
+      "fit_score": 88,
+      "fit_tier": "최상",
+      "fit_reasons": [
+        "모바일 웹뷰 연동 개발 경험이 필수 요건과 직접 부합 (후보자의 네이버맵 웹뷰/네이티브 브릿지 경험)",
+        "SEO 최적화 우대사항이 후보자의 SEO 성과(CTR 11.3%, 액티브유저 +61%)와 정확히 일치",
+        "React/Next.js/Zustand/React Query 스택 완전 일치"
+      ],
+      "tier": "메인",
+      "is_new": true,
+      "brief": {
+        "company_status": "패스트레인은 메디컬 뷰티(비급여 피부시술) 정보와 예약을 제공하는 플랫폼 '여신티켓'을 운영하며, 시리즈B 투자를 유치하고 매출 100억원 이상을 기록 중인 성장기 스타트업입니다.",
+        "verdict": "웹뷰 연동과 SEO 최적화라는 명시된 필수/우대 요건이 후보자의 핵심 강점과 정확히 겹치는 강한 매칭 포지션입니다.",
+        "strengths": [
+          "모바일 웹뷰 연동 개발 경험이 필수 요건과 직접 일치",
+          "SEO 최적화 경험(CTR/유저증가 실적)이 우대사항과 정확히 부합",
+          "React/Next.js/Zustand/React Query 스택 완전 일치"
+        ],
+        "gaps": [
+          "경력 7년 이상 요건 대비 시니어 심층 기술면접(2회) 대비 필요"
+        ],
+        "pass_odds": "높음",
+        "strategy": "웹뷰 네이티브 브릿지 경험과 SEO 성과 지표(CTR, 액티브유저)를 이력서 상단에 배치해 강조하고, 즉시 지원 추천.",
+        "sources": [
+          {
+            "title": "패스트레인 - 프론트엔드 개발자",
+            "url": "https://jumpit.saramin.co.kr/position/54634040"
+          }
+        ]
+      }
+    },
+    {
+      "id": "wisebirds-frontend-2026-08",
+      "company": "와이즈버즈",
+      "title": "프론트엔드 개발자 채용(경력 3년이상)",
+      "level": "미들",
+      "scale": "코스닥 상장사 (다우키움 계열사)",
+      "source": "jumpit",
+      "url": "https://jumpit.saramin.co.kr/position/54671938",
+      "location": "경기 판교 (본사, 셔틀버스 판교역 기준)",
+      "exp": "경력 3년 이상",
+      "exp_min_years": 3,
+      "posted_date": null,
+      "first_seen": "2026-08-10",
+      "domains": [
+        "광고",
+        "어드민",
+        "대시보드"
+      ],
+      "deadline": "2026-09-04",
+      "deadline_type": "date",
+      "deadline_label": "2026-09-04 마감",
+      "process": null,
+      "process_confirmed": false,
+      "has_codingtest": "미확인",
+      "fit_score": 80,
+      "fit_tier": "상",
+      "fit_reasons": [
+        "React/Next.js/Zustand/Tailwind/React Query 스택이 후보자 스택과 거의 완전히 일치",
+        "광고 어드민 대시보드/데이터 시각화 경험 활용 가능",
+        "코스닥 상장 계열사로 조직 안정성 높음"
+      ],
+      "tier": "문샷",
+      "is_new": true,
+      "brief": {
+        "company_status": "와이즈버즈는 코스닥 상장사인 다우키움 계열사로, 광고 매체·광고주 관리 및 리포트/대시보드를 제공하는 광고 어드민 시스템을 운영합니다.",
+        "verdict": "결제/지도/SEO 등 후보자 핵심 도메인과 직접 겹치지는 않지만, Next.js/Zustand/React Query/Tailwind 등 기술 스택이 후보자 스택과 거의 동일한 실무형 어드민 개발 포지션입니다.",
+        "strengths": [
+          "Next.js, Zustand, React Query, Tailwind 등 사용 기술 스택이 후보자 스택과 거의 동일",
+          "대시보드/데이터 시각화 구현 경험 활용 가능",
+          "코스닥 상장 계열사로 안정적인 조직 규모와 복지"
+        ],
+        "gaps": [
+          "결제/지도/SEO 등 후보자 핵심 도메인과 직접 연관성은 낮음",
+          "광고 어드민 도메인 지식 습득 필요"
+        ],
+        "pass_odds": "중간",
+        "strategy": "기술 스택 일치도를 강조하고, 대시보드/데이터 시각화 구현 경험을 포트폴리오에서 부각하여 지원.",
+        "sources": [
+          {
+            "title": "와이즈버즈 - 프론트엔드 개발자 채용(경력 3년이상)",
+            "url": "https://jumpit.saramin.co.kr/position/54671938"
+          }
+        ]
+      }
+    },
+    {
+      "id": "watab-labs-frontend-2026-08",
+      "company": "와탭랩스",
+      "title": "프론트엔드 개발자",
+      "level": null,
+      "scale": "시리즈B 투자유치(누적 금액 미확인) · 아기유니콘 · 2015년 설립 IT 모니터링(APM) SaaS",
+      "source": "jumpit",
+      "url": "https://jumpit.saramin.co.kr/position/54621034",
+      "location": "서울 서초구 서초대로77길17, 13층 1303호",
+      "exp": "경력 3~10년",
+      "exp_min_years": 3,
+      "posted_date": null,
+      "first_seen": "2026-08-10",
+      "domains": [
+        "SaaS",
+        "IT 모니터링",
+        "APM",
+        "데이터 시각화"
+      ],
+      "deadline": "2026-08-10",
+      "deadline_type": "date",
+      "deadline_label": "2026-08-10 마감(당일)",
+      "process": [
+        "서류검토",
+        "전화인터뷰",
+        "임원면접",
+        "기술면접",
+        "동료면접",
+        "채용과제",
+        "평판조회",
+        "최종합격"
+      ],
+      "process_confirmed": true,
+      "has_codingtest": "과제",
+      "fit_score": 66,
+      "fit_tier": "중",
+      "fit_reasons": [
+        "React 실무 경험 요구사항과 기술스택 완전 일치, 경력 3~10년 범위가 창석 7년차와 정확히 부합",
+        "자격요건·기술스택은 프론트엔드(React) 중심이나, 공고 내 주요업무 서술은 백엔드 아키텍처/데이터 수집·분석 위주로 기술되어 있어 실제 직무 범위 재확인 필요",
+        "IT 모니터링(APM) SaaS 도메인은 창석의 커머스/결제/지도/SEO 강점과 직접 연관성이 낮음"
+      ],
+      "tier": "문열기",
+      "is_new": true,
+      "brief": {
+        "company_status": "2015년 설립된 IT 서비스 모니터링(APM) SaaS 기업. 시리즈B 투자유치, 아기유니콘, 평균연봉 상위 10% 배지 보유. 정확한 누적 투자금액은 공고에 명시되어 있지 않음.",
+        "verdict": "자격요건과 기술스택은 프론트엔드(React) 3년 이상 경력을 명확히 요구해 창석의 스택·연차와 잘 맞으나, 공고 본문의 주요업무 섹션이 전적으로 백엔드 아키텍처/데이터 파이프라인 설계로 기술되어 있어 원본 공고 재확인이 필요한 데이터 불일치 사례.",
+        "strengths": [
+          "React/프론트엔드 3년 이상이라는 명시적 자격요건에 정확히 부합",
+          "SaaS 대시보드/데이터 시각화 우대사항 — 창석의 데이터 기반 UI 개발 이력과 연결 가능",
+          "수평적 조직문화, 유연근무 등 지원 우호적 근무환경"
+        ],
+        "gaps": [
+          "공고 내 주요업무 섹션이 백엔드 아키텍처/데이터 수집·분석 중심으로 서술되어 자격요건과 모순 — 지원 전 원본 공고를 직접 열람해 실제 직무 범위 재확인 필요",
+          "APM/IT 모니터링 도메인 경험 전무, 커머스·결제·지도 도메인 강점 어필 여지 제한적",
+          "마감일이 수집일 당일로 여유가 거의 없음"
+        ],
+        "pass_odds": "중간",
+        "strategy": "지원 전 jumpit 원본 공고 페이지에서 실제 담당 업무(FE vs BE)를 반드시 재확인할 것. FE로 확인되면 React/TypeScript 실무 역량과 데이터 시각화·대시보드 개발 경험을 중심으로 빠르게 지원(마감 임박).",
+        "sources": [
+          {
+            "title": "와탭랩스 - 프론트엔드 개발자 (jumpit)",
+            "url": "https://jumpit.saramin.co.kr/position/54621034"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ainjob-frontend-2026-08",
+      "company": "아인잡",
+      "title": "프론트엔드 개발자 (경력)",
+      "level": "미들",
+      "scale": "투자정보 미확인",
+      "source": "jumpit",
+      "url": "https://jumpit.saramin.co.kr/position/54547744",
+      "location": "서울 강남구 강남대로310, 1701호",
+      "exp": "경력 3~10년",
+      "exp_min_years": 3,
+      "posted_date": null,
+      "first_seen": "2026-08-10",
+      "domains": [
+        "HR테크",
+        "웹뷰",
+        "SaaS"
+      ],
+      "deadline": "2026-08-25",
+      "deadline_type": "date",
+      "deadline_label": null,
+      "process": [
+        "서류전형",
+        "코딩테스트 또는 과제",
+        "인터뷰",
+        "처우협의",
+        "최종합격"
+      ],
+      "process_confirmed": true,
+      "has_codingtest": "코딩테스트",
+      "fit_score": 76,
+      "fit_tier": "상",
+      "fit_reasons": [
+        "Next.js/React/TypeScript 스택이 후보자 핵심 스택과 정확히 일치",
+        "WebView 기반 하이브리드 앱 화면 개발이 자격요건에 명시되어 후보자의 네이티브 브릿지/웹뷰 경험과 부합",
+        "HR SaaS 도메인이라 이커머스·결제·지도 강점과는 직접적 연관성 낮음"
+      ],
+      "tier": "문열기",
+      "is_new": true,
+      "brief": {
+        "company_status": "2017년 설립된 AI 기반 HR/채용 SaaS 스타트업으로, HR 관리자 웹·기업용 콘솔·구직자 웹을 확장 중이며 명시된 투자 정보는 없음.",
+        "verdict": "Next.js/React/TS 스택과 WebView 하이브리드 앱 개발 요구사항이 후보자의 웹뷰/네이티브 브릿지 경험과 직접 맞닿아 있어 기술 적합도는 높으나, 도메인(HR SaaS)은 후보자의 커머스/결제 강점과 거리가 있음.",
+        "strengths": [
+          "Next.js(app router)/React/TypeScript 기반 SSR·CSR 개발 경험 보유",
+          "WebView 기반 모바일 앱 화면 구현 및 네이티브 연동 경험(지도/웹뷰 하이브리드 프로젝트) 직접 활용 가능"
+        ],
+        "gaps": [
+          "HR/채용 도메인 경험 부재",
+          "MUI 등 특정 UI 라이브러리 사용 경험은 이력서상 명시적이지 않음"
+        ],
+        "pass_odds": "중간",
+        "strategy": "웹뷰-네이티브 연동 경험(지도 클러스터링, 브릿지 상태 동기화)을 자기소개서 상단에 강조하고, Next.js SSR/SEO 최적화 경험을 함께 어필.",
+        "sources": [
+          {
+            "title": "아인잡 - 프론트엔드 개발자 (경력)",
+            "url": "https://jumpit.saramin.co.kr/position/54547744"
+          }
+        ]
+      }
+    },
+    {
+      "id": "aivex-frontend-mlops-2026-08",
+      "company": "아이벡스",
+      "title": "Frontend Engineer (MLOps, Vision AI Platform)",
+      "level": "시니어",
+      "scale": "투자정보 미확인",
+      "source": "jumpit",
+      "url": "https://jumpit.saramin.co.kr/position/54508194",
+      "location": null,
+      "exp": "경력 5년 이상",
+      "exp_min_years": 5,
+      "posted_date": null,
+      "first_seen": "2026-08-10",
+      "domains": [
+        "MLOps",
+        "데이터시각화",
+        "AI플랫폼"
+      ],
+      "deadline": "2026-08-22",
+      "deadline_type": "date",
+      "deadline_label": null,
+      "process": null,
+      "process_confirmed": false,
+      "has_codingtest": "미확인",
+      "fit_score": 79,
+      "fit_tier": "상",
+      "fit_reasons": [
+        "Next.js(App Router)/React/TypeScript/Zustand/TanStack Query 등 기술 스택이 후보자 스택과 거의 완전히 일치",
+        "5년 이상 상용 서비스 설계·운영 경험 요구가 후보자 경력 수준과 부합",
+        "MLOps/Vision AI 도메인은 후보자의 커머스·결제·지도 도메인 강점과는 다름"
+      ],
+      "tier": "문열기",
+      "is_new": true,
+      "brief": {
+        "company_status": "MLOps/Vision AI 플랫폼(SaaS/On-Premise 동시 지원)을 개발하는 '아기 유니콘' 배지를 보유한 성장 기업으로, 구체적 투자 단계·금액은 공고에 명시되지 않음.",
+        "verdict": "요구 기술 스택(Next.js App Router, TS, Zustand, TanStack Query, Playwright)이 후보자 스택과 정밀하게 겹치는 시니어 IC 포지션. 다만 MLOps·데이터 시각화 도메인은 후보자의 기존 강점(커머스/결제/지도) 밖에 있음.",
+        "strengths": [
+          "Next.js App Router 기반 프로덕션 서비스 설계·운영 경험",
+          "React Query/Zustand 기반 비동기 상태·캐시 관리 경험",
+          "성능 지표(CTR, 전환율 등) 기반 개선 이력 보유"
+        ],
+        "gaps": [
+          "MLOps/Vision AI, Canvas 기반 데이터 시각화 도메인 경험 부재",
+          "Docker/Kubernetes On-Prem 인프라 경험 불명확"
+        ],
+        "pass_odds": "중간",
+        "strategy": "성능 최적화(FCP/LCP/INP)와 상태관리 설계 경험을 수치와 함께 제시하고, AI 도구 활용 개발 경험을 포트폴리오에 포함.",
+        "sources": [
+          {
+            "title": "아이벡스 - Frontend Engineer (MLOps, Vision AI Platform)",
+            "url": "https://jumpit.saramin.co.kr/position/54508194"
+          }
+        ]
+      }
+    },
+    {
+      "id": "yunhoe-frontend-2026-08",
+      "company": "윤회",
+      "title": "[프론트엔드] 순환경제 데이터 인프라를 함께 만들어 갈 엔지니어",
+      "level": "미들",
+      "scale": "투자정보 미확인",
+      "source": "jumpit",
+      "url": "https://jumpit.saramin.co.kr/position/54531060",
+      "location": "서울 성동구 성수이로22길37, 207호",
+      "exp": "경력 2~6년",
+      "exp_min_years": 2,
+      "posted_date": null,
+      "first_seen": "2026-08-10",
+      "domains": [
+        "SaaS",
+        "B2B",
+        "결제(우대)"
+      ],
+      "deadline": "2026-08-20",
+      "deadline_type": "date",
+      "deadline_label": null,
+      "process": [
+        "서류접수",
+        "실무면접",
+        "임원면접",
+        "최종합격"
+      ],
+      "process_confirmed": true,
+      "has_codingtest": "미확인",
+      "fit_score": 72,
+      "fit_tier": "중",
+      "fit_reasons": [
+        "React/TypeScript/React Query 스택이 후보자 핵심 스택과 일치",
+        "결제모듈(PG) 연동 경험이 우대사항으로 명시되어 후보자의 PG 연동 강점과 일부 연결",
+        "순환경제/DPP(디지털 패스포트) 도메인은 후보자 경험과 직접 관련성 낮음"
+      ],
+      "tier": "문열기",
+      "is_new": true,
+      "brief": {
+        "company_status": "패션 아이템의 제조부터 유통·폐기까지 데이터를 관리하는 CARE ID(DPP) 솔루션을 개발하는 순환경제 데이터 인프라 스타트업. 투자 단계/금액은 공고에 명시되지 않음.",
+        "verdict": "React/TypeScript/React Query 기반 멀티테넌트 SaaS 프론트엔드 개발로 스택은 잘 맞으나, 순환경제·ESG 도메인은 생소하며 우대사항의 PG 연동 경험 정도만 후보자 강점과 겹침.",
+        "strengths": [
+          "React/TypeScript 기반 실서비스 개발 경험",
+          "PG 연동 경험(Toss Pay, Kakao Pay 등)이 우대사항과 부합"
+        ],
+        "gaps": [
+          "순환경제/ESG/패션 도메인 지식 부재",
+          "멀티테넌트 SaaS, 파일(PDF/Excel) 클라이언트 처리 경험 불명확"
+        ],
+        "pass_odds": "중간",
+        "strategy": "PG 연동 경험과 JSON 기반 동적 렌더링 유사 사례(할인/주문 UI 동적 구성)를 연결지어 어필하고, 도메인 학습 의지를 강조.",
+        "sources": [
+          {
+            "title": "윤회 - [프론트엔드] 순환경제 데이터 인프라를 함께 만들어 갈 엔지니어",
+            "url": "https://jumpit.saramin.co.kr/position/54531060"
+          }
+        ]
+      }
+    },
+    {
+      "id": "macaronfactory-frontend-2026-08",
+      "company": "마카롱팩토리",
+      "title": "프론트엔드 개발 (3년 이상)",
+      "level": "미들",
+      "scale": "시리즈A 투자유치",
+      "source": "jumpit",
+      "url": "https://jumpit.saramin.co.kr/position/54534091",
+      "location": null,
+      "exp": "경력 3년 이상",
+      "exp_min_years": 3,
+      "posted_date": null,
+      "first_seen": "2026-08-10",
+      "domains": [
+        "웹뷰",
+        "하이브리드앱",
+        "O2O"
+      ],
+      "deadline": "2026-08-20",
+      "deadline_type": "date",
+      "deadline_label": null,
+      "process": null,
+      "process_confirmed": false,
+      "has_codingtest": "미확인",
+      "fit_score": 87,
+      "fit_tier": "최상",
+      "fit_reasons": [
+        "모바일 웹뷰-네이티브 연동 개발이 핵심 업무로 후보자의 웹뷰/네이티브 브릿지 강점과 정확히 일치",
+        "Next.js/React/TypeScript/Zustand/React Query 스택이 완전히 일치",
+        "시리즈A 투자유치 단계의 성장 스타트업(연봉상승률 15%+, 성과급 존재)"
+      ],
+      "tier": "메인",
+      "is_new": true,
+      "brief": {
+        "company_status": "'마이클' 서비스를 운영하는 시리즈A 투자유치 스타트업으로, 모바일 웹뷰-네이티브 연동 및 어드민 웹을 핵심으로 개발.",
+        "verdict": "모바일 웹뷰 환경에서 네이티브와 연동되는 서비스 개발이 핵심 업무로, 후보자의 지도/웹뷰 하이브리드 프로젝트(네이티브 브릿지 상태 동기화) 경험과 정확히 겹치는 최상급 매칭 공고.",
+        "strengths": [
+          "네이티브 브릿지 상태 동기화 등 웹뷰-네이티브 연동 경험 직접 활용 가능",
+          "Next.js/React/TypeScript/Zustand/React Query 스택 완전 일치",
+          "AI 네이티브 개발 문화로 생산성 도구 활용 역량 어필 가능"
+        ],
+        "gaps": [
+          "iOS/Android 개발자와의 협업 밀도가 높아 크로스플랫폼 커뮤니케이션 역량 검증 필요"
+        ],
+        "pass_odds": "높음",
+        "strategy": "지도/웹뷰 하이브리드 프로젝트의 네이티브 브릿지 동기화 사례를 구체적으로 제시하고, Next.js 기반 SSR/성능 최적화 경험을 함께 강조.",
+        "sources": [
+          {
+            "title": "마카롱팩토리 - 프론트엔드 개발 (3년 이상)",
+            "url": "https://jumpit.saramin.co.kr/position/54534091"
+          }
+        ]
+      }
+    },
+    {
+      "id": "interworksmedia-frontend-2026-08",
+      "company": "인터웍스미디어",
+      "title": "프론트엔드 개발자 (6년 ~ 10년)",
+      "level": "시니어",
+      "scale": "보광그룹 계열사, 업력 19년차 (매출액 150% 급성장)",
+      "source": "jumpit",
+      "url": "https://jumpit.saramin.co.kr/position/54522182",
+      "location": "서울 강남구 테헤란로534, 30층",
+      "exp": "경력 6~10년",
+      "exp_min_years": 6,
+      "posted_date": null,
+      "first_seen": "2026-08-10",
+      "domains": [
+        "애드테크",
+        "광고"
+      ],
+      "deadline": "2026-08-19",
+      "deadline_type": "date",
+      "deadline_label": null,
+      "process": [
+        "서류전형",
+        "실무면접",
+        "인적성검사",
+        "임원면접",
+        "최종합격"
+      ],
+      "process_confirmed": true,
+      "has_codingtest": "없음",
+      "fit_score": 68,
+      "fit_tier": "중",
+      "fit_reasons": [
+        "Next.js/TypeScript 스택은 일치하나 애드테크(광고 소재 렌더링·브랜드 세이프티) 도메인은 후보자의 커머스/결제/지도 강점과 거리 있음",
+        "경력 6~10년 요구로 연차 수준은 후보자와 부합",
+        "보광그룹 계열사, 업력 19년으로 안정성은 높으나 후보자의 핵심 도메인 경험과 직결되지 않음"
+      ],
+      "tier": "메인",
+      "is_new": true,
+      "brief": {
+        "company_status": "보광그룹 계열사로 DSP/SSP 통합 애드테크 플랫폼을 운영, 300개 이상 광고주와 협업하며 매출액 150% 급성장 중인 업력 19년의 안정적 기업.",
+        "verdict": "Next.js/TypeScript 기반 SPA/SSR 개발 스택은 맞지만, 광고 소재 렌더링·VAST 크리에이티브 호환성 점검 등 애드테크 전문 도메인이 핵심이라 후보자의 커머스/결제/지도 강점과는 접점이 제한적임.",
+        "strengths": [
+          "Next.js/TypeScript 기반 SPA/SSR 설계·운영 경험",
+          "웹 성능 최적화(Core Web Vitals) 경험 보유"
+        ],
+        "gaps": [
+          "광고 소재(VAST) 렌더링, 애드테크 트래킹/어트리뷰션 도메인 경험 부재"
+        ],
+        "pass_odds": "중간",
+        "strategy": "SEO/Search Console 기반 성능 개선 경험(CTR, 액티브유저 증가)을 웹 성능 최적화 역량으로 재구성해 어필.",
+        "sources": [
+          {
+            "title": "인터웍스미디어 - 프론트엔드 개발자 (6년 ~ 10년)",
+            "url": "https://jumpit.saramin.co.kr/position/54522182"
+          }
+        ]
+      }
+    },
+    {
+      "id": "tenbillion-frontend-junior-2026-08",
+      "company": "텐빌리언",
+      "title": "프론트엔드 개발 경력 (2~5년)",
+      "level": "미들",
+      "scale": "투자정보 미확인",
+      "source": "jumpit",
+      "url": "https://jumpit.saramin.co.kr/position/54510091",
+      "location": "서울 구로구 구로동 1127-26",
+      "exp": "경력 2~5년",
+      "exp_min_years": 2,
+      "posted_date": null,
+      "first_seen": "2026-08-10",
+      "domains": [
+        "커머스",
+        "쇼핑몰"
+      ],
+      "deadline": "2026-08-18",
+      "deadline_type": "date",
+      "deadline_label": null,
+      "process": [
+        "서류전형",
+        "면접전형",
+        "합격자 발표"
+      ],
+      "process_confirmed": true,
+      "has_codingtest": "없음",
+      "fit_score": 40,
+      "fit_tier": "하",
+      "fit_reasons": [
+        "React/TypeScript/Next.js 등 후보자 핵심 스택이 요구사항에 전혀 없고 카페24 템플릿 기반 개발로 기술 방향성이 다름",
+        "경력 2~5년 포지션으로 후보자(7년+) 대비 시니어리티 미스매치",
+        "이커머스/쇼핑몰 도메인은 후보자 강점과 연결되나 실무 스택 격차가 큼"
+      ],
+      "tier": "문열기",
+      "is_new": true,
+      "brief": {
+        "company_status": "의류·생활용품 등을 수입 유통하는 인터넷 유통업체(업력 6년차, 2021년 설립)로, 카페24 기반 쇼핑몰 플랫폼을 자체 운영.",
+        "verdict": "이커머스 도메인 자체는 후보자 강점과 맞닿아 있지만, 요구 기술이 HTML/CSS/JavaScript와 카페24 활용 능력 중심으로 React/Next.js/TypeScript 전문성을 활용할 여지가 거의 없고 경력 범위(2~5년)도 후보자보다 낮음.",
+        "strengths": [
+          "이커머스/쇼핑몰 도메인 이해도",
+          "결제/할인/주문 플로우 개선 경험을 카페24 커스터마이징에 응용 가능"
+        ],
+        "gaps": [
+          "React/TypeScript/Next.js 등 모던 프레임워크 미사용 환경",
+          "경력 레벨(2~5년) 대비 후보자가 과도하게 시니어"
+        ],
+        "pass_odds": "낮음",
+        "strategy": "포지션 자체의 커리어 방향성이 후보자와 맞지 않아 우선순위 낮게 두고, 지원 시에는 이커머스 CVR 개선 성과 중심으로 어필.",
+        "sources": [
+          {
+            "title": "텐빌리언 - 프론트엔드 개발 경력 (2~5년)",
+            "url": "https://jumpit.saramin.co.kr/position/54510091"
+          }
+        ]
+      }
+    },
+    {
+      "id": "tenbillion-frontend-senior-2026-08",
+      "company": "텐빌리언",
+      "title": "프론트엔드 개발 경력 (6~9년)",
+      "level": "시니어",
+      "scale": "투자정보 미확인",
+      "source": "jumpit",
+      "url": "https://jumpit.saramin.co.kr/position/54510075",
+      "location": "서울 구로구 구로동 1127-26",
+      "exp": "경력 6~9년",
+      "exp_min_years": 6,
+      "posted_date": null,
+      "first_seen": "2026-08-10",
+      "domains": [
+        "커머스",
+        "쇼핑몰"
+      ],
+      "deadline": "2026-08-18",
+      "deadline_type": "date",
+      "deadline_label": null,
+      "process": [
+        "서류전형",
+        "면접전형",
+        "합격자 발표"
+      ],
+      "process_confirmed": true,
+      "has_codingtest": "없음",
+      "fit_score": 46,
+      "fit_tier": "하",
+      "fit_reasons": [
+        "경력 6~9년으로 연차는 후보자와 부합하나 요구 스택이 HTML/CSS/JS+카페24로 후보자의 React/Next.js 전문성과 맞지 않음",
+        "이커머스/쇼핑몰 도메인은 후보자 강점(커머스 결제/할인/주문 플로우)과 연결",
+        "모던 프론트엔드 프레임워크 활용도가 낮아 커리어 방향성과 어긋남"
+      ],
+      "tier": "문열기",
+      "is_new": true,
+      "brief": {
+        "company_status": "의류·생활용품 등을 수입 유통하는 인터넷 유통업체(업력 6년차, 2021년 설립)로, 카페24 기반 쇼핑몰 플랫폼을 자체 운영.",
+        "verdict": "경력 6~9년 요구는 후보자와 잘 맞으나, 카페24 템플릿/바닐라 HTML·CSS·JS 중심 업무로 React/Next.js/TypeScript 전문성을 살리기 어려운 구조.",
+        "strengths": [
+          "이커머스/쇼핑몰 도메인 이해 및 CVR 개선 경험",
+          "결제/할인/주문 플로우 개선 경험을 쇼핑몰 운영에 응용 가능"
+        ],
+        "gaps": [
+          "React/TypeScript/Next.js 등 모던 프레임워크 미사용 환경",
+          "카페24 플랫폼 특화 경험 부재"
+        ],
+        "pass_odds": "낮음",
+        "strategy": "이커머스 결제/할인 플로우 개선 성과(CVR +14.27%)를 카페24 쇼핑몰 운영 개선 관점으로 재구성해 지원서에 반영.",
+        "sources": [
+          {
+            "title": "텐빌리언 - 프론트엔드 개발 경력 (6~9년)",
+            "url": "https://jumpit.saramin.co.kr/position/54510075"
+          }
+        ]
+      }
+    },
     {
       "id": "banksalad-web-tech-lead-2026-08",
       "company": "뱅크샐러드",
