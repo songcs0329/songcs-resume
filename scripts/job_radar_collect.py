@@ -140,7 +140,7 @@ def phase0(jobs, verbose=True):
 
 # ------------------------------------------------------- Phase 1 · 플랫폼
 
-MAX_YEARS = 8   # 이 이상을 하한으로 요구하면 버린다 (총 경력 7년)
+MAX_YEARS = 10  # 이 이상을 하한으로 요구하면 버린다 (총 경력 7년 + 여유)
 JUNIOR_CEILING = 3  # 상한이 이 미만이면 주니어 전용으로 보고 버린다
 
 
@@ -407,10 +407,10 @@ def selfcheck():
     assert pending_blocks(sample) == ["A - 1"], pending_blocks(sample)
 
     # 경력 범위 필터
-    assert out_of_range(8, 20), "하한 8년은 제외 대상"
+    assert out_of_range(10, 20), "하한 10년은 제외 대상"
     assert out_of_range(1, 2), "상한 2년은 주니어 전용"
     assert not out_of_range(3, 10)
-    assert not out_of_range(6, 8)
+    assert not out_of_range(8, 12), "하한 8~9년은 이제 통과"
     assert not out_of_range(None, None), "정보 없으면 통과시킨다"
     print("selfcheck OK")
 
