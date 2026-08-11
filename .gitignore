@@ -27,6 +27,7 @@ dist-ssr
 # TanStack Router
 routeTree.gen.ts
 
-.claude
+.claude/*
+!.claude/skills
 .omx
 .job-radar-local.log
