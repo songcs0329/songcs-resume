@@ -3,11 +3,12 @@ name: Job Radar Collect
 # 네트워크가 필요한 일(링크 생존 확인 · 공고 발견)만 여기서 한다.
 # 채점·브리프는 Claude 루틴이 data/raw-jobs.md 를 읽어서 처리한다 —
 # 루틴 세션은 외부 egress가 막혀 있어 URL 검증을 할 수 없기 때문.
-# 평일 08:30 KST 에 돌아 루틴(09:00 KST)보다 30분 앞선다.
+# 월·수·금 08:30 KST 에 돌아 루틴(09:00 KST)보다 30분 앞선다.
+# 주 3회인 이유는 루틴 크레딧 절약 — 큐레이션이 안 도는 날 수집만 해도 큐가 20건에서 막힌다.
 
 on:
   schedule:
-    - cron: "30 23 * * 0-4"
+    - cron: "30 23 * * 0,2,4"
   workflow_dispatch:
 
 permissions:

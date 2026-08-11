@@ -60,7 +60,7 @@
 ## 4. 대시보드 기능 명세
 
 - **★ URL 실검증 (절대 규칙):** **HTTP 200 + 공고 본문 확인**을 통과한 URL만 jobs.json에 들어간다. 검증은 수집기(Actions)가 하고, 큐레이터는 `data/raw-jobs.md`에 적힌 url을 **글자 그대로 복사**한다. 기억·추측으로 URL을 조합하는 것 금지.
-- **자동수집(Actions):** 평일 08:30 KST `job-radar-collect.yml`. 플랫폼을 먼저 돌고 자사 페이지로 보완한다.
+- **자동수집(Actions):** 월·수·금 08:30 KST `job-radar-collect.yml`. 플랫폼을 먼저 돌고 자사 페이지로 보완한다.
   1. **채용 플랫폼 목록 API (주력)** — 원티드·점핏. **새 회사 발굴은 사실상 여기서만 일어난다.** 경력 범위를 API가 숫자로 주므로 연차 필터를 수집 단계에서 건다(하한 10년 이상·상한 3년 미만 제외 — `job_radar_collect.py`의 `MAX_YEARS`). 점핏은 `closedAt`으로 마감일까지 따라온다.
   2. **자사 채용페이지** — 플랫폼에 공고를 안 올리는 회사 보완(카카오페이·무신사·당근). 루트 HTML에서 상세 링크를 추출해 각각 검증. 목록을 클라이언트에서 그리는 사이트(SPA)는 링크가 안 나와 제외.
   3. **수동 추가** — 창석이 "이 공고 추가해줘 [URL]"로 요청 시. 플랫폼 무관.
@@ -88,6 +88,7 @@
   - `src/data/jobRadar.ts` — 타입·티어 무기 문구·버킷 순서 등 상수 (UI 변경 시에만 수정)
   - `src/pages/JobRadar/` — 대시보드 페이지 컴포넌트
   - `scripts/job_radar_collect.py` — 수집·검증기(표준 라이브러리만). `--dry-run`·`--selfcheck`·`--max-new N` 등으로 로컬 테스트 가능
+  - `scripts/job_radar_merge.py` — 큐레이션 결과 병합기. 루틴이 신규 건만 `data/curated-new.json`에 쓰고 이걸 부른다. is_new 리셋·중복제거·meta 갱신이 여기 있다 — **루틴이 jobs.json을 읽고 다시 쓰면 매 실행 10만 자를 태우기 때문.** (`--selfcheck`)
   - `scripts/job_radar_sources.json` — 순회 대상. **회사 추가는 이 파일만 고치면 된다.** 추가 전 루트 HTML에서 링크가 실제로 뽑히는지 확인할 것
   - `data/raw-jobs.md` — 수집기 → 큐레이터 인계 큐. **처리 대기분만** 남긴다
   - `data/raw-jobs-archive.md` — 처리 완료분 보관. 중복 수집을 막는 url 원장이고, **루틴은 읽지 않고 덧붙이기만 한다** (읽으면 매 실행 수만 토큰을 태운다)
@@ -105,9 +106,9 @@
 
 | 단계 | 실행 주체 | 시각 | 하는 일 | 산출물 |
 |------|-----------|------|---------|--------|
-| 원티드 수집 | **Mac launchd** `job_radar_local.sh` | 평일 08:00 KST | 원티드만 수집·검증 | `data/raw-jobs.md` → main 직접 커밋 |
-| 수집·검증 | GitHub Actions `job-radar-collect.yml` | 평일 08:30 KST | 링크 생존 확인, 점핏·자사페이지 순회, 전 건 200 검증 | `data/raw-jobs.md` + `jobs.json` 만료 정리 → main 직접 커밋 |
-| 큐레이션 | Claude 루틴 (클라우드) | 평일 09:00 KST | 대기 공고를 읽어 채점·브리프·티어 배정 | `jobs.json` → `claude/` 브랜치 PR |
+| 원티드 수집 | **Mac launchd** `job_radar_local.sh` | 월·수·금 08:00 KST | 원티드만 수집·검증 | `data/raw-jobs.md` → main 직접 커밋 |
+| 수집·검증 | GitHub Actions `job-radar-collect.yml` | 월·수·금 08:30 KST | 링크 생존 확인, 점핏·자사페이지 순회, 전 건 200 검증 | `data/raw-jobs.md` + `jobs.json` 만료 정리 → main 직접 커밋 |
+| 큐레이션 | Claude 루틴 (클라우드) | 월·수·금 09:00 KST | 대기 공고를 읽어 채점·브리프·티어 배정 → `curated-new.json` + `job_radar_merge.py` | `jobs.json` → `claude/` 브랜치 PR |
 | 머지 | `auto-merge-jobradar.yml` | PR 생성 시 | squash merge + deploy 트리거 | main |
 | 배포 | `deploy.yml` | main 푸시 | 빌드 → Pages (1~2분) | 대시보드 반영 |
 
@@ -149,7 +150,7 @@ bash scripts/job_radar_local.sh                               # launchd가 도�
 현재 공고 목록은 `src/data/jobs.json` (`meta.last_collected`, `meta.total`, `jobs[]`) 참조. 이 문서에 별도 기재하지 않음 — 이중 관리 방지.
 
 - **수집 로직·소스**: `scripts/job_radar_collect.py` + `scripts/job_radar_sources.json` (레포 안, 단일 관리)
-- **채점·브리프 기준**: `~/.claude/scheduled-tasks/job-radar-curation/SKILL.md` (= 루틴 프롬프트와 동일 내용)
+- **채점·브리프 기준**: `.claude/skills/job-radar-curation/SKILL.md` — **레포가 단일 원본.** 클라우드 루틴 프롬프트는 "이 파일을 읽고 따르라"는 세 줄뿐이므로, 기준을 바꿀 때 루틴 설정을 다시 만질 필요가 없다(푸시만 하면 됨).
 
 ## 9. 순회 대상 회사 추가하기
 
