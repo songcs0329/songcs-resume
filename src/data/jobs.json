@@ -1,9 +1,198 @@
 {
   "meta": {
-    "last_collected": "2026-08-14",
-    "total": 73
+    "last_collected": "2026-08-17",
+    "total": 77
   },
   "jobs": [
+    {
+      "id": "letyouin-edu-frontend-react-2026-08",
+      "company": "렛유인에듀",
+      "title": "프론트엔드 개발자(REACT) 3년 이상",
+      "level": "미들",
+      "scale": "투자정보 미확인",
+      "source": "wanted",
+      "url": "https://www.wanted.co.kr/wd/380888",
+      "location": "서울 강남구",
+      "exp": "3-6년",
+      "exp_min_years": 3,
+      "posted_date": null,
+      "first_seen": "2026-08-17",
+      "domains": [
+        "웹뷰",
+        "하이브리드앱"
+      ],
+      "deadline": null,
+      "deadline_type": "rolling",
+      "deadline_label": "상시채용",
+      "process": [],
+      "process_confirmed": false,
+      "has_codingtest": "미확인",
+      "fit_score": 64,
+      "fit_tier": "중",
+      "fit_reasons": [
+        "웹뷰 하이브리드앱 유지보수 경험(강점2)과 직접 매치",
+        "JS→React 마이그레이션 프로젝트로 실무 React 역량 활용 가능",
+        "PHP/CodeIgniter 실무 경험이 자격요건에 별도 명시돼 다소 이질적(레거시 유지보수 수준으로 판단, 유의사항으로만 기록)"
+      ],
+      "tier": "문열기",
+      "is_new": true,
+      "brief": {
+        "company_status": "이공계 취업교육 에듀테크, 임직원 약 50명, 외부 투자정보 확인 불가",
+        "verdict": "주요업무 4개 항목 모두 FE·웹뷰 영역, 백엔드는 기술스택 표에서 '이해 수준'으로 명시됐으나 자격요건엔 PHP 실무경험이 별도 요구됨",
+        "strengths": [
+          "웹뷰 하이브리드 앱 경험 직접 매치",
+          "React 마이그레이션 프로젝트 경험 활용 가능"
+        ],
+        "gaps": [
+          "이커머스/결제 도메인과 무관",
+          "PHP/CodeIgniter 레거시 코드 이해 요구"
+        ],
+        "pass_odds": "중간",
+        "strategy": "웹뷰 클러스터링·네이티브 브릿지 경험을 하이브리드앱 유지보수 사례로 제시",
+        "sources": []
+      }
+    },
+    {
+      "id": "herren-senior-frontend-2026-08",
+      "company": "헤렌",
+      "title": "[헤렌/공비서] 시니어 프론트엔드 개발자 (7년차 ~)",
+      "level": "시니어",
+      "scale": "자체성장(외부투자 없음) — 투자단계 기준 미해당",
+      "source": "wanted",
+      "url": "https://www.wanted.co.kr/wd/361706",
+      "location": "서울 성동구",
+      "exp": "7년 이상",
+      "exp_min_years": 7,
+      "posted_date": null,
+      "first_seen": "2026-08-17",
+      "domains": [
+        "O2O",
+        "예약",
+        "AI"
+      ],
+      "deadline": null,
+      "deadline_type": "unknown",
+      "process": [],
+      "process_confirmed": false,
+      "has_codingtest": "미확인",
+      "fit_score": 79,
+      "fit_tier": "상",
+      "fit_reasons": [
+        "exp_min_years 7년 - 후보자 경력과 정확히 매치되는 시니어 IC 포지션",
+        "Next.js 기반 제품 아키텍처 + AI/Agent 기능 연결 - 최신 스택과 AI 활용 문화 부합",
+        "예약 플로우(O2O) 도메인 - 후보자의 주문 플로우 최적화 경험과 유사 구조"
+      ],
+      "tier": "문열기",
+      "is_new": true,
+      "brief": {
+        "company_status": "뷰티 O2O 예약 플랫폼(공비서)+SNS자동화(브랜다즈) 운영, 외부투자 없이 매년 50%+ 성장, 월 80만건 예약처리",
+        "verdict": "관리 업무 명시 없는 순수 시니어 IC 역할, AI 활용도가 높은 개발 문화",
+        "strengths": [
+          "예약 플로우 최적화 경험(강점1과 유사 구조)",
+          "Next.js/AI-Agent 통합 스택 매치"
+        ],
+        "gaps": [
+          "결제/PG 연동 도메인 직접 언급 없음",
+          "투자정보 미확인으로 티어 보수 배정"
+        ],
+        "pass_odds": "높음",
+        "strategy": "결제·주문 플로우 CVR 개선 사례를 예약 이탈률 개선 관점으로 재구성해 어필",
+        "sources": []
+      }
+    },
+    {
+      "id": "herren-frontend-2026-08",
+      "company": "헤렌",
+      "title": "[헤렌/공비서] 프론트엔드 개발자 (3년차~6년차)",
+      "level": "미들",
+      "scale": "자체성장(외부투자 없음) — 투자단계 기준 미해당",
+      "source": "wanted",
+      "url": "https://www.wanted.co.kr/wd/336266",
+      "location": "서울 성동구",
+      "exp": "3-6년",
+      "exp_min_years": 3,
+      "posted_date": null,
+      "first_seen": "2026-08-17",
+      "domains": [
+        "O2O",
+        "예약"
+      ],
+      "deadline": null,
+      "deadline_type": "unknown",
+      "process": [],
+      "process_confirmed": false,
+      "has_codingtest": "미확인",
+      "fit_score": 74,
+      "fit_tier": "중",
+      "fit_reasons": [
+        "exp_min_years 3년(3-6년) 대비 후보자 경력(7년+)이 다소 상회 — 레벨 미스매치 가능성",
+        "전환율·이탈률 중심 업무 - 강점1 커머스 CVR 개선 경험과 유사",
+        "AI 워크플로우 활용 문화, Next.js SSR 스택 매치"
+      ],
+      "tier": "문열기",
+      "is_new": true,
+      "brief": {
+        "company_status": "뷰티 O2O 예약 플랫폼(공비서)+SNS자동화(브랜다즈) 운영, 외부투자 없이 매년 50%+ 성장",
+        "verdict": "미들급 포지션이나 후보자 경력이 다소 상회, 동일 회사 시니어 포지션(361706)이 더 적합할 수 있음",
+        "strengths": [
+          "전환율/이탈률 중심 업무 경험 매치",
+          "Next.js SSR 스택 매치"
+        ],
+        "gaps": [
+          "후보자 경력이 채용 레벨(3-6년) 상회",
+          "결제 도메인 직접 언급 없음"
+        ],
+        "pass_odds": "중간",
+        "strategy": "동일 회사 시니어 포지션과 함께 지원 검토",
+        "sources": []
+      }
+    },
+    {
+      "id": "momenti-frontend-2026-08",
+      "company": "모멘티",
+      "title": "프론트엔드 개발자 (4~10년) [역삼역]",
+      "level": "시니어",
+      "scale": "투자정보 미확인",
+      "source": "wanted",
+      "url": "https://www.wanted.co.kr/wd/380814",
+      "location": "서울 강남구 강남대로94길 86, 11층 (역삼동, 신영빌딩)",
+      "exp": "4-10년",
+      "exp_min_years": 4,
+      "posted_date": null,
+      "first_seen": "2026-08-17",
+      "domains": [
+        "에이전시"
+      ],
+      "deadline": "2026-08-30",
+      "deadline_type": "date",
+      "process": [],
+      "process_confirmed": false,
+      "has_codingtest": "미확인",
+      "fit_score": 56,
+      "fit_tier": "하",
+      "fit_reasons": [
+        "웹 에이전시(외주형) - 삼성전자·KT 등 다수 고객사 프로젝트 순환, 단일 제품 오너십 경험 쌓기 어려움",
+        "React Native/Flutter/Native 앱 개발 업무 병행 요구 - 후보자 핵심 강점(FE 전문성)과 다소 벗어남",
+        "이커머스/결제/지도 도메인과 무관, 기술 스택(React/Next/Vue/Nuxt)만 매치"
+      ],
+      "tier": "문열기",
+      "is_new": true,
+      "brief": {
+        "company_status": "2016년 설립 웹·앱 전문 에이전시, 삼성전자/KT/SK 등 대기업 프로젝트 다수 수행, 투자정보 확인 불가",
+        "verdict": "에이전시 특성상 프로젝트 단위 순환 근무, 웹+앱(RN/Flutter/Native) 겸업 요구로 FE 전문성 활용도 낮음",
+        "strengths": [
+          "기술 스택(React/Next/Vue/Nuxt) 매치"
+        ],
+        "gaps": [
+          "에이전시 구조로 제품 오너십 제한적",
+          "네이티브 앱 개발 병행 요구",
+          "핵심 도메인(커머스/결제/지도) 무관"
+        ],
+        "pass_odds": "낮음",
+        "strategy": "지원 우선순위 낮음, 다른 옵션 부재 시 백업으로 고려",
+        "sources": []
+      }
+    },
     {
       "id": "atad-frontend-2026-08",
       "company": "아타드(ATAD)",
@@ -36,7 +225,7 @@
         "멀티클라우드 대시보드/시각화 도메인 - 후보자 핵심 강점(커머스·결제·지도)과는 거리 있음"
       ],
       "tier": "문열기",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "AI 기반 클라우드 인프라 자율운용 플랫폼 '오딘(ODiiN)'을 서비스하는 B2B 딥테크 스타트업",
         "strengths": [
@@ -83,7 +272,7 @@
         "물류·모빌리티 버티컬 도메인 - 커머스 핵심 강점과는 다르나 유사 규모 서비스 경험 활용 가능"
       ],
       "tier": "메인",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "42dot(현대차그룹 계열)의 자회사, 모빌리티 통합 플랫폼(WMS·관제·TMS) 개발",
         "strengths": [
@@ -127,7 +316,7 @@
         "대기업(CJ그룹) 계열 - 안정성 높음, 관리 직책 요구 없음"
       ],
       "tier": "문샷",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "CJ그룹 F&B 계열사, 빕스·뚜레쥬르 등 통합 디지털 채널 운영",
         "strengths": [
@@ -177,7 +366,7 @@
         "중소기업 규모, 투자정보 미확인으로 문열기 보수 배정"
       ],
       "tier": "문열기",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "O2O 온디맨드 배송 중계 플랫폼 '오투퀵' 운영사, 중소기업",
         "strengths": [
@@ -223,7 +412,7 @@
         "시리즈A 투자 확인, 누적 투자액 불확실로 문열기 보수 배정"
       ],
       "tier": "문열기",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "사이버 보안 통합관제 솔루션 기업, 2025년 7월 시리즈A 투자유치",
         "strengths": [
@@ -275,7 +464,7 @@
         "관리 직책 요구 없음, IC 포지션"
       ],
       "tier": "문샷",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "당근마켓 신규 마켓플레이스 사업 Local Jobs 팀, 국내 대표 유니콘",
         "strengths": [
@@ -327,7 +516,7 @@
         "당근(대기업/유니콘) - 자동 문샷 배정"
       ],
       "tier": "문샷",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "당근 Engagement 팀 - Chat/Notification/CRM 등 제품 간 연결 경험 설계",
         "strengths": [
@@ -378,7 +567,7 @@
         "당근(대기업/유니콘) - 자동 문샷 배정"
       ],
       "tier": "문샷",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "당근 커뮤니티실 모임팀 - 지역 기반 커뮤니티 서비스 개발",
         "strengths": [
