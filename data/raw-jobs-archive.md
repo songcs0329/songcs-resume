@@ -1067,3 +1067,39 @@ Software Engineer, Frontend - 커뮤니티 (모임) | 당근 채용 팀 문화 �
 ```
 점핏 | 풀스택 개발자 정규직 경력 채용 회원가입/로그인 개발자 채용 이력서 #꿀 피드 개발자 인터뷰 회원가입/로그인 기업 서비스 풀스택 개발자 정규직 경력 채용 (주)뮤팟 포지션 상세 정보 기술스택 Docker Linux MySQL NestJS Node.js PostgreSQL React TypeScript AWS 주요업무 • AWS 서버 인스턴스 관리 • Docker 컨테이너 관리 • NodeJS - Express API 백엔드 개발 업무 • PostgreSQL DB 관리 • NextJS 기반 프론트엔드 개발 자격요건 • 경력 3년 이상 • Typescript 기반의 NodeJS, NestJS 등 백엔드 개발 유경험자 • React 개발 유경험자 • PostgreSQL, MySQL등 RDBMS 용 SQL 지식 보유자 • 서비스 기획을 기반으로 백엔드 및 프론트엔드 설계 역량을 보유한 자 마감일 2026-09-09 근무지역 서울 송파구 송파대로44길6, 2층 뮤팟은 영상 소스 올인원 서비스, 누적 가입 고객 95만 명
 ```
+
+### 원프레딕트(onepredict) - Full-stack 개발자 (고객사 FDE)
+
+- url: https://www.wanted.co.kr/wd/356345
+- verified: 2026-08-19 (HTTP 200)
+- source: wanted
+- 처리결과: 제외 — FastAPI/Django 백엔드, Kafka/RabbitMQ 메시징, 비동기 프로그래밍이 핵심 자격요건. FE(React)는 부차적 — FE 50% 미만 풀스택으로 판단.
+
+### 호랑에듀 - [한글코딩 호랑] 프론트엔드 개발 매니저
+
+- url: https://www.wanted.co.kr/wd/381177
+- verified: 2026-08-19 (HTTP 200)
+- source: wanted
+- 처리결과: 큐레이션 (horang-fe-manager-2026-08, fit_score 68, 중, 문열기)
+
+### 링크캠퍼스 - 풀스택 개발자(2년 이상)
+
+- url: https://www.wanted.co.kr/wd/380974
+- verified: 2026-08-19 (HTTP 200)
+- source: wanted
+- 처리결과: 큐레이션 (linkcampus-fullstack-2026-08, fit_score 60, 하, 문열기)
+
+### 콕스웨이브 - [AX Team, krewa] 소프트웨어 엔지니어 (Frontend)
+
+- url: https://www.wanted.co.kr/wd/381079
+- verified: 2026-08-19 (HTTP 200)
+- source: wanted
+- 처리결과: 큐레이션 (coxwave-frontend-2026-08, fit_score 70, 중, 문열기)
+
+### 필라넷 - .NET 풀스택 개발자 채용
+
+- url: https://jumpit.saramin.co.kr/position/54770831
+- verified: 2026-08-18 (HTTP 200)
+- source: jumpit
+- deadline: 2026-09-17
+- 처리결과: 제외 — C#/.NET/MS-SQL 백엔드 실무 경력이 핵심 자격요건, FE(Vue.js)는 부차적 항목 하나뿐 — FE 50% 미만 풀스택으로 판단.
