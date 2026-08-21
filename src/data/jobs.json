@@ -1,9 +1,618 @@
 {
   "meta": {
-    "last_collected": "2026-08-19",
-    "total": 79
+    "last_collected": "2026-08-21",
+    "total": 91
   },
   "jobs": [
+    {
+      "id": "kdl-frontend-2026-08",
+      "company": "한국딥러닝",
+      "title": "프론트엔드 엔지니어",
+      "level": "미들",
+      "scale": "투자정보 미확인",
+      "source": "wanted",
+      "url": "https://www.wanted.co.kr/wd/381792",
+      "location": "서울 서초구",
+      "exp": "3-8년",
+      "exp_min_years": 3,
+      "posted_date": null,
+      "first_seen": "2026-08-21",
+      "domains": [
+        "AI·SaaS"
+      ],
+      "deadline": null,
+      "deadline_type": "unknown",
+      "deadline_label": "상세정보에서 확인 필요",
+      "process": [],
+      "process_confirmed": false,
+      "has_codingtest": "미확인",
+      "fit_score": 68,
+      "fit_tier": "중",
+      "fit_reasons": [
+        "React/TypeScript/Next.js 스택 직접 일치",
+        "실무 3년 이상 요건으로 경력 매칭 무리 없음",
+        "커머스·결제·지도 등 핵심 도메인과는 무관한 Document AI 제품"
+      ],
+      "tier": "문열기",
+      "is_new": true,
+      "brief": {
+        "company_status": "Document AI(OCR) 스타트업, 투자정보 확인 불가",
+        "verdict": "FE 전용 포지션. 스택은 잘 맞으나 도메인(문서 AI OCR UI)은 후보자 핵심 강점과 거리가 있음",
+        "strengths": [
+          "React/TypeScript/Next.js 실무 경험 직접 부합",
+          "컴포넌트 재사용성 중시하는 개발 문화"
+        ],
+        "gaps": [
+          "이커머스·결제·지도 도메인 경험과 무관",
+          "투자 단계 등 회사 규모 정보 부족"
+        ],
+        "pass_odds": "중간",
+        "strategy": "SSR/성능 최적화 경험과 컴포넌트 설계 역량을 중심으로 어필",
+        "sources": [
+          "wanted"
+        ]
+      }
+    },
+    {
+      "id": "studio-freewillusion-frontend-2026-08",
+      "company": "스튜디오프리윌루전",
+      "title": "프론트엔드 개발자 팀원 5년 ~ 10년",
+      "level": "시니어",
+      "scale": "투자정보 미확인",
+      "source": "wanted",
+      "url": "https://www.wanted.co.kr/wd/381742",
+      "location": "서울 서초구",
+      "exp": "5-10년",
+      "exp_min_years": 5,
+      "posted_date": null,
+      "first_seen": "2026-08-21",
+      "domains": [
+        "AI 플랫폼"
+      ],
+      "deadline": null,
+      "deadline_type": "rolling",
+      "deadline_label": "상시채용",
+      "process": [],
+      "process_confirmed": false,
+      "has_codingtest": "미확인",
+      "fit_score": 70,
+      "fit_tier": "중",
+      "fit_reasons": [
+        "Next.js/TypeScript 기반 서비스 개발 경험 요건과 정확히 일치",
+        "AI 코딩 도구 활용 경험 우대 - 후보자 AI 활용 역량과 부합",
+        "결제·지도 등 핵심 도메인과 직접 연관은 없음"
+      ],
+      "tier": "문열기",
+      "is_new": true,
+      "brief": {
+        "company_status": "AI 미디어테크 스타트업, 투자정보 확인 불가",
+        "verdict": "FE 전용 포지션, AI-Kive 플랫폼 UI/UX 개발",
+        "strengths": [
+          "Next.js/TypeScript 스택 완전 일치",
+          "AI 개발 도구 활용 경험 우대사항과 부합"
+        ],
+        "gaps": [
+          "이커머스·결제·지도 도메인 무관",
+          "투자 규모 불명확"
+        ],
+        "pass_odds": "중간",
+        "strategy": "AI 코딩 도구 활용 경험과 확장성 있는 UI 설계 역량 강조",
+        "sources": [
+          "wanted"
+        ]
+      }
+    },
+    {
+      "id": "cj-oliveyoung-enterprise-fe-2026-08",
+      "company": "씨제이올리브영(CJ올리브영)",
+      "title": "엔터프라이즈플랫폼유닛 Front-end",
+      "level": "시니어",
+      "scale": "대기업(CJ그룹 계열) - 자동 문샷",
+      "source": "wanted",
+      "url": "https://www.wanted.co.kr/wd/337446",
+      "location": "서울 용산구",
+      "exp": "5년 이상",
+      "exp_min_years": 5,
+      "posted_date": null,
+      "first_seen": "2026-08-21",
+      "domains": [
+        "커머스",
+        "결제",
+        "백오피스"
+      ],
+      "deadline": null,
+      "deadline_type": "rolling",
+      "deadline_label": "상시채용",
+      "process": [],
+      "process_confirmed": false,
+      "has_codingtest": "미확인",
+      "fit_score": 82,
+      "fit_tier": "상",
+      "fit_reasons": [
+        "결제·리테일 플랫폼 백오피스 UI 개발 - 후보자의 결제/이커머스 도메인 강점과 직접 부합",
+        "React/Vue 스택 요건 일치",
+        "CJ그룹 계열 대기업으로 안정성 높음"
+      ],
+      "tier": "문샷",
+      "is_new": true,
+      "brief": {
+        "company_status": "CJ그룹 계열 대기업, No.1 헬스&뷰티 리테일 플랫폼",
+        "verdict": "FE 전용 포지션. 결제/리테일 백오피스 시스템 개발로 후보자의 결제·이커머스 강점과 잘 맞음",
+        "strengths": [
+          "결제(페이먼트플랫폼) 도메인 직접 경험 보유",
+          "React/Vue 실무 경험 요건 충족",
+          "대기업 계열 안정적 조직"
+        ],
+        "gaps": [
+          "소비자 대상이 아닌 내부 백오피스 시스템 개발",
+          "지도·웹뷰 강점은 활용도 낮음"
+        ],
+        "pass_odds": "높음",
+        "strategy": "PG 연동 및 결제 플로우 개선 경험(CVR +14.27%)을 백오피스 결제 데이터 처리 경험과 연결해 어필",
+        "sources": [
+          "wanted"
+        ]
+      }
+    },
+    {
+      "id": "theswing-frontend-2026-08",
+      "company": "더스윙",
+      "title": "프론트엔드 개발자",
+      "level": "미들",
+      "scale": "투자정보 미확인 (매출 700억, 5년 연속 흑자)",
+      "source": "wanted",
+      "url": "https://www.wanted.co.kr/wd/372012",
+      "location": "서울 종로구",
+      "exp": "1-5년",
+      "exp_min_years": 1,
+      "posted_date": null,
+      "first_seen": "2026-08-21",
+      "domains": [
+        "지도",
+        "모빌리티",
+        "백오피스"
+      ],
+      "deadline": "2026-08-28",
+      "deadline_type": "date",
+      "process": [],
+      "process_confirmed": false,
+      "has_codingtest": "미확인",
+      "fit_score": 74,
+      "fit_tier": "중",
+      "fit_reasons": [
+        "지도 기반 백오피스 및 물류관리 시스템 개발 - 후보자의 지도 도메인 강점과 직접 부합",
+        "React/TypeScript 스택 요건 일치",
+        "공고 경력 범위(1~5년)가 후보자 시니어 경력 대비 낮게 설정됨"
+      ],
+      "tier": "문열기",
+      "is_new": true,
+      "brief": {
+        "company_status": "모빌리티 스타트업, 매출 700억·5년 연속 흑자, 투자단계 정보 없음",
+        "verdict": "FE 전용 포지션. 지도 기반 백오피스/물류관리 시스템 개발이 핵심 업무",
+        "strengths": [
+          "네이버맵 클라이언트 클러스터링 등 지도 도메인 실무 경험 직접 연결 가능",
+          "React/TypeScript 구조 설계 요건 부합"
+        ],
+        "gaps": [
+          "공고 상 경력 범위가 1~5년으로 후보자 시니어 경력과 다소 미스매치"
+        ],
+        "pass_odds": "중간",
+        "strategy": "지도 클러스터링·백오피스 개발 경험을 구체적 수치와 함께 제시",
+        "sources": [
+          "wanted"
+        ]
+      }
+    },
+    {
+      "id": "waycen-frontend-2026-08",
+      "company": "웨이센(waycenInc.)",
+      "title": "Frontend 개발자",
+      "level": "미들",
+      "scale": "투자정보 미확인",
+      "source": "jumpit",
+      "url": "https://jumpit.saramin.co.kr/position/54799668",
+      "location": "서울 강남구",
+      "exp": "1-5년",
+      "exp_min_years": 1,
+      "posted_date": null,
+      "first_seen": "2026-08-21",
+      "domains": [
+        "헬스케어",
+        "의료AI"
+      ],
+      "deadline": "2026-09-18",
+      "deadline_type": "date",
+      "process": [
+        "서류 전형",
+        "1차 기술 면접",
+        "2차 임원 면접",
+        "최종 합격 및 처우 협의"
+      ],
+      "process_confirmed": true,
+      "has_codingtest": "미확인",
+      "fit_score": 65,
+      "fit_tier": "중",
+      "fit_reasons": [
+        "Vue3/React(Next.js), TypeScript, Zustand, TailwindCSS 등 스택 직접 일치",
+        "차트·지도 데이터 시각화 업무 포함 - 지도 도메인과 일부 연관",
+        "의료 도메인은 후보자 핵심 강점과 무관"
+      ],
+      "tier": "문열기",
+      "is_new": true,
+      "brief": {
+        "company_status": "정밀의료 AI 플랫폼 스타트업, 투자단계 정보 없음",
+        "verdict": "FE 전용 포지션, 관리자 대시보드·현장 SE 툴 개발",
+        "strengths": [
+          "React/TypeScript/Next.js 스택 완전 일치",
+          "데이터 시각화(차트·지도) 업무 경험과 일부 연결 가능"
+        ],
+        "gaps": [
+          "의료·헬스케어 도메인은 후보자 핵심 강점과 무관"
+        ],
+        "pass_odds": "중간",
+        "strategy": "데이터 시각화 및 지도 연동 경험을 중심으로 어필",
+        "sources": [
+          "jumpit"
+        ]
+      }
+    },
+    {
+      "id": "cleanmission-fullstack-2026-08",
+      "company": "클린미션",
+      "title": "풀스택 개발자",
+      "level": "미들",
+      "scale": "시드 투자 (2026년 3월)",
+      "source": "wanted",
+      "url": "https://www.wanted.co.kr/wd/381556",
+      "location": "서울 중구",
+      "exp": "3-5년",
+      "exp_min_years": 3,
+      "posted_date": null,
+      "first_seen": "2026-08-21",
+      "domains": [
+        "산업안전",
+        "풀스택"
+      ],
+      "deadline": "2026-09-20",
+      "deadline_type": "date",
+      "process": [],
+      "process_confirmed": false,
+      "has_codingtest": "미확인",
+      "fit_score": 58,
+      "fit_tier": "하",
+      "fit_reasons": [
+        "React/Next.js/TypeScript 프론트엔드 요건은 일치하나 Node.js/Nest.js 백엔드 개발도 동등 비중으로 요구 (BE 비중 있는 풀스택, -10점)",
+        "산업 안전 도메인은 후보자 핵심 강점과 무관",
+        "초기 스타트업(시드, ARR 10억)으로 성장 잠재력은 있음"
+      ],
+      "tier": "문열기",
+      "is_new": true,
+      "brief": {
+        "company_status": "2025년 설립, 2026년 3월 시드 투자, ARR 10억 달성 초기 스타트업",
+        "verdict": "FE 5 : BE 5 — Frontend/Backend를 동등 비중으로 요구하는 진짜 풀스택 포지션",
+        "strengths": [
+          "React/Next.js/TypeScript 프론트엔드 요건 충족"
+        ],
+        "gaps": [
+          "Node.js/Nest.js 백엔드 개발 역량도 동등하게 요구됨",
+          "산업안전 도메인 경험 없음"
+        ],
+        "pass_odds": "낮음",
+        "strategy": "프론트엔드 강점 위주로 어필하되 Node.js 백엔드 개발 가능 여부를 명확히 준비",
+        "sources": [
+          "wanted"
+        ]
+      }
+    },
+    {
+      "id": "purpleio-kolonmall-2026-08",
+      "company": "퍼플아이오",
+      "title": "[코오롱몰] 커머스 웹 개발자 (7년 이상)",
+      "level": "시니어",
+      "scale": "코오롱 계열 대기업 - 자동 문샷",
+      "source": "wanted",
+      "url": "https://www.wanted.co.kr/wd/376823",
+      "location": "서울 강남구",
+      "exp": "7-14년",
+      "exp_min_years": 7,
+      "posted_date": null,
+      "first_seen": "2026-08-21",
+      "domains": [
+        "커머스",
+        "풀스택"
+      ],
+      "deadline": null,
+      "deadline_type": "unknown",
+      "process": [],
+      "process_confirmed": false,
+      "has_codingtest": "미확인",
+      "fit_score": 70,
+      "fit_tier": "중",
+      "fit_reasons": [
+        "코오롱몰 등 패션 이커머스 사이트 개발 - 후보자의 커머스 도메인 강점과 직접 부합",
+        "본문에 \"시니어 풀스택 개발자\"로 명시되어 있어 백엔드 비중이 있는 풀스택으로 판단 (-10점)",
+        "코오롱FnC 합작·코오롱인더스트리 계열 대기업으로 안정성 높음"
+      ],
+      "tier": "문샷",
+      "is_new": true,
+      "brief": {
+        "company_status": "코오롱FnC 합작법인, 코오롱인더스트리 계열 대기업, 15년 이커머스 개발 노하우",
+        "verdict": "FE 6 : BE 4(추정) — 공고 제목은 '커머스 웹 개발자'이나 본문엔 '시니어 풀스택 개발자'로 명시, 자격요건 상세는 절단되어 정확한 비중 확인 불가",
+        "strengths": [
+          "패션 버티컬 이커머스 사이트 운영·개선 경험과 후보자의 커머스 강점 직접 연결",
+          "대기업 계열 안정적 조직"
+        ],
+        "gaps": [
+          "풀스택 요구로 백엔드 역량도 필요할 가능성"
+        ],
+        "pass_odds": "중간",
+        "strategy": "커머스 CVR 개선 등 정량 성과를 코오롱몰 운영 개선 관점으로 재구성해 어필",
+        "sources": [
+          "wanted"
+        ]
+      }
+    },
+    {
+      "id": "deleo-korea-frontend-2026-08",
+      "company": "델레오코리아(deleo)",
+      "title": "[플랫폼개발팀] 프론트엔드 개발자",
+      "level": "시니어",
+      "scale": "투자정보 미확인",
+      "source": "jumpit",
+      "url": "https://jumpit.saramin.co.kr/position/54787794",
+      "location": "서울 강남구",
+      "exp": "6-13년",
+      "exp_min_years": 6,
+      "posted_date": null,
+      "first_seen": "2026-08-21",
+      "domains": [
+        "물류",
+        "이커머스",
+        "인증보안"
+      ],
+      "deadline": "2026-09-18",
+      "deadline_type": "date",
+      "process": [
+        "서류전형",
+        "1차 면접(작문평가)",
+        "2차 면접(레퍼런스체크)",
+        "처우협의",
+        "최종합격"
+      ],
+      "process_confirmed": true,
+      "has_codingtest": "미확인",
+      "fit_score": 72,
+      "fit_tier": "중",
+      "fit_reasons": [
+        "React/Vue/Next.js 스택 요건 일치, 신규 아키텍처 설계 경험 요구",
+        "글로벌 물류·역직구 이커머스 도메인 - 커머스 강점과 일부 연관",
+        "\"프론트엔드 역량 강화 교육(매니징)\" 업무 포함 - 경미한 멘토링 요소이나 팀 관리 직책은 아님"
+      ],
+      "tier": "문열기",
+      "is_new": true,
+      "brief": {
+        "company_status": "글로벌 물류 IT 플랫폼 기업, 투자단계 정보 없음, 평균연봉 6000만원",
+        "verdict": "FE 전용 포지션, 컴포넌트 라이브러리 설계 및 신규 아키텍처 구축",
+        "strengths": [
+          "React/Vue/Next.js 실무 경험 직접 부합",
+          "역직구·해외배송 이커머스 도메인과 연관"
+        ],
+        "gaps": [
+          "결제·지도 등 후보자 핵심 강점과 직접 연결되는 업무는 아님"
+        ],
+        "pass_odds": "중간",
+        "strategy": "컴포넌트 라이브러리 설계 및 아키텍처 구축 경험 강조",
+        "sources": [
+          "jumpit"
+        ]
+      }
+    },
+    {
+      "id": "aigrave-insurance-fe-2026-08",
+      "company": "이그레브",
+      "title": "[대형 보험사] 프론트엔드 공통 개발자",
+      "level": "시니어",
+      "scale": "투자정보 미확인",
+      "source": "wanted",
+      "url": "https://www.wanted.co.kr/wd/381315",
+      "location": "서울 (시청역)",
+      "exp": "6년 이상",
+      "exp_min_years": 6,
+      "posted_date": null,
+      "first_seen": "2026-08-21",
+      "domains": [
+        "금융",
+        "SI"
+      ],
+      "deadline": null,
+      "deadline_type": "rolling",
+      "deadline_label": "상시채용",
+      "process": [],
+      "process_confirmed": false,
+      "has_codingtest": "미확인",
+      "fit_score": 48,
+      "fit_tier": "하",
+      "fit_reasons": [
+        "계약직 11개월 SI 파견 포지션으로 안정성 낮음",
+        "직무 설명이 매우 간략(대형 보험사 Frontend 공통 개발)하여 상세 업무 파악 어려움",
+        "결제·커머스·지도 등 후보자 핵심 도메인과 무관"
+      ],
+      "tier": "문열기",
+      "is_new": true,
+      "brief": {
+        "company_status": "AI/SI 솔루션 기업, 투자정보 확인 불가, 대형 보험사向 파견 포지션",
+        "verdict": "FE 전용이나 SI 파견·계약직(11개월) 형태로 정보가 매우 제한적",
+        "strengths": [
+          "6년 이상 경력 요건은 후보자 경력과 부합"
+        ],
+        "gaps": [
+          "계약직 11개월 파견 형태로 안정성 낮음",
+          "직무 상세 정보 부족"
+        ],
+        "pass_odds": "낮음",
+        "strategy": "지원 전 SI 파견 형태 및 상세 프로젝트 내용 추가 확인 필요",
+        "sources": [
+          "wanted"
+        ]
+      }
+    },
+    {
+      "id": "squareus-qshop-fullstack-2026-08",
+      "company": "스퀘어스",
+      "title": "AI 바이브코딩 웹사이트 빌더 - 풀스택 개발자 (3년 이상)",
+      "level": "미들",
+      "scale": "누적 30억 투자 (라운드 미상)",
+      "source": "wanted",
+      "url": "https://www.wanted.co.kr/wd/381364",
+      "location": "서울 중구",
+      "exp": "3-10년",
+      "exp_min_years": 3,
+      "posted_date": null,
+      "first_seen": "2026-08-21",
+      "domains": [
+        "커머스",
+        "결제",
+        "풀스택"
+      ],
+      "deadline": "2026-09-27",
+      "deadline_type": "date",
+      "process": [],
+      "process_confirmed": false,
+      "has_codingtest": "미확인",
+      "fit_score": 65,
+      "fit_tier": "중",
+      "fit_reasons": [
+        "결제 시스템·재고관리·주문/배송 등 이커머스 핵심 기능 개발 - 후보자의 결제·이커머스 강점과 직접 부합",
+        "NestJS 백엔드 API 설계도 동등 비중으로 요구 (BE 비중 있는 풀스택, -10점)",
+        "15만개 이상 웹사이트 개설 실적의 빠르게 성장하는 노코드/AI 플랫폼"
+      ],
+      "tier": "문열기",
+      "is_new": true,
+      "brief": {
+        "company_status": "노코드 웹사이트 빌더 스타트업, 누적 30억 투자(Strong Ventures 등), 라운드 단계 불명",
+        "verdict": "FE 6 : BE 4 — Next.js 프론트엔드와 NestJS 백엔드 API 설계를 모두 요구하는 풀스택 포지션",
+        "strengths": [
+          "결제·재고·주문 등 이커머스 핵심 기능 개발 경험이 후보자 강점과 직접 연결",
+          "React(Next.js) 스택 요건 일치"
+        ],
+        "gaps": [
+          "NestJS 기반 백엔드 API 설계 역량도 요구됨"
+        ],
+        "pass_odds": "중간",
+        "strategy": "PG 연동 및 결제 플로우 개선 경험을 이커머스 핵심 기능 개발 사례로 제시",
+        "sources": [
+          "wanted"
+        ]
+      }
+    },
+    {
+      "id": "tenbillion-frontend-2026-08",
+      "company": "텐빌리언",
+      "title": "프론트엔드 개발 경력 (6~9년)",
+      "level": "시니어",
+      "scale": "투자정보 미확인",
+      "source": "jumpit",
+      "url": "https://jumpit.saramin.co.kr/position/54787903",
+      "location": "서울 구로구",
+      "exp": "6-9년",
+      "exp_min_years": 6,
+      "posted_date": null,
+      "first_seen": "2026-08-21",
+      "domains": [
+        "커머스",
+        "쇼핑몰"
+      ],
+      "deadline": "2026-09-17",
+      "deadline_type": "date",
+      "process": [
+        "서류전형",
+        "면접전형",
+        "합격자 발표"
+      ],
+      "process_confirmed": true,
+      "has_codingtest": "미확인",
+      "fit_score": 45,
+      "fit_tier": "하",
+      "fit_reasons": [
+        "카페24 기반 쇼핑몰 개발로 이커머스 도메인은 일치하나, React/TypeScript 등 후보자 핵심 스택 요건이 전혀 없음",
+        "HTML/CSS/JavaScript 중심의 레거시/템플릿 기반 개발로 추정됨",
+        "이커머스 유통업체로 도메인 자체는 후보자 강점과 부합"
+      ],
+      "tier": "문열기",
+      "is_new": true,
+      "brief": {
+        "company_status": "해외 브랜드 수입 유통업체(인터넷 쇼핑몰), 투자정보 확인 불가",
+        "verdict": "카페24 플랫폼 기반 쇼핑몰 개발 - React/Next.js 등 후보자 핵심 스택과 무관, 이커머스 도메인만 일치",
+        "strengths": [
+          "이커머스·쇼핑몰 도메인 경험 보유"
+        ],
+        "gaps": [
+          "React/TypeScript 등 모던 프레임워크 요건이 없어 후보자 기술 스택과 괴리가 큼"
+        ],
+        "pass_odds": "낮음",
+        "strategy": "지원 전 실제 기술 스택(React 사용 여부) 재확인 필요",
+        "sources": [
+          "jumpit"
+        ]
+      }
+    },
+    {
+      "id": "kakaopay-asset-fe-2026-08",
+      "company": "카카오페이",
+      "title": "프론트엔드 개발자 - 자산 서비스",
+      "level": "미들",
+      "scale": "상장 대기업(카카오 계열) - 자동 문샷",
+      "source": "자사홈",
+      "url": "https://kakaopay.career.greetinghr.com/o/233787",
+      "location": "경기 성남시 분당구",
+      "exp": "3년 이상",
+      "exp_min_years": 3,
+      "posted_date": null,
+      "first_seen": "2026-08-21",
+      "domains": [
+        "핀테크",
+        "웹뷰"
+      ],
+      "deadline": null,
+      "deadline_type": "rolling",
+      "deadline_label": "수시채용",
+      "process": [
+        "서류",
+        "1차 인터뷰(라이브 코딩)",
+        "페이 컬처핏 진단",
+        "2차 인터뷰",
+        "처우협의",
+        "최종합격"
+      ],
+      "process_confirmed": true,
+      "has_codingtest": "코딩테스트",
+      "fit_score": 90,
+      "fit_tier": "최상",
+      "fit_reasons": [
+        "React/Jotai/Zustand/React Query 스택 완전 일치",
+        "모바일 웹뷰 환경에서 네이티브 앱과 유사한 사용성 구현 경험 우대 - 후보자의 웹뷰 하이브리드 강점과 직접 부합",
+        "카카오 계열 상장 대기업으로 안정성과 성장성 모두 우수"
+      ],
+      "tier": "문샷",
+      "is_new": true,
+      "brief": {
+        "company_status": "카카오 계열 핀테크 상장 대기업",
+        "verdict": "FE 전용 포지션, 카카오페이 앱 내 자산 탭 개발",
+        "strengths": [
+          "React/Zustand/React Query 스택 완전 일치",
+          "웹뷰 하이브리드 네이티브 앱 유사 UX 구현 경험이 핵심 우대사항과 직접 부합",
+          "SEO/SSR 성능 개선 경험(Next.js)도 우대사항과 일치"
+        ],
+        "gaps": [
+          "대용량 트래픽·보안성 유지 등 금융 서비스 특유의 높은 안정성 요구"
+        ],
+        "pass_odds": "높음",
+        "strategy": "네이버맵 클러스터링·웹뷰 브릿지 동기화 경험을 모바일 웹뷰 네이티브 유사 UX 구현 사례로, SEO/CTR 개선 경험을 SSR 성능 개선 사례로 연결 어필. 라이브 코딩 대비 필요",
+        "sources": [
+          "자사홈"
+        ]
+      }
+    },
     {
       "id": "horang-fe-manager-2026-08",
       "company": "호랑에듀",
@@ -34,7 +643,7 @@
         "에듀테크 도메인은 후보자의 이커머스·결제 강점과 직접 연결 안 됨"
       ],
       "tier": "문열기",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "한글 프로그래밍 교육 에듀테크 스타트업, 340개+ 학교·기관 도입",
         "verdict": "FE 전용 포지션 — 백엔드 요구사항 없음, 계약직 8개월(전환 평가 조건)",
@@ -85,7 +694,7 @@
         "광주 상주 근무 — 위치 불일치 가능성"
       ],
       "tier": "문열기",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "라이브커머스 '팬버드', 동물병원 진료비 비교 '펫치' 운영 스타트업, 유니콘 목표",
         "verdict": "FE 6 : BE/인프라 4 — Node.js API 설계 외 AWS/Redis 인프라 아키텍처 설계·트러블슈팅까지 자격요건에 포함",
@@ -136,7 +745,7 @@
         "공고 본문이 잘려 자격요건·기술스택 확인 불가 — 보수적으로 채점"
       ],
       "tier": "문열기",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "AI Agent 실행 통제 플랫폼(krewa) 스타트업, Anthropic/OpenAI/NVIDIA 등과 파트너십, Meta/PwC/현대차 AX 프로젝트 수행",
         "verdict": "직무명이 명확히 'Frontend' — 풀스택/백엔드 혼재 리스크 없음. 단, 공고 본문이 잘려 구체 자격요건은 미확인",
