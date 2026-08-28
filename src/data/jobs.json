@@ -1,9 +1,161 @@
 {
   "meta": {
-    "last_collected": "2026-08-26",
-    "total": 109
+    "last_collected": "2026-08-28",
+    "total": 112
   },
   "jobs": [
+    {
+      "id": "teamreboot-ai-native-fe-2026-08",
+      "company": "팀리부뜨",
+      "title": "AI-Native Engineer (Frontend) (3년 이상)",
+      "level": "시니어",
+      "scale": "투자정보 미확인",
+      "source": "wanted",
+      "url": "https://www.wanted.co.kr/wd/371270",
+      "location": "서울 서초구",
+      "exp": "3-8년",
+      "exp_min_years": 5,
+      "posted_date": null,
+      "first_seen": "2026-08-28",
+      "domains": [
+        "AI/LLM",
+        "생성형AI"
+      ],
+      "deadline": null,
+      "deadline_type": "rolling",
+      "deadline_label": "상시채용",
+      "process": [],
+      "process_confirmed": false,
+      "has_codingtest": "미확인",
+      "fit_score": 68,
+      "fit_tier": "중",
+      "fit_reasons": [
+        "React/TypeScript 5년 이상 요구사항과 강하게 부합",
+        "LLM 기반 생성형 AI 제품 도메인은 후보자의 커머스·결제·지도 강점과는 거리가 있음",
+        "코딩 에이전트(Claude Code 등) 적극 활용 문화가 후보자 실무 스타일과 잘 맞음"
+      ],
+      "tier": "문열기",
+      "is_new": true,
+      "brief": {
+        "company_status": "AI 업무 자동화 스타트업, askyour.work/askyour.ai 생성형 AI 제품 운영. 투자 단계 공개 정보 없음",
+        "verdict": "FE 전용 포지션 - LLM 제품 프론트엔드가 핵심이며, 필요 시 백엔드/AI 로직도 다루나 자격요건에 백엔드 언어 실무 요구는 없음",
+        "strengths": [
+          "React/TypeScript 실무 역량",
+          "AI 코딩 도구 활용 경험"
+        ],
+        "gaps": [
+          "커머스·결제·지도 도메인 매칭 없음",
+          "LLM 제품 경험 직접 어필 포인트 부족"
+        ],
+        "pass_odds": "중간",
+        "strategy": "AI 도구를 활용한 개발 생산성 향상 경험과 프론트엔드 아키텍처 의사결정 사례를 강조",
+        "sources": [
+          "wanted"
+        ]
+      }
+    },
+    {
+      "id": "labradorlabs-frontend-2026-08",
+      "company": "래브라도랩스",
+      "title": "Frontend Engineer",
+      "level": "시니어",
+      "scale": "Series B, 누적 142억원",
+      "source": "wanted",
+      "url": "https://www.wanted.co.kr/wd/382970",
+      "location": "서울 서초구",
+      "exp": "3-6년",
+      "exp_min_years": 3,
+      "posted_date": null,
+      "first_seen": "2026-08-28",
+      "domains": [
+        "보안",
+        "B2B SaaS",
+        "대시보드"
+      ],
+      "deadline": "2026-09-20",
+      "deadline_type": "date",
+      "deadline_label": "2026.09.20",
+      "process": [],
+      "process_confirmed": false,
+      "has_codingtest": "미확인",
+      "fit_score": 76,
+      "fit_tier": "상",
+      "fit_reasons": [
+        "React/Next.js/TypeScript 스택이 정확히 일치",
+        "대시보드·차트 중심 복잡 데이터 UI 경험이 후보자 역량과 부합",
+        "커머스·결제 도메인과는 다르나 B2B SaaS 멀티테넌트 프론트엔드로 확장 가능한 포지션"
+      ],
+      "tier": "문샷",
+      "is_new": true,
+      "brief": {
+        "company_status": "오픈소스 보안 취약점(CVE) 분석 솔루션 기업, Series B 142억원 투자 유치",
+        "verdict": "FE 100% - 모노레포 기반 멀티테넌트 대시보드·테이블·차트 개발이 핵심 업무",
+        "strengths": [
+          "React/Next.js 실무 경험",
+          "모노레포 협업 경험 여부 확인 필요"
+        ],
+        "gaps": [
+          "보안 도메인 지식 없음",
+          "커머스/결제 도메인 강점을 어필하기 어려운 포지션"
+        ],
+        "pass_odds": "중간",
+        "strategy": "복잡한 데이터 대시보드 UI 설계·성능 최적화 경험을 중심으로 어필",
+        "sources": [
+          "wanted"
+        ]
+      }
+    },
+    {
+      "id": "wefun-frontend-react-2026-08",
+      "company": "위펀(스낵24)",
+      "title": "프론트엔드 개발자 (React)",
+      "level": "시니어",
+      "scale": "Series C, 누적 330억원",
+      "source": "wanted",
+      "url": "https://www.wanted.co.kr/wd/382962",
+      "location": "서울 강남구",
+      "exp": "5-10년",
+      "exp_min_years": 5,
+      "posted_date": null,
+      "first_seen": "2026-08-28",
+      "domains": [
+        "커머스",
+        "B2B플랫폼",
+        "결제"
+      ],
+      "deadline": null,
+      "deadline_type": "rolling",
+      "deadline_label": "상시채용",
+      "process": [],
+      "process_confirmed": false,
+      "has_codingtest": "미확인",
+      "fit_score": 85,
+      "fit_tier": "최상",
+      "fit_reasons": [
+        "신청-주문-결제 전환 구간 UX 개선 업무가 후보자의 핵심 강점(CVR +14.27% 경험)과 정확히 일치",
+        "React/Next.js/TypeScript 스택 완전 일치, 5년 이상 실무 경험 요구와 부합",
+        "Series C 누적 330억원 - 안정적 성장 단계의 B2B 플랫폼"
+      ],
+      "tier": "문샷",
+      "is_new": true,
+      "brief": {
+        "company_status": "국내 B2B 토탈 케어 플랫폼, 9,400개 이상 고객사, 2023년 흑자 전환, Series C 누적 330억원",
+        "verdict": "FE 100% - 랜딩페이지부터 관리자 페이지까지, 신청-주문-결제 전환 최적화가 핵심",
+        "strengths": [
+          "결제·전환 최적화(CVR) 실적",
+          "React/Next.js/TypeScript 스택",
+          "데이터 기반 실험 경험"
+        ],
+        "gaps": [
+          "B2B 도메인 실무 경험 직접 언급 필요"
+        ],
+        "pass_odds": "높음",
+        "strategy": "이니시스/토스페이 등 PG 연동 경험과 CVR +14.27% 성과를 전환 최적화 사례로 정면 어필",
+        "sources": [
+          "wanted"
+        ]
+      }
+    },
     {
       "id": "doublemedia-fe-2026-08",
       "company": "더블미디어",
@@ -34,7 +186,7 @@
         "결제·지도·SEO 등 핵심 도메인과 직접 연관 없음"
       ],
       "tier": "문열기",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "라이브 스트리밍 플랫폼 '팬더TV' 운영사, 투자정보 미확인",
         "verdict": "FE 전담 - 라이브 스트리밍/채팅/이벤트 UI 개발",
@@ -84,7 +236,7 @@
         "React/TypeScript/Zustand/Redux/Tailwind 스택 완전 일치"
       ],
       "tier": "문열기",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "배달대행 정산 서비스 운영, 신규 하이브리드 앱 프로덕트 준비 중, 투자정보 미확인",
         "verdict": "FE 전담 - 웹·앱(웹뷰 하이브리드) 통합 개발",
@@ -133,7 +285,7 @@
         "SSR/CSR 렌더링 최적화 경험 요구가 SEO·성능 개선 강점(강점3)과 시너지"
       ],
       "tier": "문열기",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "결제·인증·메시징 디지털 거래 인프라 기업, 생활 플랫폼 '아보카도' 운영, 투자정보 미확인",
         "verdict": "FE 전담 시니어 - 웹(React/Next.js)·앱(Flutter) 통합 서비스 개발",
@@ -182,7 +334,7 @@
         "계약직 1년(연장/정규직 전환 가능) 조건"
       ],
       "tier": "문열기",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "골프 테크 브랜드 UNEEKOR 모기업, 매장·타석·APP 서비스 운영, 투자정보 미확인",
         "verdict": "FE 전담 - VMS(매장관리) 웹 프론트 개발",
@@ -232,7 +384,7 @@
         "공고 요구경력(1~3년)이 지원자 경력(7년+)보다 현저히 낮아 레벨 미스매치 -20점 반영"
       ],
       "tier": "문열기",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "보안 QR 결제·주문 인프라 B2B 핀테크 스타트업, 시리즈A 투자 유치(금액 미확인)",
         "verdict": "FE 전담 - QR 결제·매장 메뉴판 서비스 개발, 다만 채용 타겟 경력대가 낮음(1~3년)",
@@ -279,7 +431,7 @@
         "이커머스·결제·지도·SEO 등 핵심 도메인과 직접 연관 없음"
       ],
       "tier": "문열기",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "골프 테크 브랜드 UNEEKOR 모기업, 매장·타석·APP 서비스 운영, 투자정보 미확인",
         "verdict": "FE 전담(정규직) - VMS(매장관리) 웹 프론트 개발, 382424와 동일 회사·유사 직무의 정규직 버전",
@@ -327,7 +479,7 @@
         "이커머스·결제·지도·SEO 등 핵심 도메인과 직접 연관 없음, 완전 재택 근무 가능"
       ],
       "tier": "문열기",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "연구성과관리 플랫폼 '한국기술HUB' 운영, 투자정보 미확인",
         "verdict": "FE 전담 - 20여개 기관 대상 멀티테넌트 플랫폼 개발",
@@ -374,7 +526,7 @@
         "이커머스·결제·지도·SEO 등 핵심 도메인과 직접 연관 없음"
       ],
       "tier": "문열기",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "영유아 언어 역량 검사 서비스 '캐폴테스트' 개발사, 소규모, 투자정보 미확인",
         "verdict": "FE 전담 - 검사 문항·결과 리포트 화면 개발",
@@ -423,7 +575,7 @@
         "이커머스·결제·지도·SEO 등 핵심 도메인과 직접 연관 없음"
       ],
       "tier": "문열기",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "AI 배달앱 리뷰관리 솔루션 '댓글몽' 운영, 2년 연속 흑자, Pre-A 투자 유치(금액 미확인)",
         "verdict": "FE 전담 - 댓글몽 앱/웹/어드민 프론트엔드 개발",
@@ -471,7 +623,7 @@
         "누적투자 140억원+, 거래액 2,000억원+ 흑자전환 스타트업"
       ],
       "tier": "메인",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "국내 최대 건물주 플랫폼 '자리톡' 운영, 누적투자 140억원+, 2024년 흑자전환",
         "verdict": "FE 전담 - 그로스팀에서 실험 설계·A/B 테스트·SEO/전환율 개선 담당",
@@ -519,7 +671,7 @@
         "이커머스·결제·지도·SEO 등 핵심 도메인과 직접 연관 없음"
       ],
       "tier": "문열기",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "영어교육 콘텐츠 기업(베스트셀러 '천일문' 시리즈), 투자정보 미확인, 안정적 매출 구조 추정",
         "verdict": "FE 8 : BE 2 — 자격요건상 백엔드 요구 없이 'Fullstack 혹은 Frontend' 지원 가능",
@@ -566,7 +718,7 @@
         "이커머스·결제·지도·SEO 등 핵심 도메인과 직접 연관 없음"
       ],
       "tier": "문열기",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "30년 교육 브랜드, 연매출 200~250억원·영업이익률 약50%, 디쉐어 인수, 외부투자 없이 자체자금 운영",
         "verdict": "FE 전담 - 신규 교육 서비스 0→1 개발 및 운영",
@@ -621,7 +773,7 @@
         "반응형 UI·SEO·성능 최적화 업무 포함 - 강점3(SEO)과 일부 연관"
       ],
       "tier": "문열기",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "AI 기반 HR/채용 SaaS 스타트업(2017년 설립), 투자정보 미확인",
         "verdict": "FE 전담 - 관리자/기업/구직자 웹 및 WebView 기반 Hybrid App 화면 개발",
@@ -675,7 +827,7 @@
         "렌더링 최적화·이미지 캐싱 등 성능 개선 업무 포함"
       ],
       "tier": "문열기",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "반려동물 유통 플랫폼 '펫박스' 운영(2014년 설립), 매쉬업엔젤스 등 투자 유치(규모 미확인)",
         "verdict": "FE 전담 - 실제 서비스(백오피스 제외) 프론트엔드 개발",
