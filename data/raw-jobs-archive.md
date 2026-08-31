@@ -1603,3 +1603,56 @@ Software Engineer, Frontend - 커뮤니티 (모임) | 당근 채용 팀 문화 �
 - verified: 2026-08-28 (HTTP 200)
 - source: wanted
 - 처리: 제외 (2026-08-28) — Flutter 기반 모바일 앱(iOS/Android) 신규 기능 개발이 주요업무 1순위로 명시되어 네이티브 앱 주축 제외 기준 해당
+
+## 처리됨 2026-08-31
+
+### 룰루랩 - 풀스택 개발자(개발팀) [제외: BE 언어(Java/Spring, Python) 실무 경력 요구]
+
+- url: https://jumpit.saramin.co.kr/position/54869775
+- verified: 2026-08-28 (HTTP 200)
+- source: jumpit
+- deadline: 2026-09-25
+
+### 학교종이 - 프론트엔드 개발자 (경력) [큐레이션: hakgyojong-frontend-2026-08]
+
+- url: https://jumpit.saramin.co.kr/position/54866014
+- verified: 2026-08-28 (HTTP 200)
+- source: jumpit
+- deadline: 2026-09-25
+
+### 티윈 - ReactJS 개발자 채용 [큐레이션: twin-react-2026-08]
+
+- url: https://jumpit.saramin.co.kr/position/54833719
+- verified: 2026-08-28 (HTTP 200)
+- source: jumpit
+- deadline: 2026-09-23
+
+### 힐링페이퍼(강남언니) - [강남언니] 웹 프론트엔드 개발자 (디자인 시스템) [큐레이션: gangnamunni-design-system-2026-08]
+
+- url: https://www.wanted.co.kr/wd/383387
+- verified: 2026-08-31 (HTTP 200)
+- source: wanted
+
+### 흑자 - 풀스택 엔지니어 (Vision AI · Cloud) [제외: 경력 1~3년 레벨 미스매치, FE 비중 50% 미만(백엔드·클라우드·Vision AI 중심)]
+
+- url: https://www.wanted.co.kr/wd/374450
+- verified: 2026-08-31 (HTTP 200)
+- source: wanted
+
+### 콕스웨이브 - [AX krewa] 소프트웨어 엔지니어 (Frontend) [큐레이션: coxwave-frontend-2026-08]
+
+- url: https://www.wanted.co.kr/wd/383360
+- verified: 2026-08-31 (HTTP 200)
+- source: wanted
+
+### 스타픽시스튜디오 - Full-stack 엔지니어 [제외: 게임 스튜디오(메이플스타) 주축 + 풀스택 BE 비중(Node.js/PostgreSQL/Redis/ES 데이터모델링·인프라)]
+
+- url: https://www.wanted.co.kr/wd/383105
+- verified: 2026-08-31 (HTTP 200)
+- source: wanted
+
+### 엔닷라이트 - 웹서비스 프론트엔드 개발자 (3년 이상) [제외: 3D·CAD·게임엔진 등 기하·공간 제품 경험 요구]
+
+- url: https://www.wanted.co.kr/wd/293990
+- verified: 2026-08-31 (HTTP 200)
+- source: wanted

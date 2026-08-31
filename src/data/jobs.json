@@ -1,9 +1,167 @@
 {
   "meta": {
-    "last_collected": "2026-08-28",
-    "total": 112
+    "last_collected": "2026-08-31",
+    "total": 115
   },
   "jobs": [
+    {
+      "id": "hakgyojong-frontend-2026-08",
+      "company": "학교종이",
+      "title": "프론트엔드 개발자 (경력)",
+      "level": "미들",
+      "scale": "투자정보 미확인",
+      "source": "jumpit",
+      "url": "https://jumpit.saramin.co.kr/position/54866014",
+      "location": "세종",
+      "exp": "2~3년",
+      "exp_min_years": 2,
+      "posted_date": null,
+      "first_seen": "2026-08-31",
+      "domains": [
+        "웹뷰하이브리드",
+        "데스크톱앱",
+        "교육"
+      ],
+      "deadline": "2026-09-25",
+      "deadline_type": "date",
+      "process": [
+        "서류",
+        "과제",
+        "인터뷰",
+        "최종합격"
+      ],
+      "process_confirmed": true,
+      "has_codingtest": "과제",
+      "fit_score": 58,
+      "fit_tier": "하",
+      "fit_reasons": [
+        "Angular/RxJS 주축 스택 - React/Vue/Next.js 경험과 직접 겹치지 않음",
+        "Ionic Capacitor·Electron 하이브리드 앱 개발은 웹뷰 하이브리드 강점과 방향성 유사",
+        "경력 2년 이상 요구로 7년+ 시니어 대비 레벨 낮음"
+      ],
+      "tier": "문열기",
+      "is_new": true,
+      "brief": {
+        "company_status": "300만 사용자를 보유한 학교 알림장 자사 서비스, 11년차",
+        "verdict": "순수 FE 역할이나 요구 스택이 Angular 기반이라 React 중심 경력과는 이질적",
+        "strengths": [
+          "웹뷰 하이브리드(Capacitor) 경험 방향성 일치",
+          "TypeScript 사용 경험"
+        ],
+        "gaps": [
+          "Angular/RxJS 실무 경험 없음",
+          "요구 경력 레벨이 후보자 대비 낮음"
+        ],
+        "pass_odds": "낮음",
+        "strategy": "지원 시 React→Angular 전환 학습 의지와 하이브리드 앱 경험을 강조",
+        "sources": [
+          "jumpit"
+        ]
+      }
+    },
+    {
+      "id": "twin-react-2026-08",
+      "company": "티윈",
+      "title": "ReactJS 개발자 채용",
+      "level": "시니어",
+      "scale": "투자정보 미확인",
+      "source": "jumpit",
+      "url": "https://jumpit.saramin.co.kr/position/54833719",
+      "location": "서울 강남구",
+      "exp": "6~10년",
+      "exp_min_years": 6,
+      "posted_date": null,
+      "first_seen": "2026-08-31",
+      "domains": [
+        "UX 서비스"
+      ],
+      "deadline": "2026-09-23",
+      "deadline_type": "date",
+      "process": [
+        "서류전형",
+        "1차면접",
+        "2차면접",
+        "최종합격"
+      ],
+      "process_confirmed": true,
+      "has_codingtest": "코딩테스트",
+      "fit_score": 70,
+      "fit_tier": "중",
+      "fit_reasons": [
+        "ReactJS 개발 경험 요구가 핵심 요건으로 명시되어 직접 부합",
+        "Spring은 우대사항일 뿐 필수 요구 아님 - FE 중심 역할",
+        "이커머스·결제·지도 등 특화 도메인과는 무관한 일반 UX 개발 프로젝트"
+      ],
+      "tier": "문열기",
+      "is_new": true,
+      "brief": {
+        "company_status": "웹/앱 개발·임베디드 SW·UX 디자인을 다루는 디지털 UX 서비스 개발 기업(SI/에이전시 성격)",
+        "verdict": "React 중심 FE 역할, 경력 6~10년 요건이 후보자 경력과 잘 맞음",
+        "strengths": [
+          "React 실무 경험 요건과 정확히 부합",
+          "7년 경력이 요구 범위(6~10년) 내"
+        ],
+        "gaps": [
+          "결제·지도·SEO 등 특화 도메인 경험 활용도 낮음",
+          "SI성 프로젝트로 근무지 변경 가능성 언급됨"
+        ],
+        "pass_odds": "중간",
+        "strategy": "React 실무 경험과 웹 표준·성능 최적화 경험을 중심으로 어필",
+        "sources": [
+          "jumpit"
+        ]
+      }
+    },
+    {
+      "id": "gangnamunni-design-system-2026-08",
+      "company": "힐링페이퍼(강남언니)",
+      "title": "[강남언니] 웹 프론트엔드 개발자 (디자인 시스템)",
+      "level": "시니어",
+      "scale": "투자정보 미확인",
+      "source": "wanted",
+      "url": "https://www.wanted.co.kr/wd/383387",
+      "location": "서울 강남구",
+      "exp": "5년 이상",
+      "exp_min_years": 5,
+      "posted_date": null,
+      "first_seen": "2026-08-31",
+      "domains": [
+        "헬스케어",
+        "디자인시스템"
+      ],
+      "deadline": null,
+      "deadline_type": "rolling",
+      "deadline_label": "상시채용",
+      "process_confirmed": false,
+      "has_codingtest": "미확인",
+      "fit_score": 82,
+      "fit_tier": "상",
+      "fit_reasons": [
+        "5년 이상 React/TypeScript 시니어 요건에 정확히 부합",
+        "재사용 컴포넌트·디자인 시스템 설계 요구는 강점 영역과 밀접",
+        "HTML/CSS·브라우저 렌더링·성능 최적화 요구를 다수 경험으로 충족"
+      ],
+      "tier": "문열기",
+      "is_new": true,
+      "brief": {
+        "company_status": "미용의료 플랫폼 강남언니 운영사, 2023년 흑자전환, 한국·일본·태국 서비스 중",
+        "verdict": "결제·이커머스 도메인은 아니지만 순수 FE 시니어 전문성(컴포넌트/성능/디자인시스템) 요구가 매우 강한 역할",
+        "strengths": [
+          "디자인 시스템/컴포넌트 라이브러리 설계 경험",
+          "웹 성능 최적화 경험",
+          "5년+ React/TS 경력"
+        ],
+        "gaps": [
+          "결제·지도 도메인 강점을 직접 살리기 어려움",
+          "웹 챕터 내 iOS/Android 협업 구조 이해 필요"
+        ],
+        "pass_odds": "중간",
+        "strategy": "컴포넌트 설계·성능 최적화·SEO 경험을 디자인 시스템 맥락으로 재구성해 어필",
+        "sources": [
+          "wanted"
+        ]
+      }
+    },
     {
       "id": "teamreboot-ai-native-fe-2026-08",
       "company": "팀리부뜨",
@@ -35,7 +193,7 @@
         "코딩 에이전트(Claude Code 등) 적극 활용 문화가 후보자 실무 스타일과 잘 맞음"
       ],
       "tier": "문열기",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "AI 업무 자동화 스타트업, askyour.work/askyour.ai 생성형 AI 제품 운영. 투자 단계 공개 정보 없음",
         "verdict": "FE 전용 포지션 - LLM 제품 프론트엔드가 핵심이며, 필요 시 백엔드/AI 로직도 다루나 자격요건에 백엔드 언어 실무 요구는 없음",
@@ -86,7 +244,7 @@
         "커머스·결제 도메인과는 다르나 B2B SaaS 멀티테넌트 프론트엔드로 확장 가능한 포지션"
       ],
       "tier": "문샷",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "오픈소스 보안 취약점(CVE) 분석 솔루션 기업, Series B 142억원 투자 유치",
         "verdict": "FE 100% - 모노레포 기반 멀티테넌트 대시보드·테이블·차트 개발이 핵심 업무",
@@ -137,7 +295,7 @@
         "Series C 누적 330억원 - 안정적 성장 단계의 B2B 플랫폼"
       ],
       "tier": "문샷",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "국내 B2B 토탈 케어 플랫폼, 9,400개 이상 고객사, 2023년 흑자 전환, Series C 누적 330억원",
         "verdict": "FE 100% - 랜딩페이지부터 관리자 페이지까지, 신청-주문-결제 전환 최적화가 핵심",
