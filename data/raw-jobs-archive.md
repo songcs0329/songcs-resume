@@ -1656,3 +1656,75 @@ Software Engineer, Frontend - 커뮤니티 (모임) | 당근 채용 팀 문화 �
 - url: https://www.wanted.co.kr/wd/293990
 - verified: 2026-08-31 (HTTP 200)
 - source: wanted
+
+### 하이브(HYBE) - [HYBE] Full-Stack 개발
+- url: https://www.wanted.co.kr/wd/384052
+- 처리: 제외 (2026-09-02) — Python/FastAPI 또는 Java/Spring 백엔드 실무 필수, 데이터 파이프라인/GCP·AWS 운영 등 FE 비중 50% 미만으로 판단
+
+### 누아 - 프론트엔드 개발자
+- url: https://www.wanted.co.kr/wd/118906
+- 처리: 큐레이션 (2026-09-02) — fit_score 65, tier 메인
+
+### 에스케이일렉링크(SK일렉링크) - Frontend Engineer
+- url: https://www.wanted.co.kr/wd/383945
+- 처리: 큐레이션 (2026-09-02) — fit_score 78, tier 문샷
+
+### 씨드로닉스 - Front-end Engineer
+- url: https://www.wanted.co.kr/wd/383936
+- 처리: 제외 (2026-09-02) — WebGL2/WebGPU/Canvas 기반 3D 해양 시각화, 제외 기준(3D·WebGL) 해당
+
+### 와드(캐치테이블) - B2B Front-end Developer
+- url: https://www.wanted.co.kr/wd/383903
+- 처리: 큐레이션 (2026-09-02) — fit_score 74, tier 문열기
+
+### 아이벡스 - Frontend Engineer (MLOps, Vision AI Platform)
+- url: https://www.wanted.co.kr/wd/383898
+- 처리: 큐레이션 (2026-09-02) — fit_score 76, tier 문열기
+
+### 키즈노트 - 프론트엔트 개발자
+- url: https://www.wanted.co.kr/wd/375746
+- 처리: 큐레이션 (2026-09-02) — fit_score 70, tier 문열기
+
+### 데나토즈 - 프론트/풀스택 엔지니어 3년차~7년차
+- url: https://www.wanted.co.kr/wd/380104
+- 처리: 큐레이션 (2026-09-02) — fit_score 78, tier 문열기
+
+### 인딥에이아이 - AI 채용솔루션 풀스택 개발자(NestJS, React)
+- url: https://www.wanted.co.kr/wd/383796
+- 처리: 큐레이션 (2026-09-02) — fit_score 58, tier 문열기
+
+### 알챗 - 숙박·여행 커뮤니티 플랫폼 프론트엔드 개발자 (1~3년)
+- url: https://www.wanted.co.kr/wd/383285
+- 처리: 제외 (2026-09-02) — 1~3년차 대상 주니어 전용 포지션
+
+### 서치오에스에이아이 - Core Enigneer (인공지능 · 머신러닝 · 풀스택)
+- url: https://www.wanted.co.kr/wd/372644
+- 처리: 제외 (2026-09-02) — 실질적으로 DevOps/SRE(Kubernetes/Terraform/ArgoCD) 포지션, FE 요구사항 없음
+
+### 크로스이엔에프 - Frontend Developer
+- url: https://www.wanted.co.kr/wd/356358
+- 처리: 큐레이션 (2026-09-02) — fit_score 84, tier 문열기
+
+### 네티 - AI 풀스택 PO
+- url: https://www.wanted.co.kr/wd/362457
+- 처리: 제외 (2026-09-02) — PO/그로스 마케터 성격의 기획 중심 역할, FE 엔지니어 포지션 아님, 도메인(AI 캐릭터 채팅) 불일치
+
+### 제이와이피엔터테인먼트(JYP) - Software Engineer/Frontend (5년 이상)
+- url: https://www.wanted.co.kr/wd/383559
+- 처리: 큐레이션 (2026-09-02) — fit_score 76, tier 문샷
+
+### 아슬론(Arslon) - 의료IT 풀스택 개발자 / 프로젝트 관리자
+- url: https://www.wanted.co.kr/wd/368070
+- 처리: 제외 (2026-09-02) — PM/현장 설치·검수 업무 겸직, 기술 스택 불명확으로 FE 전문성 매칭 어려움
+
+### 봉이랩스 - 풀스택 개발자 (3~4년) | React·Next.js·WebView·AI
+- url: https://www.wanted.co.kr/wd/383537
+- 처리: 큐레이션 (2026-09-02) — fit_score 72, tier 문열기
+
+### 매일새옷 - 프론트엔드 (3~5년차)
+- url: https://www.wanted.co.kr/wd/382544
+- 처리: 큐레이션 (2026-09-02) — fit_score 78, tier 문열기
+
+### 위버스마인드 - Frontend Engineer 3년 이상
+- url: https://www.wanted.co.kr/wd/375034
+- 처리: 큐레이션 (2026-09-02) — fit_score 66, tier 문열기

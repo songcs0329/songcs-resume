@@ -1,9 +1,600 @@
 {
   "meta": {
-    "last_collected": "2026-08-31",
-    "total": 115
+    "last_collected": "2026-09-02",
+    "total": 127
   },
   "jobs": [
+    {
+      "id": "nuua-frontend-2026-09",
+      "company": "누아",
+      "title": "프론트엔드 개발자",
+      "level": null,
+      "scale": "130억원 투자유치(2024.11, 신한벤처투자 등 9개 기관) - 시리즈 단계 미기재",
+      "source": "wanted",
+      "url": "https://www.wanted.co.kr/wd/118906",
+      "location": "서울 중구",
+      "exp": "3-12년",
+      "exp_min_years": 3,
+      "posted_date": null,
+      "first_seen": "2026-09-02",
+      "domains": [
+        "여행",
+        "B2B",
+        "B2C"
+      ],
+      "deadline": null,
+      "deadline_type": "rolling",
+      "process": [],
+      "process_confirmed": false,
+      "has_codingtest": "미확인",
+      "fit_score": 65,
+      "fit_tier": "중",
+      "fit_reasons": [
+        "React(Next) SPA 실무 경험 요구와 스택 매칭",
+        "'(팀장급의 경우) 프론트개발 구성원/팀 리드'로 리드 겸 IC 가능성 -10점",
+        "여행 B2B/B2C 도메인 - 결제·지도 핵심 강점과는 다소 거리"
+      ],
+      "tier": "메인",
+      "is_new": true,
+      "brief": {
+        "company_status": "IATA 차세대 항공권 유통 인증 보유, AI 기반 여행 플랫폼, 2024.11 130억원 투자 유치",
+        "verdict": "FE 단독 포지션. 팀장급 채용 시 리드 겸 IC 성격 가능",
+        "strengths": [
+          "React/Next.js SPA 개발 경험",
+          "3년 이상 폭넓은 경력 범위로 지원 가능"
+        ],
+        "gaps": [
+          "결제·지도 도메인 강점과 직접 연관 낮음",
+          "리드 역할 가능성으로 관리 부담 존재"
+        ],
+        "pass_odds": "중간",
+        "strategy": "여행 B2B/B2C 서비스 개발 경험을 프론트 아키텍처 관점에서 강조",
+        "sources": [
+          "wanted"
+        ]
+      }
+    },
+    {
+      "id": "sk-elec-link-frontend-2026-09",
+      "company": "에스케이일렉링크(SK일렉링크)",
+      "title": "Frontend Engineer",
+      "level": "시니어",
+      "scale": "SK그룹 계열사(대기업) - 자동 문샷",
+      "source": "wanted",
+      "url": "https://www.wanted.co.kr/wd/383945",
+      "location": "서울 강남구",
+      "exp": "5년 이상",
+      "exp_min_years": 5,
+      "posted_date": null,
+      "first_seen": "2026-09-02",
+      "domains": [
+        "웹뷰",
+        "모빌리티",
+        "네이티브브릿지"
+      ],
+      "deadline": null,
+      "deadline_type": "rolling",
+      "process": [],
+      "process_confirmed": false,
+      "has_codingtest": "미확인",
+      "fit_score": 78,
+      "fit_tier": "상",
+      "fit_reasons": [
+        "WebView 기반 서비스 + React Native WebView 브릿지 연동 - 지도·웹뷰 하이브리드 핵심 강점과 직접 매칭",
+        "React/TypeScript 5년 이상 요구 부합",
+        "'프론트엔드 테크 리더로서 기술 방향·코드리뷰 주도' - 테크 리드 성격 -10점"
+      ],
+      "tier": "문샷",
+      "is_new": true,
+      "brief": {
+        "company_status": "SK그룹 계열, 전기차 충전 인프라 국내 1위 지향 그린 모빌리티 플랫폼",
+        "verdict": "FE 단독 포지션, WebView+네이티브 브릿지 아키텍처 주도 역할",
+        "strengths": [
+          "네이버맵 클러스터링·네이티브 브릿지 상태 동기화 경험과 직결",
+          "SK 계열사 안정성"
+        ],
+        "gaps": [
+          "테크 리드로서 코드리뷰·개발 프로세스 주도 요구"
+        ],
+        "pass_odds": "높음",
+        "strategy": "네이티브 브릿지 상태 동기화, 웹뷰 인증/내비게이션 연동 경험을 구체 수치와 함께 제시",
+        "sources": [
+          "wanted"
+        ]
+      }
+    },
+    {
+      "id": "wad-catchtable-b2b-fe-2026-09",
+      "company": "와드(캐치테이블)",
+      "title": "B2B Front-end Developer",
+      "level": "시니어",
+      "scale": "투자정보 미확인",
+      "source": "wanted",
+      "url": "https://www.wanted.co.kr/wd/383903",
+      "location": "경기 성남시",
+      "exp": "5년 이상",
+      "exp_min_years": 5,
+      "posted_date": null,
+      "first_seen": "2026-09-02",
+      "domains": [
+        "예약",
+        "커머스",
+        "B2B"
+      ],
+      "deadline": null,
+      "deadline_type": "rolling",
+      "process": [],
+      "process_confirmed": false,
+      "has_codingtest": "미확인",
+      "fit_score": 74,
+      "fit_tier": "중",
+      "fit_reasons": [
+        "React 기반 Back-Office/예약 솔루션 개발 - 일반 FE 역량 매칭",
+        "예약·결제(캐치페이) 플랫폼 도메인이 결제 강점과 일부 연관",
+        "5년 이상 경력 요구 부합"
+      ],
+      "tier": "문열기",
+      "is_new": true,
+      "brief": {
+        "company_status": "국내 1위 레스토랑 예약 서비스, MAU 500만 규모 요식업 슈퍼플랫폼",
+        "verdict": "B2B Back-Office/예약·웨이팅 솔루션 FE 개발",
+        "strengths": [
+          "Micro Frontend 설계 경험 요구 - 대규모 서비스 아키텍처 이해와 부합"
+        ],
+        "gaps": [
+          "결제 PG 연동 등 핵심 강점 직접 언급 없음",
+          "투자정보 미확인으로 보수적 티어 배정"
+        ],
+        "pass_odds": "중간",
+        "strategy": "결제·주문 플로우 CVR 개선 경험을 B2B 백오피스 성능 개선 맥락으로 연결",
+        "sources": [
+          "wanted"
+        ]
+      }
+    },
+    {
+      "id": "aivex-mlops-fe-2026-09",
+      "company": "아이벡스",
+      "title": "Frontend Engineer (MLOps, Vision AI Platform)",
+      "level": "시니어",
+      "scale": "투자정보 미확인",
+      "source": "wanted",
+      "url": "https://www.wanted.co.kr/wd/383898",
+      "location": "서울 서초구",
+      "exp": "5-11년",
+      "exp_min_years": 5,
+      "posted_date": null,
+      "first_seen": "2026-09-02",
+      "domains": [
+        "산업AI",
+        "데이터시각화",
+        "SaaS"
+      ],
+      "deadline": null,
+      "deadline_type": "rolling",
+      "process": [],
+      "process_confirmed": false,
+      "has_codingtest": "미확인",
+      "fit_score": 76,
+      "fit_tier": "상",
+      "fit_reasons": [
+        "React+TypeScript 프로덕션 서비스 설계·운영 경험 요구와 부합",
+        "성능 수치(FCP/LCP/INP) 기반 개선 문화 - SEO·성능 개선 강점과 유사한 사고방식",
+        "산업용 Vision AI 도메인은 후보자 핵심 도메인과 거리 있음"
+      ],
+      "tier": "문열기",
+      "is_new": true,
+      "brief": {
+        "company_status": "Industrial Physical AI 기업, AI Inspection·Robotics·MLOps 플랫폼 개발",
+        "verdict": "MLOps/Data 플랫폼 UI 개발, 대용량 이미지·메트릭 시각화",
+        "strengths": [
+          "React+TS 프로덕션 서비스 설계 경험",
+          "성능 측정 기반 개선 경험"
+        ],
+        "gaps": [
+          "결제·지도·SEO 핵심 도메인과 직접 연관 낮음",
+          "투자정보 미확인"
+        ],
+        "pass_odds": "중간",
+        "strategy": "서치콘솔 기반 CTR/성능 개선 경험을 정량 지표 중심으로 재구성해 제시",
+        "sources": [
+          "wanted"
+        ]
+      }
+    },
+    {
+      "id": "kidsnote-fe-2026-09",
+      "company": "키즈노트",
+      "title": "프론트엔드 개발자",
+      "level": "시니어",
+      "scale": "투자정보 미확인",
+      "source": "wanted",
+      "url": "https://www.wanted.co.kr/wd/375746",
+      "location": "경기 성남시",
+      "exp": "7년 이상",
+      "exp_min_years": 7,
+      "posted_date": null,
+      "first_seen": "2026-09-02",
+      "domains": [
+        "에듀케어",
+        "커머스"
+      ],
+      "deadline": null,
+      "deadline_type": "rolling",
+      "process": [],
+      "process_confirmed": false,
+      "has_codingtest": "미확인",
+      "fit_score": 70,
+      "fit_tier": "중",
+      "fit_reasons": [
+        "프론트엔드 단독 포지션, 스토어/혜택 등 커머스 요소 일부 포함",
+        "7년 이상 경력 요구 - 후보자 경력과 부합",
+        "결제·지도 등 핵심 강점과 직접 연관은 낮음"
+      ],
+      "tier": "문열기",
+      "is_new": true,
+      "brief": {
+        "company_status": "전국 모바일 알림장 점유율 1위 영유아 플랫폼",
+        "verdict": "스토어·혜택·POD 등 프로덕트 FE 설계 및 개발",
+        "strengths": [
+          "대규모 사용자 서비스 UI/UX 경험 요구와 부합"
+        ],
+        "gaps": [
+          "결제·지도·SEO 핵심 강점 직접 언급 없음",
+          "투자정보 미확인"
+        ],
+        "pass_odds": "중간",
+        "strategy": "대규모 트래픽 서비스에서의 UX 개선·성능 최적화 사례 강조",
+        "sources": [
+          "wanted"
+        ]
+      }
+    },
+    {
+      "id": "denatoz-fullstack-fe-2026-09",
+      "company": "데나토즈",
+      "title": "프론트/풀스택 엔지니어 3년차~7년차",
+      "level": "미들",
+      "scale": "투자정보 미확인",
+      "source": "wanted",
+      "url": "https://www.wanted.co.kr/wd/380104",
+      "location": "서울 서초구",
+      "exp": "3-7년",
+      "exp_min_years": 3,
+      "posted_date": null,
+      "first_seen": "2026-09-02",
+      "domains": [
+        "헬스케어",
+        "풀스택",
+        "SaaS"
+      ],
+      "deadline": null,
+      "deadline_type": "rolling",
+      "process": [],
+      "process_confirmed": false,
+      "has_codingtest": "미확인",
+      "fit_score": 78,
+      "fit_tier": "상",
+      "fit_reasons": [
+        "React/Next.js/Redux/Zustand 스택이 보유 스택과 정확히 일치",
+        "요구사항이 전부 FE 중심(백엔드 언어 요구 없음) - 풀스택 감점 없음",
+        "WebSocket/Proxy 활용 경험 등 실무형 요구와 부합"
+      ],
+      "tier": "문열기",
+      "is_new": true,
+      "brief": {
+        "company_status": "병의원 전자차트(EMR)·자원관리(ERP) 개발, 헬스케어 버티컬 확장 중",
+        "verdict": "FE 8 : BE 2 (사실상 프론트 중심) — 백엔드 언어 실무 요구 없이 Proxy/WebSocket 활용 수준",
+        "strengths": [
+          "보유 스택(React/Next.js/TS/Redux/Zustand)과 완전 일치",
+          "재사용성 높은 UI 컴포넌트 설계 경험"
+        ],
+        "gaps": [
+          "결제·지도 등 핵심 강점과 직접 연관 낮음",
+          "투자정보 미확인"
+        ],
+        "pass_odds": "높음",
+        "strategy": "React/Next.js 기반 대시보드·SaaS형 클라이언트 아키텍처 설계 경험 강조",
+        "sources": [
+          "wanted"
+        ]
+      }
+    },
+    {
+      "id": "indeep-ai-fullstack-2026-09",
+      "company": "인딥에이아이",
+      "title": "AI 채용솔루션 풀스택 개발자(NestJS, React)",
+      "level": "미들",
+      "scale": "투자정보 미확인",
+      "source": "wanted",
+      "url": "https://www.wanted.co.kr/wd/383796",
+      "location": "서울 강남구",
+      "exp": "3-7년",
+      "exp_min_years": 3,
+      "posted_date": null,
+      "first_seen": "2026-09-02",
+      "domains": [
+        "HR테크",
+        "풀스택",
+        "AI"
+      ],
+      "deadline": null,
+      "deadline_type": "rolling",
+      "process": [],
+      "process_confirmed": false,
+      "has_codingtest": "미확인",
+      "fit_score": 58,
+      "fit_tier": "하",
+      "fit_reasons": [
+        "React+NestJS 풀스택, FE:BE 약 5:5 추정 -10점 (BE 비중 있는 풀스택)",
+        "TypeScript 기반 개발 경험은 보유 스택과 부분 일치",
+        "AI 채용솔루션 도메인은 핵심 강점(결제·지도·SEO)과 무관"
+      ],
+      "tier": "문열기",
+      "is_new": true,
+      "brief": {
+        "company_status": "AI 기반 모의면접·채용 솔루션 스타트업",
+        "verdict": "FE 5 : BE 5 — NestJS API 서버 설계·배포·운영까지 요구되는 풀스택",
+        "strengths": [
+          "TypeScript 기반 프론트·백엔드 통합 개발 가능"
+        ],
+        "gaps": [
+          "백엔드 비중 높아 FE 전문성 활용도 낮음",
+          "핵심 도메인과 무관"
+        ],
+        "pass_odds": "낮음",
+        "strategy": "React 클라이언트 개발 경험 위주로 어필, 백엔드는 기본기 수준임을 사전 조율",
+        "sources": [
+          "wanted"
+        ]
+      }
+    },
+    {
+      "id": "cross-enf-frontend-2026-09",
+      "company": "크로스이엔에프",
+      "title": "Frontend Developer",
+      "level": "시니어",
+      "scale": "투자정보 미확인",
+      "source": "wanted",
+      "url": "https://www.wanted.co.kr/wd/356358",
+      "location": "서울 강남구",
+      "exp": "5년 이상",
+      "exp_min_years": 5,
+      "posted_date": null,
+      "first_seen": "2026-09-02",
+      "domains": [
+        "핀테크",
+        "커머스",
+        "웹뷰"
+      ],
+      "deadline": null,
+      "deadline_type": "rolling",
+      "process": [],
+      "process_confirmed": false,
+      "has_codingtest": "미확인",
+      "fit_score": 84,
+      "fit_tier": "상",
+      "fit_reasons": [
+        "웹뷰 기반 하이브리드 앱 개발 경험 필수 요구 - 지도·웹뷰 하이브리드 핵심 강점과 직접 매칭",
+        "해외송금·커머스 도메인 - 결제·주문 플로우 강점과 연관",
+        "React/TypeScript/Next.js 3년 이상 실무 경험 요구 충족"
+      ],
+      "tier": "문열기",
+      "is_new": true,
+      "brief": {
+        "company_status": "이주 외국인 대상 해외송금·커머스 통합 플랫폼",
+        "verdict": "FE 단독 포지션, 웹뷰 하이브리드 앱 + i18n 서비스 개발",
+        "strengths": [
+          "웹뷰 하이브리드 앱 경험 직접 매칭",
+          "다국어(i18n) 서비스 개발 요구와 SEO/글로벌 경험 시너지"
+        ],
+        "gaps": [
+          "투자정보 미확인으로 보수적 티어 배정"
+        ],
+        "pass_odds": "높음",
+        "strategy": "네이티브 브릿지·웹뷰 연동 경험과 PG 연동 등 결제 도메인 경험을 함께 제시",
+        "sources": [
+          "wanted"
+        ]
+      }
+    },
+    {
+      "id": "jyp-swe-frontend-2026-09",
+      "company": "제이와이피엔터테인먼트(JYP)",
+      "title": "Software Engineer/Frontend (5년 이상)",
+      "level": "시니어",
+      "scale": "코스닥 상장사(대기업) - 자동 문샷",
+      "source": "wanted",
+      "url": "https://www.wanted.co.kr/wd/383559",
+      "location": "서울 강동구",
+      "exp": "5-7년",
+      "exp_min_years": 5,
+      "posted_date": null,
+      "first_seen": "2026-09-02",
+      "domains": [
+        "엔터테인먼트",
+        "DX/AX",
+        "사내시스템"
+      ],
+      "deadline": null,
+      "deadline_type": "rolling",
+      "process": [],
+      "process_confirmed": false,
+      "has_codingtest": "미확인",
+      "fit_score": 76,
+      "fit_tier": "상",
+      "fit_reasons": [
+        "React/Next.js/TypeScript 숙련자 요구와 부합",
+        "Web Vitals 기반 성능 관리·디자인 시스템 구축 경험 요구",
+        "결제·지도 등 특화 도메인과 직접 연관은 낮음"
+      ],
+      "tier": "문샷",
+      "is_new": true,
+      "brief": {
+        "company_status": "코스닥 상장 엔터테인먼트社, DX/AX 전담 IT LAB 조직",
+        "verdict": "사내 DX/AX 시스템 FE 설계·구현, 상장사 안정성",
+        "strengths": [
+          "React/Next.js/TS 실무 경험",
+          "성능 지표(Lighthouse/Web Vitals) 관리 경험과 부합"
+        ],
+        "gaps": [
+          "결제·지도 핵심 도메인과 직접 연관 낮음"
+        ],
+        "pass_odds": "높음",
+        "strategy": "디자인 시스템 구축 경험과 성능 최적화 수치를 중심으로 어필",
+        "sources": [
+          "wanted"
+        ]
+      }
+    },
+    {
+      "id": "bongi-labs-fullstack-2026-09",
+      "company": "봉이랩스",
+      "title": "풀스택 개발자 (3~4년) | React·Next.js·WebView·AI",
+      "level": "미들",
+      "scale": "투자정보 미확인",
+      "source": "wanted",
+      "url": "https://www.wanted.co.kr/wd/383537",
+      "location": "서울 강남구",
+      "exp": "3-4년",
+      "exp_min_years": 3,
+      "posted_date": null,
+      "first_seen": "2026-09-02",
+      "domains": [
+        "통신",
+        "웹뷰",
+        "풀스택"
+      ],
+      "deadline": "2026-09-30",
+      "deadline_type": "date",
+      "deadline_label": "2026.09.30",
+      "process": [],
+      "process_confirmed": false,
+      "has_codingtest": "미확인",
+      "fit_score": 72,
+      "fit_tier": "중",
+      "fit_reasons": [
+        "WebView·Native Bridge 연동 경험 요구 - 지도·웹뷰 하이브리드 핵심 강점과 매칭",
+        "풀스택(Python 또는 Node.js 백엔드 택1 요구) -10점",
+        "통신상품 비교 플랫폼 - 커머스 도메인과 일부 연관"
+      ],
+      "tier": "문열기",
+      "is_new": true,
+      "brief": {
+        "company_status": "통신 서비스(휴대폰·인터넷·알뜰폰·eSIM) 비교·신청 플랫폼 '봉이'",
+        "verdict": "FE 6 : BE 4 — Python(FastAPI/Django) 또는 Node.js 백엔드 개발 경험 택1 요구",
+        "strengths": [
+          "WebView/Native Bridge 연동 경험 직접 매칭",
+          "React/Next.js 중심 개발"
+        ],
+        "gaps": [
+          "백엔드 개발 요구로 순수 FE 대비 감점",
+          "투자정보 미확인"
+        ],
+        "pass_odds": "중간",
+        "strategy": "네이티브 브릿지 상태 동기화 경험을 중심으로 제시하고 백엔드는 API 연동 수준임을 사전 조율",
+        "sources": [
+          "wanted"
+        ]
+      }
+    },
+    {
+      "id": "maeil-saeot-frontend-2026-09",
+      "company": "매일새옷",
+      "title": "프론트엔드 (3~5년차)",
+      "level": "미들",
+      "scale": "투자정보 미확인",
+      "source": "wanted",
+      "url": "https://www.wanted.co.kr/wd/382544",
+      "location": "서울 마포구",
+      "exp": "3-5년",
+      "exp_min_years": 3,
+      "posted_date": null,
+      "first_seen": "2026-09-02",
+      "domains": [
+        "POS",
+        "정산",
+        "커머스"
+      ],
+      "deadline": null,
+      "deadline_type": "rolling",
+      "process": [],
+      "process_confirmed": false,
+      "has_codingtest": "미확인",
+      "fit_score": 78,
+      "fit_tier": "상",
+      "fit_reasons": [
+        "Vue3/Nuxt3 스택 - 보유 스택(Vue/Nuxt)과 정확히 일치",
+        "세탁물 접수·결제·정산 등 POS 도메인 - 결제·주문 플로우 강점과 연관",
+        "3-5년 경력 요구 요건 충족"
+      ],
+      "tier": "문열기",
+      "is_new": true,
+      "brief": {
+        "company_status": "전국 약 2,800곳 세탁소 대상 ERP/POS 운영 SaaS, 세탁산업 AX 스타트업",
+        "verdict": "Nuxt3/Vue3 기반 웹 POS 프론트엔드 아키텍처 설계",
+        "strengths": [
+          "Vue/Nuxt 스택 직접 매칭",
+          "결제·정산 도메인 연관성"
+        ],
+        "gaps": [
+          "투자정보 미확인으로 보수적 티어 배정"
+        ],
+        "pass_odds": "높음",
+        "strategy": "결제·할인·주문 플로우 CVR 개선 경험을 POS 정산 도메인 맥락으로 재구성",
+        "sources": [
+          "wanted"
+        ]
+      }
+    },
+    {
+      "id": "weversmind-frontend-2026-09",
+      "company": "위버스마인드",
+      "title": "Frontend Engineer 3년 이상",
+      "level": "미들",
+      "scale": "투자정보 미확인",
+      "source": "wanted",
+      "url": "https://www.wanted.co.kr/wd/375034",
+      "location": "서울 구로구",
+      "exp": "3년 이상",
+      "exp_min_years": 3,
+      "posted_date": null,
+      "first_seen": "2026-09-02",
+      "domains": [
+        "에듀테크",
+        "AI"
+      ],
+      "deadline": null,
+      "deadline_type": "rolling",
+      "process": [],
+      "process_confirmed": false,
+      "has_codingtest": "미확인",
+      "fit_score": 66,
+      "fit_tier": "중",
+      "fit_reasons": [
+        "React 기반 서비스 개발 경력 요구와 부합",
+        "AI 에듀테크 도메인은 핵심 강점(결제·지도·SEO)과 직접 연관 낮음",
+        "3년 이상 요구 - 후보자 경력 대비 다소 낮은 레벨의 포지션"
+      ],
+      "tier": "문열기",
+      "is_new": true,
+      "brief": {
+        "company_status": "AI 에듀테크 기업, 학습 브랜드 '뇌새김' 개발, 누적 학습자 205만 명",
+        "verdict": "React 기반 학습 서비스 FE 개발, AI 기능 연동",
+        "strengths": [
+          "React 기반 서비스 개발 경험 요구와 부합"
+        ],
+        "gaps": [
+          "핵심 도메인과 직접 연관 낮음",
+          "경력 대비 낮은 레벨 포지션 가능성"
+        ],
+        "pass_odds": "중간",
+        "strategy": "인터랙티브 UI 구현 및 디자인 시스템 운영 경험을 중심으로 제시",
+        "sources": [
+          "wanted"
+        ]
+      }
+    },
     {
       "id": "hakgyojong-frontend-2026-08",
       "company": "학교종이",
@@ -40,7 +631,7 @@
         "경력 2년 이상 요구로 7년+ 시니어 대비 레벨 낮음"
       ],
       "tier": "문열기",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "300만 사용자를 보유한 학교 알림장 자사 서비스, 11년차",
         "verdict": "순수 FE 역할이나 요구 스택이 Angular 기반이라 React 중심 경력과는 이질적",
@@ -93,7 +684,7 @@
         "이커머스·결제·지도 등 특화 도메인과는 무관한 일반 UX 개발 프로젝트"
       ],
       "tier": "문열기",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "웹/앱 개발·임베디드 SW·UX 디자인을 다루는 디지털 UX 서비스 개발 기업(SI/에이전시 성격)",
         "verdict": "React 중심 FE 역할, 경력 6~10년 요건이 후보자 경력과 잘 맞음",
@@ -142,7 +733,7 @@
         "HTML/CSS·브라우저 렌더링·성능 최적화 요구를 다수 경험으로 충족"
       ],
       "tier": "문열기",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "미용의료 플랫폼 강남언니 운영사, 2023년 흑자전환, 한국·일본·태국 서비스 중",
         "verdict": "결제·이커머스 도메인은 아니지만 순수 FE 시니어 전문성(컴포넌트/성능/디자인시스템) 요구가 매우 강한 역할",
