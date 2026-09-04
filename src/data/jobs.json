@@ -1,9 +1,245 @@
 {
   "meta": {
-    "last_collected": "2026-09-02",
-    "total": 127
+    "last_collected": "2026-09-04",
+    "total": 132
   },
   "jobs": [
+    {
+      "id": "miso-frontend-2026-09",
+      "company": "미소(miso)",
+      "title": "Front-end Engineer",
+      "level": null,
+      "scale": "투자정보 미확인 (YC 31억 유치 언급, 총 누적투자액 불명)",
+      "source": "wanted",
+      "url": "https://www.wanted.co.kr/wd/384561",
+      "location": "서울 종로구",
+      "exp": "3년 이상",
+      "exp_min_years": 3,
+      "posted_date": null,
+      "first_seen": "2026-09-04",
+      "domains": [
+        "O2O",
+        "커머스"
+      ],
+      "deadline": null,
+      "deadline_type": "rolling",
+      "deadline_label": "상시채용",
+      "process": null,
+      "process_confirmed": false,
+      "has_codingtest": "미확인",
+      "fit_score": 78,
+      "fit_tier": "상",
+      "fit_reasons": [
+        "React/Next.js/TypeScript 스택 정확히 일치",
+        "O2O 홈서비스 플랫폼 - 이커머스 주문/거래 도메인과 유사",
+        "누적 거래액 1.5조원, 1000만 사용자 규모의 검증된 서비스"
+      ],
+      "tier": "문열기",
+      "is_new": true,
+      "brief": {
+        "company_status": "1000만 사용자 보유 국내 1위 홈서비스 O2O 플랫폼, 누적 거래액 1.5조원 돌파, 2022년 흑자전환 후 매년 2배 성장",
+        "verdict": "Front-end 전용 채용 - 모바일 앱 및 웹 서비스 UX 개선, 트래킹/내부 툴 개발 포함",
+        "strengths": [
+          "React/Next.js/TypeScript 스택 즉시 활용 가능",
+          "이커머스 주문 플로우 개선 경험(CVR +14.27%)과 유사한 전환율 개선 과제 예상"
+        ],
+        "gaps": [
+          "정확한 누적 투자금액 미확인으로 회사 규모 판단에 제약"
+        ],
+        "pass_odds": "중간",
+        "strategy": "주문/예약 전환율 개선, 트래킹 설계 경험을 강조",
+        "sources": []
+      }
+    },
+    {
+      "id": "humelo-tikita-fullstack-2026-09",
+      "company": "휴멜로",
+      "title": "[Tikita] AI 프로덕트 엔지니어 (풀스택)",
+      "level": null,
+      "scale": "누적 35억원+ (KT인베스트먼트 외, 시리즈 단계 미표기)",
+      "source": "wanted",
+      "url": "https://www.wanted.co.kr/wd/384525",
+      "location": "서울 강남구",
+      "exp": "3-8년",
+      "exp_min_years": 3,
+      "posted_date": null,
+      "first_seen": "2026-09-04",
+      "domains": [
+        "AI",
+        "결제",
+        "풀스택"
+      ],
+      "deadline": null,
+      "deadline_type": "unknown",
+      "process": null,
+      "process_confirmed": false,
+      "has_codingtest": "미확인",
+      "fit_score": 74,
+      "fit_tier": "중",
+      "fit_reasons": [
+        "Next.js/React/TypeScript 스택 일치",
+        "결제·광고 연동 등 커머스 인접 업무 포함",
+        "BE 비중 있는 풀스택(Supabase 활용, Node 백엔드 요구) - FE:BE 6:4 추정으로 -10점"
+      ],
+      "tier": "메인",
+      "is_new": true,
+      "brief": {
+        "company_status": "AI 음성기술 스타트업, KT/카카오인베스트먼트 등으로부터 누적 35억+ 투자, 티키타 서비스 일본·대만·북미 진출",
+        "verdict": "FE 6 : BE 4 — Supabase 활용으로 백엔드 부담은 낮지만 화면·API·DB 전체 흐름을 책임지는 풀스택 요구",
+        "strengths": [
+          "Next.js App Router/React/TypeScript 실무 경험 직접 활용 가능",
+          "결제·광고 연동 업무 존재 - PG 연동 경험과 연결 가능"
+        ],
+        "gaps": [
+          "백엔드(Supabase/API 설계) 실무 비중이 있어 순수 FE 대비 부담"
+        ],
+        "pass_odds": "중간",
+        "strategy": "결제 연동 경험과 AI 코딩 툴(Claude Code) 활용 경험을 강조",
+        "sources": []
+      }
+    },
+    {
+      "id": "innerverz-fullstack-2026-09",
+      "company": "이너버즈",
+      "title": "AI-Native Full-stack Product Engineer (Senior)",
+      "level": "시니어",
+      "scale": "투자정보 미확인",
+      "source": "wanted",
+      "url": "https://www.wanted.co.kr/wd/384282",
+      "location": "서울 강남구",
+      "exp": "3-10년",
+      "exp_min_years": 3,
+      "posted_date": null,
+      "first_seen": "2026-09-04",
+      "domains": [
+        "AI",
+        "콘텐츠",
+        "풀스택"
+      ],
+      "deadline": null,
+      "deadline_type": "unknown",
+      "process": null,
+      "process_confirmed": false,
+      "has_codingtest": "미확인",
+      "fit_score": 68,
+      "fit_tier": "중",
+      "fit_reasons": [
+        "React/Next.js/TypeScript 프론트엔드 스택 일치",
+        "AI 코딩 에이전트(Claude Code) 적극 활용 문화 - 강점 부합",
+        "Nest.js/Spring Boot/FastAPI 등 백엔드 실무 요구 있는 풀스택 - FE 비중 50~70%로 추정, -10점"
+      ],
+      "tier": "문열기",
+      "is_new": true,
+      "brief": {
+        "company_status": "생성형 AI 애니메이션 제작 플랫폼(ToonKit) 스타트업, 투자정보 미확인",
+        "verdict": "FE 6 : BE 4 — 프론트엔드 전문성 인정하나 API·DB·배포까지 End-to-End 요구",
+        "strengths": [
+          "Next.js/React/TypeScript 즉시 활용",
+          "AI 코딩 에이전트 기반 개발 생산성 향상 문화와 결이 맞음"
+        ],
+        "gaps": [
+          "Nest.js/Spring Boot/FastAPI 등 백엔드 설계 실무 요구로 학습 곡선 존재",
+          "회사 투자 규모 미확인"
+        ],
+        "pass_odds": "중간",
+        "strategy": "AI 도구 활용한 생산성, End-to-End 기능 완성 경험 어필",
+        "sources": []
+      }
+    },
+    {
+      "id": "cmes-robotics-frontend-2026-09",
+      "company": "씨메스로보틱스",
+      "title": "Frontend 개발자",
+      "level": null,
+      "scale": "투자정보 미확인",
+      "source": "wanted",
+      "url": "https://www.wanted.co.kr/wd/384039",
+      "location": "서울 강남구",
+      "exp": "3-5년",
+      "exp_min_years": 3,
+      "posted_date": null,
+      "first_seen": "2026-09-04",
+      "domains": [
+        "로보틱스",
+        "대시보드"
+      ],
+      "deadline": "2026-09-30",
+      "deadline_type": "date",
+      "process": null,
+      "process_confirmed": false,
+      "has_codingtest": "미확인",
+      "fit_score": 63,
+      "fit_tier": "하",
+      "fit_reasons": [
+        "Next.js/React/TypeScript 스택은 일치하나 이커머스·결제·지도 도메인과 무관",
+        "Python 언어가 자격요건에 명시되어 있어 백엔드/로봇 인터페이스 관여 가능성 있음 - 비중 불명확",
+        "로봇 상태 표시·컨트롤 UI로 후보자 강점(전환율·SEO 등)과 접점이 적음"
+      ],
+      "tier": "문열기",
+      "is_new": true,
+      "brief": {
+        "company_status": "로봇공학 스타트업, 웹 기반 로봇 프레임워크 개발, 투자정보 미확인",
+        "verdict": "Frontend 개발자로 공고되었으나 자격요건에 Python이 함께 명시되어 있어 순수 FE 여부 불확실",
+        "strengths": [
+          "Next.js/React/TypeScript 스택 재사용 가능"
+        ],
+        "gaps": [
+          "도메인(로보틱스)이 후보자 핵심 경험과 겹치지 않음",
+          "Python 요구 비중 불명확"
+        ],
+        "pass_odds": "낮음",
+        "strategy": "지원 전 JD의 Python 요구 비중을 채용 담당자에게 직접 확인 필요",
+        "sources": []
+      }
+    },
+    {
+      "id": "daum-search-frontend-2026-09",
+      "company": "다음",
+      "title": "검색 서비스 프론트엔드 개발자",
+      "level": null,
+      "scale": "카카오 계열 포털(다음) - 상장사 대기업, 자동 문샷",
+      "source": "wanted",
+      "url": "https://www.wanted.co.kr/wd/384037",
+      "location": "경기 성남시",
+      "exp": "5-11년",
+      "exp_min_years": 5,
+      "posted_date": null,
+      "first_seen": "2026-09-04",
+      "domains": [
+        "SEO",
+        "검색",
+        "포털"
+      ],
+      "deadline": null,
+      "deadline_type": "rolling",
+      "deadline_label": "상시채용",
+      "process": null,
+      "process_confirmed": false,
+      "has_codingtest": "미확인",
+      "fit_score": 82,
+      "fit_tier": "상",
+      "fit_reasons": [
+        "React/Next.js/TypeScript 순수 프론트엔드 공고 - 스택 완전 일치",
+        "대규모 트래픽 환경에서의 웹 성능·검색 UX 개선 경험(서치콘솔 CTR 11.3%, 활성사용자 +61%)과 직접 연결",
+        "카카오 계열 상장 대기업으로 안정성 높음"
+      ],
+      "tier": "문샷",
+      "is_new": true,
+      "brief": {
+        "company_status": "카카오가 운영하는 포털 다음(Daum) - 상장 대기업 계열, 통합검색 서비스",
+        "verdict": "순수 Front-end 공고, 생성형 AI·LLM 기반 검색 UI 개발 포함",
+        "strengths": [
+          "검색 UX·자동완성 등 대규모 트래픽 환경 최적화 경험과 SEO/서치콘솔 개선 이력이 직접 연결됨",
+          "React/Next.js/TypeScript 스택 완전 일치"
+        ],
+        "gaps": [
+          "경력 5-11년 밴드로 시니어 이상 경쟁자와 비교될 가능성"
+        ],
+        "pass_odds": "중간",
+        "strategy": "서치콘솔 기반 CTR·활성사용자 개선 사례를 검색 UX 개선 역량으로 재구성해 어필",
+        "sources": []
+      }
+    },
     {
       "id": "nuua-frontend-2026-09",
       "company": "누아",
@@ -35,7 +271,7 @@
         "여행 B2B/B2C 도메인 - 결제·지도 핵심 강점과는 다소 거리"
       ],
       "tier": "메인",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "IATA 차세대 항공권 유통 인증 보유, AI 기반 여행 플랫폼, 2024.11 130억원 투자 유치",
         "verdict": "FE 단독 포지션. 팀장급 채용 시 리드 겸 IC 성격 가능",
@@ -85,7 +321,7 @@
         "'프론트엔드 테크 리더로서 기술 방향·코드리뷰 주도' - 테크 리드 성격 -10점"
       ],
       "tier": "문샷",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "SK그룹 계열, 전기차 충전 인프라 국내 1위 지향 그린 모빌리티 플랫폼",
         "verdict": "FE 단독 포지션, WebView+네이티브 브릿지 아키텍처 주도 역할",
@@ -134,7 +370,7 @@
         "5년 이상 경력 요구 부합"
       ],
       "tier": "문열기",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "국내 1위 레스토랑 예약 서비스, MAU 500만 규모 요식업 슈퍼플랫폼",
         "verdict": "B2B Back-Office/예약·웨이팅 솔루션 FE 개발",
@@ -183,7 +419,7 @@
         "산업용 Vision AI 도메인은 후보자 핵심 도메인과 거리 있음"
       ],
       "tier": "문열기",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "Industrial Physical AI 기업, AI Inspection·Robotics·MLOps 플랫폼 개발",
         "verdict": "MLOps/Data 플랫폼 UI 개발, 대용량 이미지·메트릭 시각화",
@@ -232,7 +468,7 @@
         "결제·지도 등 핵심 강점과 직접 연관은 낮음"
       ],
       "tier": "문열기",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "전국 모바일 알림장 점유율 1위 영유아 플랫폼",
         "verdict": "스토어·혜택·POD 등 프로덕트 FE 설계 및 개발",
@@ -281,7 +517,7 @@
         "WebSocket/Proxy 활용 경험 등 실무형 요구와 부합"
       ],
       "tier": "문열기",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "병의원 전자차트(EMR)·자원관리(ERP) 개발, 헬스케어 버티컬 확장 중",
         "verdict": "FE 8 : BE 2 (사실상 프론트 중심) — 백엔드 언어 실무 요구 없이 Proxy/WebSocket 활용 수준",
@@ -331,7 +567,7 @@
         "AI 채용솔루션 도메인은 핵심 강점(결제·지도·SEO)과 무관"
       ],
       "tier": "문열기",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "AI 기반 모의면접·채용 솔루션 스타트업",
         "verdict": "FE 5 : BE 5 — NestJS API 서버 설계·배포·운영까지 요구되는 풀스택",
@@ -380,7 +616,7 @@
         "React/TypeScript/Next.js 3년 이상 실무 경험 요구 충족"
       ],
       "tier": "문열기",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "이주 외국인 대상 해외송금·커머스 통합 플랫폼",
         "verdict": "FE 단독 포지션, 웹뷰 하이브리드 앱 + i18n 서비스 개발",
@@ -429,7 +665,7 @@
         "결제·지도 등 특화 도메인과 직접 연관은 낮음"
       ],
       "tier": "문샷",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "코스닥 상장 엔터테인먼트社, DX/AX 전담 IT LAB 조직",
         "verdict": "사내 DX/AX 시스템 FE 설계·구현, 상장사 안정성",
@@ -479,7 +715,7 @@
         "통신상품 비교 플랫폼 - 커머스 도메인과 일부 연관"
       ],
       "tier": "문열기",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "통신 서비스(휴대폰·인터넷·알뜰폰·eSIM) 비교·신청 플랫폼 '봉이'",
         "verdict": "FE 6 : BE 4 — Python(FastAPI/Django) 또는 Node.js 백엔드 개발 경험 택1 요구",
@@ -529,7 +765,7 @@
         "3-5년 경력 요구 요건 충족"
       ],
       "tier": "문열기",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "전국 약 2,800곳 세탁소 대상 ERP/POS 운영 SaaS, 세탁산업 AX 스타트업",
         "verdict": "Nuxt3/Vue3 기반 웹 POS 프론트엔드 아키텍처 설계",
@@ -577,7 +813,7 @@
         "3년 이상 요구 - 후보자 경력 대비 다소 낮은 레벨의 포지션"
       ],
       "tier": "문열기",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "AI 에듀테크 기업, 학습 브랜드 '뇌새김' 개발, 누적 학습자 205만 명",
         "verdict": "React 기반 학습 서비스 FE 개발, AI 기능 연동",
