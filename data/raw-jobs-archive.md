@@ -1728,3 +1728,83 @@ Software Engineer, Frontend - 커뮤니티 (모임) | 당근 채용 팀 문화 �
 ### 위버스마인드 - Frontend Engineer 3년 이상
 - url: https://www.wanted.co.kr/wd/375034
 - 처리: 큐레이션 (2026-09-02) — fit_score 66, tier 문열기
+
+### 큐팁 - 생성형 AI웹서비스 풀스택 개발_시니어
+- url: https://jumpit.saramin.co.kr/position/54901763
+- 처리: 제외 (2026-09-04) — Python 기반 풀스택 실무 요구 + k8s 인프라 구축 등 백엔드/인프라 비중 과다 (BE 언어 실무 경력 요구)
+
+### 송암시스콤 - 프론트엔드개발자 경력
+- url: https://jumpit.saramin.co.kr/position/54901904
+- 처리: 제외 (2026-09-04) — Java/JSP, Spring/eGovFrame 기반 화면개발 및 RDBMS 실무 요구 (BE 언어 실무 경력 요구)
+
+### 블루개러지 - 프론트엔드 개발자(8년~)
+- url: https://jumpit.saramin.co.kr/position/54900139
+- 처리: 제외 (2026-09-04) — exp_min_years=8 (경력 8~20년, 제외 기준 충족) + React Native 크로스플랫폼 앱 주축
+
+### 블루개러지 - 프론트엔드 개발자(5~7년)
+- url: https://jumpit.saramin.co.kr/position/54900151
+- 처리: 제외 (2026-09-04) — React Native 크로스플랫폼 앱 개발이 주요업무 (네이티브 앱 주축)
+
+### 블루개러지 - Software Engineer / Full Stack(9년~)
+- url: https://jumpit.saramin.co.kr/position/54900167
+- 처리: 제외 (2026-09-04) — 제목 기준 경력 9년~ (제외 기준 충족) + React Native 크로스플랫폼 앱 주축
+
+### 블루개러지 - Software Engineer / Full Stack(3~5년)
+- url: https://jumpit.saramin.co.kr/position/54900233
+- 처리: 제외 (2026-09-04) — React Native 기반 AI 아티스트 앱 크로스플랫폼 개발이 주요업무 (네이티브 앱 주축)
+
+### 블루개러지 - 프론트엔드 개발자(2~4년)
+- url: https://jumpit.saramin.co.kr/position/54900239
+- 처리: 제외 (2026-09-04) — React Native 크로스플랫폼 앱 개발이 주요업무 (네이티브 앱 주축)
+
+### 블루개러지 - Software Engineer / Full Stack(6~8년)
+- url: https://jumpit.saramin.co.kr/position/54900089
+- 처리: 제외 (2026-09-04) — React Native 기반 AI 아티스트 앱 크로스플랫폼 개발이 주요업무 (네이티브 앱 주축)
+
+### 미소(miso) - Front-end Engineer
+- url: https://www.wanted.co.kr/wd/384561
+- 처리: 큐레이션 완료 (2026-09-04) — id: miso-frontend-2026-09, fit_score 78 (상), tier 문열기
+
+### 탈잉 - 프로덕트 엔지니어(풀스택) / 1~3년
+- url: https://www.wanted.co.kr/wd/384540
+- 처리: 제외 (2026-09-04) — 경력 1~3년 주니어 밴드 채용 (주니어 전용)
+
+### 휴멜로 - [Tikita] AI 프로덕트 엔지니어 (풀스택)
+- url: https://www.wanted.co.kr/wd/384525
+- 처리: 큐레이션 완료 (2026-09-04) — id: humelo-tikita-fullstack-2026-09, fit_score 74 (중, 풀스택 -10점 반영), tier 메인
+
+### 에이치에스소프트 - 제조 현장 AX 풀스택 웹 개발자
+- url: https://www.wanted.co.kr/wd/384486
+- 처리: 제외 (2026-09-04) — C# 기반 서버·백엔드 개발 실무 경력 요구, FE 비중 불명확/낮음
+
+### 유메타랩 - AI 서비스 풀스택 개발자
+- url: https://www.wanted.co.kr/wd/384423
+- 처리: 제외 (2026-09-04) — Python/Django 백엔드 API 실무 경험 필수 요구 (BE 언어 실무 경력 요구)
+
+### 톤28 - 시니어 풀스택 개발자 (Senior Full-Stack Engineer)
+- url: https://www.wanted.co.kr/wd/384400
+- 처리: 제외 (2026-09-04) — PHP/Laravel 기반 웹서비스 개발 숙련 필수 요구 (BE 언어 실무 경력 요구)
+
+### 이너버즈 - AI-Native Full-stack Product Engineer (Senior)
+- url: https://www.wanted.co.kr/wd/384282
+- 처리: 큐레이션 완료 (2026-09-04) — id: innerverz-fullstack-2026-09, fit_score 68 (중, 풀스택 -10점 반영), tier 문열기
+
+### 위에이알 - 풀스택개발자(3년 이상)
+- url: https://www.wanted.co.kr/wd/384174
+- 처리: 제외 (2026-09-04) — "백엔드를 기반으로 프론트엔드까지" 요구, FE는 "기본적인" 수준만 요구 (FE 비중 50% 미만)
+
+### 씨메스로보틱스 - Frontend 개발자
+- url: https://www.wanted.co.kr/wd/384039
+- 처리: 큐레이션 완료 (2026-09-04) — id: cmes-robotics-frontend-2026-09, fit_score 63 (하), tier 문열기
+
+### 다음 - 검색 서비스 프론트엔드 개발자
+- url: https://www.wanted.co.kr/wd/384037
+- 처리: 큐레이션 완료 (2026-09-04) — id: daum-search-frontend-2026-09, fit_score 82 (상), tier 문샷
+
+### 아이트럭 - Full-Stack(Python / React · Ionic) 개발자
+- url: https://www.wanted.co.kr/wd/384098
+- 처리: 제외 (2026-09-04) — Python(Sanic, Django, async) 백엔드 API 실무 경험 필수 요구 (BE 언어 실무 경력 요구)
+
+### 모멘티 - 프론트엔드 개발자 (1~3년) [역삼역]
+- url: https://www.wanted.co.kr/wd/384069
+- 처리: 제외 (2026-09-04) — 경력 1~3년 주니어 밴드, 에이전시 웹퍼블리싱 위주 (주니어 전용)
