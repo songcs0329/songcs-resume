@@ -1808,3 +1808,18 @@ Software Engineer, Frontend - 커뮤니티 (모임) | 당근 채용 팀 문화 �
 ### 모멘티 - 프론트엔드 개발자 (1~3년) [역삼역]
 - url: https://www.wanted.co.kr/wd/384069
 - 처리: 제외 (2026-09-04) — 경력 1~3년 주니어 밴드, 에이전시 웹퍼블리싱 위주 (주니어 전용)
+
+### 아이벡스 - Frontend Engineer(MLOps/Data플랫폼)
+
+- url: https://jumpit.saramin.co.kr/position/54927604
+- verified: 2026-09-04 (HTTP 200)
+- source: jumpit
+- deadline: 2026-10-02
+- processed: 2026-09-07 (큐레이션, fit_score 72, 문열기)
+
+### 모멘티 - 프론트엔드 개발자 (4~10년) [역삼역]
+
+- url: https://www.wanted.co.kr/wd/384068
+- verified: 2026-09-07 (HTTP 200)
+- source: wanted
+- processed: 2026-09-07 (큐레이션, fit_score 55, 문열기)

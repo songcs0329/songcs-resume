@@ -1,9 +1,111 @@
 {
   "meta": {
-    "last_collected": "2026-09-04",
-    "total": 132
+    "last_collected": "2026-09-07",
+    "total": 134
   },
   "jobs": [
+    {
+      "id": "aivex-mlops-frontend-2026-09",
+      "company": "아이벡스",
+      "title": "Frontend Engineer(MLOps/Data플랫폼)",
+      "level": "시니어",
+      "scale": "투자정보 미확인 (아기 유니콘 언급, 구체적 라운드 불명)",
+      "source": "jumpit",
+      "url": "https://jumpit.saramin.co.kr/position/54927604",
+      "location": "서울 양재",
+      "exp": "5년 이상",
+      "exp_min_years": 5,
+      "posted_date": null,
+      "first_seen": "2026-09-07",
+      "domains": [
+        "데이터플랫폼",
+        "데이터시각화",
+        "AI플랫폼"
+      ],
+      "deadline": "2026-10-02",
+      "deadline_type": "date",
+      "deadline_label": "2026.10.02 마감",
+      "process": [],
+      "process_confirmed": false,
+      "has_codingtest": "미확인",
+      "fit_score": 72,
+      "fit_tier": "중",
+      "fit_reasons": [
+        "React/TypeScript/Next.js/Zustand/Tailwind 스택 정확히 일치, 5년 이상 경력 요건 충족",
+        "성능 지표(FCP/LCP/INP) 기반 개선 요구 — SEO/CTR 개선 경험과 방법론적으로 부합",
+        "도메인이 MLOps/데이터 플랫폼(Canvas·데이터시각화)으로 커머스·결제·지도 강점과는 상이"
+      ],
+      "tier": "문열기",
+      "is_new": true,
+      "brief": {
+        "company_status": "AI Platform 스타트업, '아기 유니콘'·급성장 언급되나 투자 라운드·금액 미확인",
+        "verdict": "순수 FE 포지션, 관리 직책 아님 — 감점 요인 없음",
+        "strengths": [
+          "React+TS+Next.js+Zustand+Tailwind 스택 정확 일치",
+          "성능 지표(FCP/LCP/INP) 기반 개선 경험 보유",
+          "AI 도구 활용 개발 경험 우대사항과 부합 가능"
+        ],
+        "gaps": [
+          "데이터 시각화·Canvas UI 실무 경험 없음",
+          "MLOps/AI Platform 도메인 경험 없음"
+        ],
+        "pass_odds": "중간",
+        "strategy": "커머스 성과(CVR 개선)를 성능·데이터 기반 임팩트로 재구성해 어필, Canvas/시각화는 학습 의지로 보완",
+        "sources": [
+          "jumpit"
+        ]
+      }
+    },
+    {
+      "id": "momenty-frontend-2026-09",
+      "company": "모멘티",
+      "title": "프론트엔드 개발자 (4~10년) [역삼역]",
+      "level": null,
+      "scale": "투자정보 미확인 (2016년 설립 수주형 디지털 에이전시)",
+      "source": "wanted",
+      "url": "https://www.wanted.co.kr/wd/384068",
+      "location": "서울 강남구 역삼동",
+      "exp": "4-10년",
+      "exp_min_years": 4,
+      "posted_date": null,
+      "first_seen": "2026-09-07",
+      "domains": [
+        "에이전시",
+        "웹퍼블리싱"
+      ],
+      "deadline": "2026-09-13",
+      "deadline_type": "date",
+      "deadline_label": "2026.09.13 마감",
+      "process": [],
+      "process_confirmed": false,
+      "has_codingtest": "미확인",
+      "fit_score": 55,
+      "fit_tier": "하",
+      "fit_reasons": [
+        "웹 프론트엔드 외 네이티브 앱(React Native/Flutter)·웹퍼블리싱까지 겸업 요구 — FE 전문성 희석",
+        "이커머스·결제·지도 등 핵심 강점 도메인과 무관한 수주 기반 에이전시 프로젝트",
+        "구체적 기술 스택·전형 정보 미기재로 판단 근거 제한적"
+      ],
+      "tier": "문열기",
+      "is_new": true,
+      "brief": {
+        "company_status": "2016년 설립 웹·앱 개발 에이전시, 삼성전자·KT·SK 등 엔터프라이즈 프로젝트 수주 기반",
+        "verdict": "웹 FE + 네이티브 앱 + 웹퍼블리싱 겸업 구조 — 순수 FE 비중 불명확",
+        "strengths": [
+          "React/Next/Vue/Nuxt 스택 경험 보유",
+          "폭넓은 산업 도메인 프로젝트 대응 경험 어필 가능"
+        ],
+        "gaps": [
+          "이커머스 결제·지도 등 핵심 강점과 무관",
+          "네이티브 앱·웹퍼블리싱 겸업 요구로 전문성 희석 우려"
+        ],
+        "pass_odds": "중간",
+        "strategy": "다양한 산업군 엔터프라이즈 프로젝트 대응력과 적응력 강조",
+        "sources": [
+          "wanted"
+        ]
+      }
+    },
     {
       "id": "miso-frontend-2026-09",
       "company": "미소(miso)",
@@ -35,7 +137,7 @@
         "누적 거래액 1.5조원, 1000만 사용자 규모의 검증된 서비스"
       ],
       "tier": "문열기",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "1000만 사용자 보유 국내 1위 홈서비스 O2O 플랫폼, 누적 거래액 1.5조원 돌파, 2022년 흑자전환 후 매년 2배 성장",
         "verdict": "Front-end 전용 채용 - 모바일 앱 및 웹 서비스 UX 개선, 트래킹/내부 툴 개발 포함",
@@ -82,7 +184,7 @@
         "BE 비중 있는 풀스택(Supabase 활용, Node 백엔드 요구) - FE:BE 6:4 추정으로 -10점"
       ],
       "tier": "메인",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "AI 음성기술 스타트업, KT/카카오인베스트먼트 등으로부터 누적 35억+ 투자, 티키타 서비스 일본·대만·북미 진출",
         "verdict": "FE 6 : BE 4 — Supabase 활용으로 백엔드 부담은 낮지만 화면·API·DB 전체 흐름을 책임지는 풀스택 요구",
@@ -129,7 +231,7 @@
         "Nest.js/Spring Boot/FastAPI 등 백엔드 실무 요구 있는 풀스택 - FE 비중 50~70%로 추정, -10점"
       ],
       "tier": "문열기",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "생성형 AI 애니메이션 제작 플랫폼(ToonKit) 스타트업, 투자정보 미확인",
         "verdict": "FE 6 : BE 4 — 프론트엔드 전문성 인정하나 API·DB·배포까지 End-to-End 요구",
@@ -176,7 +278,7 @@
         "로봇 상태 표시·컨트롤 UI로 후보자 강점(전환율·SEO 등)과 접점이 적음"
       ],
       "tier": "문열기",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "로봇공학 스타트업, 웹 기반 로봇 프레임워크 개발, 투자정보 미확인",
         "verdict": "Frontend 개발자로 공고되었으나 자격요건에 Python이 함께 명시되어 있어 순수 FE 여부 불확실",
@@ -224,7 +326,7 @@
         "카카오 계열 상장 대기업으로 안정성 높음"
       ],
       "tier": "문샷",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "카카오가 운영하는 포털 다음(Daum) - 상장 대기업 계열, 통합검색 서비스",
         "verdict": "순수 Front-end 공고, 생성형 AI·LLM 기반 검색 UI 개발 포함",
