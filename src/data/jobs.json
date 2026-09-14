@@ -1,9 +1,109 @@
 {
   "meta": {
-    "last_collected": "2026-09-11",
-    "total": 145
+    "last_collected": "2026-09-14",
+    "total": 147
   },
   "jobs": [
+    {
+      "id": "amberroad-frontend-engineer-2026-09",
+      "company": "앰버로드",
+      "title": "Front-End Engineer",
+      "level": null,
+      "scale": "투자정보 미확인",
+      "source": "wanted",
+      "url": "https://www.wanted.co.kr/wd/290984",
+      "location": "서울 강남구",
+      "exp": "3-10년",
+      "exp_min_years": 3,
+      "posted_date": null,
+      "first_seen": "2026-09-14",
+      "domains": [
+        "제조",
+        "AI",
+        "대시보드",
+        "SaaS"
+      ],
+      "deadline": null,
+      "deadline_type": "rolling",
+      "deadline_label": "상시채용",
+      "process": [],
+      "process_confirmed": false,
+      "has_codingtest": "미확인",
+      "fit_score": 72,
+      "fit_tier": "중",
+      "fit_reasons": [
+        "순수 FE 포지션(React/Vue) — 백엔드 업무 언급 없음, 경력 요건 부합",
+        "제조 도메인은 후보자 핵심 강점(커머스·지도·SEO)과 무관해 감점"
+      ],
+      "tier": "문열기",
+      "is_new": true,
+      "brief": {
+        "company_status": "스마트 제조 AI 솔루션 스타트업 — 도메인 전문가가 단독으로 프로젝트 수행 가능한 UX/UI 제공",
+        "verdict": "FE 10 : BE 0 — 자격요건·주요업무 모두 프론트엔드(React/Vue) 중심",
+        "strengths": [
+          "React 실무 경력 3년+ 요건 부합",
+          "대시보드·SaaS 개발 접점"
+        ],
+        "gaps": [
+          "제조 도메인 경험 부재",
+          "투자 단계·회사 규모 확인 불가"
+        ],
+        "pass_odds": "중간",
+        "strategy": "React 기반 대시보드/데이터 시각화 프로젝트 경험 강조",
+        "sources": [
+          "wanted"
+        ]
+      }
+    },
+    {
+      "id": "coxwave-ax-krewa-frontend-2026-09",
+      "company": "콕스웨이브",
+      "title": "[AX krewa] 소프트웨어 엔지니어 (Frontend)",
+      "level": null,
+      "scale": "투자정보 미확인",
+      "source": "wanted",
+      "url": "https://www.wanted.co.kr/wd/385925",
+      "location": "서울 영등포구",
+      "exp": "3-7년",
+      "exp_min_years": 3,
+      "posted_date": null,
+      "first_seen": "2026-09-14",
+      "domains": [
+        "AI Agent",
+        "엔터프라이즈 SaaS"
+      ],
+      "deadline": null,
+      "deadline_type": "rolling",
+      "deadline_label": "상시채용",
+      "process": [],
+      "process_confirmed": false,
+      "has_codingtest": "미확인",
+      "fit_score": 68,
+      "fit_tier": "중",
+      "fit_reasons": [
+        "직무명에 Frontend 명시된 순수 FE 포지션, 3-7년 경력 요건 부합",
+        "공고 본문이 회사소개 중반에서 잘려 세부 기술스택·자격요건 확인 불가로 보수적 채점"
+      ],
+      "tier": "문열기",
+      "is_new": true,
+      "brief": {
+        "company_status": "AI Agent 실행 통제·평가 솔루션 기업(krewa) — Anthropic·OpenAI 등과 협업 이력 다수",
+        "verdict": "직무명 Frontend 명시, 단 수집된 본문에 주요업무·기술스택 섹션 누락",
+        "strengths": [
+          "AI 업계 관심사 부합",
+          "경력 요건 부합"
+        ],
+        "gaps": [
+          "세부 기술스택·자격요건 미확인",
+          "커머스·지도·SEO 도메인과 무관"
+        ],
+        "pass_odds": "중간",
+        "strategy": "지원 전 공고 원문 재확인으로 세부 요구사항 파악 필요",
+        "sources": [
+          "wanted"
+        ]
+      }
+    },
     {
       "id": "hyundai-autoever-sdx-frontend-2026-09",
       "company": "현대오토에버",
@@ -35,7 +135,7 @@
         "로봇/스마트팩토리 대시보드 도메인은 이커머스·지도 강점과 거리 있음"
       ],
       "tier": "문샷",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "현대자동차그룹 IT 계열사, 상장사. RX기술팀 — 이기종 로봇 관제 서비스 개발",
         "verdict": "순수 프론트엔드 롤 — 대시보드/실시간 모니터링 UI, React/TS/상태관리",
@@ -85,7 +185,7 @@
         "순수 IC 롤 — 감점 없음 (전략·거버넌스는 팀 단위 설명, 개인 관리 업무 아님)"
       ],
       "tier": "문샷",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "현대자동차그룹 IT 계열사, 상장사. FE엔지니어링팀 — 완성차 브랜드 대고객 운영 서비스",
         "verdict": "순수 프론트엔드 롤 — 계정/인증(SSO·OAuth2) 시스템 UI 개발 및 운영",
@@ -134,7 +234,7 @@
         "순수 IC 롤 — 감점 없음"
       ],
       "tier": "문열기",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "아이디어스·텀블벅·텐바이텐 운영사. 투자정보 미확인",
         "verdict": "순수 프론트엔드 롤 — 텀블벅 웹/광고센터/백오피스 개발",
@@ -184,7 +284,7 @@
         "초기 스타트업(시드~Pre-A) 특성상 안정성 리스크"
       ],
       "tier": "문열기",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "Upstage 출신 코파운더 설립 1년차 스타트업. 시드 투자 유치, TIPS 딥테크 서류합격, Pre-A 유치중",
         "verdict": "순수 프론트엔드 롤 — AI Agent 서비스 사용성(제조 도면 렌더링, 의료 통역) 개발",
