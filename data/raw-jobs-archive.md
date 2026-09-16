@@ -2074,3 +2074,84 @@ Software Engineer, Frontend - 커뮤니티 (모임) | 당근 채용 팀 문화 �
 - source: wanted
 - 처리일: 2026-09-14
 - 결과: id=coxwave-ax-krewa-frontend-2026-09, fit_score=68, tier=문열기
+
+### 오투플러스 - 프론트엔드 개발자
+
+- url: https://jumpit.saramin.co.kr/position/55000748
+- verified: 2026-09-14 (HTTP 200)
+- source: jumpit
+- deadline: 2026-10-12
+- 처리: 큐레이션 (2026-09-16, fit_score 68, 중, 문열기)
+
+### 와탭랩스 - 프론트엔드 개발자
+
+- url: https://jumpit.saramin.co.kr/position/55013728
+- verified: 2026-09-14 (HTTP 200)
+- source: jumpit
+- deadline: 2026-10-10
+- 처리: 제외 (2026-09-16) — 제목은 "프론트엔드 개발자"이나 주요업무가 전부 백엔드 아키텍처 설계·데이터 파이프라인 개발로, 실제 역할이 프론트엔드가 아님
+
+### 당근 - Software Engineer, Frontend - 로컬 비즈니스 (로컬 콘텐츠)
+
+- url: https://careers.daangn.com/jobs/role/7990233003/
+- verified: 2026-09-14 (HTTP 200)
+- source: 자사홈
+- 처리: 큐레이션 (2026-09-16, fit_score 90, 최상, 문샷)
+
+### 오토스테이 - 풀스택 개발자
+
+- url: https://www.wanted.co.kr/wd/386840
+- verified: 2026-09-16 (HTTP 200)
+- source: wanted
+- 처리: 큐레이션 (2026-09-16, fit_score 65, 중, 메인)
+
+### 모비두(소스라이브) - 프론트엔드 개발자 (React / Next.js)
+
+- url: https://www.wanted.co.kr/wd/386933
+- verified: 2026-09-16 (HTTP 200)
+- source: wanted
+- 처리: 큐레이션 (2026-09-16, fit_score 86, 최상, 문샷)
+
+### 뉴로클 - [비전 AI 플랫폼] 프론트엔드 엔지니어 (전문연구요원 가능)
+
+- url: https://www.wanted.co.kr/wd/386832
+- verified: 2026-09-16 (HTTP 200)
+- source: wanted
+- deadline: 2026-09-24
+- 처리: 큐레이션 (2026-09-16, fit_score 55, 하, 문열기)
+
+### 에너지노 - 서비스 개발팀장(Python, Next.js)
+
+- url: https://www.wanted.co.kr/wd/386556
+- verified: 2026-09-16 (HTTP 200)
+- source: wanted
+- 처리: 제외 (2026-09-16) — Python 백엔드 아키텍처·팀 관리가 주요업무인 개발팀장 직책, FE 비중 50% 미만
+
+### 알티너스 - Frontend Engineer
+
+- url: https://www.wanted.co.kr/wd/367160
+- verified: 2026-09-16 (HTTP 200)
+- source: wanted
+- 처리: 큐레이션 (2026-09-16, fit_score 72, 중, 문열기)
+
+### 에스에이피(SAP) - Platform Engineer (Full-stack)
+
+- url: https://www.wanted.co.kr/wd/386495
+- verified: 2026-09-16 (HTTP 200)
+- source: wanted
+- 처리: 제외 (2026-09-16) — 마이크로서비스·클라우드 플랫폼·CI/CD 중심의 백엔드/플랫폼 엔지니어링 역할, Java/Python 요구, FE 비중 50% 미만
+
+### 여기쏘 - Full-stack Developer (3~5년 차) 풀스택 개발자
+
+- url: https://www.wanted.co.kr/wd/386352
+- verified: 2026-09-16 (HTTP 200)
+- source: wanted
+- deadline: 2026-09-30
+- 처리: 큐레이션 (2026-09-16, fit_score 58, 하, 문열기)
+
+### 미소(miso) - Front-end Chapter Lead
+
+- url: https://www.wanted.co.kr/wd/376695
+- verified: 2026-09-16 (HTTP 200)
+- source: wanted
+- 처리: 큐레이션 (2026-09-16, fit_score 63, 하, 문열기)
