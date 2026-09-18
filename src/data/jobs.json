@@ -1,9 +1,252 @@
 {
   "meta": {
-    "last_collected": "2026-09-16",
-    "total": 155
+    "last_collected": "2026-09-18",
+    "total": 160
   },
   "jobs": [
+    {
+      "id": "bagelcode-platform-frontend-2026-09",
+      "company": "베이글코드(Bagelcode)",
+      "title": "[Platform] 프론트엔드 웹 개발",
+      "level": "시니어",
+      "scale": "투자정보 미확인 (2023 매출 1,062억원, 글로벌 게임사)",
+      "source": "wanted",
+      "url": "https://www.wanted.co.kr/wd/298925",
+      "location": "서울 강남구",
+      "exp": "7-14년",
+      "exp_min_years": 5,
+      "posted_date": null,
+      "first_seen": "2026-09-18",
+      "domains": [
+        "게임",
+        "플랫폼",
+        "인증",
+        "결제"
+      ],
+      "deadline": null,
+      "deadline_type": "rolling",
+      "deadline_label": "상시채용",
+      "process": [],
+      "process_confirmed": false,
+      "has_codingtest": "미확인",
+      "fit_score": 78,
+      "fit_tier": "상",
+      "fit_reasons": [
+        "React/Next.js 5년 이상 요구사항과 정확히 일치",
+        "인증·결제·메시지 핵심 서비스 플랫폼 개발 - PG 연동 경험과 도메인 인접",
+        "게임업계 대형사(매출 1,062억원, 5년 연평균 60% 성장)로 안정성 높음"
+      ],
+      "tier": "문열기",
+      "is_new": true,
+      "brief": {
+        "company_status": "모바일 게임사, 2023 매출 1,062억원, 5년 연평균 60% 성장, 투자단계 정보 없음",
+        "verdict": "순수 FE 포지션(게임 플랫폼 인증·결제·메시지 서비스), 백엔드 요구 없음",
+        "strengths": [
+          "Next.js 실무 5년 요구사항 정확히 부합",
+          "PG 연동 등 결제 도메인 경험과 인증/결제 플랫폼 업무 인접"
+        ],
+        "gaps": [
+          "게임 산업 도메인 경험 부재",
+          "CS 전공 수준 알고리즘/자료구조 지식 요구"
+        ],
+        "pass_odds": "중간",
+        "strategy": "PG 연동 및 결제 CVR 개선 경험을 인증/결제 플랫폼 서비스 경험으로 매핑해 강조",
+        "sources": []
+      }
+    },
+    {
+      "id": "deepauto-frontend-engineer-2026-09",
+      "company": "딥오토 (DeepAuto.ai)",
+      "title": "Frontend Engineer",
+      "level": "미들",
+      "scale": "Pre-A",
+      "source": "wanted",
+      "url": "https://www.wanted.co.kr/wd/293288",
+      "location": "서울 강남구",
+      "exp": "4년 이상",
+      "exp_min_years": 4,
+      "posted_date": null,
+      "first_seen": "2026-09-18",
+      "domains": [
+        "AI",
+        "SaaS"
+      ],
+      "deadline": null,
+      "deadline_type": "rolling",
+      "deadline_label": "상시채용",
+      "process": [],
+      "process_confirmed": false,
+      "has_codingtest": "미확인",
+      "fit_score": 72,
+      "fit_tier": "중",
+      "fit_reasons": [
+        "Next.js/React/Tailwind/TanStack Query 기술스택 완전 일치",
+        "Pre-A 초기 스타트업으로 안정성 낮음",
+        "이커머스·결제·지도 도메인과 무관한 AI SaaS 제품"
+      ],
+      "tier": "문열기",
+      "is_new": true,
+      "brief": {
+        "company_status": "KAIST AI대학원 교수 창업, Pre-A 단계 GenAI 스타트업",
+        "verdict": "순수 FE 포지션, 백엔드(FastAPI)는 별도 스택으로 명시되어 풀스택 요구 아님",
+        "strengths": [
+          "Next.js/React/Tailwind/TanStack Query 스택 완전 일치",
+          "소규모 조직에서 빠른 의사결정 및 제품 개발 경험"
+        ],
+        "gaps": [
+          "AI/SaaS 도메인 경험 부재",
+          "Pre-A 단계로 조직 안정성 낮음",
+          "영어 기술문서 독해 요구"
+        ],
+        "pass_odds": "중간",
+        "strategy": "빠른 프로덕트 개발 경험과 최신 React 생태계 활용 역량 강조",
+        "sources": []
+      }
+    },
+    {
+      "id": "aents-frontend-2026-09",
+      "company": "엔츠 (AENTS)",
+      "title": "B2B 탄소회계 SaaS 프론트엔드 개발자 (3년차 이상)",
+      "level": "미들",
+      "scale": "시리즈A (2025-09, 35억+ 시리즈A, 이전 시드·프리A)",
+      "source": "wanted",
+      "url": "https://www.wanted.co.kr/wd/383607",
+      "location": "서울 강남구",
+      "exp": "3-8년",
+      "exp_min_years": 3,
+      "posted_date": null,
+      "first_seen": "2026-09-18",
+      "domains": [
+        "SaaS",
+        "친환경/ESG"
+      ],
+      "deadline": null,
+      "deadline_type": "unknown",
+      "process": [],
+      "process_confirmed": false,
+      "has_codingtest": "미확인",
+      "fit_score": 80,
+      "fit_tier": "상",
+      "fit_reasons": [
+        "Next.js/React/TypeScript/Redux Toolkit/TanStack Query 스택 정확히 일치",
+        "2025-09 시리즈A 투자유치로 안정적 성장 단계",
+        "이커머스·결제 도메인과는 무관한 ESG SaaS"
+      ],
+      "tier": "메인",
+      "is_new": true,
+      "brief": {
+        "company_status": "탄소회계 SaaS(엔스코프) 운영사, 2025년 9월 시리즈A 투자유치(35억+, 누적 시드~시리즈A)",
+        "verdict": "FE 중심으로 시작해 점진적으로 BE까지 책임 범위를 넓히는 구조 - 현 시점은 FE 포지션",
+        "strengths": [
+          "프론트엔드 기술스택(Next.js/React/TS/Redux Toolkit/React Query) 완전 일치",
+          "AI 활용 개발 문화(agent harness)로 생산성 도구 경험 축적 가능"
+        ],
+        "gaps": [
+          "탄소회계/ESG 도메인 경험 부재",
+          "향후 백엔드 책임 확장 가능성"
+        ],
+        "pass_odds": "중간",
+        "strategy": "React Query·Redux 기반 복잡한 도메인 로직 처리 경험을 강조",
+        "sources": []
+      }
+    },
+    {
+      "id": "inex-frontend-2026-09",
+      "company": "인피니티익스체인지코리아 (INEX)",
+      "title": "프론트엔드 개발자",
+      "level": "시니어",
+      "scale": "투자정보 미확인",
+      "source": "wanted",
+      "url": "https://www.wanted.co.kr/wd/387468",
+      "location": "서울 강남구",
+      "exp": "5-10년",
+      "exp_min_years": 5,
+      "posted_date": null,
+      "first_seen": "2026-09-18",
+      "domains": [
+        "핀테크",
+        "결제",
+        "블록체인"
+      ],
+      "deadline": null,
+      "deadline_type": "rolling",
+      "deadline_label": "상시채용",
+      "process": [],
+      "process_confirmed": false,
+      "has_codingtest": "미확인",
+      "fit_score": 82,
+      "fit_tier": "상",
+      "fit_reasons": [
+        "온체인/오프체인 결제 승인·정산 UI 개발 - PG 결제 연동 경험과 직접 연관",
+        "Next.js/React/TypeScript/TanStack Query·Table 스택 일치",
+        "Java/Spring 백엔드 확장은 '필요시 가능한 분' 수준의 선택사항으로 명시"
+      ],
+      "tier": "문열기",
+      "is_new": true,
+      "brief": {
+        "company_status": "가상자산 거래소(CaaS) 스타트업, 투자단계 정보 없음",
+        "verdict": "FE 중심 포지션, Java/Spring 백엔드 확장은 필수 아닌 선택 요건으로 명시",
+        "strengths": [
+          "결제 승인/정산 플로우 개발 경험이 PG 연동·CVR 개선 경험과 직접 연관",
+          "금융·핀테크 UI/UX 구현 경험 요구와 부합"
+        ],
+        "gaps": [
+          "블록체인/가상자산 도메인 경험 부재",
+          "AML/FDS 등 금융 규제 도메인 지식 필요"
+        ],
+        "pass_odds": "중간",
+        "strategy": "PG사 결제 연동 및 CVR 개선 경험을 결제 승인/정산 UI 전문성으로 매핑",
+        "sources": []
+      }
+    },
+    {
+      "id": "turing-frontend-2026-09",
+      "company": "튜링",
+      "title": "[글로벌 AI Agent 스타트업] 프론트엔드 개발자",
+      "level": null,
+      "scale": "투자정보 미확인",
+      "source": "wanted",
+      "url": "https://www.wanted.co.kr/wd/387051",
+      "location": "서울 강남구",
+      "exp": "1-10년",
+      "exp_min_years": null,
+      "posted_date": null,
+      "first_seen": "2026-09-18",
+      "domains": [
+        "AI",
+        "SaaS"
+      ],
+      "deadline": null,
+      "deadline_type": "rolling",
+      "deadline_label": "상시채용",
+      "process": [],
+      "process_confirmed": false,
+      "has_codingtest": "미확인",
+      "fit_score": 76,
+      "fit_tier": "상",
+      "fit_reasons": [
+        "TypeScript/NextJS/React/Zustand/TanStack Query 스택 정확히 일치",
+        "실시간 공동편집 등 복잡한 클라이언트 상태관리 요구 - 기술 난이도 높음",
+        "이커머스·결제·지도 도메인과 무관한 AI 에듀테크"
+      ],
+      "tier": "문열기",
+      "is_new": true,
+      "brief": {
+        "company_status": "2018년 설립 AI 에이전트 스타트업(수학대왕, GPAI 운영), 투자단계 정보 없음",
+        "verdict": "순수 FE 포지션(구글 오피스급 실시간 공동편집 웹앱), 백엔드 요구 없음",
+        "strengths": [
+          "Zustand/TanStack Query 등 상태관리 스택 정확히 일치",
+          "pnpm Monorepo·Vitest 테스트 문화 경험과 부합"
+        ],
+        "gaps": [
+          "AI 에듀테크 도메인 경험 부재",
+          "실시간 공동편집(동시성 제어) 심화 경험 필요 가능성"
+        ],
+        "pass_odds": "중간",
+        "strategy": "복잡한 클라이언트 상태관리와 성능 최적화 경험을 실시간 협업 에디터 개발 역량으로 연결",
+        "sources": []
+      }
+    },
     {
       "id": "otwoplus-frontend-2026-09",
       "company": "오투플러스",
@@ -40,7 +283,7 @@
         "AngularJS 등 레거시 스택 혼재, 직무 범위가 넓고 세부 도메인 정보 부족"
       ],
       "tier": "문열기",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "O2O 배송 중계 플랫폼(오투퀵), 2015년 설립, 제주지사 운영 중",
         "strengths": [
@@ -90,7 +333,7 @@
         "하루 수십만 명이 쓰는 대규모 트래픽 서비스의 성능·안정성 관리 경험 요구"
       ],
       "tier": "문샷",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "국내 최대 지역생활 플랫폼, 로컬 비즈니스 신규 확장 조직",
         "strengths": [
@@ -139,7 +382,7 @@
         "레거시 재설계, 스키마·API 설계 등 풀스택 전반 책임 범위가 넓음"
       ],
       "tier": "메인",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "자동세차 정기구독 O2O 플랫폼, 누적 투자 200억원, SK에너지 전략적 협업",
         "verdict": "FE 5 : BE 5 — React/Node.js/TypeScript로 클라이언트·서버 양쪽을 끝까지 배포하는 풀스택 역할",
@@ -197,7 +440,7 @@
         "시리즈B 브릿지 170억, 국내 라이브커머스 트래픽 20%대 점유 안정적 성장 단계"
       ],
       "tier": "문샷",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "Shoppable Video Tech 1위, 라이브커머스/숏폼커머스 SaaS, 일본 법인 설립",
         "strengths": [
@@ -244,7 +487,7 @@
         "커머스/결제/지도 도메인 경험과 직접 연결되지 않음"
       ],
       "tier": "문열기",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "B2B AI Vision 소프트웨어, 7년 연속 매출 성장, 40여개국 진출",
         "strengths": [
@@ -291,7 +534,7 @@
         "React Native/Flutter 등 모바일 네이티브 앱 개발 경험 우대 조건은 일부 미충족"
       ],
       "tier": "문열기",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "조각투자 플랫폼(DOTT)으로 시작, 현재 통신사 부가서비스 콘텐츠 사업 운영",
         "strengths": [
@@ -338,7 +581,7 @@
         "통신 상품 B2B2C 플랫폼 - 커머스/결제 핵심 강점과 직접 연결성 낮음"
       ],
       "tier": "문열기",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "통신 상품 판매 부업가-고객 연결 B2B2C 플랫폼, 서비스 초기 구조 구축 단계",
         "verdict": "FE 5 : BE 5 — Next.js/Node.js/TypeScript로 프론트엔드와 백엔드를 함께 담당",
@@ -385,7 +628,7 @@
         "국내 최대 홈서비스 O2O 플랫폼, 누적 거래액 1.5조원의 안정적 성장 단계"
       ],
       "tier": "문열기",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "국내 1위 홈서비스 O2O 플랫폼, 2022년 흑자전환, 매년 2배 성장",
         "strengths": [
