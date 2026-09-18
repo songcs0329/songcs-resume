@@ -1,7 +1,7 @@
 {
   "meta": {
     "last_collected": "2026-09-18",
-    "total": 160
+    "total": 159
   },
   "jobs": [
     {
@@ -3744,61 +3744,6 @@
         "strategy": "커머스 CVR 개선 등 정량 성과를 코오롱몰 운영 개선 관점으로 재구성해 어필",
         "sources": [
           "wanted"
-        ]
-      }
-    },
-    {
-      "id": "deleo-korea-frontend-2026-08",
-      "company": "델레오코리아(deleo)",
-      "title": "[플랫폼개발팀] 프론트엔드 개발자",
-      "level": "시니어",
-      "scale": "투자정보 미확인",
-      "source": "jumpit",
-      "url": "https://jumpit.saramin.co.kr/position/54787794",
-      "location": "서울 강남구",
-      "exp": "6-13년",
-      "exp_min_years": 6,
-      "posted_date": null,
-      "first_seen": "2026-08-21",
-      "domains": [
-        "물류",
-        "이커머스",
-        "인증보안"
-      ],
-      "deadline": "2026-09-18",
-      "deadline_type": "date",
-      "process": [
-        "서류전형",
-        "1차 면접(작문평가)",
-        "2차 면접(레퍼런스체크)",
-        "처우협의",
-        "최종합격"
-      ],
-      "process_confirmed": true,
-      "has_codingtest": "미확인",
-      "fit_score": 72,
-      "fit_tier": "중",
-      "fit_reasons": [
-        "React/Vue/Next.js 스택 요건 일치, 신규 아키텍처 설계 경험 요구",
-        "글로벌 물류·역직구 이커머스 도메인 - 커머스 강점과 일부 연관",
-        "\"프론트엔드 역량 강화 교육(매니징)\" 업무 포함 - 경미한 멘토링 요소이나 팀 관리 직책은 아님"
-      ],
-      "tier": "문열기",
-      "is_new": false,
-      "brief": {
-        "company_status": "글로벌 물류 IT 플랫폼 기업, 투자단계 정보 없음, 평균연봉 6000만원",
-        "verdict": "FE 전용 포지션, 컴포넌트 라이브러리 설계 및 신규 아키텍처 구축",
-        "strengths": [
-          "React/Vue/Next.js 실무 경험 직접 부합",
-          "역직구·해외배송 이커머스 도메인과 연관"
-        ],
-        "gaps": [
-          "결제·지도 등 후보자 핵심 강점과 직접 연결되는 업무는 아님"
-        ],
-        "pass_odds": "중간",
-        "strategy": "컴포넌트 라이브러리 설계 및 아키텍처 구축 경험 강조",
-        "sources": [
-          "jumpit"
         ]
       }
     },
