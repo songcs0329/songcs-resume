@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_collected": "2026-09-18",
+    "last_collected": "2026-09-21",
     "total": 159
   },
   "jobs": [
@@ -37,7 +37,7 @@
         "게임업계 대형사(매출 1,062억원, 5년 연평균 60% 성장)로 안정성 높음"
       ],
       "tier": "문열기",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "모바일 게임사, 2023 매출 1,062억원, 5년 연평균 60% 성장, 투자단계 정보 없음",
         "verdict": "순수 FE 포지션(게임 플랫폼 인증·결제·메시지 서비스), 백엔드 요구 없음",
@@ -85,7 +85,7 @@
         "이커머스·결제·지도 도메인과 무관한 AI SaaS 제품"
       ],
       "tier": "문열기",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "KAIST AI대학원 교수 창업, Pre-A 단계 GenAI 스타트업",
         "verdict": "순수 FE 포지션, 백엔드(FastAPI)는 별도 스택으로 명시되어 풀스택 요구 아님",
@@ -133,7 +133,7 @@
         "이커머스·결제 도메인과는 무관한 ESG SaaS"
       ],
       "tier": "메인",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "탄소회계 SaaS(엔스코프) 운영사, 2025년 9월 시리즈A 투자유치(35억+, 누적 시드~시리즈A)",
         "verdict": "FE 중심으로 시작해 점진적으로 BE까지 책임 범위를 넓히는 구조 - 현 시점은 FE 포지션",
@@ -182,7 +182,7 @@
         "Java/Spring 백엔드 확장은 '필요시 가능한 분' 수준의 선택사항으로 명시"
       ],
       "tier": "문열기",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "가상자산 거래소(CaaS) 스타트업, 투자단계 정보 없음",
         "verdict": "FE 중심 포지션, Java/Spring 백엔드 확장은 필수 아닌 선택 요건으로 명시",
@@ -230,7 +230,7 @@
         "이커머스·결제·지도 도메인과 무관한 AI 에듀테크"
       ],
       "tier": "문열기",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "2018년 설립 AI 에이전트 스타트업(수학대왕, GPAI 운영), 투자단계 정보 없음",
         "verdict": "순수 FE 포지션(구글 오피스급 실시간 공동편집 웹앱), 백엔드 요구 없음",

@@ -2289,3 +2289,17 @@ Software Engineer, Frontend - 커뮤니티 (모임) | 당근 채용 팀 문화 �
 ```
 [인피니티익스체인지코리아] 프론트엔드 개발자 채용 공고 | 원티드 채용 이력서 교육•이벤트 콘텐츠 소셜 프리랜서 더보기 회원가입 회원가입/로그인 기업 서비스 1 / 8 인피니티익스체인지코리아 ∙ 서울 강남구 ∙ 경력 5-10년 프론트엔드 개발자 포지션 상세 "가상자산 금융 인프라를 선도하는 게임 체인저" INEX는 가상자산 인프라 구축과 규제 인증을 성공적으로 완료하고, 더욱 고속 성장하기 위한 초석을 다지며 해상도 높은 미래를 그려 나가고 있습니다. 단순한 거래 플랫폼을 넘어 비즈니스 모델 확보를 통해 탄탄하고 민첩하게 움직이는 실행력과 전문성을 지향하는 고성장 CaaS(Crypto as a Service) 스타트업입니다. 당사와 함께 국내·외 규제 환경을 토대로, 디지털 자산 생태계 확장 및 성숙해지는 시장에 발맞춰 금융 인프라를 선도하며 새로운 금융의 신뢰와 미래를 이끌어 갈 전문가를 모십니다. | 포지션 소개 가상자산 및 블록체인 인프라를 넘어, 핀테크 및 융·복합 금융의 글로벌 스탠다드를 목표로 합니다. 1. 대규모 트래픽의 금융 데이터를 처리하는 CaaS 백오피스, 대용량 거래 데이터 테이블, 권한 관리 시스템 등을 설계하고 런칭합니다. 2. 실시간 이상거래 탐지(FDS) 대시보드, 자금세탁방지(AML) 모니터링 및 온·오프체인 간편결제 승인·정산 UI/UX를 구축합니다. 3. Next.js, React, TypeScript 기반 아키텍처와 Java/Spring 백엔드 이해도 및 AI 코딩/디자인 툴을 활용하여 생산성을 극대화합니다. -- [인터뷰] 이재강 인엑스 대표 "가상자산 시장, B2B 결제 인프라로 2막 열 것" • https://www.joongangenews.com/news/articleView.html?idxno=475144 디지털자산 거래소 인엑스, 국내 기업 고객 대상 ‘법인회원’ 서비스 공식 출시 • https://www.startuptoday.kr/news/articleView.html?idxno=51651 인엑스·한국결제네트웍스, USDC 결제 내부 PoC 완료 • https://www.startupn.kr/news/articleView.html?idxno=55597 가상자산 거래소 인엑스(INEX), 자금세탁방지(AML) 시스템 고도화 완료 • https://www.venturesquare.net/1012096/ ISO 27001:2022 인증 획득…INEX 정보보안·AML·내부통제 3중 체계 구축 • https://www.tokenpost.kr/news/blockchain/369397 법 아래 세워진 안전한 가상자산거래소 ‘인엑스’를 열다, 인피니티익스체인지코리아 • https://www.newseconomy.kr/news/articleView.html?idxno=20410 다날·인엑스, 스테이블코인 결제 서비스 만든다 : 스테이블코인 결제 인프라 MOU ‘체결’ • https://www.etnews.com/20260902000115 -- 주요업무 | 아래와 같은 역할을 담당하게 됩니다! · 블록체인 간편 결제 UI/UX 및 API 개발 : 간편 결제 플로우, 온체인/오프체인 결제 승인 및 정산 트랜잭션 화면/서버 구축 · FDS / AML 운영 콘솔 개발 : 실시간 이상거래 탐지(FDS) 대시보드, 자금세탁방지(AML) 모니터링 및 트랜잭션 추적 시각화 도구 구축 · 백오피스 시스템 개발 및 고도화 : 대용량 거래 데이터 테이블, 권한 관리, 정산 리포트 등 운영 콘솔 UI/UX 설계 및 풀스택 개발 자격요건 | 당사의 주요 기술 스택을 확인해 주세요! · Next.js, React, Vite, TypeScript, Tailwind CSS, TanStack Query / Table · Java (Java 17+ / 21), Spring Boot, Spring Security, JPA/Hibernate · RDB (PostgreSQL / MySQL), Elasticsearch/OpenSearch, Redis · LLM, RAG, AI Agent, MCP, Vector DB, LangChain/LangGraph | 이러한 경험과 역량을 가진 분들을 찾고 있습니다! · 프론트엔드 경력 5년 이상 혹은 이에 준하는 개발 역량을 보유하고 계신 분 · React, Next.js, TypeScript 기반 개발에 익숙하며 필요에 따라 Java, Spring 기반 백엔드까지 확장 가능한 분 · 금융·핀테크 서비스에 적합한 UI/UX와 반응형 웹, 컴포넌트 기반 UI를 구현해 본 경험이 있으신 분 · 백오피스, 관리자 시스템, 대용량 데이터 조회 및 운영 도구 개발 경험이 있으신 분 · AI 코딩 도구를 설계, 구현, 테스트, 리팩토링 등 실제 개발 과정에 적극 활용해 본 경험이 있으신 분 · 새로운 기술을 빠르게 습득하고, 문제 해결 관점에서 주도적으로 접근하고 몰입이 가능하신 분 상세 정보 더 보기 기술 스택 • 툴 태그 마감일 상시채용 근무지역 서울 강남구 테헤란로 116, 동경빌딩 12층 (강남역1번출구200m,도보2분거리) 인피니티익스체인지코리아 금융 팔로우 
 ```
+
+### 필라넷 - .NET 풀스택 개발자 채용
+- url: https://jumpit.saramin.co.kr/position/55066854
+- verified: 2026-09-18 (HTTP 200)
+- source: jumpit
+- processed: 2026-09-21
+- result: 제외 — .NET/C#/MS-SQL 백엔드 실무 경험 필수, Vue/TS는 부수적. BE 언어(C# 계열) 실무 경력 요구 + FE 비중 미달로 제외.
+
+### 인피니티익스체인지코리아 - 프론트엔드 개발자
+- url: https://jumpit.saramin.co.kr/position/55062853
+- verified: 2026-09-18 (HTTP 200)
+- source: jumpit
+- processed: 2026-09-21
+- result: 중복(이미 jobs.json에 존재) — 병합 스크립트가 걸러냄, 반영 안 됨.
