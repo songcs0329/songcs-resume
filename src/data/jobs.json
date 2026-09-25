@@ -1,9 +1,250 @@
 {
   "meta": {
-    "last_collected": "2026-09-23",
-    "total": 168
+    "last_collected": "2026-09-25",
+    "total": 173
   },
   "jobs": [
+    {
+      "id": "daangn-lessons-fe-2026-09",
+      "company": "당근",
+      "title": "Software Engineer, Frontend - 로컬 잡스 (레슨/과외 팀)",
+      "level": null,
+      "scale": "유니콘급 대규모 투자·흑자 서비스 (당근)",
+      "source": "자사홈",
+      "url": "https://careers.daangn.com/jobs/role/7774455003/",
+      "location": null,
+      "exp": "3년 이상",
+      "exp_min_years": 3,
+      "posted_date": null,
+      "first_seen": "2026-09-25",
+      "domains": [
+        "마켓플레이스"
+      ],
+      "deadline": null,
+      "deadline_type": "unknown",
+      "process": [
+        "서류 전형",
+        "화상 면접",
+        "직무 면접",
+        "컬처핏 면접 및 레퍼런스 체크",
+        "최종 합격 및 입사"
+      ],
+      "process_confirmed": true,
+      "has_codingtest": "미확인",
+      "fit_score": 82,
+      "fit_tier": "상",
+      "fit_reasons": [
+        "React/TypeScript 3년 이상 제품 개발·운영 요건이 7년+ 경력과 부합",
+        "공급-수요 양방향 마켓플레이스 설계, 결제까지 이어지는 전환 퍼널 개선이 커머스 CVR 개선 강점과 직결",
+        "인앱 웹뷰(권한·버전 호환·네이티브 연동) 및 브릿지 설계 우대 항목이 네이버맵 하이브리드 경험과 직접 부합"
+      ],
+      "tier": "문샷",
+      "is_new": true,
+      "brief": {
+        "company_status": "당근 — 국내 대표 유니콘, 커뮤니티 기반 로컬 서비스 확장 중",
+        "verdict": null,
+        "strengths": [
+          "결제 연동·전환율 개선 경험",
+          "웹뷰/네이티브 브릿지 설계 경험"
+        ],
+        "gaps": [
+          "레슨/과외라는 신규 버티컬 도메인 이해 필요"
+        ],
+        "pass_odds": "중간",
+        "strategy": "이커머스 전환 퍼널 개선 성과와 웹뷰 브릿지 경험을 0to1 마켓플레이스 설계 역량으로 연결해 어필",
+        "sources": [
+          "자사홈 채용공고"
+        ]
+      }
+    },
+    {
+      "id": "coxwave-krewa-fe-2026-09",
+      "company": "콕스웨이브",
+      "title": "[AX krewa] 프로덕트 엔지니어 (Frontend)",
+      "level": null,
+      "scale": "투자정보 미확인",
+      "source": "wanted",
+      "url": "https://www.wanted.co.kr/wd/388954",
+      "location": "서울 영등포구",
+      "exp": "3-7년",
+      "exp_min_years": 3,
+      "posted_date": null,
+      "first_seen": "2026-09-25",
+      "domains": [],
+      "deadline": null,
+      "deadline_type": "unknown",
+      "process": [],
+      "process_confirmed": false,
+      "has_codingtest": "미확인",
+      "fit_score": 66,
+      "fit_tier": "중",
+      "fit_reasons": [
+        "순수 Frontend 프로덕트 엔지니어 포지션으로 직책·풀스택 감점 없음",
+        "AI Agent 신뢰/실행 통제 플랫폼(B2B SaaS)으로 커머스·결제·지도·SEO 등 핵심 강점 도메인과 직접 연결점이 약함",
+        "공고 발췌문에 구체적 기술 스택·자격요건이 노출되지 않아 판정 근거가 제한적"
+      ],
+      "tier": "문열기",
+      "is_new": true,
+      "brief": {
+        "company_status": "콕스웨이브 — 2021년 설립, AI Agent 평가·통제 기술 기업, 글로벌 고객사 300개+ 보유",
+        "verdict": null,
+        "strengths": [
+          "실 사용자 제품을 다뤄온 프론트엔드 실무 경험"
+        ],
+        "gaps": [
+          "도메인 강점(커머스/결제/지도) 매칭 약함",
+          "구체 요구 스택 미확인"
+        ],
+        "pass_odds": "중간",
+        "strategy": "제품 완성도와 비즈니스 임팩트 중심 사고방식을 어필",
+        "sources": [
+          "wanted 채용공고"
+        ]
+      }
+    },
+    {
+      "id": "thefair-global-fe-2026-09",
+      "company": "더페어글로벌",
+      "title": "프로덕트 엔지니어 (프론트엔드/2년 이상)",
+      "level": null,
+      "scale": "투자정보 미확인",
+      "source": "wanted",
+      "url": "https://www.wanted.co.kr/wd/388791",
+      "location": "서울 강남구",
+      "exp": "2년 이상",
+      "exp_min_years": 2,
+      "posted_date": null,
+      "first_seen": "2026-09-25",
+      "domains": [
+        "커머스"
+      ],
+      "deadline": null,
+      "deadline_type": "rolling",
+      "deadline_label": "상시채용",
+      "process": [],
+      "process_confirmed": false,
+      "has_codingtest": "미확인",
+      "fit_score": 70,
+      "fit_tier": "중",
+      "fit_reasons": [
+        "중고 패션 위탁 판매 커머스 플랫폼 — 이커머스 도메인 강점과 직접 부합",
+        "React Native 모바일 앱 개발·출시 경험이 필수 자격요건으로 명시되어 있으나 후보자 이력에는 해당 경험 없음 — gap으로 명시하고 감점 반영",
+        "React/Next.js/TypeScript 스택은 강점과 일치"
+      ],
+      "tier": "문열기",
+      "is_new": true,
+      "brief": {
+        "company_status": "더페어글로벌 — 중고 패션 위탁 판매 커머스, AI 기반 검수·가격예측 기술 보유",
+        "verdict": "웹 프론트 중심이나 React Native 앱 개발 경험을 자격요건으로 요구 — 후보자는 웹 중심 경력으로 모바일 앱 경험 미보유",
+        "strengths": [
+          "커머스 도메인 경험",
+          "React/Next.js/TypeScript 숙련도"
+        ],
+        "gaps": [
+          "React Native 실무 경험 부재"
+        ],
+        "pass_odds": "중간",
+        "strategy": "웹 커머스 전환 성과를 강조하고, RN은 학습 의지로 보완 제시",
+        "sources": [
+          "wanted 채용공고"
+        ]
+      }
+    },
+    {
+      "id": "macaronfactory-michael-fe-2026-09",
+      "company": "마카롱팩토리(마이클)",
+      "title": "프론트엔드 엔지니어",
+      "level": null,
+      "scale": "투자정보 미확인 (연 매출 630억원 흑자 구조 언급)",
+      "source": "wanted",
+      "url": "https://www.wanted.co.kr/wd/388451",
+      "location": "경기 성남시",
+      "exp": "5년 이상",
+      "exp_min_years": 5,
+      "posted_date": null,
+      "first_seen": "2026-09-25",
+      "domains": [
+        "웹뷰"
+      ],
+      "deadline": null,
+      "deadline_type": "rolling",
+      "deadline_label": "상시채용",
+      "process": [],
+      "process_confirmed": false,
+      "has_codingtest": "미확인",
+      "fit_score": 83,
+      "fit_tier": "상",
+      "fit_reasons": [
+        "Next.js(App Router)/React/TypeScript/Zustand/TanStack Query 스택이 후보자 보유 스택과 정확히 일치",
+        "앱-웹 브릿지 설계 경험 요건이 네이버맵 하이브리드·네이티브 브릿지 상태 동기화 강점과 직접 부합",
+        "디자인 시스템 구축 경험 우대 항목도 강점과 연결됨"
+      ],
+      "tier": "문열기",
+      "is_new": true,
+      "brief": {
+        "company_status": "마카롱팩토리(마이클) — 차량관리 앱 1위, 5년 연속 성장, 연 매출 630억원 흑자 구조",
+        "verdict": null,
+        "strengths": [
+          "앱-웹 브릿지 설계 경험",
+          "React/Next.js/TypeScript 스택 숙련도"
+        ],
+        "gaps": [
+          "AWS/Kubernetes 배포 운영 경험 우대 — 보유 여부 확인 필요"
+        ],
+        "pass_odds": "높음",
+        "strategy": "네이티브 브릿지 상태 동기화 경험을 앱-웹 통신 설계 사례로 구체 제시",
+        "sources": [
+          "wanted 채용공고"
+        ]
+      }
+    },
+    {
+      "id": "tellus-fullstack-web-2026-09",
+      "company": "텔어스",
+      "title": "Full Stack Engineer - Web",
+      "level": null,
+      "scale": "시드~Pre-A 투자유치 중",
+      "source": "wanted",
+      "url": "https://www.wanted.co.kr/wd/387823",
+      "location": "서울 서대문구",
+      "exp": "5-10년 (실무 7년 이상 요건)",
+      "exp_min_years": 7,
+      "posted_date": null,
+      "first_seen": "2026-09-25",
+      "domains": [
+        "풀스택"
+      ],
+      "deadline": null,
+      "deadline_type": "unknown",
+      "process": [],
+      "process_confirmed": false,
+      "has_codingtest": "미확인",
+      "fit_score": 58,
+      "fit_tier": "하",
+      "fit_reasons": [
+        "풀스택 요구 — 'Backend Engineer의 Swagger 문서를 기다리지 않고 직접 백엔드 기능을 구현'한다고 명시되어 백엔드 실무 비중이 상당함, FE:BE 비중 불명확하여 -10점 반영",
+        "제조 도면(3D/2D)·의료 실시간 통역이라는 AI Agent 도메인으로 커머스·결제·지도·SEO 핵심 강점과 연결점이 약함",
+        "설립 1년차 초기 스타트업으로 시드~Pre-A 단계, 투자 규모 확정 정보 없음"
+      ],
+      "tier": "문열기",
+      "is_new": true,
+      "brief": {
+        "company_status": "텔어스 — Upstage 출신 코파운더 설립, 설립 1년차, TIPS 딥테크 선정, Pre-A 투자유치 중",
+        "verdict": "FE 6 : BE 4 추정 — 백엔드 기능을 직접 구현해야 한다고 명시되나 특정 BE 언어(Java/Kotlin/Go/Python)는 본문에 명시되지 않음",
+        "strengths": [
+          "React/TypeScript/Next.js 실무 경험"
+        ],
+        "gaps": [
+          "백엔드 실무 비중이 상당해 프론트엔드 중심 경력과 괴리",
+          "핵심 도메인(커머스/결제/지도/SEO)과 무관"
+        ],
+        "pass_odds": "낮음",
+        "strategy": "AI Agent 프로덕트를 빠르게 구현할 풀스택 역량을 요구하므로 지원 우선순위는 낮게 판단",
+        "sources": [
+          "wanted 채용공고"
+        ]
+      }
+    },
     {
       "id": "tenbillion-cafe24-2to5-2026-09",
       "company": "텐빌리언",
@@ -37,7 +278,7 @@
         "경력 2~5년 밴드로 candidate 7년+ 경력 대비 다소 낮은 포지션"
       ],
       "tier": "문열기",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "의류·생활용품 수입유통 이커머스 업체, 2021년 설립, 업력 6년차",
         "verdict": "순수 FE 포지션이나 카페24 기반 쇼핑몰 유지보수 성격 — 커스텀 React 스택 활용 여지 적음",
@@ -88,7 +329,7 @@
         "스택이 HTML/CSS/JS + 카페24 위주로 React/Next.js 전문성 활용도 낮음"
       ],
       "tier": "문열기",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "의류·생활용품 수입유통 이커머스 업체, 2021년 설립, 업력 6년차",
         "verdict": "순수 FE 포지션이나 카페24 기반 쇼핑몰 유지보수 성격 — 커스텀 React 스택 활용 여지 적음",
@@ -136,7 +377,7 @@
         "아키텍처·디자인시스템 경험 활용 가능하나 동물병원 EMR 도메인은 강점 분야와 직접 연관성 낮음"
       ],
       "tier": "문열기",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "동물병원 EMR 스타트업, 투자정보 미확인",
         "verdict": "IC+리드 겸임 포지션, 순수 개인기여자 역할 아님",
@@ -184,7 +425,7 @@
         "직책 명시: 팀원(IC) — 관리 비중 없음, 감점 없음"
       ],
       "tier": "문샷",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "커넥트웨이브 — 다나와·에누리·메이크샵·몰테일 등 이커머스 플랫폼 계열, 코스닥 상장사로 파악",
         "verdict": "Next.js 플랫폼 현대화 프로젝트, 스택·도메인 모두 최상급 매치",
@@ -232,7 +473,7 @@
         "AI 캐릭터 챗 서비스 도메인은 candidate 대표 강점(이커머스/지도)과 직접 연관성 낮음"
       ],
       "tier": "문열기",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "AI 캐릭터 채팅 서비스(Babechat, Tookit) 운영사, 투자정보 미확인",
         "verdict": "그로스 실험 중심 FE 역할, 온보딩/유입 퍼널 최적화가 핵심",
@@ -280,7 +521,7 @@
         "claude code 활용 능숙 요구 조건이 있어 AI 협업 경험 우대사항으로 작용 가능"
       ],
       "tier": "문열기",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "AI 기반 핀테크 스타트업(시그널플래너 운영), 투자정보 미확인",
         "verdict": "보험·마이데이터 등 복잡한 금융 비즈니스 로직을 다루는 순수 FE 역할",
@@ -327,7 +568,7 @@
         "계약직 6개월(정규직 전환 가능) — 고용 안정성 리스크로 소폭 감안"
       ],
       "tier": "문열기",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "AI 동시통역 스타트업, 2024.6 설립, VC 투자 유치 및 TIPS R&D 선정",
         "verdict": "Vue 3 기반 AI 음성 서비스 FE, 초기 스타트업 특유의 높은 자율성·불확실성",
@@ -375,7 +616,7 @@
         "구체적 기술스택(사용 프레임워크 등) 명시 없어 실무 적합도 판단 근거 부족"
       ],
       "tier": "문열기",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "KAIST 연구진 기반 AI 클라우드·플랫폼 기업, 투자정보 미확인",
         "verdict": "FE 5 : BE 5 추정 — 공고 본문에 프론트엔드/백엔드 비율에 대한 구체적 언급 없이 '핵심 흐름을 직접 연결'로만 서술됨",
@@ -424,7 +665,7 @@
         "2025년 매출 180억원 공개로 사업 안정성 확인되나 투자 라운드 정보는 없음"
       ],
       "tier": "문열기",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "옥외광고 전문기업 애드메카(모회사 미디어오픈), 2025년 매출 180억원",
         "verdict": "지도 기반 B2B 플랫폼(고레디) FE 개발, 지도 UI/데이터 구조 설계가 핵심 업무",
