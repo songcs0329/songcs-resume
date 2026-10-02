@@ -2565,3 +2565,84 @@ Software Engineer, Frontend - 커뮤니티 (모임) | 당근 채용 팀 문화 �
 - verified: 2026-09-30 (HTTP 200)
 - source: wanted
 - 처리결과: 큐레이션 (fit_score 80, 상, 문열기)
+
+### 건강누리 - 웹 개발자 채용[대리]
+
+- url: https://jumpit.saramin.co.kr/position/55159168
+- verified: 2026-09-30 (HTTP 200)
+- source: jumpit
+- deadline: 2026-10-29
+- 처리: 큐레이션 (fit_score 45, 문열기)
+
+### 건강누리 - 웹 개발자 채용[과장]
+
+- url: https://jumpit.saramin.co.kr/position/55159176
+- verified: 2026-09-30 (HTTP 200)
+- source: jumpit
+- deadline: 2026-10-29
+- 처리: 큐레이션 (fit_score 52, 문열기)
+
+### 학교종이 - 프론트엔드 개발자 (경력)
+
+- url: https://jumpit.saramin.co.kr/position/55136771
+- verified: 2026-09-30 (HTTP 200)
+- source: jumpit
+- deadline: 2026-10-25
+- 처리: 큐레이션 (fit_score 60, 문열기)
+
+### 비바리퍼블리카(토스) - [토스인슈어런스] Frontend Developer
+
+- url: https://www.wanted.co.kr/wd/390175
+- verified: 2026-10-02 (HTTP 200)
+- source: wanted
+- 처리: 큐레이션 (fit_score 88, 문샷)
+
+### 티피씨 - 웹 프론트 개발자 (주니어)
+
+- url: https://www.wanted.co.kr/wd/322989
+- verified: 2026-10-02 (HTTP 200)
+- source: wanted
+- 처리: 제외 — 주니어 전용 포지션 (제목 '(주니어)', 신입 지원 가능, 경력 1-3년)
+
+### 타인에이아이 - Frontend Engineer
+
+- url: https://www.wanted.co.kr/wd/389983
+- verified: 2026-10-02 (HTTP 200)
+- source: wanted
+- 처리: 제외 — React Native 기반 네이티브 앱 개발 주축, 웹 프론트엔드 아님
+
+### 이파피루스 - [판교/글로벌] 프론트엔드 개발자 (보충역 지원가능)
+
+- url: https://www.wanted.co.kr/wd/389913
+- verified: 2026-10-02 (HTTP 200)
+- source: wanted
+- deadline: 2026.10.30
+- 처리: 큐레이션 (fit_score 68, 문열기)
+
+### 쿠팡 - [쿠팡페이] Staff Front-end Engineer (Rocket Pay)
+
+- url: https://www.wanted.co.kr/wd/389697
+- verified: 2026-10-02 (HTTP 200)
+- source: wanted
+- 처리: 제외 — 자격요건에 Web Frontend 8년 이상 명시 (exp_min_years=8, 제외 기준 충족)
+
+### 서치독 - Web Application 개발자 (풀스택)
+
+- url: https://www.wanted.co.kr/wd/389606
+- verified: 2026-10-02 (HTTP 200)
+- source: wanted
+- 처리: 제외 — Python(FastAPI)/Go 프로덕션 백엔드 API 설계·운영 경험 필수 요구, BE 언어 실무 경력 요건으로 제외
+
+### 서치독 - SaaS 어드민 콘솔 개발자 (풀스택)
+
+- url: https://www.wanted.co.kr/wd/389601
+- verified: 2026-10-02 (HTTP 200)
+- source: wanted
+- 처리: 제외 — Python(FastAPI)/Go 프로덕션 백엔드 API 설계·운영 경험 필수 요구, BE 언어 실무 경력 요건으로 제외
+
+### 옆커폰 - [본사] Frontend Engineer
+
+- url: https://www.wanted.co.kr/wd/389341
+- verified: 2026-10-02 (HTTP 200)
+- source: wanted
+- 처리: 큐레이션 (fit_score 78, 문열기)
