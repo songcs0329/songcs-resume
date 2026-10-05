@@ -1,9 +1,207 @@
 {
   "meta": {
-    "last_collected": "2026-10-02",
-    "total": 187
+    "last_collected": "2026-10-05",
+    "total": 191
   },
   "jobs": [
+    {
+      "id": "hwahae-product-engineer-2026-10",
+      "company": "화해글로벌",
+      "title": "프로덕트 엔지니어(프론트엔드)",
+      "level": "미들",
+      "scale": "투자정보 미확인",
+      "source": "wanted",
+      "url": "https://www.wanted.co.kr/wd/390388",
+      "location": "서울 성동구",
+      "exp": "3-6년",
+      "exp_min_years": 3,
+      "posted_date": null,
+      "first_seen": "2026-10-05",
+      "domains": [
+        "풀스택",
+        "SEO"
+      ],
+      "deadline": null,
+      "deadline_type": "rolling",
+      "deadline_label": "상시채용",
+      "process": [],
+      "process_confirmed": false,
+      "has_codingtest": "미확인",
+      "fit_score": 80,
+      "fit_tier": "상",
+      "fit_reasons": [
+        "React/TypeScript·Next.js SSR/SEO 스택 직접 매칭",
+        "풀스택 범위이나 FE 70%+ (BFF·간단 백엔드 수준)로 감점 없음",
+        "결제·커머스 도메인 경험과 다소 거리 있으나 프로덕트 오너십 강조 포지션"
+      ],
+      "tier": "문열기",
+      "is_new": true,
+      "brief": {
+        "company_status": "뷰티 추천 플랫폼 '화해' 운영사, 프론트/백엔드/플랫폼 엔지니어링 팀 통합 운영",
+        "verdict": "FE 8 : BE 2 — React Native 앱 언급 있으나 핵심은 React/Next.js 웹 개발, 백엔드는 API 설계·간단 수정 수준",
+        "strengths": [
+          "Next.js SSR/SEO 경험 직접 매칭",
+          "React/TypeScript 숙련도 요구 수준 충족"
+        ],
+        "gaps": [
+          "결제·이커머스 도메인 직접 경험 언급 없음",
+          "React Native 앱 개발 비중 일부 포함"
+        ],
+        "pass_odds": "중간",
+        "strategy": "SEO·CTR 개선 경험과 Next.js SSR 성과를 강조, 프로덕트 오너십 사례 제시",
+        "sources": [
+          "공고 본문"
+        ]
+      }
+    },
+    {
+      "id": "cmes-robotics-frontend-2026-10",
+      "company": "씨메스로보틱스",
+      "title": "Frontend 개발자",
+      "level": "미들",
+      "scale": "투자정보 미확인",
+      "source": "wanted",
+      "url": "https://www.wanted.co.kr/wd/390372",
+      "location": "서울 강남구",
+      "exp": "3-5년",
+      "exp_min_years": 3,
+      "posted_date": null,
+      "first_seen": "2026-10-05",
+      "domains": [
+        "산업용 대시보드"
+      ],
+      "deadline": "2026-10-31",
+      "deadline_type": "date",
+      "deadline_label": null,
+      "process": [],
+      "process_confirmed": false,
+      "has_codingtest": "미확인",
+      "fit_score": 68,
+      "fit_tier": "중",
+      "fit_reasons": [
+        "Next.js/React/TypeScript 스택 매칭",
+        "로봇 상태 표시·컨트롤용 웹 대시보드로 후보자 핵심 도메인(커머스·결제·지도)과는 거리 있음",
+        "Python 병기 요구로 일부 백엔드/데이터 연동 가능성 있으나 주업무는 FE 대시보드로 판단"
+      ],
+      "tier": "문열기",
+      "is_new": true,
+      "brief": {
+        "company_status": "AI·하드웨어 통합 로봇 솔루션 제조사",
+        "verdict": "FE 7 : BE 3 — 자격요건에 Python 병기되어 있으나 주요업무는 '웹 기반 로봇 프레임워크' 화면 개발로 FE 중심 판단",
+        "strengths": [
+          "React/Next.js/TypeScript 스택 직접 매칭"
+        ],
+        "gaps": [
+          "도메인 매칭 낮음(로봇 제어 UI)",
+          "Python 요구 수준 불명확"
+        ],
+        "pass_odds": "중간",
+        "strategy": "복잡한 상태 관리·실시간 데이터 시각화 경험 강조",
+        "sources": [
+          "공고 본문"
+        ]
+      }
+    },
+    {
+      "id": "momenti-frontend-senior-2026-10",
+      "company": "모멘티",
+      "title": "프론트엔드 개발자 (4~10년) [역삼역]",
+      "level": "시니어",
+      "scale": "투자정보 미확인",
+      "source": "wanted",
+      "url": "https://www.wanted.co.kr/wd/390311",
+      "location": "서울 강남구(역삼동)",
+      "exp": "4-10년",
+      "exp_min_years": 4,
+      "posted_date": null,
+      "first_seen": "2026-10-05",
+      "domains": [
+        "에이전시",
+        "풀스택"
+      ],
+      "deadline": "2026-10-17",
+      "deadline_type": "date",
+      "deadline_label": null,
+      "process": [],
+      "process_confirmed": false,
+      "has_codingtest": "미확인",
+      "fit_score": 68,
+      "fit_tier": "중",
+      "fit_reasons": [
+        "React/Next, Vue/Nuxt 등 후보자 보유 스택과 직접 매칭",
+        "에이전시 특성상 React Native/Flutter 네이티브 앱 개발도 업무 범위에 포함되어 FE 전업 대비 비중 희석",
+        "다양한 산업 고객사 프로젝트로 도메인 특화 경험 활용은 제한적"
+      ],
+      "tier": "문열기",
+      "is_new": true,
+      "brief": {
+        "company_status": "2016년 설립, 삼성전자·KT·SK 등 엔터프라이즈 디지털 에이전시, 10년차",
+        "verdict": "FE 6 : BE/네이티브 4 — 웹 프론트엔드(React/Next, Vue/Nuxt) 외 React Native·Flutter 네이티브 앱 개발도 주요업무에 포함",
+        "strengths": [
+          "Vue/Nuxt 스택 보유로 후보자 강점과 직접 매칭",
+          "4-10년 경력 범위로 후보자 연차 수용 가능"
+        ],
+        "gaps": [
+          "에이전시 특성상 프로젝트 단위 업무로 지속적 오너십 제한적",
+          "네이티브 앱 개발 비중 존재"
+        ],
+        "pass_odds": "중간",
+        "strategy": "다양한 클라이언트 프로젝트 대응 경험, Vue/Nuxt 및 React 양쪽 숙련도 강조",
+        "sources": [
+          "공고 본문"
+        ]
+      }
+    },
+    {
+      "id": "interx-frontend-2026-10",
+      "company": "인터엑스",
+      "title": "프론트엔드 (Front-end) 개발자",
+      "level": "미들",
+      "scale": "시리즈B 180억 투자유치, 2026 IPO 추진",
+      "source": "wanted",
+      "url": "https://www.wanted.co.kr/wd/361323",
+      "location": "서울 금천구",
+      "exp": "3-8년",
+      "exp_min_years": 3,
+      "posted_date": null,
+      "first_seen": "2026-10-05",
+      "domains": [
+        "제조AI",
+        "SaaS"
+      ],
+      "deadline": null,
+      "deadline_type": "unknown",
+      "deadline_label": null,
+      "process": [],
+      "process_confirmed": false,
+      "has_codingtest": "미확인",
+      "fit_score": 76,
+      "fit_tier": "상",
+      "fit_reasons": [
+        "React.js/TypeScript/REST API 등 핵심 스택 직접 매칭",
+        "제조 AI 도메인은 후보자 핵심 강점(커머스·결제·지도)과 직접 연관성 낮음",
+        "시리즈B 180억 투자유치·2026 IPO 추진 등 성장성 높은 기업"
+      ],
+      "tier": "문샷",
+      "is_new": true,
+      "brief": {
+        "company_status": "제조 AI·자율제조 전문기업, AWS 마켓플레이스 입점, 시리즈B 180억 투자유치, 2026 IPO 추진",
+        "verdict": "FE 9 : BE 1 — React.js 기반 웹 개발·REST API 연동 중심의 순수 프론트엔드 포지션",
+        "strengths": [
+          "React.js/TypeScript 스택 직접 매칭",
+          "성장성 높은 기업(IPO 추진)"
+        ],
+        "gaps": [
+          "제조 AI 도메인 경험 없음",
+          "후보자 핵심 강점(이커머스·결제·지도) 도메인과 거리 있음"
+        ],
+        "pass_odds": "중간",
+        "strategy": "범용 FE 역량(성능 개선·API 연동·협업)과 빠른 학습력 강조",
+        "sources": [
+          "공고 본문"
+        ]
+      }
+    },
     {
       "id": "geonkangnuri-web-dev-daeri-2026-10",
       "company": "건강누리",
@@ -38,7 +236,7 @@
         "경력 1~5년 대비 직무 난이도가 낮아 시니어 처우 협의 필요"
       ],
       "tier": "문열기",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "의료용품 제조·유통 기업, 설립 17년차(2010), 투자정보 미확인",
         "verdict": "HTML/JS/CSS 수준 요구, React/TS 전문성과 매칭 낮음",
@@ -91,7 +289,7 @@
         "과장 직급이나 인원관리 언급 없어 직책 감점 미적용"
       ],
       "tier": "문열기",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "의료용품 제조·유통 기업, 설립 17년차(2010), 투자정보 미확인",
         "verdict": "경력 범위는 맞으나 기술스택이 단순, React/TS 전문성과 매칭 낮음",
@@ -145,7 +343,7 @@
         "에듀테크 자사 플랫폼(MAU 100만+)으로 성장성은 있으나 핵심 도메인과 거리 있음"
       ],
       "tier": "문열기",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "자사 에듀테크 플랫폼, MAU 100만+, 설립 11년차(2016), 투자정보 미확인",
         "verdict": "Angular 기반 SPA 개발, React/Next.js 전문성과 부분 불일치",
@@ -195,7 +393,7 @@
         "순수 IC 롤로 직책 감점 없음"
       ],
       "tier": "문샷",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "비바리퍼블리카(토스) 계열 보험 서비스, 대기업급 핀테크 그룹",
         "verdict": "FE 10:0 - 순수 프론트엔드 IC 포지션",
@@ -244,7 +442,7 @@
         "안정적 재무구조(영업이익률 3년 연속 10%+)의 중견기업이나 투자정보 미확인으로 문열기 배정"
       ],
       "tier": "문열기",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "전자문서/PDF 솔루션 전문기업, 영업이익률 3년 연속 10%+, 공공기관 500+ 레퍼런스 보유, 투자정보 미확인",
         "verdict": "Angular 기반 웹뷰어 개발, React 전문성과 부분 불일치하나 B2B 안정적 사업모델",
@@ -294,7 +492,7 @@
         "순수 IC 롤로 직책 감점 없음, 투자정보 미확인으로 문열기 배정"
       ],
       "tier": "문열기",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "통신상품(휴대폰·인터넷·알뜰폰·렌탈) 비교 플랫폼 스타트업, 대구 소재, 투자정보 미확인",
         "verdict": "React/Next.js 완전 매칭, 비교·견적 신청 플로우가 커머스 퍼널과 유사",
