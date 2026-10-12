@@ -27,6 +27,15 @@ npm run build
 
 프로젝트 페이지 배포를 위해 production 빌드에서는 Vite `base`가 `/songcs-resume/`로 설정됩니다. 저장소 이름을 바꾸면 `vite.config.ts`와 `public/404.html`의 `/songcs-resume/` 값도 함께 변경해야 합니다.
 
+## 이력서 노션 동기화
+
+매주 월요일 09:00 KST 클라우드 루틴이 노션 이력서 2페이지를 읽어 변경이 있으면 PR을 연다(자동 머지 없음).
+
+- `[Frontend Engineer]송창석` → `resume.md`
+- `[Frontend Developer]송창석` → `src/data/resume.ts` (`/` 페이지)
+
+규칙은 `.claude/skills/resume-notion-sync/SKILL.md`가 단일 원본이다. 루틴 프롬프트는 이 파일을 읽으라는 지시뿐이라, 규칙을 바꿀 때는 파일만 수정해 푸시하면 된다.
+
 ## 주요 라이브러리
 
 - [Vite](https://ko.vite.dev/guide/)
