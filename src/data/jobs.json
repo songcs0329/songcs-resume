@@ -1,9 +1,59 @@
 {
   "meta": {
-    "last_collected": "2026-10-09",
-    "total": 200
+    "last_collected": "2026-10-12",
+    "total": 201
   },
   "jobs": [
+    {
+      "id": "aivex-mlops-fe-2026-10",
+      "company": "아이벡스",
+      "title": "Frontend Engineer(MLOps/Data플랫폼)",
+      "level": "시니어",
+      "scale": "투자정보 미확인",
+      "source": "jumpit",
+      "url": "https://jumpit.saramin.co.kr/position/55242726",
+      "location": null,
+      "exp": "5년 이상",
+      "exp_min_years": 5,
+      "posted_date": null,
+      "first_seen": "2026-10-12",
+      "domains": [
+        "데이터시각화"
+      ],
+      "deadline": "2026-11-06",
+      "deadline_type": "date",
+      "deadline_label": null,
+      "process": [],
+      "process_confirmed": false,
+      "has_codingtest": "미확인",
+      "fit_score": 70,
+      "fit_tier": "중",
+      "fit_reasons": [
+        "React·TypeScript·Next.js·Zustand 스택 일치, 성능 지표(FCP/LCP/INP) 기반 개선 경험 요구와 후보자 강점 부합",
+        "AI 개발 도구(Claude Code 등) 활용 경험 우대 — 후보자 경험과 부합",
+        "MLOps/데이터 플랫폼의 Canvas 기반 데이터 시각화 도메인은 후보자 핵심 도메인(커머스·결제·지도·SEO)과 거리가 있어 감점"
+      ],
+      "tier": "문열기",
+      "is_new": true,
+      "brief": {
+        "company_status": "양재 소재 AI Platform 스타트업('아기 유니콘' 표기, 투자 정보 미확인)",
+        "verdict": "FE 100% — MLOps/Data 플랫폼 프론트엔드 전담, 풀스택 아님",
+        "strengths": [
+          "React/TypeScript/Next.js 스택 직접 일치",
+          "성능 측정·최적화 경험 다수 보유",
+          "AI 개발 도구 활용 경험 보유"
+        ],
+        "gaps": [
+          "데이터 시각화·Canvas UI 실무 경험 부재",
+          "MLOps/AI Platform 도메인 경험 없음"
+        ],
+        "pass_odds": "중간",
+        "strategy": "Canvas/데이터시각화 경험이 약하므로 성능 최적화·디자인시스템 구축 경험을 중심으로 포지셔닝",
+        "sources": [
+          "jumpit"
+        ]
+      }
+    },
     {
       "id": "catchitenglish-fe-2026-10",
       "company": "캐치잇플레이(Catch it english)",
@@ -35,7 +85,7 @@
         "구체적 기술스택 정보가 공고에 없어 적합도 판단 제한적"
       ],
       "tier": "메인",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "에듀테크 스타트업, 시리즈A 40억 누적투자(2019), 교육부문 앱스토어 1위",
         "verdict": "순수 FE 역할이나 도메인(에듀테크/게임화)이 후보자 강점과 거리가 있어 적합도 보통",
@@ -82,7 +132,7 @@
         "화장품 규제 도메인은 생소하나 B2B 플랫폼 UI 경험 전이 가능"
       ],
       "tier": "문열기",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "화장품 인증 자동화 AI 스타트업, 1800+ 고객사, 연 100%+ 매출 성장, 약 140명",
         "verdict": "플랫폼팀 소속 순수 FE, 관리자/운영 UI 중심 — 커머스 어드민 UI 경험 전이 가능",
@@ -130,7 +180,7 @@
         "MAM/CMS 관리자 UI는 커머스 어드민 경험과 유사"
       ],
       "tier": "문열기",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "AI 미디어 처리 플랫폼 스타트업, 투자 정보 미확인",
         "verdict": "순수 FE 역할, 보유 스택과 정확히 일치",
@@ -177,7 +227,7 @@
         "시니어 경력(7년+) 대비 초기 스타트업 1인 MVP 역할로 매칭도 낮음"
       ],
       "tier": "문열기",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "유소년 축구 스포츠테크 초기 스타트업, 투자정보 미확인",
         "verdict": "FE 5:5 추정 — BE 언어 명시 없음, 바이브코딩 기반 1인 풀스택 MVP 개발 요구",
@@ -223,7 +273,7 @@
         "7년 연속 매출 성장 스타트업이나 투자 라운드 정보 미확인"
       ],
       "tier": "문열기",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "비전 AI B2B 소프트웨어 스타트업, 7년 연속 매출 성장, 40개국 진출, 투자 라운드 정보 미확인",
         "verdict": "순수 FE, 캔버스 기반 라벨링 에디터 전문성 요구 — 지도 클러스터링 경험이 일부 전이 가능하나 격차 있음",
@@ -269,7 +319,7 @@
         "공고 본문이 일부만 확인되어 상세 스택 비교 제한적"
       ],
       "tier": "문열기",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "AI 에이전트 신뢰성/실행통제 플랫폼 스타트업, Microsoft/NVIDIA/Anthropic 등과 협업, 투자 정보 미확인",
         "verdict": "프론트엔드 중심 프로덕트 엔지니어 역할로 보이나 본문이 잘려 상세 자격요건 확인 불가",
@@ -314,7 +364,7 @@
         "React/Vue 기반 SPA/SSR 경험 요구는 보유 스택과 부합"
       ],
       "tier": "문열기",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "두나무 계열 백오피스 시스템 개발사, 증권/핀테크 분야, 투자 정보 미확인",
         "verdict": "React/Vue 기반 내부 시스템 FE, 계약직 6개월 조건이 리스크",
