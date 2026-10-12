@@ -135,6 +135,7 @@ brief: {
    출력에 `병합 완료: 신규 N건`이 찍히는지만 확인한다. **jobs.json을 열어 검증하지 말 것.**
    스크립트가 실패하면(python3 없음 등) 그때만 jobs.json을 직접 읽어 병합하고, PR 본문에 실패 사실을 적는다.
 3. 처리한 블록(큐레이션·제외 모두)을 `data/raw-jobs-archive.md` **끝에 덧붙이고** `data/raw-jobs.md`에서 지운다.
+   블록 전체가 아니라 `### 제목`과 `- url:` 두 줄만 붙인다(본문은 버린다).
    파일을 읽지 말고 append로 붙일 것 — `cat >> data/raw-jobs-archive.md <<'EOF' … EOF`.
    제외 건도 반드시 넣는다. 빠지면 수집기가 매일 다시 주워온다.
 
