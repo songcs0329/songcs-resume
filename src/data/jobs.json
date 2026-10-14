@@ -1,9 +1,415 @@
 {
   "meta": {
-    "last_collected": "2026-10-12",
-    "total": 201
+    "last_collected": "2026-10-14",
+    "total": 209
   },
   "jobs": [
+    {
+      "id": "whatap-frontend-2026-10",
+      "company": "와탭랩스",
+      "title": "프론트엔드 개발자",
+      "level": null,
+      "scale": "시리즈B 투자유치 (누적액 미확인)",
+      "source": "jumpit",
+      "url": "https://jumpit.saramin.co.kr/position/55242123",
+      "location": "서울 서초구",
+      "exp": "경력 3~10년",
+      "exp_min_years": 3,
+      "posted_date": null,
+      "first_seen": "2026-10-14",
+      "domains": [
+        "모니터링",
+        "SaaS"
+      ],
+      "deadline": "2026-11-09",
+      "deadline_type": "date",
+      "deadline_label": null,
+      "process": [
+        "서류 검토",
+        "전화인터뷰",
+        "임원면접",
+        "기술면접",
+        "동료면접",
+        "채용 과제",
+        "평판조회",
+        "최종합격"
+      ],
+      "process_confirmed": true,
+      "has_codingtest": "과제",
+      "fit_score": 68,
+      "fit_tier": "중",
+      "fit_reasons": [
+        "React.js 실무 경험 자격요건과 직접 매칭, 3-10년 경력 범위 부합",
+        "이커머스·결제·지도 등 후보 핵심 도메인과 무관한 APM/IT 모니터링 SaaS",
+        "자격요건은 FE(React.js) 중심이나 주요업무 설명은 백엔드 아키텍처 위주로 기재되어 실제 직무 범위 불명확"
+      ],
+      "tier": "문열기",
+      "is_new": true,
+      "brief": {
+        "company_status": "APM/IT 모니터링 SaaS 기업, 시리즈B 투자유치, 강남역 인근",
+        "verdict": "자격요건은 프론트엔드(React.js) 중심이나 주요업무 설명은 백엔드 아키텍처 위주 — 지원 전 직무 범위 확인 필요",
+        "strengths": [
+          "React 실무 경험 자격요건과 직접 매칭",
+          "3-10년 경력 범위에 부합"
+        ],
+        "gaps": [
+          "이커머스·결제·지도 등 후보 핵심 도메인과 무관한 APM 모니터링 SaaS",
+          "주요업무 기재 내용이 백엔드 아키텍처 중심이라 실제 FE 범위 재확인 필요"
+        ],
+        "pass_odds": "중간",
+        "strategy": "채용 과제 전형이 있으므로 React 포트폴리오와 API 연동 경험을 강조. 공고 내 직무 범위 불일치는 지원 시 확인 필요",
+        "sources": [
+          "jumpit"
+        ]
+      }
+    },
+    {
+      "id": "plaif-frontend-2026-10",
+      "company": "플라잎",
+      "title": "Frontend Engineer",
+      "level": null,
+      "scale": "투자 유치 확인 (Futureplay·Mando·KB Investment 등, 금액·단계 미확인)",
+      "source": "wanted",
+      "url": "https://www.wanted.co.kr/wd/392050",
+      "location": "경기 성남시",
+      "exp": "경력 3-10년",
+      "exp_min_years": 3,
+      "posted_date": null,
+      "first_seen": "2026-10-14",
+      "domains": [
+        "로봇",
+        "제조"
+      ],
+      "deadline": "2026-10-31",
+      "deadline_type": "date",
+      "deadline_label": null,
+      "process": [],
+      "process_confirmed": false,
+      "has_codingtest": "미확인",
+      "fit_score": 68,
+      "fit_tier": "중",
+      "fit_reasons": [
+        "React+TypeScript, Redux/Zustand 스택 실무 경험 정확히 매칭",
+        "REST/WebSocket 실시간 연동 경험 요구에 부합",
+        "로봇 제어 GUI는 후보의 커머스·지도 핵심 도메인과 무관"
+      ],
+      "tier": "문열기",
+      "is_new": true,
+      "brief": {
+        "company_status": "Physical AI/로봇 제어 스타트업, Futureplay·Mando·KB Investment 등 투자 유치",
+        "verdict": "React+TypeScript 기반 로봇 제어 GUI 개발 — 순수 프론트엔드 포지션",
+        "strengths": [
+          "React/TS/Redux·Zustand 스택 실무 경험 매칭",
+          "REST/WebSocket 실시간 연동 경험 보유"
+        ],
+        "gaps": [
+          "이커머스·결제·지도 도메인과 무관한 로봇·제조 산업",
+          "실시간 데이터 시각화 심화 경험 추가 어필 필요"
+        ],
+        "pass_odds": "중간",
+        "strategy": "WebSocket 기반 실시간 데이터 처리 및 상태 관리 경험을 부각",
+        "sources": [
+          "wanted"
+        ]
+      }
+    },
+    {
+      "id": "squadx-frontend-2026-10",
+      "company": "스쿼드엑스",
+      "title": "AI 플랫폼 프론트엔드 개발자",
+      "level": null,
+      "scale": "투자정보 미확인",
+      "source": "wanted",
+      "url": "https://www.wanted.co.kr/wd/391612",
+      "location": "서울 마포구",
+      "exp": "경력 4-10년",
+      "exp_min_years": 4,
+      "posted_date": null,
+      "first_seen": "2026-10-14",
+      "domains": [
+        "커머스",
+        "라이브커머스"
+      ],
+      "deadline": null,
+      "deadline_type": "rolling",
+      "deadline_label": "상시채용",
+      "process": [],
+      "process_confirmed": false,
+      "has_codingtest": "미확인",
+      "fit_score": 73,
+      "fit_tier": "중",
+      "fit_reasons": [
+        "React/Vue 스택 요구사항에 부합, 4년 이상 경력 요구 충족",
+        "라이브커머스·미디어커머스는 후보의 커머스 도메인 경험과 일부 연결",
+        "결제·PG 연동 등 후보 핵심 강점과 직접 연계는 약함"
+      ],
+      "tier": "문열기",
+      "is_new": true,
+      "brief": {
+        "company_status": "AI 숏폼·라이브커머스 미디어커머스 스타트업, 싱가포르 법인 설립",
+        "verdict": "React/Vue 기반 웹 플랫폼·어드민 개발, FE 비중 100%",
+        "strengths": [
+          "React 스택 매칭",
+          "라이브커머스는 후보의 커머스 도메인 경험과 일부 연결"
+        ],
+        "gaps": [
+          "결제·PG 연동 경험과 직접 연계 약함",
+          "투자 정보 미확인으로 회사 규모 파악 어려움"
+        ],
+        "pass_odds": "중간",
+        "strategy": "이커머스 CVR 개선 경험을 커머스 플랫폼 UX 개선 역량으로 연결해 어필",
+        "sources": [
+          "wanted"
+        ]
+      }
+    },
+    {
+      "id": "bsidekorea-frontend-2026-10",
+      "company": "비사이드코리아",
+      "title": "Front-end 개발자",
+      "level": null,
+      "scale": "투자 유치 확인 (국내 top tier 자산운용사, 금액 미확인)",
+      "source": "wanted",
+      "url": "https://www.wanted.co.kr/wd/391922",
+      "location": "서울 영등포구",
+      "exp": "경력 3-7년",
+      "exp_min_years": 3,
+      "posted_date": null,
+      "first_seen": "2026-10-14",
+      "domains": [
+        "핀테크"
+      ],
+      "deadline": null,
+      "deadline_type": "rolling",
+      "deadline_label": "상시채용",
+      "process": [],
+      "process_confirmed": false,
+      "has_codingtest": "미확인",
+      "fit_score": 76,
+      "fit_tier": "상",
+      "fit_reasons": [
+        "React/Vite + Next.js + TypeScript 스택 정밀 매칭",
+        "반응형·크로스브라우징 대응 경험 요구에 부합, 3년 이상 경력 요건 충족",
+        "자본시장 핀테크 도메인은 후보의 결제·커머스 핵심 강점과 직접 연결은 약함"
+      ],
+      "tier": "문열기",
+      "is_new": true,
+      "brief": {
+        "company_status": "주주총회·지배구조 플랫폼, 2021년 설립, top tier 자산운용사 투자 유치",
+        "verdict": "React/Vite + Next.js 기반 플랫폼 개발, FE 100%",
+        "strengths": [
+          "React/Next.js/TypeScript 스택 정밀 매칭",
+          "반응형·크로스브라우징 경험 요구에 부합"
+        ],
+        "gaps": [
+          "이커머스·결제 도메인과 직접 연결 약함(자본시장 핀테크)",
+          "지도·웹뷰 강점 활용 기회 없음"
+        ],
+        "pass_odds": "높음",
+        "strategy": "Next.js 기반 서비스 운영 경험과 성능 개선 사례를 중심으로 어필",
+        "sources": [
+          "wanted"
+        ]
+      }
+    },
+    {
+      "id": "abzet-frontend-2026-10",
+      "company": "에이비제트",
+      "title": "프로덕트 엔지니어 (프론트엔드, 3년 이상)",
+      "level": null,
+      "scale": "투자정보 미확인",
+      "source": "wanted",
+      "url": "https://www.wanted.co.kr/wd/391894",
+      "location": "서울 서초구",
+      "exp": "경력 3년 이상",
+      "exp_min_years": 3,
+      "posted_date": null,
+      "first_seen": "2026-10-14",
+      "domains": [
+        "커머스",
+        "광고"
+      ],
+      "deadline": null,
+      "deadline_type": "rolling",
+      "deadline_label": "상시채용",
+      "process": [],
+      "process_confirmed": false,
+      "has_codingtest": "미확인",
+      "fit_score": 77,
+      "fit_tier": "상",
+      "fit_reasons": [
+        "React/Next.js/TypeScript 스택 정밀 매칭, 렌더링·성능 최적화 경험 요구와 후보 강점 부합",
+        "크리에이터 커머스/광고 영상 플랫폼은 후보 커머스 경험과 일부 연결",
+        "React Native 모바일 비중이 있으나 웹 서비스가 중심으로 판단"
+      ],
+      "tier": "문열기",
+      "is_new": true,
+      "brief": {
+        "company_status": "크리에이터 커머스/광고 영상 플랫폼 '인포크 위너리' 운영",
+        "verdict": "React/Next.js/TypeScript 웹 + React Native 모바일 개발, 웹 비중이 높아 FE로 분류",
+        "strengths": [
+          "React/Next.js/TypeScript 스택 정밀 매칭",
+          "성능·렌더링 최적화 경험 요구와 후보 강점 부합"
+        ],
+        "gaps": [
+          "크리에이터 커머스 도메인은 신규 영역",
+          "React Native 모바일 비중 확인 필요"
+        ],
+        "pass_odds": "높음",
+        "strategy": "React 렌더링 성능 개선 및 컴포넌트 설계 경험을 구체적 사례로 제시",
+        "sources": [
+          "wanted"
+        ]
+      }
+    },
+    {
+      "id": "vivityai-frontend-2026-10",
+      "company": "비비티에이아이코리아",
+      "title": "Frontend 개발자",
+      "level": null,
+      "scale": "투자정보 미확인 (전략적 투자자 언급)",
+      "source": "wanted",
+      "url": "https://www.wanted.co.kr/wd/391673",
+      "location": "서울 마포구",
+      "exp": "경력 7-14년",
+      "exp_min_years": 7,
+      "posted_date": null,
+      "first_seen": "2026-10-14",
+      "domains": [
+        "산업AI",
+        "대시보드"
+      ],
+      "deadline": null,
+      "deadline_type": "rolling",
+      "deadline_label": "상시채용",
+      "process": [],
+      "process_confirmed": false,
+      "has_codingtest": "미확인",
+      "fit_score": 70,
+      "fit_tier": "중",
+      "fit_reasons": [
+        "TypeScript+SPA(React) 기반 실시간 대시보드·차트 개발 경험 매칭, 7년 이상 경력 요건 충족",
+        "이커머스·결제·지도 도메인과 무관한 산업 AI/제조 모니터링",
+        "대용량 데이터 렌더링·SSE/WebSocket 실시간 갱신 경험 요구"
+      ],
+      "tier": "문열기",
+      "is_new": true,
+      "brief": {
+        "company_status": "Industrial AI(영상인식/예측) 기업, 글로벌 대기업·전략적 투자자 지원",
+        "verdict": "TypeScript+SPA(React) 기반 통합관제 대시보드 개발, FE 100%",
+        "strengths": [
+          "React/TS 기반 실시간 대시보드·차트 개발 경험 매칭",
+          "7년 이상 경력 요건 충족"
+        ],
+        "gaps": [
+          "이커머스·결제·지도 도메인과 무관한 산업 AI/제조 모니터링",
+          "대용량 차트·그리드 렌더링 심화 경험 추가 어필 필요"
+        ],
+        "pass_odds": "중간",
+        "strategy": "대량 데이터 렌더링 최적화 및 실시간 갱신(WebSocket) 경험을 강조",
+        "sources": [
+          "wanted"
+        ]
+      }
+    },
+    {
+      "id": "hanbitn-productengineer-2026-10",
+      "company": "한빛앤",
+      "title": "Product Engineer (App/Frontend Focus)",
+      "level": null,
+      "scale": "한빛미디어 계열사 (투자정보 미확인)",
+      "source": "wanted",
+      "url": "https://www.wanted.co.kr/wd/391527",
+      "location": "서울 서대문구",
+      "exp": "경력 3-15년",
+      "exp_min_years": 3,
+      "posted_date": null,
+      "first_seen": "2026-10-14",
+      "domains": [
+        "교육"
+      ],
+      "deadline": "2026-10-23",
+      "deadline_type": "date",
+      "deadline_label": null,
+      "process": [],
+      "process_confirmed": false,
+      "has_codingtest": "미확인",
+      "fit_score": 71,
+      "fit_tier": "중",
+      "fit_reasons": [
+        "React/Next.js(App Router)/TypeScript/Zustand 스택 매칭, 3년 이상 경력 요건 충족",
+        "이커머스·결제 도메인과 무관한 교육 콘텐츠 플랫폼",
+        "App(React Native)/Web 혼합 역할이나 자격요건상 선택적 경험으로 인정됨"
+      ],
+      "tier": "문열기",
+      "is_new": true,
+      "brief": {
+        "company_status": "한빛미디어 계열, 디지털 학습 플랫폼 '한빛+' 운영",
+        "verdict": "React/Next.js(App Router) 중심 앱·웹 기능 개발, FE 비중 높음",
+        "strengths": [
+          "React/Next.js/TypeScript/Zustand 스택 매칭",
+          "3년 이상 경력 요건 충족"
+        ],
+        "gaps": [
+          "이커머스·결제 도메인과 무관한 교육 콘텐츠 플랫폼",
+          "React Native 앱 경험 필요 여부 확인 필요"
+        ],
+        "pass_odds": "중간",
+        "strategy": "Next.js App Router 기반 서비스 구축 경험과 자동화·운영 효율화 사례를 강조",
+        "sources": [
+          "wanted"
+        ]
+      }
+    },
+    {
+      "id": "codit-frontend-lead-2026-10",
+      "company": "코딧(CODITCorp.)",
+      "title": "프론트엔드 개발자 (리더, React.js 5년 이상)",
+      "level": "시니어",
+      "scale": "투자 유치 확인 (에이티넘인베스트먼트·프리미어파트너스, 금액 미확인)",
+      "source": "wanted",
+      "url": "https://www.wanted.co.kr/wd/93806",
+      "location": "서울 영등포구",
+      "exp": "경력 5-7년",
+      "exp_min_years": 5,
+      "posted_date": null,
+      "first_seen": "2026-10-14",
+      "domains": [
+        "GovTech"
+      ],
+      "deadline": null,
+      "deadline_type": "rolling",
+      "deadline_label": "상시채용",
+      "process": [],
+      "process_confirmed": false,
+      "has_codingtest": "미확인",
+      "fit_score": 60,
+      "fit_tier": "하",
+      "fit_reasons": [
+        "React/Redux/recoil/react-query 스택 매칭, 5년 이상 경력 요건 충족",
+        "리드 겸 IC(-10) + 인원 관리 명시('프론트엔드 팀을 관리 및 리드')(-5)로 총 -15점 감점",
+        "GovTech(입법·규제 분석) 도메인은 후보 핵심 강점(커머스·결제·지도)과 무관"
+      ],
+      "tier": "문열기",
+      "is_new": true,
+      "brief": {
+        "company_status": "입법·규제 분석 AI GovTech 플랫폼, 에이티넘인베스트먼트 등 투자 유치",
+        "verdict": "React 기반 웹서비스 개발이나 '프론트엔드 팀 관리 및 리드'가 주요업무에 명시된 관리자 겸 IC 포지션",
+        "strengths": [
+          "React/Redux/recoil/react-query 스택 매칭",
+          "5년 이상 경력 요건 충족"
+        ],
+        "gaps": [
+          "팀 관리 비중으로 IC 선호와 미스매치",
+          "GovTech 도메인은 후보 강점과 무관"
+        ],
+        "pass_odds": "낮음",
+        "strategy": "관리 비중을 최소화하고 IC로서의 기술 리더십 사례 중심으로 포지셔닝 가능한지 사전 확인 필요",
+        "sources": [
+          "wanted"
+        ]
+      }
+    },
     {
       "id": "aivex-mlops-fe-2026-10",
       "company": "아이벡스",
@@ -34,7 +440,7 @@
         "MLOps/데이터 플랫폼의 Canvas 기반 데이터 시각화 도메인은 후보자 핵심 도메인(커머스·결제·지도·SEO)과 거리가 있어 감점"
       ],
       "tier": "문열기",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "양재 소재 AI Platform 스타트업('아기 유니콘' 표기, 투자 정보 미확인)",
         "verdict": "FE 100% — MLOps/Data 플랫폼 프론트엔드 전담, 풀스택 아님",
