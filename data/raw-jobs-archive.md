@@ -974,3 +974,39 @@
 
 ### 부스터스 - Back-end Engineer (Full-Stack)
 - url: https://jumpit.saramin.co.kr/position/55225609
+
+### 와탭랩스 - 프론트엔드 개발자
+- url: https://jumpit.saramin.co.kr/position/55242123
+
+### 플라잎 - Frontend Engineer
+- url: https://www.wanted.co.kr/wd/392050
+
+### 스쿼드엑스 - AI 플랫폼 프론트엔드 개발자
+- url: https://www.wanted.co.kr/wd/391612
+
+### 비사이드코리아 - Front-end 개발자
+- url: https://www.wanted.co.kr/wd/391922
+
+### 에이비제트 - 프로덕트 엔지니어 (프론트엔드, 3년 이상)
+- url: https://www.wanted.co.kr/wd/391894
+
+### 다키클라우드코리아 - 시니어 풀스택 개발자 (Cloud Platform)
+- url: https://www.wanted.co.kr/wd/325523
+
+### 비비티에이아이코리아 - Full Stack 개발자
+- url: https://www.wanted.co.kr/wd/391750
+
+### 비비티에이아이코리아 - Frontend 개발자
+- url: https://www.wanted.co.kr/wd/391673
+
+### 워시스왓(세탁특공대) - Frontend Engineer
+- url: https://www.wanted.co.kr/wd/391625
+
+### 한빛앤 - Product Engineer (App/Frontend Focus)
+- url: https://www.wanted.co.kr/wd/391527
+
+### 코딧(CODITCorp.) - 프론트엔드 개발자 (리더, React.js 5년 이상)
+- url: https://www.wanted.co.kr/wd/93806
+
+### 데이터드리븐 - 풀스택 제품 개발자(3년 이상)
+- url: https://www.wanted.co.kr/wd/391394
