@@ -1,7 +1,7 @@
 {
   "meta": {
     "last_collected": "2026-10-16",
-    "total": 216
+    "total": 215
   },
   "jobs": [
     {
@@ -3118,55 +3118,6 @@
         "strategy": "이커머스 주문 플로우 개선 경험을 O2O 배송 도메인에 연결해 어필",
         "sources": [
           "https://jumpit.saramin.co.kr/position/55000748"
-        ]
-      }
-    },
-    {
-      "id": "daangn-frontend-local-2026-09",
-      "company": "당근",
-      "title": "Software Engineer, Frontend - 로컬 비즈니스 (로컬 콘텐츠)",
-      "level": null,
-      "scale": "대형 플랫폼사(유니콘/대기업급) — 자동 문샷",
-      "source": "자사홈",
-      "url": "https://careers.daangn.com/jobs/role/7990233003/",
-      "location": null,
-      "exp": null,
-      "exp_min_years": null,
-      "posted_date": null,
-      "first_seen": "2026-09-16",
-      "domains": [
-        "웹뷰",
-        "지도",
-        "O2O",
-        "로컬"
-      ],
-      "deadline": null,
-      "deadline_type": "unknown",
-      "process": [],
-      "process_confirmed": false,
-      "has_codingtest": "미확인",
-      "fit_score": 90,
-      "fit_tier": "최상",
-      "fit_reasons": [
-        "네이티브 브릿지 연동(걸음수·위치·권한·알림) 경험이 핵심 강점과 정확히 매치",
-        "웹뷰 하이브리드 제품 오너십을 파트 내 유일한 프론트엔드 엔지니어로 수행",
-        "하루 수십만 명이 쓰는 대규모 트래픽 서비스의 성능·안정성 관리 경험 요구"
-      ],
-      "tier": "문샷",
-      "is_new": false,
-      "brief": {
-        "company_status": "국내 최대 지역생활 플랫폼, 로컬 비즈니스 신규 확장 조직",
-        "strengths": [
-          "네이티브 브릿지/웹뷰 하이브리드 강점 직접 활용 가능",
-          "지도·위치 기반 기능 경험"
-        ],
-        "gaps": [
-          "대규모 조직의 협업 프로세스 적응 필요"
-        ],
-        "pass_odds": "중간",
-        "strategy": "네이버맵 클러스터링·네이티브 브릿지 상태 동기화 경험을 동네탐험가 웹뷰 사례에 연결",
-        "sources": [
-          "https://careers.daangn.com/jobs/role/7990233003/"
         ]
       }
     },
