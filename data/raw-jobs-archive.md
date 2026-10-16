@@ -1010,3 +1010,36 @@
 
 ### 데이터드리븐 - 풀스택 제품 개발자(3년 이상)
 - url: https://www.wanted.co.kr/wd/391394
+
+### 톤28 - 시니어 풀스택 개발자 (Senior Full-Stack Engineer)
+- url: https://jumpit.saramin.co.kr/position/55277672
+
+### 오투플러스 - 프론트엔드 개발자
+- url: https://jumpit.saramin.co.kr/position/55252404
+
+### 뮤팟 - 풀스택 개발자 정규직 경력 채용
+- url: https://jumpit.saramin.co.kr/position/55261762
+
+### 피트크루 - 웹 프론트엔드 Product Developer (React)
+- url: https://www.wanted.co.kr/wd/392672
+
+### 큐빅 - Sr. 프론트엔드 개발자(Frontend Engineer)
+- url: https://www.wanted.co.kr/wd/367785
+
+### 뤼튼테크놀로지스 - Frontend Engineer
+- url: https://www.wanted.co.kr/wd/392364
+
+### 에이치에스소프트 - [부산지사]웹 개발자 (대구 상주 근무)
+- url: https://www.wanted.co.kr/wd/392262
+
+### 패스트뷰 - [차살때 그로스] 프로덕트 엔지니어 (웹·앱 프론트엔드, 5년 이상)
+- url: https://www.wanted.co.kr/wd/392214
+
+### 데이터뱅크 - 프론트엔드 개발자 (5년 이상)
+- url: https://www.wanted.co.kr/wd/392194
+
+### 고이장례연구소 - 프로덕트 엔지니어링 매니저(프론트엔드)
+- url: https://www.wanted.co.kr/wd/392157
+
+### 호랑에듀 - [한글코딩 호랑] 호랑 풀스택 개발 매니저
+- url: https://www.wanted.co.kr/wd/392094
