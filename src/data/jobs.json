@@ -1,9 +1,364 @@
 {
   "meta": {
-    "last_collected": "2026-10-14",
-    "total": 209
+    "last_collected": "2026-10-16",
+    "total": 216
   },
   "jobs": [
+    {
+      "id": "otwoplus-frontend-2026-10",
+      "company": "오투플러스",
+      "title": "프론트엔드 개발자",
+      "level": null,
+      "scale": "투자정보 미확인",
+      "source": "jumpit",
+      "url": "https://jumpit.saramin.co.kr/position/55252404",
+      "location": "경기 용인시 수지구",
+      "exp": "3~10년",
+      "exp_min_years": 3,
+      "posted_date": null,
+      "first_seen": "2026-10-16",
+      "domains": [
+        "O2O",
+        "배송"
+      ],
+      "deadline": "2026-11-11",
+      "deadline_type": "date",
+      "deadline_label": "2026-11-11",
+      "process": [
+        "서류전형",
+        "1차 인터뷰",
+        "2차 인터뷰",
+        "처우 협의",
+        "최종합격"
+      ],
+      "process_confirmed": true,
+      "has_codingtest": "미확인",
+      "fit_score": 60,
+      "fit_tier": "하",
+      "fit_reasons": [
+        "Angular/React/Vue 스택이나 candidate 강점 도메인(결제·지도·SEO)과 무관한 범용 O2O 배송 플랫폼",
+        "요구 경력 3년 이상으로 candidate 대비 낮은 레벨의 공고, 기술 깊이 요구 낮음",
+        "Angular/jQuery 등 레거시 스택 혼재 가능성"
+      ],
+      "tier": "문열기",
+      "is_new": true,
+      "brief": {
+        "company_status": "O2O 배송 중계 플랫폼 '오투퀵' 운영, 중소기업",
+        "verdict": "순수 FE 단독 포지션, 백엔드 요구 없음",
+        "strengths": [
+          "Vue/React 스택 경험 매칭",
+          "유지보수 중심 업무로 즉시 투입 가능"
+        ],
+        "gaps": [
+          "결제/지도/SEO 등 candidate 강점 도메인과 무관",
+          "레거시 Angular/jQuery 스택 포함 가능성"
+        ],
+        "pass_odds": "중간",
+        "strategy": "React/Vue 전환 경험과 유지보수 안정성 강조",
+        "sources": [
+          "jumpit"
+        ]
+      }
+    },
+    {
+      "id": "fitcrew-frontend-2026-10",
+      "company": "피트크루",
+      "title": "웹 프론트엔드 Product Developer (React)",
+      "level": null,
+      "scale": "투자정보 미확인",
+      "source": "wanted",
+      "url": "https://www.wanted.co.kr/wd/392672",
+      "location": "서울 성동구",
+      "exp": "3-10년",
+      "exp_min_years": 3,
+      "posted_date": null,
+      "first_seen": "2026-10-16",
+      "domains": [
+        "웹뷰",
+        "헬스케어"
+      ],
+      "deadline": null,
+      "deadline_type": "rolling",
+      "deadline_label": "상시채용",
+      "process": [],
+      "process_confirmed": false,
+      "has_codingtest": "미확인",
+      "fit_score": 85,
+      "fit_tier": "최상",
+      "fit_reasons": [
+        "웹뷰 하이브리드 앱 + 네이티브 브릿지 통신(JS Interface/postMessage) 경험 요구 — candidate의 네이버맵 하이브리드·브릿지 동기화 강점과 정확히 매칭",
+        "React/TypeScript/Next.js 스택 완전 일치",
+        "프로젝트 End-to-End 주도 경험 요구로 candidate의 폭넓은 역량과 부합"
+      ],
+      "tier": "문열기",
+      "is_new": true,
+      "brief": {
+        "company_status": "북미 1위 복약관리 앱 'pillo' 서비스, 듀오링고 지향 조직문화",
+        "verdict": "순수 FE 포지션, 백엔드 요구 없음",
+        "strengths": [
+          "웹뷰-네이티브 브릿지 통신 실무 경험 직접 매칭",
+          "React/TS/Next.js 스택 완전 일치",
+          "E2E 주도 경험"
+        ],
+        "gaps": [
+          "헬스케어 도메인 경험 부재(기술 스택·아키텍처 매칭이 더 중요한 포지션)"
+        ],
+        "pass_odds": "높음",
+        "strategy": "네이버맵 클라이언트 클러스터링·네이티브 브릿지 상태 동기화 경험을 핵심으로 강조",
+        "sources": [
+          "wanted"
+        ]
+      }
+    },
+    {
+      "id": "cubig-frontend-2026-10",
+      "company": "큐빅",
+      "title": "Sr. 프론트엔드 개발자(Frontend Engineer)",
+      "level": "시니어",
+      "scale": "투자정보 미확인",
+      "source": "wanted",
+      "url": "https://www.wanted.co.kr/wd/367785",
+      "location": "경기 성남시 분당구",
+      "exp": "5-12년",
+      "exp_min_years": 7,
+      "posted_date": null,
+      "first_seen": "2026-10-16",
+      "domains": [
+        "B2B SaaS",
+        "AI"
+      ],
+      "deadline": "2026-12-31",
+      "deadline_type": "date",
+      "deadline_label": "2026.12.31",
+      "process": [],
+      "process_confirmed": false,
+      "has_codingtest": "미확인",
+      "fit_score": 78,
+      "fit_tier": "상",
+      "fit_reasons": [
+        "React/Next.js/TypeScript + Zustand/Redux/React Query 상태관리 스택 완전 일치",
+        "대규모 FE 아키텍처 설계·리팩토링 경험 요구 — candidate 경력과 부합",
+        "AI 데이터 B2B SaaS 도메인은 candidate 강점(커머스·지도·SEO)과 직접 연관성 낮음"
+      ],
+      "tier": "문열기",
+      "is_new": true,
+      "brief": {
+        "company_status": "AI-Ready 데이터 운영 플랫폼 'Syntitan' B2B SaaS, 미국·유럽 진출",
+        "verdict": "순수 FE 포지션, 백엔드 요구 없음",
+        "strengths": [
+          "React/Next.js/TS 스택 완전 일치",
+          "상태관리·렌더링 최적화·WebSocket 등 기술 심도 요구와 부합"
+        ],
+        "gaps": [
+          "B2B SaaS/AI 데이터 도메인 경험 부재",
+          "글로벌 고객向 아키텍처 경험 요구"
+        ],
+        "pass_odds": "중간",
+        "strategy": "대규모 FE 아키텍처 설계·성능 최적화 경험 강조",
+        "sources": [
+          "wanted"
+        ]
+      }
+    },
+    {
+      "id": "wrtn-frontend-2026-10",
+      "company": "뤼튼테크놀로지스",
+      "title": "Frontend Engineer",
+      "level": null,
+      "scale": "기업가치 1조원 초과, 2025년 매출 471억원 — 상장사·대기업급 자동 문샷",
+      "source": "wanted",
+      "url": "https://www.wanted.co.kr/wd/392364",
+      "location": "서울 서초구",
+      "exp": "5년 이상",
+      "exp_min_years": 5,
+      "posted_date": null,
+      "first_seen": "2026-10-16",
+      "domains": [
+        "AI",
+        "B2C"
+      ],
+      "deadline": null,
+      "deadline_type": "rolling",
+      "deadline_label": "상시채용",
+      "process": [],
+      "process_confirmed": false,
+      "has_codingtest": "미확인",
+      "fit_score": 68,
+      "fit_tier": "중",
+      "fit_reasons": [
+        "TypeScript/React 스택 매칭되나 구체적 요구 기술(Next.js, 상태관리 등) 명시 적음",
+        "AI 캐릭터 서비스 B2C 도메인은 candidate 강점(커머스·지도·SEO)과 무관",
+        "기업가치 1조원 초과로 자동 문샷 분류이나 기술 매칭도는 중간 수준"
+      ],
+      "tier": "문샷",
+      "is_new": true,
+      "brief": {
+        "company_status": "AI 플랫폼 '뤼튼', AI 캐릭터 서비스 '크랙' 운영, 기업가치 1조원 초과, 2025년 매출 471억원",
+        "verdict": "순수 FE 포지션, 백엔드 요구 없음",
+        "strengths": [
+          "React/TypeScript 기반 실무 경험 매칭",
+          "대규모 트래픽 서비스 운영 경험"
+        ],
+        "gaps": [
+          "AI 콘텐츠/캐릭터 서비스 도메인은 candidate 강점 도메인과 거리 있음"
+        ],
+        "pass_odds": "중간",
+        "strategy": "대규모 트래픽 환경에서의 성능·안정성 개선 경험 강조",
+        "sources": [
+          "wanted"
+        ]
+      }
+    },
+    {
+      "id": "fastview-chasaltae-2026-10",
+      "company": "패스트뷰",
+      "title": "[차살때 그로스] 프로덕트 엔지니어 (웹·앱 프론트엔드, 5년 이상)",
+      "level": null,
+      "scale": "투자정보 미확인",
+      "source": "wanted",
+      "url": "https://www.wanted.co.kr/wd/392214",
+      "location": "서울 서초구",
+      "exp": "5-20년",
+      "exp_min_years": 5,
+      "posted_date": null,
+      "first_seen": "2026-10-16",
+      "domains": [
+        "커머스",
+        "웹뷰",
+        "그로스"
+      ],
+      "deadline": null,
+      "deadline_type": "rolling",
+      "deadline_label": "상시채용",
+      "process": [],
+      "process_confirmed": false,
+      "has_codingtest": "미확인",
+      "fit_score": 83,
+      "fit_tier": "상",
+      "fit_reasons": [
+        "Next.js 웹 + React Native 웹뷰 혼합 구조 — candidate의 네이티브 브릿지·웹뷰 하이브리드 강점과 매칭",
+        "전환율(CVR) 중심 그로스 실험 업무 — candidate의 CVR+14.27% 강점과 직접 연관",
+        "차 구매 비교·상담 신청 퍼널은 커머스 전환 최적화 경험과 유사한 문제 구조"
+      ],
+      "tier": "문열기",
+      "is_new": true,
+      "brief": {
+        "company_status": "장기렌터카·할부·리스 비교 서비스 '차살때' 운영, 22개 금융사 제휴",
+        "verdict": "순수 FE/그로스 엔지니어 포지션, PHP Laravel은 기존 백엔드 스택 설명일 뿐 candidate 요구 아님",
+        "strengths": [
+          "웹뷰+네이티브 하이브리드 구조 실무 경험 직접 매칭",
+          "퍼널 전환율 개선(CVR) 강점과 업무 성격 일치",
+          "Next.js/React Native 스택 보유"
+        ],
+        "gaps": [
+          "React Native 앱 개발·배포 실무 경험 필요 — candidate 웹 중심 경력과 일부 간극"
+        ],
+        "pass_odds": "중간",
+        "strategy": "CVR+14.27% 결제 퍼널 개선 경험과 웹뷰-네이티브 브릿지 경험을 그로스 실험 사례로 연결",
+        "sources": [
+          "wanted"
+        ]
+      }
+    },
+    {
+      "id": "databank-frontend-2026-10",
+      "company": "데이터뱅크",
+      "title": "프론트엔드 개발자 (5년 이상)",
+      "level": null,
+      "scale": "시리즈B, 누적 투자·지원금 100억원",
+      "source": "wanted",
+      "url": "https://www.wanted.co.kr/wd/392194",
+      "location": "서울 강남구",
+      "exp": "5-11년",
+      "exp_min_years": 5,
+      "posted_date": null,
+      "first_seen": "2026-10-16",
+      "domains": [
+        "에듀테크",
+        "AI"
+      ],
+      "deadline": null,
+      "deadline_type": "rolling",
+      "deadline_label": "상시채용",
+      "process": [],
+      "process_confirmed": false,
+      "has_codingtest": "미확인",
+      "fit_score": 76,
+      "fit_tier": "상",
+      "fit_reasons": [
+        "TypeScript/React/Next.js(SSR)/Redux·React Query 스택 완전 일치",
+        "RESTful API 연동 중심 업무로 candidate 경력과 부합",
+        "AI 에듀테크 도메인은 candidate 강점 도메인과 직접 연관성 낮음"
+      ],
+      "tier": "메인",
+      "is_new": true,
+      "brief": {
+        "company_status": "AI 스피킹/라이팅 채점 서비스 'TestGlider', 시리즈B(누적 100억원), 글로벌 200개국 서비스",
+        "verdict": "순수 FE 포지션, 백엔드(Python Django/FastAPI)는 API 소비만 요구",
+        "strengths": [
+          "React/Next.js/TS 스택 완전 일치",
+          "디자인시스템 구축 경험 요구와 candidate 역량 부합"
+        ],
+        "gaps": [
+          "에듀테크/AI 채점 도메인 경험 부재"
+        ],
+        "pass_odds": "중간",
+        "strategy": "Next.js SSR 기반 서비스 운영 경험과 디자인시스템 구축 사례 강조",
+        "sources": [
+          "wanted"
+        ]
+      }
+    },
+    {
+      "id": "goi-frontend-2026-10",
+      "company": "고이장례연구소",
+      "title": "프로덕트 엔지니어링 매니저(프론트엔드)",
+      "level": null,
+      "scale": "투자정보 미확인",
+      "source": "wanted",
+      "url": "https://www.wanted.co.kr/wd/392157",
+      "location": "서울 관악구",
+      "exp": "3-8년",
+      "exp_min_years": 3,
+      "posted_date": null,
+      "first_seen": "2026-10-16",
+      "domains": [
+        "커머스",
+        "결제"
+      ],
+      "deadline": null,
+      "deadline_type": "rolling",
+      "deadline_label": "상시채용",
+      "process": [],
+      "process_confirmed": false,
+      "has_codingtest": "미확인",
+      "fit_score": 70,
+      "fit_tier": "중",
+      "fit_reasons": [
+        "'매니저' 직함이나 인원관리(채용·1on1 등) 언급 없어 리드 겸 IC로 간주 — -10점 적용",
+        "가입·결제·계약관리 등 핵심 기능 개발은 candidate의 PG 연동·결제 플로우 강점과 직접 연관",
+        "React/Next.js 스택 매칭"
+      ],
+      "tier": "문열기",
+      "is_new": true,
+      "brief": {
+        "company_status": "장례 서비스 플랫폼, MAU 10만+, '100원 상조' 상품으로 10만건+ 계약, 투자정보 미확인",
+        "verdict": "FE 중심 풀사이클 참여 포지션, 직함은 '매니저'이나 인원관리 업무 언급 없어 IC로 판단",
+        "strengths": [
+          "결제·계약 핵심 플로우 개발 경험이 candidate의 PG 연동 강점과 직접 연관",
+          "React/Next.js 실무"
+        ],
+        "gaps": [
+          "'매니저' 직함으로 인한 역할 모호성",
+          "장례 산업 도메인 특수성"
+        ],
+        "pass_odds": "중간",
+        "strategy": "PG 연동 및 결제/주문 플로우 CVR 개선 경험(+14.27%)을 핵심 사례로 제시",
+        "sources": [
+          "wanted"
+        ]
+      }
+    },
     {
       "id": "whatap-frontend-2026-10",
       "company": "와탭랩스",
@@ -44,7 +399,7 @@
         "자격요건은 FE(React.js) 중심이나 주요업무 설명은 백엔드 아키텍처 위주로 기재되어 실제 직무 범위 불명확"
       ],
       "tier": "문열기",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "APM/IT 모니터링 SaaS 기업, 시리즈B 투자유치, 강남역 인근",
         "verdict": "자격요건은 프론트엔드(React.js) 중심이나 주요업무 설명은 백엔드 아키텍처 위주 — 지원 전 직무 범위 확인 필요",
@@ -94,7 +449,7 @@
         "로봇 제어 GUI는 후보의 커머스·지도 핵심 도메인과 무관"
       ],
       "tier": "문열기",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "Physical AI/로봇 제어 스타트업, Futureplay·Mando·KB Investment 등 투자 유치",
         "verdict": "React+TypeScript 기반 로봇 제어 GUI 개발 — 순수 프론트엔드 포지션",
@@ -144,7 +499,7 @@
         "결제·PG 연동 등 후보 핵심 강점과 직접 연계는 약함"
       ],
       "tier": "문열기",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "AI 숏폼·라이브커머스 미디어커머스 스타트업, 싱가포르 법인 설립",
         "verdict": "React/Vue 기반 웹 플랫폼·어드민 개발, FE 비중 100%",
@@ -193,7 +548,7 @@
         "자본시장 핀테크 도메인은 후보의 결제·커머스 핵심 강점과 직접 연결은 약함"
       ],
       "tier": "문열기",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "주주총회·지배구조 플랫폼, 2021년 설립, top tier 자산운용사 투자 유치",
         "verdict": "React/Vite + Next.js 기반 플랫폼 개발, FE 100%",
@@ -243,7 +598,7 @@
         "React Native 모바일 비중이 있으나 웹 서비스가 중심으로 판단"
       ],
       "tier": "문열기",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "크리에이터 커머스/광고 영상 플랫폼 '인포크 위너리' 운영",
         "verdict": "React/Next.js/TypeScript 웹 + React Native 모바일 개발, 웹 비중이 높아 FE로 분류",
@@ -293,7 +648,7 @@
         "대용량 데이터 렌더링·SSE/WebSocket 실시간 갱신 경험 요구"
       ],
       "tier": "문열기",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "Industrial AI(영상인식/예측) 기업, 글로벌 대기업·전략적 투자자 지원",
         "verdict": "TypeScript+SPA(React) 기반 통합관제 대시보드 개발, FE 100%",
@@ -342,7 +697,7 @@
         "App(React Native)/Web 혼합 역할이나 자격요건상 선택적 경험으로 인정됨"
       ],
       "tier": "문열기",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "한빛미디어 계열, 디지털 학습 플랫폼 '한빛+' 운영",
         "verdict": "React/Next.js(App Router) 중심 앱·웹 기능 개발, FE 비중 높음",
@@ -391,7 +746,7 @@
         "GovTech(입법·규제 분석) 도메인은 후보 핵심 강점(커머스·결제·지도)과 무관"
       ],
       "tier": "문열기",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "입법·규제 분석 AI GovTech 플랫폼, 에이티넘인베스트먼트 등 투자 유치",
         "verdict": "React 기반 웹서비스 개발이나 '프론트엔드 팀 관리 및 리드'가 주요업무에 명시된 관리자 겸 IC 포지션",
