@@ -1,9 +1,302 @@
 {
   "meta": {
-    "last_collected": "2026-10-16",
-    "total": 215
+    "last_collected": "2026-10-19",
+    "total": 221
   },
   "jobs": [
+    {
+      "id": "catchitplay-2026-10",
+      "company": "캐치잇플레이",
+      "title": "[AI 학습플랫폼] 프론트 엔지니어 (재택근무가능)",
+      "level": null,
+      "scale": "시리즈A 투자유치, 금액 미확인",
+      "source": "jumpit",
+      "url": "https://jumpit.saramin.co.kr/position/55297179",
+      "location": "재택근무 (전국, 제주 거점)",
+      "exp": "3년 이상",
+      "exp_min_years": 3,
+      "posted_date": null,
+      "first_seen": "2026-10-19",
+      "domains": [
+        "에듀테크",
+        "웹뷰"
+      ],
+      "deadline": "2026-11-14",
+      "deadline_type": "date",
+      "deadline_label": null,
+      "process": [],
+      "process_confirmed": false,
+      "has_codingtest": "미확인",
+      "fit_score": 72,
+      "fit_tier": "중",
+      "fit_reasons": [
+        "React/TypeScript/Tailwind 스택 직접 일치",
+        "웹뷰·크로스플랫폼(React Native, PWA) 우대사항이 네이티브 브릿지 경험과 연결",
+        "에듀테크 도메인은 커머스·결제 강점과 직접 연관성 낮음"
+      ],
+      "tier": "문열기",
+      "is_new": true,
+      "brief": {
+        "company_status": "제주 거점 풀재택 에듀테크 스타트업, 시리즈A 투자유치, 캐치잇 잉글리시/코리안 서비스 운영 중",
+        "strengths": [
+          "React/TypeScript/Tailwind 스택 직접 일치",
+          "네이티브 브릿지·웹뷰 경험이 크로스플랫폼 우대사항과 연결"
+        ],
+        "gaps": [
+          "에듀테크 도메인 경험 없음",
+          "WebGL/애니메이션(Framer Motion, GSAP) 우대사항 미보유"
+        ],
+        "pass_odds": "중간",
+        "strategy": "웹뷰 하이브리드·네이티브 브릿지 상태 동기화 경험을 크로스플랫폼 적합성으로 연결해 어필",
+        "sources": [
+          "jumpit"
+        ]
+      }
+    },
+    {
+      "id": "plife-2026-10",
+      "company": "플라잎",
+      "title": "Frontend Engineer",
+      "level": null,
+      "scale": "투자정보 미확인",
+      "source": "jumpit",
+      "url": "https://jumpit.saramin.co.kr/position/55289075",
+      "location": null,
+      "exp": null,
+      "exp_min_years": null,
+      "posted_date": null,
+      "first_seen": "2026-10-19",
+      "domains": [
+        "로보틱스",
+        "실시간통신"
+      ],
+      "deadline": "2026-11-12",
+      "deadline_type": "date",
+      "deadline_label": null,
+      "process": [],
+      "process_confirmed": false,
+      "has_codingtest": "미확인",
+      "fit_score": 68,
+      "fit_tier": "중",
+      "fit_reasons": [
+        "React/TypeScript 핵심 스택 일치",
+        "WebSocket 등 실시간 네트워크 연동 경험 보유",
+        "로봇 제어 GUI 도메인은 기존 커머스·지도 강점과 무관"
+      ],
+      "tier": "문열기",
+      "is_new": true,
+      "brief": {
+        "company_status": "로봇 제어 GUI 개발 스타트업, 투자정보 미확인",
+        "strengths": [
+          "React/TypeScript/WebSocket 실시간 연동 경험 일치"
+        ],
+        "gaps": [
+          "로보틱스 도메인 경험 없음",
+          "Three.js/3D 그래픽스 우대사항 미보유"
+        ],
+        "pass_odds": "중간",
+        "strategy": "실시간 데이터 연동·상태관리 경험을 로봇 제어 GUI 문맥에 맞춰 설명",
+        "sources": [
+          "jumpit"
+        ]
+      }
+    },
+    {
+      "id": "neurocle-2026-10",
+      "company": "뉴로클",
+      "title": "[비전 AI 플랫폼] 프론트엔드 엔지니어 (경력 5~10년, 전문연구요원 가능)",
+      "level": null,
+      "scale": "투자정보 미확인 (수익화 성공, 7년 연속 매출 성장)",
+      "source": "wanted",
+      "url": "https://www.wanted.co.kr/wd/392869",
+      "location": "서울 강동구",
+      "exp": "5~10년",
+      "exp_min_years": 5,
+      "posted_date": null,
+      "first_seen": "2026-10-19",
+      "domains": [
+        "비전AI",
+        "데이터시각화"
+      ],
+      "deadline": "2026-10-22",
+      "deadline_type": "date",
+      "deadline_label": null,
+      "process": [],
+      "process_confirmed": false,
+      "has_codingtest": "미확인",
+      "fit_score": 75,
+      "fit_tier": "상",
+      "fit_reasons": [
+        "React/TypeScript/Redux(RTK) 계열 스택 강하게 일치",
+        "7년+ 경력으로 기술적 의사결정 주도 요구사항 부합",
+        "비전 AI·캔버스 라벨링 에디터 도메인 경험 없음"
+      ],
+      "tier": "문열기",
+      "is_new": true,
+      "brief": {
+        "company_status": "비전 AI B2B 소프트웨어 기업, 7년 연속 매출 성장, 40여개국 진출, 투자정보 미확인",
+        "strengths": [
+          "React/TypeScript/Redux Toolkit 스택 강하게 일치",
+          "시니어급 경력으로 기술 의사결정 주도 요구사항 부합"
+        ],
+        "gaps": [
+          "Canvas/Konva 기반 이미지 라벨링 에디터 실무 경험 없음",
+          "비전 AI 도메인 경험 없음"
+        ],
+        "pass_odds": "중간",
+        "strategy": "복잡한 상태관리·성능최적화 경험을 캔버스 에디터의 기술 난이도에 대응하는 역량으로 제시",
+        "sources": [
+          "wanted"
+        ]
+      }
+    },
+    {
+      "id": "gowid-2026-10",
+      "company": "고위드",
+      "title": "Frontend Engineer (프론트엔드 엔지니어)",
+      "level": null,
+      "scale": "투자정보 미확인 (3,500+ 고객사, BEP 달성)",
+      "source": "wanted",
+      "url": "https://www.wanted.co.kr/wd/392931",
+      "location": "서울 강남구",
+      "exp": "3년 이상",
+      "exp_min_years": 3,
+      "posted_date": null,
+      "first_seen": "2026-10-19",
+      "domains": [
+        "핀테크",
+        "결제",
+        "법인카드"
+      ],
+      "deadline": null,
+      "deadline_type": "rolling",
+      "deadline_label": "상시채용",
+      "process": [],
+      "process_confirmed": false,
+      "has_codingtest": "미확인",
+      "fit_score": 86,
+      "fit_tier": "최상",
+      "fit_reasons": [
+        "법인카드·결제 도메인이 PG연동·결제플로우 강점과 직접 일치",
+        "React/TypeScript/TanStack Query 스택 그대로 일치",
+        "순수 IC(FE) 역할, 관리 비중 없음"
+      ],
+      "tier": "문열기",
+      "is_new": true,
+      "brief": {
+        "company_status": "B2B 핀테크, 스타트업 전용 법인카드 서비스, 3,500+ 고객사, BEP 달성, 투자정보 미확인",
+        "strengths": [
+          "PG연동·결제/주문 플로우 CVR 개선 경험이 법인카드 핵심 비즈니스와 직접 일치",
+          "React/TypeScript/TanStack Query 스택 그대로 일치"
+        ],
+        "gaps": [
+          "금융 도메인 특유의 정합성·규제 요구 경험 명시적 확인 필요"
+        ],
+        "pass_odds": "높음",
+        "strategy": "결제·주문 플로우 CVR +14.27% 개선 경험을 법인카드 트랜잭션 UX 개선 사례로 직접 연결",
+        "sources": [
+          "wanted"
+        ]
+      }
+    },
+    {
+      "id": "indeepai-middle-2026-10",
+      "company": "인딥에이아이",
+      "title": "프론트엔드 개발자 (Middle/4~7년)",
+      "level": "미들",
+      "scale": "투자정보 미확인",
+      "source": "wanted",
+      "url": "https://www.wanted.co.kr/wd/392768",
+      "location": "서울 강남구",
+      "exp": "4~7년",
+      "exp_min_years": 4,
+      "posted_date": null,
+      "first_seen": "2026-10-19",
+      "domains": [
+        "SI",
+        "공공"
+      ],
+      "deadline": null,
+      "deadline_type": "rolling",
+      "deadline_label": "상시채용",
+      "process": [],
+      "process_confirmed": false,
+      "has_codingtest": "미확인",
+      "fit_score": 63,
+      "fit_tier": "하",
+      "fit_reasons": [
+        "React/Vue/TypeScript 기본 스택 보유",
+        "JSP/jQuery/eGovFrame 레거시 유지보수 비중이 커 최신 스택 활용도 낮음",
+        "SI/공공기관 도메인은 기존 커머스·결제 강점과 무관, 계약직(1년) 형태"
+      ],
+      "tier": "문열기",
+      "is_new": true,
+      "brief": {
+        "company_status": "AI 기반 채용·HR 솔루션 기업, 계약직 1년(정규직 전환 검토), 투자정보 미확인",
+        "strengths": [
+          "React/Vue/TypeScript 기본 스택 보유"
+        ],
+        "gaps": [
+          "JSP/jQuery/eGovFrame 레거시 시스템 유지보수 비중이 커 최신 FE 역량 활용도 낮음",
+          "SI/공공기관 도메인 경험 없음",
+          "계약직 형태로 고용 안정성 리스크"
+        ],
+        "pass_odds": "낮음",
+        "strategy": "레거시 시스템 현대화 경험이 있다면 강조, 그렇지 않다면 지원 우선순위를 낮게 둠",
+        "sources": [
+          "wanted"
+        ]
+      }
+    },
+    {
+      "id": "twelvelabs-2026-10",
+      "company": "트웰브랩스(TwelveLabs)",
+      "title": "Senior Frontend Engineer, Forge",
+      "level": "시니어",
+      "scale": "누적 3,000억원+ 투자유치 (NVIDIA·Amazon·Index Ventures 등)",
+      "source": "wanted",
+      "url": "https://www.wanted.co.kr/wd/392689",
+      "location": "서울 용산구",
+      "exp": "5년 이상",
+      "exp_min_years": 5,
+      "posted_date": null,
+      "first_seen": "2026-10-19",
+      "domains": [
+        "AI플랫폼",
+        "SaaS"
+      ],
+      "deadline": null,
+      "deadline_type": "unknown",
+      "deadline_label": null,
+      "process": [],
+      "process_confirmed": false,
+      "has_codingtest": "미확인",
+      "fit_score": 80,
+      "fit_tier": "상",
+      "fit_reasons": [
+        "Senior 레벨 요구사항이 7년+ 경력과 부합",
+        "글로벌 AI 인프라 기업, 누적 3천억원+ 투자유치로 안정성 높음",
+        "영상 AI SaaS 플랫폼 도메인은 기존 커머스·결제·지도 강점과 직접 연관성 낮음"
+      ],
+      "tier": "문샷",
+      "is_new": true,
+      "brief": {
+        "company_status": "영상 AI 인프라 기업, 샌프란시스코·서울·뉴욕·런던 오피스, 누적 3천억원+ 투자유치(NVIDIA, Amazon, Index Ventures 등)",
+        "strengths": [
+          "Senior 레벨 요구사항이 7년+ 경력과 부합",
+          "글로벌 AI 플랫폼 기업의 기술 스케일과 안정성"
+        ],
+        "gaps": [
+          "영상 AI/SaaS 플랫폼 도메인 경험 없음",
+          "본문 일부가 잘려 상세 자격요건(영어 사용 여부 등) 확인 불가"
+        ],
+        "pass_odds": "중간",
+        "strategy": "플랫폼 공통기반(인증·빌링·조직관리) 설계 경험 여부를 확인하고 복잡한 상태관리 역량 강조",
+        "sources": [
+          "wanted"
+        ]
+      }
+    },
     {
       "id": "otwoplus-frontend-2026-10",
       "company": "오투플러스",
@@ -41,7 +334,7 @@
         "Angular/jQuery 등 레거시 스택 혼재 가능성"
       ],
       "tier": "문열기",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "O2O 배송 중계 플랫폼 '오투퀵' 운영, 중소기업",
         "verdict": "순수 FE 단독 포지션, 백엔드 요구 없음",
@@ -91,7 +384,7 @@
         "프로젝트 End-to-End 주도 경험 요구로 candidate의 폭넓은 역량과 부합"
       ],
       "tier": "문열기",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "북미 1위 복약관리 앱 'pillo' 서비스, 듀오링고 지향 조직문화",
         "verdict": "순수 FE 포지션, 백엔드 요구 없음",
@@ -141,7 +434,7 @@
         "AI 데이터 B2B SaaS 도메인은 candidate 강점(커머스·지도·SEO)과 직접 연관성 낮음"
       ],
       "tier": "문열기",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "AI-Ready 데이터 운영 플랫폼 'Syntitan' B2B SaaS, 미국·유럽 진출",
         "verdict": "순수 FE 포지션, 백엔드 요구 없음",
@@ -191,7 +484,7 @@
         "기업가치 1조원 초과로 자동 문샷 분류이나 기술 매칭도는 중간 수준"
       ],
       "tier": "문샷",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "AI 플랫폼 '뤼튼', AI 캐릭터 서비스 '크랙' 운영, 기업가치 1조원 초과, 2025년 매출 471억원",
         "verdict": "순수 FE 포지션, 백엔드 요구 없음",
@@ -241,7 +534,7 @@
         "차 구매 비교·상담 신청 퍼널은 커머스 전환 최적화 경험과 유사한 문제 구조"
       ],
       "tier": "문열기",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "장기렌터카·할부·리스 비교 서비스 '차살때' 운영, 22개 금융사 제휴",
         "verdict": "순수 FE/그로스 엔지니어 포지션, PHP Laravel은 기존 백엔드 스택 설명일 뿐 candidate 요구 아님",
@@ -291,7 +584,7 @@
         "AI 에듀테크 도메인은 candidate 강점 도메인과 직접 연관성 낮음"
       ],
       "tier": "메인",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "AI 스피킹/라이팅 채점 서비스 'TestGlider', 시리즈B(누적 100억원), 글로벌 200개국 서비스",
         "verdict": "순수 FE 포지션, 백엔드(Python Django/FastAPI)는 API 소비만 요구",
@@ -340,7 +633,7 @@
         "React/Next.js 스택 매칭"
       ],
       "tier": "문열기",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "장례 서비스 플랫폼, MAU 10만+, '100원 상조' 상품으로 10만건+ 계약, 투자정보 미확인",
         "verdict": "FE 중심 풀사이클 참여 포지션, 직함은 '매니저'이나 인원관리 업무 언급 없어 IC로 판단",

@@ -1043,3 +1043,30 @@
 
 ### 호랑에듀 - [한글코딩 호랑] 호랑 풀스택 개발 매니저
 - url: https://www.wanted.co.kr/wd/392094
+
+### 캐치잇플레이 - [AI 학습플랫폼] 프론트 엔지니어 (재택근무가능)
+- url: https://jumpit.saramin.co.kr/position/55297179
+
+### 파이오링크 - AI 풀스택 엔지니어 채용
+- url: https://jumpit.saramin.co.kr/position/55285722
+
+### 플라잎 - Frontend Engineer
+- url: https://jumpit.saramin.co.kr/position/55289075
+
+### 뉴로클 - [비전 AI 플랫폼] 프론트엔드 엔지니어 (경력 5~10년, 전문연구요원 가능)
+- url: https://www.wanted.co.kr/wd/392869
+
+### 고위드 - Frontend Engineer (프론트엔드 엔지니어)
+- url: https://www.wanted.co.kr/wd/392931
+
+### 호미에이아이 - Full-Stack Engineer
+- url: https://www.wanted.co.kr/wd/391209
+
+### 인딥에이아이 - 프론트엔드 개발자 (Middle/4~7년)
+- url: https://www.wanted.co.kr/wd/392768
+
+### 인딥에이아이 - 프론트엔드 개발자 (Junior/1~3년)
+- url: https://www.wanted.co.kr/wd/392766
+
+### 트웰브랩스(TwelveLabs) - Senior Frontend Engineer, Forge
+- url: https://www.wanted.co.kr/wd/392689
