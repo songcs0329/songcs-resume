@@ -1,4 +1,130 @@
-import type { Skill } from '@/data/resume';
+import { skills, type Skill } from '@/data/resume';
+
+export interface CompanyCase {
+  company: string;
+  period: string;
+  title: string;
+  summary: string;
+  metric?: { value: string; label: string };
+  problem: string[];
+  did: string[];
+  result: string[];
+  stack: Skill[];
+}
+
+// ponytail: 이력서 스킬 배지를 label로 재사용 — 노션 동기화로 label이 바뀌면 해당 배지만 조용히 빠짐
+const stackOf = (...labels: string[]) =>
+  skills.flatMap((group) => group.items).filter((skill) => labels.includes(skill.label));
+
+export const companyCases: CompanyCase[] = [
+  {
+    company: '스마일벤처스',
+    period: '2022.08 ~ 2024.01',
+    title: 'Catchfashion 결제 경험 개선',
+    summary: 'MAU 30만 럭셔리 이커머스 리뉴얼에서 장바구니·주문 플로우의 프론트엔드를 맡았습니다.',
+    metric: { value: '+14.27%', label: '결제 전환율(CVR)' },
+    problem: [
+      '복잡한 결제·주문 과정 때문에 전환율이 낮았습니다.',
+      '상품별 관부가세, 프로모션, 포인트 등 할인 정책과 세금 계산이 얽혀 로직이 복잡했습니다.',
+    ],
+    did: [
+      '관부가세·프로모션·포인트를 포함한 할인 정책 계산 로직을 구현하고 안정화했습니다.',
+      '카드번호를 직접 입력하던 결제를 토스페이·카카오페이 PG 연동으로 전환했습니다.',
+      '주문/배송 조회, 취소/반품 처리 등 주문 관리 기능과 환불·결제수단 관리 어드민을 개발했습니다.',
+      'Storybook으로 주요 공통 컴포넌트를 문서화했습니다.',
+    ],
+    result: ['결제 전환율(CVR) 14.27% 증가', '결제 완료 시간 단축', '공통 컴포넌트 문서화로 UI 일관성 확보'],
+    stack: stackOf('React', 'Next.js', 'Redux', 'SWR', 'Storybook'),
+  },
+  {
+    company: '어바웃피싱',
+    period: '2025.01 ~ 2025.10',
+    title: '낚시 포인트맵 SEO·행동 데이터 계측',
+    summary: '지도 기반 조과 공유 서비스에서 검색 유입을 만들고, 그 유입을 커머스·예약으로 연결했습니다.',
+    metric: { value: '+41.8%', label: '검색 클릭 · 구글 서치콘솔 최근 30일' },
+    problem: [
+      '서버 기반 마커 클러스터링이라 개별 조과 데이터를 쓸 수 없어 SEO용 상세 페이지를 만들 수 없었습니다.',
+      '포인트맵 주요 기능의 사용자 행동이 계측되지 않았습니다.',
+      '검색으로 들어온 사용자가 상품·예약으로 이어지는 경로가 없었습니다.',
+    ],
+    did: [
+      '서버 클러스터링을 클라이언트 기반 네이버 맵 클러스터링으로 전환했습니다.',
+      '조과 상세 동적 라우트, robots.txt, sitemap, 메타 태그를 적용했습니다.',
+      'GTM·GA4로 조과 마커·예약 마커 등 주요 행동 이벤트를 설계하고 계측했습니다.',
+      '어바웃피싱 샵 상품 노출, 이벤트 배너, 예약 마커로 커머스·예약 페이지 진입 경로를 만들었습니다.',
+    ],
+    result: [
+      '최근 30일 클릭 1.7천 회(+41.8%), 노출 1.5만 회, 평균 CTR 11.3%',
+      '조과 마커 클릭 42만+건, 예약 마커 클릭 9천+건 계측',
+      '검색 유입에서 커머스·예약으로 이어지는 전환 접점 확보',
+    ],
+    stack: stackOf(
+      'Next.js',
+      'React',
+      'TypeScript',
+      'Tailwind CSS',
+      'Zustand',
+      'TanStack Query',
+      'GraphQL(Apollo Client)',
+      'SEO',
+    ),
+  },
+  {
+    company: '어바웃피싱',
+    period: '2026.02 ~ 현재',
+    title: '낚시 예약 결제 흐름 개선',
+    summary: '예약 플랫폼에서 결제 직전의 고민과 결제·취소 이후의 막힘을 줄였습니다.',
+    problem: [
+      '결제 페이지에서 사용자가 쿠폰을 하나씩 비교해야 했습니다.',
+      '결제 후 뒤로가기를 하면 오류가 나거나 결제 승인이 다시 실행됐습니다.',
+      '예약을 취소한 사용자가 다시 예약할 경로가 없었습니다.',
+    ],
+    did: [
+      '결제 페이지 첫 진입 시 할인액이 가장 큰 쿠폰을 자동 적용하고 쿠폰 목록을 할인액 순으로 정렬했습니다.',
+      '화면 이동과 브라우저 히스토리를 개선해 결제 후 뒤로가기 오류와 결제 승인 재실행을 막았습니다.',
+      '예약 취소 완료 화면에 재예약 달력과 위치 기반 근처 선박 목록을 추가했습니다.',
+      '전체 좌석 배치와 판매 좌석 비활성화를 함께 보여 좌석 위치와 예약 가능 여부를 한 번에 확인하게 했습니다.',
+    ],
+    result: [
+      '쿠폰을 직접 비교하지 않아도 가장 큰 할인으로 결제',
+      '결제 후 뒤로가기로 인한 결제 승인 재실행 차단',
+      '취소 완료 화면에서 재예약으로 이어지는 경로 확보',
+    ],
+    stack: stackOf('React', 'TypeScript'),
+  },
+  {
+    company: '어바웃피싱',
+    period: '2026.02 ~ 현재',
+    title: '예약 운영 백오피스 구조 개선',
+    summary: '선박·낚시터 예약 운영 백오피스의 UI와 폼, 서버 상태 관리 구조를 단계적으로 개선했습니다.',
+    problem: [
+      '선박·낚시터 등록과 상품 등록 폼 4종에서 이미지 업로드, 계좌 입력, 선택 항목이 각각 따로 구현돼 있었습니다.',
+      '폼 검증과 오류 표시 방식이 화면마다 달랐습니다.',
+    ],
+    did: [
+      '기존 CSS와의 호환성을 고려해 Tailwind CSS·shadcn/ui를 도입하고 입력·선택·날짜·팝업 컴포넌트와 목록 화면 구조를 공통화했습니다.',
+      '폼 4종의 반복 영역을 공통 컴포넌트로 분리했습니다.',
+      '업무 폼을 React Hook Form·Zod 기반으로 전환했습니다.',
+      'API 호출을 TanStack Query 기반 도메인별 조회·변경 훅으로 재구성했습니다.',
+    ],
+    result: [
+      '등록 폼 4종의 반복 영역 공통화',
+      '조건부·배열 검증과 오류 표시 정책 통일',
+      '변경 후 목록·상세 캐시 갱신과 공통 오류 처리 적용',
+    ],
+    stack: stackOf(
+      'React',
+      'TypeScript',
+      'Tailwind CSS',
+      'shadcn/ui',
+      'TanStack Query',
+      'React Hook Form',
+      'Zod',
+      'REST API(Axios)',
+      'GraphQL(Apollo Client)',
+    ),
+  },
+];
 
 export interface PortfolioProject {
   title: string;
