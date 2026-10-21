@@ -1,9 +1,205 @@
 {
   "meta": {
-    "last_collected": "2026-10-19",
-    "total": 221
+    "last_collected": "2026-10-21",
+    "total": 225
   },
   "jobs": [
+    {
+      "id": "tenbillion-frontend-fe-6to9-2026-10",
+      "company": "텐빌리언",
+      "title": "프론트엔드 개발 경력 (6~9년)",
+      "level": "시니어",
+      "scale": "투자정보 미확인",
+      "source": "jumpit",
+      "url": "https://jumpit.saramin.co.kr/position/55309502",
+      "location": "서울 구로구",
+      "exp": "6~9년",
+      "exp_min_years": 6,
+      "posted_date": null,
+      "first_seen": "2026-10-21",
+      "domains": [
+        "이커머스"
+      ],
+      "deadline": "2026-11-16",
+      "deadline_type": "date",
+      "process": [
+        "서류전형",
+        "면접전형",
+        "합격자 발표"
+      ],
+      "process_confirmed": true,
+      "has_codingtest": "미확인",
+      "fit_score": 52,
+      "fit_tier": "하",
+      "fit_reasons": [
+        "카페24 기반 레거시 스택(HTML/CSS/JS)만 요구 — React/TypeScript/Next.js 경력 활용도 낮음",
+        "이커머스 쇼핑몰 도메인 자체는 후보자 강점과 부합하나 기술스택 불일치"
+      ],
+      "tier": "문열기",
+      "is_new": true,
+      "brief": {
+        "company_status": "의류·생활용품 수입유통 이커머스 기업, 업력 6년(2021년 설립), 투자정보 미확인",
+        "verdict": "카페24 기반 쇼핑몰 운영 — React 등 모던 FE 프레임워크 요구 없음",
+        "strengths": [
+          "이커머스 쇼핑몰 도메인 이해"
+        ],
+        "gaps": [
+          "React/TypeScript 등 모던 프레임워크 요구 없음 — 카페24·HTML/CSS/JS 기반",
+          "기술 스택이 후보자 핵심 역량(React 생태계)과 거리가 있음"
+        ],
+        "pass_odds": "낮음",
+        "strategy": "카페24 실무 경험 여부부터 확인 필요, 지원 우선순위 낮음",
+        "sources": []
+      }
+    },
+    {
+      "id": "tenbillion-frontend-fe-2to5-2026-10",
+      "company": "텐빌리언",
+      "title": "프론트엔드 개발 경력 (2~5년)",
+      "level": null,
+      "scale": "투자정보 미확인",
+      "source": "jumpit",
+      "url": "https://jumpit.saramin.co.kr/position/55309483",
+      "location": "서울 구로구",
+      "exp": "2~5년",
+      "exp_min_years": 2,
+      "posted_date": null,
+      "first_seen": "2026-10-21",
+      "domains": [
+        "이커머스"
+      ],
+      "deadline": "2026-11-16",
+      "deadline_type": "date",
+      "process": [
+        "서류전형",
+        "면접전형",
+        "합격자 발표"
+      ],
+      "process_confirmed": true,
+      "has_codingtest": "미확인",
+      "fit_score": 45,
+      "fit_tier": "하",
+      "fit_reasons": [
+        "요구 경력(2~5년)이 후보자 경력(7년+)보다 낮아 포지션 레벨 불일치(오버스펙)",
+        "카페24 기반 레거시 스택(HTML/CSS/JS)만 요구 — React/TypeScript 활용도 낮음"
+      ],
+      "tier": "문열기",
+      "is_new": true,
+      "brief": {
+        "company_status": "의류·생활용품 수입유통 이커머스 기업, 업력 6년(2021년 설립), 투자정보 미확인",
+        "verdict": "카페24 기반 쇼핑몰 운영, 경력 2~5년 대상 — 후보자 대비 낮은 연차",
+        "strengths": [
+          "이커머스 쇼핑몰 도메인 이해"
+        ],
+        "gaps": [
+          "요구 연차가 후보자보다 낮아 포지션 적합도 낮음",
+          "React/TypeScript 등 모던 프레임워크 요구 없음"
+        ],
+        "pass_odds": "낮음",
+        "strategy": "지원 우선순위 낮음 — 같은 회사 6~9년 포지션 대비 메리트 없음",
+        "sources": []
+      }
+    },
+    {
+      "id": "h2o-hospitality-frontend-senior-2026-10",
+      "company": "에이치투오호스피탈리티",
+      "title": "[H2O KOREA] Frontend Senior Engineer",
+      "level": "시니어",
+      "scale": "누적 투자 약 480억원(카카오인베스트먼트·KDB산업은행·삼성벤처투자 등), 아시아 5개국 진출, Forbes Asia 100대 기업 선정(2021)",
+      "source": "wanted",
+      "url": "https://www.wanted.co.kr/wd/393563",
+      "location": "서울 금천구",
+      "exp": "7-14년",
+      "exp_min_years": 7,
+      "posted_date": null,
+      "first_seen": "2026-10-21",
+      "domains": [
+        "호스피탈리티",
+        "예약·체크인",
+        "관리자 대시보드"
+      ],
+      "deadline": null,
+      "deadline_type": "rolling",
+      "deadline_label": "상시채용",
+      "process": [],
+      "process_confirmed": false,
+      "has_codingtest": "미확인",
+      "fit_score": 80,
+      "fit_tier": "상",
+      "fit_reasons": [
+        "React 18/TypeScript/Next.js 14 핵심 스택 정확히 일치, 경력 7년 이상 요건 충족",
+        "대용량 데이터 테이블·복잡 폼 등 고난도 관리자 UI 구현 요구 — 후보자 강점(결제·주문 플로우)과 연결",
+        "예약/체크인 도메인은 결제 플로우 경험과 간접적으로만 연결 — 완전히 동일하진 않음"
+      ],
+      "tier": "문샷",
+      "is_new": true,
+      "brief": {
+        "company_status": "아시아 5개국(한국·일본·태국·베트남·싱가포르) 진출 숙박레저 DX 기업, 누적 투자 약 480억원, Forbes Asia 100대 기업(2021) 선정",
+        "verdict": "순수 FE Senior Engineer IC 포지션 — 관리 업무 없음",
+        "strengths": [
+          "React18/TypeScript/Next.js14 스택 정확히 일치",
+          "React Query 기반 비동기 상태관리 경험 요구 — 후보자 스택과 일치",
+          "복잡한 폼/대용량 테이블 UI 구현 경험 요구 — 결제·주문 플로우 경험과 연결 가능"
+        ],
+        "gaps": [
+          "게스트 체크인·호스피탈리티 도메인은 후보자 경력(이커머스·지도)과 직접 겹치지 않음",
+          "다국어 대응·암호화 payload 통신 등 신규 영역 학습 필요"
+        ],
+        "pass_odds": "중간",
+        "strategy": "React Query/Next.js 기반 대용량 데이터 UI 구현 사례를 강조하고, 체크인 플로우를 결제·주문 UX 설계 경험에 빗대어 어필",
+        "sources": []
+      }
+    },
+    {
+      "id": "inex-frontend-ux-engineer-2026-10",
+      "company": "인피니티익스체인지코리아",
+      "title": "Frontend UX Engineer",
+      "level": null,
+      "scale": "투자정보 미확인",
+      "source": "wanted",
+      "url": "https://www.wanted.co.kr/wd/392929",
+      "location": "서울 강남구",
+      "exp": "3-8년",
+      "exp_min_years": 3,
+      "posted_date": null,
+      "first_seen": "2026-10-21",
+      "domains": [
+        "핀테크",
+        "가상자산",
+        "디자인시스템"
+      ],
+      "deadline": null,
+      "deadline_type": "rolling",
+      "deadline_label": "상시채용",
+      "process": [],
+      "process_confirmed": false,
+      "has_codingtest": "미확인",
+      "fit_score": 76,
+      "fit_tier": "상",
+      "fit_reasons": [
+        "React/Next.js/TypeScript/Tailwind 스택 일치, 디자인시스템·UI라이브러리 구축 업무 — 후보자 강점과 부합",
+        "핀테크(가상자산 거래소) 도메인은 후보자의 결제·핀테크 경험과 연관성 있음",
+        "경력 3-8년 범위로 후보자(7년+) 상단에 위치 — 적합"
+      ],
+      "tier": "문열기",
+      "is_new": true,
+      "brief": {
+        "company_status": "가상자산 거래소, 법인회원 서비스·AML 시스템 고도화 등 금융 인프라 확장 중 — 투자정보 미확인",
+        "verdict": "FE/UX 전담 IC 포지션, 백엔드(Java/Spring)는 별도 조직 — 본 포지션은 퍼블리싱·디자인시스템·UX 설계 중심",
+        "strengths": [
+          "React/Next.js/Tailwind/TanStack Query 스택 일치",
+          "디자인시스템 설계 경험 요구 — 컴포넌트 기반 개발 역량과 부합",
+          "핀테크/금융 서비스 UX 이해 요구 — 결제 도메인 경험과 연결 가능"
+        ],
+        "gaps": [
+          "가상자산 산업 특화 도메인 지식 필요",
+          "투자정보 미확인으로 회사 안정성 판단 어려움"
+        ],
+        "pass_odds": "중간",
+        "strategy": "결제·핀테크 UX 설계 경험과 디자인시스템 구축 사례를 강조",
+        "sources": []
+      }
+    },
     {
       "id": "catchitplay-2026-10",
       "company": "캐치잇플레이",
@@ -35,7 +231,7 @@
         "에듀테크 도메인은 커머스·결제 강점과 직접 연관성 낮음"
       ],
       "tier": "문열기",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "제주 거점 풀재택 에듀테크 스타트업, 시리즈A 투자유치, 캐치잇 잉글리시/코리안 서비스 운영 중",
         "strengths": [
@@ -84,7 +280,7 @@
         "로봇 제어 GUI 도메인은 기존 커머스·지도 강점과 무관"
       ],
       "tier": "문열기",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "로봇 제어 GUI 개발 스타트업, 투자정보 미확인",
         "strengths": [
@@ -132,7 +328,7 @@
         "비전 AI·캔버스 라벨링 에디터 도메인 경험 없음"
       ],
       "tier": "문열기",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "비전 AI B2B 소프트웨어 기업, 7년 연속 매출 성장, 40여개국 진출, 투자정보 미확인",
         "strengths": [
@@ -182,7 +378,7 @@
         "순수 IC(FE) 역할, 관리 비중 없음"
       ],
       "tier": "문열기",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "B2B 핀테크, 스타트업 전용 법인카드 서비스, 3,500+ 고객사, BEP 달성, 투자정보 미확인",
         "strengths": [
@@ -230,7 +426,7 @@
         "SI/공공기관 도메인은 기존 커머스·결제 강점과 무관, 계약직(1년) 형태"
       ],
       "tier": "문열기",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "AI 기반 채용·HR 솔루션 기업, 계약직 1년(정규직 전환 검토), 투자정보 미확인",
         "strengths": [
@@ -279,7 +475,7 @@
         "영상 AI SaaS 플랫폼 도메인은 기존 커머스·결제·지도 강점과 직접 연관성 낮음"
       ],
       "tier": "문샷",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "영상 AI 인프라 기업, 샌프란시스코·서울·뉴욕·런던 오피스, 누적 3천억원+ 투자유치(NVIDIA, Amazon, Index Ventures 등)",
         "strengths": [
