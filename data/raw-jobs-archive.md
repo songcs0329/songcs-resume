@@ -1070,3 +1070,17 @@
 
 ### 트웰브랩스(TwelveLabs) - Senior Frontend Engineer, Forge
 - url: https://www.wanted.co.kr/wd/392689
+### 텐빌리언 - 프론트엔드 개발 경력 (6~9년)
+- url: https://jumpit.saramin.co.kr/position/55309502
+### 텐빌리언 - 프론트엔드 개발 경력 (2~5년)
+- url: https://jumpit.saramin.co.kr/position/55309483
+### 에이아이비즈 - Full-Stack Developer(풀스택 개발자)
+- url: https://www.wanted.co.kr/wd/393594
+### 에이치투오호스피탈리티 - [H2O KOREA] Frontend Senior Engineer
+- url: https://www.wanted.co.kr/wd/393563
+### 에이치아이티 - 풀스택 개발자(Nest.js 서버, React 웹)
+- url: https://www.wanted.co.kr/wd/393333
+### 인피니티익스체인지코리아 - Frontend UX Engineer
+- url: https://www.wanted.co.kr/wd/392929
+### 아이제라 - 풀스택 엔지니어 (가산)
+- url: https://www.wanted.co.kr/wd/393054
