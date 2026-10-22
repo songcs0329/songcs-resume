@@ -24,7 +24,10 @@ NEW_PATH = ROOT / "data/curated-new.json"
 def repost_key(job):
     """재게시·교차게시는 URL만 바뀌므로 회사+직책(공백·괄호·구두점 무시)으로 같은 공고를 판정."""
     norm = lambda s: re.sub(r"[\s()\[\]·\-_/,.]", "", (s or "").lower())
-    return norm(job.get("company")) + "|" + norm(job.get("title"))
+    company, title = norm(job.get("company")), norm(job.get("title"))
+    if not company or not title:
+        return "id:" + job["id"]  # 회사·직책이 비면 판정 불가 — 자기 자신만
+    return company + "|" + title
 
 
 def merge(data, new_jobs, today):
