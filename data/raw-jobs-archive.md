@@ -1084,3 +1084,5 @@
 - url: https://www.wanted.co.kr/wd/392929
 ### 아이제라 - 풀스택 엔지니어 (가산)
 - url: https://www.wanted.co.kr/wd/393054
+### 제네시스네스트 - 프론트엔드 개발자 [1~8년]
+- url: https://jumpit.saramin.co.kr/position/55338125
