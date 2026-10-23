@@ -1,9 +1,215 @@
 {
   "meta": {
-    "last_collected": "2026-10-22",
-    "total": 203
+    "last_collected": "2026-10-23",
+    "total": 206
   },
   "jobs": [
+    {
+      "id": "bigcare-platform-fe-2026-10",
+      "company": "빅케어",
+      "title": "플랫폼개발팀 프론트엔드 개발자",
+      "level": "미들",
+      "scale": "투자정보 미확인",
+      "source": "wanted",
+      "url": "https://www.wanted.co.kr/wd/394106",
+      "location": "서울 강남구",
+      "exp": "경력 4-7년",
+      "exp_min_years": 4,
+      "posted_date": null,
+      "first_seen": "2026-10-23",
+      "domains": [
+        "헬스케어",
+        "예약"
+      ],
+      "deadline": "2026-11-30",
+      "deadline_type": "date",
+      "deadline_label": "2026.11.30",
+      "process": [
+        "서류전형",
+        "1차 면접",
+        "2~3차 면접"
+      ],
+      "process_confirmed": true,
+      "has_codingtest": "미확인",
+      "fit_score": 77,
+      "fit_tier": "상",
+      "fit_reasons": [
+        "React·TypeScript·TanStack Query·Redux Toolkit·Tailwind — 보유 스택과 거의 일치",
+        "검진예약 B2B·B2C 웹의 예약 플로우 운영·개선 — 주문/결제 플로우 경험과 연결",
+        "경력 4-7년 범위에 부합, 관리 직책 아님(감점 없음)"
+      ],
+      "tier": "문열기",
+      "is_new": true,
+      "brief": {
+        "company_status": "디지털 헬스케어 플랫폼 스타트업. 투자정보 미확인.",
+        "verdict": "IC 프론트엔드 포지션. 스택·경력대 모두 적합하나 자격요건이 기본기 위주라 도전 과제는 다소 낮음.",
+        "strengths": [
+          "React/TS/Tailwind/TanStack Query 실무",
+          "예약·결제 플로우 CVR 개선 경험",
+          "성능·SEO 개선 경험"
+        ],
+        "gaps": [
+          "헬스케어 도메인 경험 없음",
+          "Jenkins CI/CD 경험 미확인"
+        ],
+        "pass_odds": "높음",
+        "strategy": "예약 플로우 전환율 개선 사례(CVR +14.27%)를 전면에 내세운다.",
+        "sources": [
+          "https://www.wanted.co.kr/wd/394106"
+        ]
+      }
+    },
+    {
+      "id": "genesisnest-fe-1to8-2026-10",
+      "company": "제네시스네스트",
+      "title": "프론트엔드 개발자 (1~8년 미만)",
+      "level": "미들",
+      "scale": "투자정보 미확인 (외부 투자 없이 연매출 100억+ 흑자, 130명)",
+      "source": "wanted",
+      "url": "https://www.wanted.co.kr/wd/393277",
+      "location": "경기 용인시",
+      "exp": "경력 1-8년",
+      "exp_min_years": 1,
+      "posted_date": null,
+      "first_seen": "2026-10-23",
+      "domains": [
+        "SI/에이전시"
+      ],
+      "deadline": "2026-10-31",
+      "deadline_type": "date",
+      "deadline_label": "2026.10.31",
+      "process": [],
+      "process_confirmed": false,
+      "has_codingtest": "미확인",
+      "fit_score": 62,
+      "fit_tier": "하",
+      "fit_reasons": [
+        "React/Vue 프레임워크 FE — 스택 일치",
+        "주요업무·요구사항이 일반적이라 주축 강점(결제·지도·SEO)과의 접점이 불분명",
+        "근무지 경기 용인, 고객사 맞춤 개발 중심 조직"
+      ],
+      "tier": "문열기",
+      "is_new": true,
+      "brief": {
+        "company_status": "2022년 설립, 130명, 외부 투자 없이 흑자 성장. 현대·기아 제네시스 원앱 등 외주/자체 서비스 병행.",
+        "verdict": "FE 100% IC. 마감이 8일 남아 시간 촉박하고 도메인 매칭이 약함.",
+        "strengths": [
+          "React/Vue 경험"
+        ],
+        "gaps": [
+          "서비스 도메인 불명확",
+          "용인 출퇴근"
+        ],
+        "pass_odds": "중간",
+        "strategy": "지원한다면 마감(10/31) 전 빠르게. 우선순위는 낮음.",
+        "sources": [
+          "https://www.wanted.co.kr/wd/393277"
+        ]
+      }
+    },
+    {
+      "id": "coxwave-krewa-fe-2026-10",
+      "company": "콕스웨이브",
+      "title": "[AX krewa] 프로덕트 엔지니어 (Frontend)",
+      "level": "미들",
+      "scale": "투자정보 미확인",
+      "source": "wanted",
+      "url": "https://www.wanted.co.kr/wd/393865",
+      "location": "서울 영등포구",
+      "exp": "경력 3-7년",
+      "exp_min_years": 3,
+      "posted_date": null,
+      "first_seen": "2026-10-23",
+      "domains": [
+        "AI",
+        "B2B SaaS"
+      ],
+      "deadline": null,
+      "deadline_type": "unknown",
+      "deadline_label": "확인 필요",
+      "process": [],
+      "process_confirmed": false,
+      "has_codingtest": "미확인",
+      "fit_score": 66,
+      "fit_tier": "중",
+      "fit_reasons": [
+        "AI Agent 운영 제품의 프론트엔드 — 제품 중심 프로덕트 엔지니어 역할",
+        "수집 본문이 중간에 잘려 자격요건·스택 확인 불가, 점수 보수적으로 산정",
+        "경력 3-7년 범위 부합, 관리 직책 아님"
+      ],
+      "tier": "문열기",
+      "is_new": true,
+      "brief": {
+        "company_status": "2021년부터 AI 평가·통제 솔루션 운영. 글로벌 고객사 300+, 신규 제품 krewa(AX) 팀 채용. 투자정보 미확인.",
+        "verdict": "FE 중심 프로덕트 엔지니어로 보이나 본문 잘림으로 자격요건 미확인. 0→1 성격의 초기 제품.",
+        "strengths": [
+          "제품 주도적 개발 성향",
+          "프로덕션 운영 경험"
+        ],
+        "gaps": [
+          "AI/LLM 제품 경험",
+          "자격요건 미확인"
+        ],
+        "pass_odds": "중간",
+        "strategy": "원문에서 스택·자격요건을 직접 확인 후 지원 여부 결정.",
+        "sources": [
+          "https://www.wanted.co.kr/wd/393865"
+        ]
+      }
+    },
+    {
+      "id": "lawcompany-fde-fullstack-2026-10",
+      "company": "로앤컴퍼니(lawtalk)",
+      "title": "FDE팀 Full Stack Engineer",
+      "level": "시니어",
+      "scale": "누적 투자 870억+ (리걸테크)",
+      "source": "wanted",
+      "url": "https://www.wanted.co.kr/wd/393805",
+      "location": "서울 서초구",
+      "exp": "경력 3-8년 (자격요건 5년 이상)",
+      "exp_min_years": 3,
+      "posted_date": null,
+      "first_seen": "2026-10-23",
+      "domains": [
+        "리걸테크",
+        "AI",
+        "풀스택"
+      ],
+      "deadline": null,
+      "deadline_type": "rolling",
+      "deadline_label": "상시채용",
+      "process": [],
+      "process_confirmed": false,
+      "has_codingtest": "미확인",
+      "fit_score": 66,
+      "fit_tier": "중",
+      "fit_reasons": [
+        "React·TypeScript + Node.js(TypeScript) 풀스택 — 스택 일치, BE 언어 제한(Java 등) 없음",
+        "BE 비중 있는 풀스택(FE 50~70%) -10점",
+        "고객 요구 분석·PoC·화면부터 API까지 end-to-end 개발 — 제품 감각 필요"
+      ],
+      "tier": "문샷",
+      "is_new": true,
+      "brief": {
+        "company_status": "리걸테크 리딩 기업, 누적 870억+ 투자, 월 160만 방문 로톡·슈퍼로이어 운영.",
+        "verdict": "FE 6 : BE 4 — React/TS 화면과 Node.js API를 모두 요구, 고객 대면 업무 포함.",
+        "strengths": [
+          "React/TS 5년",
+          "end-to-end 기능 주도 경험",
+          "결제·PG 연동 시 서버 연동 경험"
+        ],
+        "gaps": [
+          "Node.js 백엔드 운영 경험 깊이",
+          "Kubernetes/AWS 인프라",
+          "고객사 대면 SI 성격"
+        ],
+        "pass_odds": "중간",
+        "strategy": "BFF/Node 연동 경험과 요구사항 정의→배포까지 주도한 사례를 강조.",
+        "sources": [
+          "https://www.wanted.co.kr/wd/393805"
+        ]
+      }
+    },
     {
       "id": "genesisnest-frontend-2026-10",
       "company": "제네시스네스트",
@@ -41,7 +247,7 @@
         "1~8년 폭넓은 레벨, 근무지 용인 수지"
       ],
       "tier": "문열기",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "2022년 설립, 130명, 외부 투자 없이 연매출 100억+ 3년 연속 흑자. 외주 개발 + 자체 서비스(꼬미·ChatPlanet)",
         "verdict": "FE 순수 포지션, 업무 기술이 '프론트엔드 개발'로 추상적",
@@ -1494,51 +1700,6 @@
         ],
         "pass_odds": "낮음",
         "strategy": "AI 도구 활용 개발 경험이 있다면 강조, 그 외에는 우선순위 낮게 고려",
-        "sources": []
-      }
-    },
-    {
-      "id": "coxwave-fe-2026-10",
-      "company": "콕스웨이브",
-      "title": "[AX krewa] 프로덕트 엔지니어 (Frontend)",
-      "level": null,
-      "scale": "투자정보 미확인",
-      "source": "wanted",
-      "url": "https://www.wanted.co.kr/wd/391002",
-      "location": "서울 영등포구",
-      "exp": "경력 3-7년",
-      "exp_min_years": 3,
-      "posted_date": null,
-      "first_seen": "2026-10-09",
-      "domains": [
-        "AI Agent",
-        "엔터프라이즈SaaS"
-      ],
-      "deadline": null,
-      "deadline_type": "unknown",
-      "deadline_label": null,
-      "process": [],
-      "process_confirmed": false,
-      "has_codingtest": "미확인",
-      "fit_score": 62,
-      "fit_tier": "하",
-      "fit_reasons": [
-        "순수 FE 프로덕트 엔지니어, 직책 감점 없음",
-        "AI 에이전트 신뢰성 플랫폼 도메인은 후보자 강점과 거리 있음",
-        "공고 본문이 일부만 확인되어 상세 스택 비교 제한적"
-      ],
-      "tier": "문열기",
-      "is_new": false,
-      "brief": {
-        "company_status": "AI 에이전트 신뢰성/실행통제 플랫폼 스타트업, Microsoft/NVIDIA/Anthropic 등과 협업, 투자 정보 미확인",
-        "verdict": "프론트엔드 중심 프로덕트 엔지니어 역할로 보이나 본문이 잘려 상세 자격요건 확인 불가",
-        "strengths": [],
-        "gaps": [
-          "도메인(AI Agent 운영) 경험 없음",
-          "공고 본문 일부만 확인됨"
-        ],
-        "pass_odds": "낮음",
-        "strategy": "지원 전 전체 공고 재확인 권장",
         "sources": []
       }
     },
