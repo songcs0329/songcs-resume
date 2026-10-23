@@ -1086,3 +1086,27 @@
 - url: https://www.wanted.co.kr/wd/393054
 ### 제네시스네스트 - 프론트엔드 개발자 [1~8년]
 - url: https://jumpit.saramin.co.kr/position/55338125
+
+### 빅케어 - 플랫폼개발팀 프론트엔드 개발자
+- url: https://www.wanted.co.kr/wd/394106
+
+### 제네시스네스트 - 프론트엔드 개발자 (8~15년)
+- url: https://www.wanted.co.kr/wd/393991
+
+### 제네시스네스트 - 프론트엔드 개발자 (1~8년 미만)
+- url: https://www.wanted.co.kr/wd/393277
+
+### 콕스웨이브 - [AX krewa] 프로덕트 엔지니어 (Frontend)
+- url: https://www.wanted.co.kr/wd/393865
+
+### 위트글로벌 - 풀스택 개발자 (JavaScript, Python / 데이터 수집)
+- url: https://www.wanted.co.kr/wd/393816
+
+### 한화그룹 (Hanwha) - [한화시스템/방산] 다중센서 분석/판독 Front-End 개발
+- url: https://www.wanted.co.kr/wd/393809
+
+### 로앤컴퍼니(lawtalk) - FDE팀 Full Stack Engineer
+- url: https://www.wanted.co.kr/wd/393805
+
+### 쿼드마이너 - R&D 풀스택 개발자
+- url: https://www.wanted.co.kr/wd/393685
