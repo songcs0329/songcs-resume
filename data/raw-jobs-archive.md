@@ -1110,3 +1110,18 @@
 
 ### 쿼드마이너 - R&D 풀스택 개발자
 - url: https://www.wanted.co.kr/wd/393685
+
+### 티시스아이티 - 서버/웹프론트엔지니어(저축은행)
+- url: https://jumpit.saramin.co.kr/position/55368513
+
+### 제네시스네스트 - 프론트엔드 개발자 [8~15년]
+- url: https://jumpit.saramin.co.kr/position/55364928
+
+### 시큐어포인트 - 프로덕트 프론트엔드 개발자(JavaScript·TypeScript)
+- url: https://www.wanted.co.kr/wd/394361
+
+### 잇올 - 풀스택 개발자
+- url: https://www.wanted.co.kr/wd/394251
+
+### 뉴로클 - [비전 AI 플랫폼] 프론트엔드 엔지니어 (경력 5~10년, 전문연구요원 가능)
+- url: https://www.wanted.co.kr/wd/394205

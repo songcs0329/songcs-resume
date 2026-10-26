@@ -1,9 +1,161 @@
 {
   "meta": {
-    "last_collected": "2026-10-23",
-    "total": 206
+    "last_collected": "2026-10-26",
+    "total": 208
   },
   "jobs": [
+    {
+      "id": "securepoint-fe-2026-10",
+      "company": "시큐어포인트",
+      "title": "프로덕트 프론트엔드 개발자(JavaScript·TypeScript)",
+      "level": "시니어",
+      "scale": "투자정보 미확인",
+      "source": "wanted",
+      "url": "https://www.wanted.co.kr/wd/394361",
+      "location": "대전 유성구",
+      "exp": "경력 5-11년",
+      "exp_min_years": 5,
+      "posted_date": null,
+      "first_seen": "2026-10-26",
+      "domains": [
+        "보안",
+        "B2B"
+      ],
+      "deadline": null,
+      "deadline_type": "rolling",
+      "deadline_label": "상시채용",
+      "process": [],
+      "process_confirmed": false,
+      "has_codingtest": "미확인",
+      "fit_score": 60,
+      "fit_tier": "하",
+      "fit_reasons": [
+        "React/Vue·TypeScript·REST 연동·공통 UI 컴포넌트 등 스택은 부합",
+        "결제·지도·SEO 등 주축 강점과 접점이 약한 B2B 보안 대시보드 제품",
+        "대전 근무로 접근성 낮음"
+      ],
+      "tier": "문열기",
+      "is_new": true,
+      "brief": {
+        "company_status": "2020년 설립 정보보안·네트워크 인프라 기업, 투자정보 미확인",
+        "verdict": "IC 프론트엔드 포지션, 조직 관리 없음 — 감점 없음. 도메인 연관성이 낮아 점수 하단",
+        "strengths": [
+          "컴포넌트·상태관리·성능개선 경험 직접 활용",
+          "디자인 시스템 협업 경험"
+        ],
+        "gaps": [
+          "보안/대시보드 도메인 경험 부족",
+          "대전 근무"
+        ],
+        "pass_odds": "중간",
+        "strategy": "공통 UI·성능 개선 사례 중심으로 어필",
+        "sources": [
+          "https://www.wanted.co.kr/wd/394361"
+        ]
+      }
+    },
+    {
+      "id": "itall-fullstack-2026-10",
+      "company": "잇올",
+      "title": "풀스택 개발자",
+      "level": "시니어",
+      "scale": "투자정보 미확인 (연매출 830억, 직영 센터 160여 개)",
+      "source": "wanted",
+      "url": "https://www.wanted.co.kr/wd/394251",
+      "location": "서울 서초구",
+      "exp": "경력 5년 이상",
+      "exp_min_years": 5,
+      "posted_date": null,
+      "first_seen": "2026-10-26",
+      "domains": [
+        "에듀테크",
+        "풀스택"
+      ],
+      "deadline": null,
+      "deadline_type": "rolling",
+      "deadline_label": "상시채용",
+      "process": [],
+      "process_confirmed": false,
+      "has_codingtest": "미확인",
+      "fit_score": 62,
+      "fit_tier": "하",
+      "fit_reasons": [
+        "Next.js·TypeScript 실무 경력 요구 부합",
+        "BE 비중 있는 풀스택(FastAPI·RDB 설계 포함) -10점",
+        "RN 앱 개발 포함, 결제·지도 강점 활용 여지는 일부"
+      ],
+      "tier": "문열기",
+      "is_new": true,
+      "brief": {
+        "company_status": "연매출 830억 규모 에듀테크, 투자정보 미확인",
+        "verdict": "FE 약 55 : BE 약 45 — Next.js 어드민/웹 + RN 앱 + FastAPI API. API는 Python 또는 Node.js 경험이면 가능하다고 명시",
+        "strengths": [
+          "Next.js·TypeScript 경험",
+          "Node 기반 API 가능 시 지원 요건 충족"
+        ],
+        "gaps": [
+          "FastAPI/Python 실무 없음",
+          "RDB 설계 경험 증빙 필요",
+          "React Native 비중"
+        ],
+        "pass_odds": "중간",
+        "strategy": "Node 기반 API·BFF 경험과 Next.js 성과를 전면에",
+        "sources": [
+          "https://www.wanted.co.kr/wd/394251"
+        ]
+      }
+    },
+    {
+      "id": "neurocle-fe-2026-10",
+      "company": "뉴로클",
+      "title": "[비전 AI 플랫폼] 프론트엔드 엔지니어 (경력 5~10년, 전문연구요원 가능)",
+      "level": "시니어",
+      "scale": "투자정보 미확인 (7년 연속 매출 성장, 수익화 성공)",
+      "source": "wanted",
+      "url": "https://www.wanted.co.kr/wd/394205",
+      "location": "서울 강동구",
+      "exp": "경력 3-10년",
+      "exp_min_years": 5,
+      "posted_date": null,
+      "first_seen": "2026-10-26",
+      "domains": [
+        "AI",
+        "B2B",
+        "시각화"
+      ],
+      "deadline": "2026-10-29",
+      "deadline_type": "date",
+      "deadline_label": "2026.10.29",
+      "process": [],
+      "process_confirmed": false,
+      "has_codingtest": "미확인",
+      "fit_score": 66,
+      "fit_tier": "중",
+      "fit_reasons": [
+        "React·TypeScript·Redux Toolkit 스택 일치, 기술 의사결정 주도 경험 요구",
+        "캔버스 기반 라벨링 에디터(Konva)는 지도 클러스터링·렌더링 최적화 경험과 일부 접점",
+        "결제·SEO 강점과는 거리, 마감 임박(10/29)"
+      ],
+      "tier": "문열기",
+      "is_new": true,
+      "brief": {
+        "company_status": "B2B AI Vision 소프트웨어, 40여 개국 진출, 투자정보 미확인",
+        "verdict": "IC 프론트엔드, 관리 직책 없음. 2D 캔버스 에디터이며 3D·WebGL 주축은 아님",
+        "strengths": [
+          "대용량 렌더링·성능 최적화 경험",
+          "Redux·TS 스택"
+        ],
+        "gaps": [
+          "그래픽 에디터(Undo/Redo, 마스크 편집) 경험 부족",
+          "AI/비전 도메인"
+        ],
+        "pass_odds": "중간",
+        "strategy": "지도 마커 클러스터링 등 대량 데이터 렌더링 성능 사례 강조",
+        "sources": [
+          "https://www.wanted.co.kr/wd/394205"
+        ]
+      }
+    },
     {
       "id": "bigcare-platform-fe-2026-10",
       "company": "빅케어",
@@ -39,7 +191,7 @@
         "경력 4-7년 범위에 부합, 관리 직책 아님(감점 없음)"
       ],
       "tier": "문열기",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "디지털 헬스케어 플랫폼 스타트업. 투자정보 미확인.",
         "verdict": "IC 프론트엔드 포지션. 스택·경력대 모두 적합하나 자격요건이 기본기 위주라 도전 과제는 다소 낮음.",
@@ -89,7 +241,7 @@
         "근무지 경기 용인, 고객사 맞춤 개발 중심 조직"
       ],
       "tier": "문열기",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "2022년 설립, 130명, 외부 투자 없이 흑자 성장. 현대·기아 제네시스 원앱 등 외주/자체 서비스 병행.",
         "verdict": "FE 100% IC. 마감이 8일 남아 시간 촉박하고 도메인 매칭이 약함.",
@@ -138,7 +290,7 @@
         "경력 3-7년 범위 부합, 관리 직책 아님"
       ],
       "tier": "문열기",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "2021년부터 AI 평가·통제 솔루션 운영. 글로벌 고객사 300+, 신규 제품 krewa(AX) 팀 채용. 투자정보 미확인.",
         "verdict": "FE 중심 프로덕트 엔지니어로 보이나 본문 잘림으로 자격요건 미확인. 0→1 성격의 초기 제품.",
@@ -189,7 +341,7 @@
         "고객 요구 분석·PoC·화면부터 API까지 end-to-end 개발 — 제품 감각 필요"
       ],
       "tier": "문샷",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "리걸테크 리딩 기업, 누적 870억+ 투자, 월 160만 방문 로톡·슈퍼로이어 운영.",
         "verdict": "FE 6 : BE 4 — React/TS 화면과 Node.js API를 모두 요구, 고객 대면 업무 포함.",
@@ -556,55 +708,6 @@
         "strategy": "실시간 데이터 연동·상태관리 경험을 로봇 제어 GUI 문맥에 맞춰 설명",
         "sources": [
           "jumpit"
-        ]
-      }
-    },
-    {
-      "id": "neurocle-2026-10",
-      "company": "뉴로클",
-      "title": "[비전 AI 플랫폼] 프론트엔드 엔지니어 (경력 5~10년, 전문연구요원 가능)",
-      "level": null,
-      "scale": "투자정보 미확인 (수익화 성공, 7년 연속 매출 성장)",
-      "source": "wanted",
-      "url": "https://www.wanted.co.kr/wd/392869",
-      "location": "서울 강동구",
-      "exp": "5~10년",
-      "exp_min_years": 5,
-      "posted_date": null,
-      "first_seen": "2026-10-19",
-      "domains": [
-        "비전AI",
-        "데이터시각화"
-      ],
-      "deadline": "2026-10-22",
-      "deadline_type": "date",
-      "deadline_label": null,
-      "process": [],
-      "process_confirmed": false,
-      "has_codingtest": "미확인",
-      "fit_score": 75,
-      "fit_tier": "상",
-      "fit_reasons": [
-        "React/TypeScript/Redux(RTK) 계열 스택 강하게 일치",
-        "7년+ 경력으로 기술적 의사결정 주도 요구사항 부합",
-        "비전 AI·캔버스 라벨링 에디터 도메인 경험 없음"
-      ],
-      "tier": "문열기",
-      "is_new": false,
-      "brief": {
-        "company_status": "비전 AI B2B 소프트웨어 기업, 7년 연속 매출 성장, 40여개국 진출, 투자정보 미확인",
-        "strengths": [
-          "React/TypeScript/Redux Toolkit 스택 강하게 일치",
-          "시니어급 경력으로 기술 의사결정 주도 요구사항 부합"
-        ],
-        "gaps": [
-          "Canvas/Konva 기반 이미지 라벨링 에디터 실무 경험 없음",
-          "비전 AI 도메인 경험 없음"
-        ],
-        "pass_odds": "중간",
-        "strategy": "복잡한 상태관리·성능최적화 경험을 캔버스 에디터의 기술 난이도에 대응하는 역량으로 제시",
-        "sources": [
-          "wanted"
         ]
       }
     },
