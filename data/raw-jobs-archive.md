@@ -1125,3 +1125,27 @@
 
 ### 뉴로클 - [비전 AI 플랫폼] 프론트엔드 엔지니어 (경력 5~10년, 전문연구요원 가능)
 - url: https://www.wanted.co.kr/wd/394205
+
+### 필라넷 - .NET 풀스택 개발자 채용
+- url: https://jumpit.saramin.co.kr/position/55323924
+
+### 학교종이 - 프론트엔드 개발자 (경력)
+- url: https://jumpit.saramin.co.kr/position/55299195
+
+### 아인잡 - 프론트엔드 개발자 (경력)
+- url: https://jumpit.saramin.co.kr/position/55376222
+
+### 디알비동일 - 풀스택개발자(Full Stack Engineer)
+- url: https://www.wanted.co.kr/wd/394894
+
+### 파인더스에이아이 - FullStack Engineer
+- url: https://www.wanted.co.kr/wd/394872
+
+### 두부 - Product Engineer (Full Stack)
+- url: https://www.wanted.co.kr/wd/291146
+
+### 제이케이앤디 - Frontend Developer
+- url: https://www.wanted.co.kr/wd/394662
+
+### 앵커스 - Front end 개발자
+- url: https://www.wanted.co.kr/wd/394633
