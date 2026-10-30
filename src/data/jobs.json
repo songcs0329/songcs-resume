@@ -1,7 +1,7 @@
 {
   "meta": {
     "last_collected": "2026-10-30",
-    "total": 213
+    "total": 211
   },
   "jobs": [
     {
@@ -2518,112 +2518,6 @@
         "strategy": "범용 FE 역량(성능 개선·API 연동·협업)과 빠른 학습력 강조",
         "sources": [
           "공고 본문"
-        ]
-      }
-    },
-    {
-      "id": "geonkangnuri-web-dev-daeri-2026-10",
-      "company": "건강누리",
-      "title": "웹 개발자 채용[대리]",
-      "level": null,
-      "scale": "투자정보 미확인",
-      "source": "jumpit",
-      "url": "https://jumpit.saramin.co.kr/position/55159168",
-      "location": "서울 영등포구",
-      "exp": "1~5년",
-      "exp_min_years": 1,
-      "posted_date": null,
-      "first_seen": "2026-10-02",
-      "domains": [
-        "의료",
-        "헬스케어"
-      ],
-      "deadline": "2026-10-29",
-      "deadline_type": "date",
-      "deadline_label": "2026-10-29 마감",
-      "process": [
-        "서류",
-        "면접"
-      ],
-      "process_confirmed": true,
-      "has_codingtest": "미확인",
-      "fit_score": 45,
-      "fit_tier": "하",
-      "fit_reasons": [
-        "기술스택이 HTML5/JS/CSS 수준으로 React/TypeScript 전문성과 매칭 낮음",
-        "의료영상 도메인은 이커머스·결제·지도 강점과 무관",
-        "경력 1~5년 대비 직무 난이도가 낮아 시니어 처우 협의 필요"
-      ],
-      "tier": "문열기",
-      "is_new": false,
-      "brief": {
-        "company_status": "의료용품 제조·유통 기업, 설립 17년차(2010), 투자정보 미확인",
-        "verdict": "HTML/JS/CSS 수준 요구, React/TS 전문성과 매칭 낮음",
-        "strengths": [
-          "대규모 웹서비스 운영 경험 이전 가능",
-          "SEO·퍼포먼스 개선 경험 적용 가능"
-        ],
-        "gaps": [
-          "React/TypeScript 요구 없음 - 기술스택 역행 우려",
-          "결제·지도 도메인 강점 활용 어려움"
-        ],
-        "pass_odds": "낮음",
-        "strategy": "경력 대비 낮은 난이도 포지션 - 지원 우선순위 낮게 권장",
-        "sources": [
-          "https://jumpit.saramin.co.kr/position/55159168"
-        ]
-      }
-    },
-    {
-      "id": "geonkangnuri-web-dev-gwajang-2026-10",
-      "company": "건강누리",
-      "title": "웹 개발자 채용[과장]",
-      "level": null,
-      "scale": "투자정보 미확인",
-      "source": "jumpit",
-      "url": "https://jumpit.saramin.co.kr/position/55159176",
-      "location": "서울 영등포구",
-      "exp": "6~12년",
-      "exp_min_years": 6,
-      "posted_date": null,
-      "first_seen": "2026-10-02",
-      "domains": [
-        "의료",
-        "헬스케어"
-      ],
-      "deadline": "2026-10-29",
-      "deadline_type": "date",
-      "deadline_label": "2026-10-29 마감",
-      "process": [
-        "서류",
-        "면접"
-      ],
-      "process_confirmed": true,
-      "has_codingtest": "미확인",
-      "fit_score": 52,
-      "fit_tier": "하",
-      "fit_reasons": [
-        "경력 6~12년 요건은 매칭되나 기술스택이 HTML5/JS/CSS 수준",
-        "의료영상 도메인은 핵심 강점(커머스·결제·지도)과 무관",
-        "과장 직급이나 인원관리 언급 없어 직책 감점 미적용"
-      ],
-      "tier": "문열기",
-      "is_new": false,
-      "brief": {
-        "company_status": "의료용품 제조·유통 기업, 설립 17년차(2010), 투자정보 미확인",
-        "verdict": "경력 범위는 맞으나 기술스택이 단순, React/TS 전문성과 매칭 낮음",
-        "strengths": [
-          "시니어급 경력 요건 매칭",
-          "대규모 운영 경험 이전 가능"
-        ],
-        "gaps": [
-          "React/TypeScript 요구 없음",
-          "핵심 도메인(커머스·결제·지도)과 무관"
-        ],
-        "pass_odds": "중간",
-        "strategy": "지원 시 실제 업무 범위와 기술스택 최신화 계획 확인 필요",
-        "sources": [
-          "https://jumpit.saramin.co.kr/position/55159176"
         ]
       }
     },
