@@ -1,9 +1,115 @@
 {
   "meta": {
-    "last_collected": "2026-10-28",
-    "total": 211
+    "last_collected": "2026-10-30",
+    "total": 213
   },
   "jobs": [
+    {
+      "id": "umosone-fe-tms-2026-10",
+      "company": "유모스원",
+      "title": "Frontend Engineer (TMS)",
+      "level": "시니어",
+      "scale": "현대자동차그룹 포티투닷 자회사 (투자정보 미확인)",
+      "source": "wanted",
+      "url": "https://www.wanted.co.kr/wd/395054",
+      "location": "서울 강남구",
+      "exp": "5-11년",
+      "exp_min_years": 5,
+      "posted_date": null,
+      "first_seen": "2026-10-30",
+      "domains": [
+        "물류",
+        "모빌리티",
+        "지도"
+      ],
+      "deadline": null,
+      "deadline_type": "rolling",
+      "deadline_label": "상시채용",
+      "process": [],
+      "process_confirmed": false,
+      "has_codingtest": "미확인",
+      "fit_score": 82,
+      "fit_tier": "상",
+      "fit_reasons": [
+        "React·TypeScript 주력, 5년+ FE 경력과 정확히 일치",
+        "지도·차량 위치 등 실시간 데이터 시각화 — 네이버맵 클러스터링 경험과 연결",
+        "디자인 시스템·성능 최적화·상태관리(Zustand 등) 요구가 스택과 부합 (감점 없음, 시니어 IC)"
+      ],
+      "tier": "문샷",
+      "is_new": true,
+      "brief": {
+        "company_status": "현대차그룹 포티투닷 자회사, 물류·모빌리티 플랫폼(잇트럭·잇스탁·잇셔틀·잇플릿) 운영",
+        "verdict": "FE 전담 포지션. 지도 기반 실시간 시각화가 핵심으로 강점 2번과 직결",
+        "strengths": [
+          "React/TypeScript 5년+",
+          "네이버맵 클라이언트 클러스터링 경험",
+          "성능 최적화·상태 관리"
+        ],
+        "gaps": [
+          "물류/모빌리티 도메인 경험 없음",
+          "테스트 자동화·CI/CD 통합 경험 보강 필요"
+        ],
+        "pass_odds": "중간",
+        "strategy": "지도 클러스터링과 네이티브 브릿지 상태 동기화 사례를 전면에 두고 실시간 데이터 렌더링 성능 관점으로 어필",
+        "sources": [
+          "https://www.wanted.co.kr/wd/395054"
+        ]
+      }
+    },
+    {
+      "id": "umosone-fe-fms-2026-10",
+      "company": "유모스원",
+      "title": "Frontend Engineer (Fleet Management System)",
+      "level": "미들",
+      "scale": "현대자동차그룹 포티투닷 자회사 (투자정보 미확인)",
+      "source": "wanted",
+      "url": "https://www.wanted.co.kr/wd/395053",
+      "location": "서울 강남구",
+      "exp": "4년 이상",
+      "exp_min_years": 4,
+      "posted_date": null,
+      "first_seen": "2026-10-30",
+      "domains": [
+        "물류",
+        "모빌리티",
+        "지도",
+        "B2B"
+      ],
+      "deadline": null,
+      "deadline_type": "rolling",
+      "deadline_label": "상시채용",
+      "process": [],
+      "process_confirmed": false,
+      "has_codingtest": "미확인",
+      "fit_score": 78,
+      "fit_tier": "상",
+      "fit_reasons": [
+        "지도 기반 차량 관제 UI·실시간 시각화가 지도 경험과 직결",
+        "서버/클라이언트 상태 분리(React Query + Zustand) 경험과 일치",
+        "B2B 어드민·대시보드 중심이라 커머스 결제 강점은 활용도 낮음"
+      ],
+      "tier": "문샷",
+      "is_new": true,
+      "brief": {
+        "company_status": "현대차그룹 포티투닷 자회사, 통합 관제 솔루션 '잇플릿' 등 운영",
+        "verdict": "FE 전담 포지션. 모노레포·디자인 시스템·IoT 데이터 시각화 비중이 큼",
+        "strengths": [
+          "지도 클러스터링 경험",
+          "React Query/Zustand 상태 분리",
+          "TypeScript"
+        ],
+        "gaps": [
+          "모노레포·내부 디자인 시스템 운영 경험",
+          "IoT/텔레매틱스 대용량 데이터 시각화 경험",
+          "TDD 경험"
+        ],
+        "pass_odds": "중간",
+        "strategy": "지도 UI 성능·상태 동기화 경험을 중심으로 대시보드/B2B 도메인 학습 의지를 보여줌",
+        "sources": [
+          "https://www.wanted.co.kr/wd/395053"
+        ]
+      }
+    },
     {
       "id": "ainjob-2026-10",
       "company": "아인잡",
@@ -42,7 +148,7 @@
         "SEO·성능 최적화 업무 포함, 직책 감점 없음(IC)"
       ],
       "tier": "문열기",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "AI 기반 HR/채용 SaaS, 2017년 설립. 투자정보 미확인",
         "verdict": "스택·WebView·SEO가 모두 맞는 FE IC 포지션. 연봉 5,000~6,500만원은 경력 대비 낮을 수 있음",
@@ -94,7 +200,7 @@
         "초기 PMF 단계라 기술 구조 주도 가능"
       ],
       "tier": "문열기",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "AI 기반 언어·사회성 솔루션 두부핑퐁, PMF 검증 단계. 투자정보 미확인",
         "verdict": "FE 8 : BE 2 — 업무는 웹 프론트 전반, Node는 서버/미디어 보조 수준",
@@ -144,7 +250,7 @@
         "이벤트·프로모션 연계 기능 개발, IC 포지션"
       ],
       "tier": "문열기",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "thisisneverthat 등 패션 브랜드 운영, 일본 플래그십 보유. 투자정보 미확인",
         "verdict": "커머스성 FE IC. 결제·주문 플로우 언급은 없고 브랜드 인터랙티브 페이지 비중이 큼",
@@ -195,7 +301,7 @@
         "BE 비중 있는 풀스택(FE 50~70%) -10점"
       ],
       "tier": "문열기",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "Vision AI 무인매장, Series Pre-B 후속 투자. 금액 미확인이라 보수 배정",
         "verdict": "FE 5.5 : BE 4.5 — React Admin·앱과 Node API·AWS 인프라를 함께 담당, 감점 적용",
@@ -250,7 +356,7 @@
         "Capacitor/Electron 크로스플랫폼 앱 비중, 근무지 세종"
       ],
       "tier": "문열기",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "교육 플랫폼, 사용자 300만. 투자정보 미확인",
         "verdict": "스택·연차·근무지 모두 맞지 않아 참고용",

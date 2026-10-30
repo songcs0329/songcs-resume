@@ -1149,3 +1149,21 @@
 
 ### 앵커스 - Front end 개발자
 - url: https://www.wanted.co.kr/wd/394633
+
+### 당근 - [산업기능요원 집중 채용 캠페인] Software Engineer, Frontend
+- url: https://careers.daangn.com/jobs/role/8043875003/
+
+### 디스펙터 - 풀스택 SW개발자
+- url: https://www.wanted.co.kr/wd/343884
+
+### 크라우드웍스 - Fullstack Engineer (Alpy 솔루션)
+- url: https://www.wanted.co.kr/wd/395152
+
+### 티시스아이티 - 서버/웹프론트엔지니어_저축은행(4~8년)
+- url: https://www.wanted.co.kr/wd/395106
+
+### 유모스원 - Frontend Engineer (TMS)
+- url: https://www.wanted.co.kr/wd/395054
+
+### 유모스원 - Frontend Engineer (Fleet Management System)
+- url: https://www.wanted.co.kr/wd/395053
