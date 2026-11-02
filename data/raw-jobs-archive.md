@@ -1167,3 +1167,24 @@
 
 ### 유모스원 - Frontend Engineer (Fleet Management System)
 - url: https://www.wanted.co.kr/wd/395053
+
+### 펫박스 - 프론트엔드 개발자_5년 이상
+- url: https://jumpit.saramin.co.kr/position/55427781
+
+### 펫박스 - 프론트엔드 개발자_1~4년
+- url: https://jumpit.saramin.co.kr/position/55427793
+
+### 건강누리 - 웹 개발자 채용[과장]
+- url: https://jumpit.saramin.co.kr/position/55425594
+
+### 건강누리 - 웹 개발자 채용[대리]
+- url: https://jumpit.saramin.co.kr/position/55425599
+
+### 제이앤피메디(JNPMEDI) - Front-end Software Engineer (프론트엔드 개발자/4년 이상)
+- url: https://www.wanted.co.kr/wd/291962
+
+### 뉴로클 - [비전 AI 플랫폼] 프론트엔드 엔지니어 (5~10년, 전문연구요원 가능)
+- url: https://www.wanted.co.kr/wd/395512
+
+### 제트 - 풀스택 개발자
+- url: https://www.wanted.co.kr/wd/395502
