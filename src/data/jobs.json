@@ -1,9 +1,165 @@
 {
   "meta": {
-    "last_collected": "2026-10-30",
-    "total": 211
+    "last_collected": "2026-11-02",
+    "total": 213
   },
   "jobs": [
+    {
+      "id": "petbox-fe5-2026-11",
+      "company": "펫박스",
+      "title": "프론트엔드 개발자_5년 이상",
+      "level": "미들",
+      "scale": "투자정보 미확인 (매쉬업엔젤스·한국투자파트너스 투자 언급, 금액 미확인)",
+      "source": "jumpit",
+      "url": "https://jumpit.saramin.co.kr/position/55427781",
+      "location": "서울 마포구 (홍대입구) / 재택 가능",
+      "exp": "5~7년",
+      "exp_min_years": 5,
+      "posted_date": null,
+      "first_seen": "2026-11-02",
+      "domains": [
+        "커머스",
+        "펫"
+      ],
+      "deadline": "2026-11-27",
+      "deadline_type": "date",
+      "deadline_label": "2026-11-27",
+      "process": [
+        "서류전형",
+        "1차면접",
+        "2차면접",
+        "임원면접",
+        "최종합격"
+      ],
+      "process_confirmed": true,
+      "has_codingtest": "미확인",
+      "fit_score": 76,
+      "fit_tier": "상",
+      "fit_reasons": [
+        "반려동물 사료 이커머스 — 커머스 도메인 경험과 부합",
+        "React·TypeScript·Vue 스택 일치, 경력 5~7년 구간",
+        "무한스크롤·렌더링 최적화 요구 — 기존 경험과 겹침"
+      ],
+      "tier": "문열기",
+      "is_new": true,
+      "brief": {
+        "company_status": "2014년 설립 펫 사료 유통 스타트업, 투자 금액 미확인",
+        "verdict": "IC 포지션, 커머스·React 정합. React Native 병행 요구는 부담이나 주축은 웹",
+        "strengths": [
+          "커머스 FE 경험",
+          "렌더링 최적화"
+        ],
+        "gaps": [
+          "React Native 실무",
+          "투자정보 미확인"
+        ],
+        "pass_odds": "중간",
+        "strategy": "커머스 CVR 개선과 최적화 사례 중심으로 지원",
+        "sources": [
+          "https://jumpit.saramin.co.kr/position/55427781"
+        ]
+      }
+    },
+    {
+      "id": "jnpmedi-fe-2026-11",
+      "company": "제이앤피메디(JNPMEDI)",
+      "title": "Front-end Software Engineer (프론트엔드 개발자/4년 이상)",
+      "level": "미들",
+      "scale": "투자정보 미확인",
+      "source": "wanted",
+      "url": "https://www.wanted.co.kr/wd/291962",
+      "location": "인천 연수구",
+      "exp": "4-7년",
+      "exp_min_years": 4,
+      "posted_date": null,
+      "first_seen": "2026-11-02",
+      "domains": [
+        "헬스케어",
+        "디자인시스템"
+      ],
+      "deadline": null,
+      "deadline_type": "rolling",
+      "deadline_label": "상시채용",
+      "process": [],
+      "process_confirmed": false,
+      "has_codingtest": "미확인",
+      "fit_score": 70,
+      "fit_tier": "중",
+      "fit_reasons": [
+        "React·TypeScript·Zustand 스택 일치",
+        "디자인 시스템·CI/CD 구축 경험 활용 가능",
+        "커머스·지도 강점과는 거리 있는 임상 도메인, 인천 근무"
+      ],
+      "tier": "문열기",
+      "is_new": true,
+      "brief": {
+        "company_status": "임상시험 플랫폼 Maven Clinical Cloud 운영",
+        "verdict": "IC 포지션, 스택 정합이나 도메인 연관성 낮음",
+        "strengths": [
+          "React/TS/Zustand",
+          "디자인 시스템"
+        ],
+        "gaps": [
+          "임상 도메인",
+          "인천 출퇴근"
+        ],
+        "pass_odds": "중간",
+        "strategy": "상태 관리·공통 컴포넌트 경험 강조",
+        "sources": [
+          "https://www.wanted.co.kr/wd/291962"
+        ]
+      }
+    },
+    {
+      "id": "neurocle-fe-2026-11",
+      "company": "뉴로클",
+      "title": "[비전 AI 플랫폼] 프론트엔드 엔지니어 (5~10년, 전문연구요원 가능)",
+      "level": "시니어",
+      "scale": "투자정보 미확인 (7년 연속 매출 성장 수익화 AI 스타트업)",
+      "source": "wanted",
+      "url": "https://www.wanted.co.kr/wd/395512",
+      "location": "서울 강동구",
+      "exp": "3-10년",
+      "exp_min_years": 5,
+      "posted_date": null,
+      "first_seen": "2026-11-02",
+      "domains": [
+        "AI",
+        "캔버스"
+      ],
+      "deadline": "2026-11-05",
+      "deadline_type": "date",
+      "deadline_label": "2026-11-05",
+      "process": [],
+      "process_confirmed": false,
+      "has_codingtest": "미확인",
+      "fit_score": 66,
+      "fit_tier": "중",
+      "fit_reasons": [
+        "React·TypeScript·Redux 스택 일치",
+        "Canvas(Konva) 기반 라벨링 에디터 — 2D라 제외 대상은 아니나 경험 격차 큼",
+        "마감 임박(11/05)"
+      ],
+      "tier": "문열기",
+      "is_new": true,
+      "brief": {
+        "company_status": "B2B AI Vision 소프트웨어, 40여 개국 진출",
+        "verdict": "IC 포지션, 그래픽 에디터 성격이 강해 주력 강점과 거리",
+        "strengths": [
+          "React/TS/Redux",
+          "성능 최적화"
+        ],
+        "gaps": [
+          "Canvas 에디터 경험",
+          "마감 임박"
+        ],
+        "pass_odds": "낮음",
+        "strategy": "브라우저 성능 최적화·지도 클러스터링 경험으로 연결",
+        "sources": [
+          "https://www.wanted.co.kr/wd/395512"
+        ]
+      }
+    },
     {
       "id": "umosone-fe-tms-2026-10",
       "company": "유모스원",
@@ -36,7 +192,7 @@
         "디자인 시스템·성능 최적화·상태관리(Zustand 등) 요구가 스택과 부합 (감점 없음, 시니어 IC)"
       ],
       "tier": "문샷",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "현대차그룹 포티투닷 자회사, 물류·모빌리티 플랫폼(잇트럭·잇스탁·잇셔틀·잇플릿) 운영",
         "verdict": "FE 전담 포지션. 지도 기반 실시간 시각화가 핵심으로 강점 2번과 직결",
@@ -89,7 +245,7 @@
         "B2B 어드민·대시보드 중심이라 커머스 결제 강점은 활용도 낮음"
       ],
       "tier": "문샷",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "현대차그룹 포티투닷 자회사, 통합 관제 솔루션 '잇플릿' 등 운영",
         "verdict": "FE 전담 포지션. 모노레포·디자인 시스템·IoT 데이터 시각화 비중이 큼",
@@ -6335,60 +6491,6 @@
         "strategy": "0→1 신규 서비스 구축·운영 경험 강조",
         "sources": [
           "wanted"
-        ]
-      }
-    },
-    {
-      "id": "petbox-fe-senior-2026-08",
-      "company": "펫박스",
-      "title": "프론트엔드 개발자_5년 이상",
-      "level": "미들",
-      "scale": "매쉬업엔젤스 등 투자 유치, 규모 미확인",
-      "source": "jumpit",
-      "url": "https://jumpit.saramin.co.kr/position/54840071",
-      "location": "대전 유성구 (재택 가능)",
-      "exp": "5-7년",
-      "exp_min_years": 5,
-      "posted_date": null,
-      "first_seen": "2026-08-26",
-      "domains": [
-        "커머스",
-        "펫테크"
-      ],
-      "deadline": "2026-09-23",
-      "deadline_type": "date",
-      "process": [
-        "서류전형",
-        "1차면접",
-        "2차면접",
-        "임원면접",
-        "최종합격"
-      ],
-      "process_confirmed": true,
-      "has_codingtest": "없음",
-      "fit_score": 68,
-      "fit_tier": "중",
-      "fit_reasons": [
-        "React/React Native/TypeScript 스택 일치",
-        "펫박스몰(커머스 도메인)이 강점1(이커머스)과 부분 연관, 단 결제·PG 연동 언급 없음",
-        "렌더링 최적화·이미지 캐싱 등 성능 개선 업무 포함"
-      ],
-      "tier": "문열기",
-      "is_new": false,
-      "brief": {
-        "company_status": "반려동물 유통 플랫폼 '펫박스' 운영(2014년 설립), 매쉬업엔젤스 등 투자 유치(규모 미확인)",
-        "verdict": "FE 전담 - 실제 서비스(백오피스 제외) 프론트엔드 개발",
-        "strengths": [
-          "React/React Native 스택 일치",
-          "커머스 도메인 부분 연관"
-        ],
-        "gaps": [
-          "결제·PG 연동 등 구체적 언급 없음"
-        ],
-        "pass_odds": "중간",
-        "strategy": "무한스크롤·렌더링 최적화·이미지 캐싱 경험 강조",
-        "sources": [
-          "jumpit"
         ]
       }
     },
