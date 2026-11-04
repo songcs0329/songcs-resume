@@ -1188,3 +1188,67 @@
 
 ### 제트 - 풀스택 개발자
 - url: https://www.wanted.co.kr/wd/395502
+
+### 제네시스네스트 - 프론트엔드 개발자 [8~15년]
+
+- url: https://jumpit.saramin.co.kr/position/55436323
+
+### 제네시스네스트 - 프론트엔드 개발자 [1~8년 미만]
+
+- url: https://jumpit.saramin.co.kr/position/55436311
+
+### 블루개러지 - Software Engineer / Full Stack(6~8년)
+
+- url: https://jumpit.saramin.co.kr/position/55439053
+
+### 블루개러지 - 프론트엔드 개발자(2~4년)
+
+- url: https://jumpit.saramin.co.kr/position/55439025
+
+### 블루개러지 - Software Engineer / Full Stack(3~5년)
+
+- url: https://jumpit.saramin.co.kr/position/55439017
+
+### 블루개러지 - Software Engineer / Full Stack(9년~)
+
+- url: https://jumpit.saramin.co.kr/position/55438989
+
+### 블루개러지 - 프론트엔드 개발자(5~7년)
+
+- url: https://jumpit.saramin.co.kr/position/55438976
+
+### 블루개러지 - 프론트엔드 개발자(8년~)
+
+- url: https://jumpit.saramin.co.kr/position/55438969
+
+### 아이엠펫 - Frontend Developer
+
+- url: https://www.wanted.co.kr/wd/396297
+
+### 아이제라 - Frontend Engineer (DX본부)
+
+- url: https://www.wanted.co.kr/wd/373961
+
+### 힐링페이퍼(강남언니) - [강남언니] 웹 프론트엔드 개발자 (글로벌)
+
+- url: https://www.wanted.co.kr/wd/396062
+
+### 필라넷 - .NET 풀스택 개발자
+
+- url: https://www.wanted.co.kr/wd/396025
+
+### 씨메스로보틱스 - Frontend 개발자
+
+- url: https://www.wanted.co.kr/wd/395927
+
+### 비버웍스 - React.js기반 웹서비스 개발 및 유지보수
+
+- url: https://www.wanted.co.kr/wd/395837
+
+### 씨제이올리브영(CJ올리브영) - 검색 플랫폼 개발자 (Front-end)
+
+- url: https://www.wanted.co.kr/wd/366991
+
+### 호스탠다드 - 시니어 풀스택 개발자(Java · Spring Boot · Next.js)
+
+- url: https://www.wanted.co.kr/wd/395734
