@@ -1252,3 +1252,27 @@
 ### 호스탠다드 - 시니어 풀스택 개발자(Java · Spring Boot · Next.js)
 
 - url: https://www.wanted.co.kr/wd/395734
+
+### 송암시스콤 - 프론트엔드개발자 경력
+
+- url: https://jumpit.saramin.co.kr/position/55466446
+
+### 인이지 - 프론트엔드 개발자(선임~책임급)
+
+- url: https://www.wanted.co.kr/wd/374289
+
+### 비버웍스 - 시니어 프론트엔드 개발자
+
+- url: https://www.wanted.co.kr/wd/396793
+
+### 제이비코퍼레이션 - 프론트엔드 개발자
+
+- url: https://www.wanted.co.kr/wd/396758
+
+### 알로스타 - [AI 헬스케어] 풀스택 개발자
+
+- url: https://www.wanted.co.kr/wd/320768
+
+### 어스얼라이언스 - 플랫폼 파트 - Frontend Developer (3~5년차)
+
+- url: https://www.wanted.co.kr/wd/396517
