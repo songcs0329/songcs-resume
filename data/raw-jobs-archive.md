@@ -1276,3 +1276,15 @@
 ### 어스얼라이언스 - 플랫폼 파트 - Frontend Developer (3~5년차)
 
 - url: https://www.wanted.co.kr/wd/396517
+
+### 부스터스 - Back-end Engineer (Full-Stack)
+- url: https://jumpit.saramin.co.kr/position/55459199
+
+### 디라티오 - Product Engineer (Full-stack / Web3)
+- url: https://www.wanted.co.kr/wd/397013
+
+### 씨제이올리브영(CJ올리브영) - 커머스플랫폼유닛 Front-end
+- url: https://www.wanted.co.kr/wd/337438
+
+### 레인보우로보틱스 - Web프론트개발
+- url: https://www.wanted.co.kr/wd/396921
