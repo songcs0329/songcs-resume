@@ -76,8 +76,8 @@ function Portfolio() {
 
         <Section title="사이드 프로젝트" eyebrow="Side Projects">
           <p className="mb-6 max-w-3xl text-sm leading-7 text-zinc-700">
-            프론트엔드 설계와 구현은 직접 담당했고, 서버와 콘텐츠 생성 파이프라인은 AI 도구를 활용해 구축했습니다. 기여
-            범위는 프로젝트마다 따로 적었습니다.
+            프론트엔드 설계와 구현은 직접 담당했고, 서버(NestJS)는 AI 도구를 활용해 구축했습니다. 기여 범위는
+            프로젝트마다 따로 적었습니다.
           </p>
           <div className="grid gap-6">
             {portfolioProjects.map((project, index) => (
