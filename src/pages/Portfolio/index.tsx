@@ -96,14 +96,16 @@ function Portfolio() {
                   </div>
 
                   <div className="flex flex-wrap items-start gap-2 lg:justify-end">
-                    <a
-                      href={project.demoUrl}
-                      target="_blank"
-                      rel="noreferrer"
-                      className="inline-flex h-10 items-center justify-center rounded-md border border-teal-700 bg-teal-700 px-4 text-sm font-bold text-white transition hover:-translate-y-0.5 hover:bg-teal-800"
-                    >
-                      Demo
-                    </a>
+                    {project.demoUrl && (
+                      <a
+                        href={project.demoUrl}
+                        target="_blank"
+                        rel="noreferrer"
+                        className="inline-flex h-10 items-center justify-center rounded-md border border-teal-700 bg-teal-700 px-4 text-sm font-bold text-white transition hover:-translate-y-0.5 hover:bg-teal-800"
+                      >
+                        Demo
+                      </a>
+                    )}
                     <a
                       href={project.repositoryUrl}
                       target="_blank"
