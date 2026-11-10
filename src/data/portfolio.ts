@@ -156,7 +156,7 @@ export const portfolioProjects: PortfolioProject[] = [
     contribution:
       '설계 문서 작성과 검색 결과·장소 게시판·실시간 게시판 탭, 사진 업로드 등 프론트엔드 구현에 초점을 두었고 NestJS 검색 파이프라인과 요약 API는 AI 도구의 도움을 받아 설계 문서의 API 계약에 맞춰 구현했습니다.',
     repositoryUrl: 'https://github.com/songcs0329/place-board',
-    demoUrl: '', // TODO: Vercel 배포 주소
+    demoUrl: 'https://place-board-theta.vercel.app/',
     stack: [
       { label: 'React 19', color: '#61DAFB', icon: 'react' },
       { label: 'Vite', color: '#646CFF', icon: 'vite' },
@@ -169,11 +169,11 @@ export const portfolioProjects: PortfolioProject[] = [
       { label: 'Claude API', color: '#D97757', icon: 'anthropic' },
     ],
     highlights: [
-      'Claude 검색어 생성 → 네이버 블로그 후기에서 가게 추출 → 지역 검색 검증으로 분위기 검색과 실제 장소 확인을 결합',
-      'Supabase Realtime Broadcast로 새 글을, Presence로 보는 사람 수를 반영하고 알림은 id만 보내 재조회 시 RLS가 차단·신고 글을 걸러내도록 설계',
-      '업로드 전 canvas 재인코딩으로 사진 EXIF(GPS) 제거, 촬영 시각 3시간 초과 사진 차단',
-      '방마다 다른 랜덤 닉네임과 user_id 컬럼 권한 차단으로 장소를 넘나든 동일인 추적 방지',
-      '최근 6시간 글을 40자로 요약하는 AI 현장 요약을 캐시·동시 요청 합치기로 호출 최소화',
+      'Claude가 네이버 블로그 후기에서 가게를 추출하고 네이버 지역 검색으로 실제 장소인지 확인',
+      '메모판과 채팅을 하나의 글 흐름으로 두고 태그·사진이 붙으면 자동으로 현장 메모로 분류',
+      'Supabase Realtime으로 새 글을 바로 반영하고 지금 보고 있는 사람 수 표시',
+      '메모 24시간·채팅 6시간 뒤 자동으로 사라지는 게시판, 방마다 다른 랜덤 닉네임과 신고·차단',
+      '최근 글을 한 줄로 요약하는 AI 현장 요약',
     ],
     architecture: [
       { label: '프론트엔드', description: 'Vite + React SPA (Vercel, /api rewrite로 같은 출처 호출)' },
@@ -181,8 +181,8 @@ export const portfolioProjects: PortfolioProject[] = [
         label: '백엔드',
         description: 'AI 도구를 활용해 구현한 NestJS API — 검색·글쓰기·요약·신고·매시간 정리 (Railway)',
       },
-      { label: '데이터·실시간', description: 'Supabase Postgres(RLS) · Auth(카카오) · Realtime · Storage' },
-      { label: '외부 API', description: 'Claude API(structured outputs), NAVER API HUB 블로그·지역 검색' },
+      { label: '데이터·실시간', description: 'Supabase Postgres · Auth(카카오) · Realtime · Storage' },
+      { label: '외부 API', description: 'Claude API, 네이버 블로그·지역 검색 API' },
     ],
     detailSections: [
       {
@@ -195,15 +195,8 @@ export const portfolioProjects: PortfolioProject[] = [
       {
         title: '기여 범위',
         paragraphs: [
-          '화면 구성, 데이터 모델, 권한 정책, 보존 기간 등 설계 문서를 먼저 작성하고 이를 기준으로 프론트엔드 화면과 실시간·사진 처리 흐름을 구현했습니다.',
-          'NestJS 검색 파이프라인과 요약 API는 AI 도구의 도움을 받아 구현했고, 설계 문서의 API 계약과 RLS 정책에 맞춰 연동했습니다.',
-        ],
-      },
-      {
-        title: '배운 점',
-        paragraphs: [
-          '권한을 화면 코드가 아니라 RLS와 Realtime 정책에 두니 검색 카드, 실시간 탭, 게시판 어디서든 숨김 규칙이 저절로 일치한다는 점을 확인했습니다.',
-          '닉네임을 바꿔도 user_id가 응답이나 실시간 메시지에 섞이면 익명성이 깨지기 때문에, 개인정보는 데이터가 흘러가는 모든 경로를 기준으로 막아야 한다는 점을 배웠습니다.',
+          '화면 구성과 기능 범위를 설계 문서로 먼저 정리하고, 이를 기준으로 검색 결과·장소 게시판·실시간 게시판 화면을 구현했습니다.',
+          'NestJS 검색 파이프라인과 요약 API는 AI 도구의 도움을 받아 구현했고, 설계 문서의 API 계약에 맞춰 연동했습니다.',
         ],
       },
     ],
