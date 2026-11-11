@@ -1,9 +1,251 @@
 {
   "meta": {
-    "last_collected": "2026-11-09",
-    "total": 224
+    "last_collected": "2026-11-11",
+    "total": 227
   },
   "jobs": [
+    {
+      "id": "stat-2026-11",
+      "company": "스탯",
+      "title": "Product Engineer (Frontend)",
+      "level": "미들",
+      "scale": "투자정보 미확인 (이커머스 모회사 기반 초기 SaaS)",
+      "source": "wanted",
+      "url": "https://www.wanted.co.kr/wd/397325",
+      "location": "서울 강남구",
+      "exp": "3년 이상",
+      "exp_min_years": 3,
+      "posted_date": null,
+      "first_seen": "2026-11-11",
+      "domains": [
+        "커머스",
+        "SaaS",
+        "대시보드"
+      ],
+      "deadline": "2027-01-08",
+      "deadline_type": "date",
+      "deadline_label": "2027.01.08",
+      "process": [],
+      "process_confirmed": false,
+      "has_codingtest": "미확인",
+      "fit_score": 82,
+      "fit_tier": "상",
+      "fit_reasons": [
+        "이커머스 셀러 운영 플랫폼(주문·정산) — 커머스 주문·결제 플로우 경험과 직결",
+        "React·Next.js·TypeScript·Zustand·TanStack Query 스택 일치",
+        "0→1 FE 아키텍처 주도, 초기 멤버 4번째 — 감점 요소 없음(IC)"
+      ],
+      "tier": "문열기",
+      "is_new": true,
+      "brief": {
+        "company_status": "이커머스 모회사 기반 초기 SaaS, 팀 4명 규모, 투자정보 미확인",
+        "verdict": "FE 중심 IC 포지션, 스택·도메인 적합도 높음",
+        "strengths": [
+          "커머스 주문·정산 도메인",
+          "Next.js/Zustand/React Query"
+        ],
+        "gaps": [
+          "초기 스타트업 안정성",
+          "대시보드·그리드 시각화 경험 어필 필요"
+        ],
+        "pass_odds": "높음",
+        "strategy": "주문·할인·결제 플로우 개선 성과(CVR +14.27%)를 중심으로 어필"
+      }
+    },
+    {
+      "id": "twelvelabs-forge-2026-11",
+      "company": "트웰브랩스(TwelveLabs)",
+      "title": "Senior Frontend Engineer, Forge",
+      "level": "시니어",
+      "scale": "누적 3천억원 이상 투자 유치 (글로벌 AI 스타트업)",
+      "source": "wanted",
+      "url": "https://www.wanted.co.kr/wd/397193",
+      "location": "서울 용산구",
+      "exp": "5년 이상",
+      "exp_min_years": 5,
+      "posted_date": null,
+      "first_seen": "2026-11-11",
+      "domains": [
+        "AI",
+        "B2B SaaS",
+        "플랫폼"
+      ],
+      "deadline": null,
+      "deadline_type": "unknown",
+      "deadline_label": "미확인",
+      "process": [],
+      "process_confirmed": false,
+      "has_codingtest": "미확인",
+      "fit_score": 78,
+      "fit_tier": "상",
+      "fit_reasons": [
+        "시니어 FE IC, 5년+ 요건 충족 — 감점 없음",
+        "인증·빌링·조직관리 등 B2B 플랫폼 FE 구조 설계",
+        "AI 영상 도메인 경험은 없어 도메인 적합도는 중간"
+      ],
+      "tier": "문샷",
+      "is_new": true,
+      "brief": {
+        "company_status": "누적 3천억+ 투자, 글로벌 4개 오피스",
+        "verdict": "FE 전담 시니어 IC, 대형 투자 AI 인프라 기업",
+        "strengths": [
+          "React/TS 5년+",
+          "결제·상태 관리 복잡 플로우 경험"
+        ],
+        "gaps": [
+          "AI/실시간 응답 UI 경험",
+          "영어 협업 가능성"
+        ],
+        "pass_odds": "중간",
+        "strategy": "복잡한 상태·플로우 FE 설계 경험과 SEO/성능 개선 성과 강조"
+      }
+    },
+    {
+      "id": "bongelabs-ai-fullstack-2026-11",
+      "company": "봉이랩스",
+      "title": "AI 풀스택 개발자 | Web·App·AI 고객센터",
+      "level": "시니어",
+      "scale": "투자정보 미확인",
+      "source": "wanted",
+      "url": "https://www.wanted.co.kr/wd/397466",
+      "location": "서울 강남구",
+      "exp": "5-11년",
+      "exp_min_years": 5,
+      "posted_date": null,
+      "first_seen": "2026-11-11",
+      "domains": [
+        "커머스",
+        "웹뷰",
+        "풀스택",
+        "AI"
+      ],
+      "deadline": "2026-11-30",
+      "deadline_type": "date",
+      "deadline_label": "2026.11.30",
+      "process": [],
+      "process_confirmed": false,
+      "has_codingtest": "미확인",
+      "fit_score": 68,
+      "fit_tier": "중",
+      "fit_reasons": [
+        "React/Next.js 웹 + WebView 앱 운영 — 웹뷰 하이브리드 강점 매칭",
+        "BE 비중 있는 풀스택(FE 50~70%) -10점",
+        "LLM 챗봇 개발 경험 요구 — 갭"
+      ],
+      "tier": "문열기",
+      "is_new": true,
+      "brief": {
+        "company_status": "통신·생활서비스 비교 플랫폼 '봉이' 운영, 투자정보 미확인",
+        "verdict": "FE 6 : BE/AI 4 — Node API·LLM 연동 비중 있음",
+        "strengths": [
+          "Next.js·WebView 브릿지",
+          "운영·장애 대응"
+        ],
+        "gaps": [
+          "LLM 챗봇 실무",
+          "Node BE 비중"
+        ],
+        "pass_odds": "중간",
+        "strategy": "웹뷰 브릿지·운영 경험 중심, LLM은 학습·사이드 경험으로 보완"
+      }
+    },
+    {
+      "id": "badit-fe-lead-2026-11",
+      "company": "바딧",
+      "title": "시니어 프론트엔드 개발자 (5년 이상)",
+      "level": "시니어",
+      "scale": "투자정보 미확인",
+      "source": "wanted",
+      "url": "https://www.wanted.co.kr/wd/397441",
+      "location": "서울 금천구",
+      "exp": "5년 이상",
+      "exp_min_years": 5,
+      "posted_date": null,
+      "first_seen": "2026-11-11",
+      "domains": [
+        "헬스케어",
+        "애그테크",
+        "대시보드"
+      ],
+      "deadline": null,
+      "deadline_type": "unknown",
+      "deadline_label": "미확인",
+      "process": [],
+      "process_confirmed": false,
+      "has_codingtest": "미확인",
+      "fit_score": 62,
+      "fit_tier": "하",
+      "fit_reasons": [
+        "파트 리드 포지션(리드 겸 IC) -10점",
+        "코드리뷰·1:1·채용 등 인원 관리 명시 추가 -5점",
+        "Next.js 웹 가능하나 Flutter 앱 병행, 도메인(축산·센서) 비연관"
+      ],
+      "tier": "문열기",
+      "is_new": true,
+      "brief": {
+        "company_status": "웨어러블/축산 행동분석 스타트업, 투자정보 미확인",
+        "verdict": "FE 파트 리드 성격 강함, 관리 비중 큼",
+        "strengths": [
+          "Next.js 상용 서비스 운영",
+          "그래프·대시보드 구현"
+        ],
+        "gaps": [
+          "Flutter 앱 병행",
+          "팀 리드 경험",
+          "도메인 불일치"
+        ],
+        "pass_odds": "중간",
+        "strategy": "리드 의향이 있을 때만 지원 — 기술 기준 수립 경험 강조"
+      }
+    },
+    {
+      "id": "warpspace-fullstack-2026-11",
+      "company": "워프스페이스",
+      "title": "Fullstack Engineer",
+      "level": "미들",
+      "scale": "투자정보 미확인",
+      "source": "wanted",
+      "url": "https://www.wanted.co.kr/wd/397217",
+      "location": "서울 서초구",
+      "exp": "1-10년",
+      "exp_min_years": 1,
+      "posted_date": null,
+      "first_seen": "2026-11-11",
+      "domains": [
+        "AI",
+        "풀스택",
+        "콘텐츠"
+      ],
+      "deadline": null,
+      "deadline_type": "rolling",
+      "deadline_label": "상시채용",
+      "process": [],
+      "process_confirmed": false,
+      "has_codingtest": "미확인",
+      "fit_score": 58,
+      "fit_tier": "하",
+      "fit_reasons": [
+        "BE 비중 있는 풀스택(화면·API·DB 전반) -10점",
+        "FE 또는 BE 한 분야 강점이면 가능 — FE 강점으로 지원 가능",
+        "도메인(AI 캐릭터 채팅) 비연관, 캐릭터 탐색·검색 UX는 SEO 경험 일부 연결"
+      ],
+      "tier": "문열기",
+      "is_new": true,
+      "brief": {
+        "company_status": "AI 캐릭터 채팅 플랫폼 Caveduck 운영, 투자정보 미확인",
+        "verdict": "FE 5 : BE 5 — 화면·API·DB 모두 담당, 한 분야 강점 허용",
+        "strengths": [
+          "FE 강점 기반 지원 가능",
+          "AI 도구 활용 개발"
+        ],
+        "gaps": [
+          "BE/DB 실무",
+          "LLM API 경험"
+        ],
+        "pass_odds": "중간",
+        "strategy": "우선순위 낮음 — 다른 공고 불발 시 검토"
+      }
+    },
     {
       "id": "oliveyoung-commerce-fe-2026-11",
       "company": "씨제이올리브영(CJ올리브영)",
@@ -36,7 +278,7 @@
         "경력 5년+ 요건 충족, 관리 직책 아님(감점 없음)"
       ],
       "tier": "문샷",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "국내 1위 헬스&뷰티 스토어, CJ그룹 계열 대기업",
         "verdict": "커머스 FE 핵심 포지션 — 주력 강점과 거의 일치",
@@ -88,7 +330,7 @@
         "결제·정산 정합성 업무는 결제 경험과 접점, Web3 도메인 경험은 없음"
       ],
       "tier": "문열기",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "Web3 인프라·서비스(브릿지, DEX) 개발사, 투자정보 미확인",
         "verdict": "FE 6 : BE 4 추정 — 주력 축 선택형이나 NestJS·Kafka 실무 요구로 BE 비중 있음",
@@ -1996,55 +2238,6 @@
         ],
         "pass_odds": "낮음",
         "strategy": "레거시 시스템 현대화 경험이 있다면 강조, 그렇지 않다면 지원 우선순위를 낮게 둠",
-        "sources": [
-          "wanted"
-        ]
-      }
-    },
-    {
-      "id": "twelvelabs-2026-10",
-      "company": "트웰브랩스(TwelveLabs)",
-      "title": "Senior Frontend Engineer, Forge",
-      "level": "시니어",
-      "scale": "누적 3,000억원+ 투자유치 (NVIDIA·Amazon·Index Ventures 등)",
-      "source": "wanted",
-      "url": "https://www.wanted.co.kr/wd/392689",
-      "location": "서울 용산구",
-      "exp": "5년 이상",
-      "exp_min_years": 5,
-      "posted_date": null,
-      "first_seen": "2026-10-19",
-      "domains": [
-        "AI플랫폼",
-        "SaaS"
-      ],
-      "deadline": null,
-      "deadline_type": "unknown",
-      "deadline_label": null,
-      "process": [],
-      "process_confirmed": false,
-      "has_codingtest": "미확인",
-      "fit_score": 80,
-      "fit_tier": "상",
-      "fit_reasons": [
-        "Senior 레벨 요구사항이 7년+ 경력과 부합",
-        "글로벌 AI 인프라 기업, 누적 3천억원+ 투자유치로 안정성 높음",
-        "영상 AI SaaS 플랫폼 도메인은 기존 커머스·결제·지도 강점과 직접 연관성 낮음"
-      ],
-      "tier": "문샷",
-      "is_new": false,
-      "brief": {
-        "company_status": "영상 AI 인프라 기업, 샌프란시스코·서울·뉴욕·런던 오피스, 누적 3천억원+ 투자유치(NVIDIA, Amazon, Index Ventures 등)",
-        "strengths": [
-          "Senior 레벨 요구사항이 7년+ 경력과 부합",
-          "글로벌 AI 플랫폼 기업의 기술 스케일과 안정성"
-        ],
-        "gaps": [
-          "영상 AI/SaaS 플랫폼 도메인 경험 없음",
-          "본문 일부가 잘려 상세 자격요건(영어 사용 여부 등) 확인 불가"
-        ],
-        "pass_odds": "중간",
-        "strategy": "플랫폼 공통기반(인증·빌링·조직관리) 설계 경험 여부를 확인하고 복잡한 상태관리 역량 강조",
         "sources": [
           "wanted"
         ]
@@ -9303,59 +9496,6 @@
           {
             "title": "[아이알큐더스] [개발] Senior 프론트엔드 개발자 (8년 ~)",
             "url": "https://www.wanted.co.kr/wd/378890"
-          }
-        ]
-      }
-    },
-    {
-      "id": "stat-product-engineer-frontend-2026-08",
-      "company": "스탯",
-      "title": "Product Engineer (Frontend)",
-      "level": "미들",
-      "scale": "투자정보 미확인",
-      "source": "wanted",
-      "url": "https://www.wanted.co.kr/wd/378192",
-      "location": "서울 강남구",
-      "exp": "경력 3년 이상",
-      "exp_min_years": 3,
-      "posted_date": null,
-      "first_seen": "2026-08-11",
-      "domains": [
-        "이커머스",
-        "셀러운영툴",
-        "어드민"
-      ],
-      "deadline": "2026-09-29",
-      "deadline_type": "date",
-      "deadline_label": null,
-      "process": null,
-      "process_confirmed": false,
-      "has_codingtest": "미확인",
-      "fit_score": 86,
-      "fit_tier": "최상",
-      "fit_reasons": [
-        "온라인 셀러 주문·재고·정산 운영 플랫폼이 후보자의 예약 파트너 관리 웹앱(재고·정산 관리) 구축 경험과 정확히 겹침",
-        "TypeScript/React18/Next14/Zustand/TanStack Query 등 스택이 후보자 기술스택과 완전히 일치",
-        "0→1 신규 서비스 설계·개발·배포 전 과정 수행 경험 요구가 후보자의 신규 웹앱 설계 이력과 직접 연결"
-      ],
-      "tier": "문열기",
-      "is_new": false,
-      "brief": {
-        "company_status": "이커머스 모회사 기반 초기 SaaS 스타트업. 모회사 유통 매출 2025년 30억 → 2026년 90억 목표. 투자 라운드 정보는 확인되지 않음.",
-        "verdict": "순수 FE 역할(0→1 프로덕트 엔지니어), 백엔드 요구 없음",
-        "strengths": [
-          "재고·정산 관리 어드민 구축 경험이 셀러 운영 플랫폼 업무와 직접 연결",
-          "React/Next.js/Zustand/TanStack Query 스택 완전 일치"
-        ],
-        "gaps": [
-          "4인 초기 팀 규모로 온보딩 자료·프로세스가 아직 부족할 수 있음"
-        ],
-        "pass_odds": "높음",
-        "strategy": "예약 파트너 관리 웹앱(재고·정산·CRUD) 신규 설계 경험을 셀러 운영 플랫폼 0→1 구축 사례로 제시",
-        "sources": [
-          {
-            "title": "[스탯] Product Engineer (Frontend)",
-            "url": "https://www.wanted.co.kr/wd/378192"
           }
         ]
       }

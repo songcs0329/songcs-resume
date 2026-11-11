@@ -1288,3 +1288,24 @@
 
 ### 레인보우로보틱스 - Web프론트개발
 - url: https://www.wanted.co.kr/wd/396921
+
+### 세종정책자금연구소 - 풀스택 웹 개발자 (사내 CRM)
+- url: https://www.wanted.co.kr/wd/397539
+
+### 봉이랩스 - AI 풀스택 개발자 | Web·App·AI 고객센터
+- url: https://www.wanted.co.kr/wd/397466
+
+### 바딧 - 시니어 프론트엔드 개발자 (5년 이상)
+- url: https://www.wanted.co.kr/wd/397441
+
+### 스탯 - Product Engineer (Frontend)
+- url: https://www.wanted.co.kr/wd/397325
+
+### 워프스페이스 - Fullstack Engineer
+- url: https://www.wanted.co.kr/wd/397217
+
+### 자취남부동산중개법인 - 공인중개사 CRM 리드 풀스택 개발자 (5년 이상)
+- url: https://www.wanted.co.kr/wd/397129
+
+### 트웰브랩스(TwelveLabs) - Senior Frontend Engineer, Forge
+- url: https://www.wanted.co.kr/wd/397193
