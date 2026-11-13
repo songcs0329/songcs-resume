@@ -1309,3 +1309,15 @@
 
 ### 트웰브랩스(TwelveLabs) - Senior Frontend Engineer, Forge
 - url: https://www.wanted.co.kr/wd/397193
+
+### 텔유어월드 - 풀스택 개발자
+- url: https://www.wanted.co.kr/wd/398084
+
+### 세븐픽쳐스 - [동행클럽·동행] 프로덕트 엔지니어 (풀스택, 1년 이상)
+- url: https://www.wanted.co.kr/wd/375088
+
+### 다음 - Daum 포털 프론트엔드 엔지니어
+- url: https://www.wanted.co.kr/wd/397926
+
+### 케이티밀리의서재 - 프론트엔드 엔지니어
+- url: https://www.wanted.co.kr/wd/365238
