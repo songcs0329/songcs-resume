@@ -1321,3 +1321,6 @@
 
 ### 케이티밀리의서재 - 프론트엔드 엔지니어
 - url: https://www.wanted.co.kr/wd/365238
+
+### 오투플러스 - 프론트엔드 개발자
+- url: https://jumpit.saramin.co.kr/position/55540904

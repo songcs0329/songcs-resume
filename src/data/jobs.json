@@ -1,9 +1,65 @@
 {
   "meta": {
-    "last_collected": "2026-11-13",
+    "last_collected": "2026-11-16",
     "total": 229
   },
   "jobs": [
+    {
+      "id": "o2plus-2026-11",
+      "company": "오투플러스",
+      "title": "프론트엔드 개발자",
+      "level": "미들",
+      "scale": "투자정보 미확인",
+      "source": "jumpit",
+      "url": "https://jumpit.saramin.co.kr/position/55540904",
+      "location": "경기 용인시 수지구",
+      "exp": "3~10년",
+      "exp_min_years": 3,
+      "posted_date": null,
+      "first_seen": "2026-11-16",
+      "domains": [
+        "O2O",
+        "물류"
+      ],
+      "deadline": "2026-12-11",
+      "deadline_type": "date",
+      "deadline_label": "2026-12-11",
+      "process": [
+        "서류전형",
+        "1차 인터뷰",
+        "2차 인터뷰",
+        "처우 협의",
+        "최종합격"
+      ],
+      "process_confirmed": true,
+      "has_codingtest": "미확인",
+      "fit_score": 68,
+      "fit_tier": "중",
+      "fit_reasons": [
+        "React·Vue 기반 웹/모바일 FE 개발 — 스택 부합",
+        "주 강점인 결제·지도·SEO와 직접 연결되는 업무 명시 없음",
+        "O2O 배송 플랫폼 도메인, 직책 감점 없음"
+      ],
+      "tier": "문열기",
+      "is_new": true,
+      "brief": {
+        "company_status": "O2O 배송 중계 플랫폼 '오투퀵' 운영(2015~), 투자정보 미확인",
+        "verdict": "일반 FE 유지보수 중심, 경력 3~10년 — 연차 범위 내이나 도메인 연관성 낮음",
+        "strengths": [
+          "React/Vue 경험",
+          "API 연동 경험"
+        ],
+        "gaps": [
+          "결제·지도 등 주축 강점 활용 불분명",
+          "AngularJS 레거시 가능성"
+        ],
+        "pass_odds": "중간",
+        "strategy": "지도·웹뷰·API 연동 경험을 배송/관제 UI와 연결해 어필",
+        "sources": [
+          "https://jumpit.saramin.co.kr/position/55540904"
+        ]
+      }
+    },
     {
       "id": "daum-portal-fe-2026-11",
       "company": "다음",
@@ -35,7 +91,7 @@
         "직책 감점 없음 (IC 포지션)"
       ],
       "tier": "문샷",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "카카오 계열 포털 서비스 운영",
         "verdict": "순수 FE IC 포지션, Next.js 통합 포털 플랫폼 구축",
@@ -86,7 +142,7 @@
         "직책 감점 없음; 경력 7년 이상 요건은 약 7년+ 경력으로 하한선 충족"
       ],
       "tier": "문샷",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "국내 최대 전자책 구독 플랫폼, 누적 회원 890만, 흑자 운영",
         "verdict": "순수 FE IC 포지션 (본문 일부 잘림 — 후반부 요건 미확인)",
@@ -2341,62 +2397,6 @@
         "strategy": "레거시 시스템 현대화 경험이 있다면 강조, 그렇지 않다면 지원 우선순위를 낮게 둠",
         "sources": [
           "wanted"
-        ]
-      }
-    },
-    {
-      "id": "otwoplus-frontend-2026-10",
-      "company": "오투플러스",
-      "title": "프론트엔드 개발자",
-      "level": null,
-      "scale": "투자정보 미확인",
-      "source": "jumpit",
-      "url": "https://jumpit.saramin.co.kr/position/55252404",
-      "location": "경기 용인시 수지구",
-      "exp": "3~10년",
-      "exp_min_years": 3,
-      "posted_date": null,
-      "first_seen": "2026-10-16",
-      "domains": [
-        "O2O",
-        "배송"
-      ],
-      "deadline": "2026-11-11",
-      "deadline_type": "date",
-      "deadline_label": "2026-11-11",
-      "process": [
-        "서류전형",
-        "1차 인터뷰",
-        "2차 인터뷰",
-        "처우 협의",
-        "최종합격"
-      ],
-      "process_confirmed": true,
-      "has_codingtest": "미확인",
-      "fit_score": 60,
-      "fit_tier": "하",
-      "fit_reasons": [
-        "Angular/React/Vue 스택이나 candidate 강점 도메인(결제·지도·SEO)과 무관한 범용 O2O 배송 플랫폼",
-        "요구 경력 3년 이상으로 candidate 대비 낮은 레벨의 공고, 기술 깊이 요구 낮음",
-        "Angular/jQuery 등 레거시 스택 혼재 가능성"
-      ],
-      "tier": "문열기",
-      "is_new": false,
-      "brief": {
-        "company_status": "O2O 배송 중계 플랫폼 '오투퀵' 운영, 중소기업",
-        "verdict": "순수 FE 단독 포지션, 백엔드 요구 없음",
-        "strengths": [
-          "Vue/React 스택 경험 매칭",
-          "유지보수 중심 업무로 즉시 투입 가능"
-        ],
-        "gaps": [
-          "결제/지도/SEO 등 candidate 강점 도메인과 무관",
-          "레거시 Angular/jQuery 스택 포함 가능성"
-        ],
-        "pass_odds": "중간",
-        "strategy": "React/Vue 전환 경험과 유지보수 안정성 강조",
-        "sources": [
-          "jumpit"
         ]
       }
     },
