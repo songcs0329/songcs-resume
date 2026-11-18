@@ -1324,3 +1324,27 @@
 
 ### 오투플러스 - 프론트엔드 개발자
 - url: https://jumpit.saramin.co.kr/position/55540904
+
+### 파이오링크 - AI 풀스택 엔지니어 채용
+- url: https://jumpit.saramin.co.kr/position/55566561
+
+### 톤28 - 시니어 풀스택 개발자 (Senior Full-Stack Engineer)
+- url: https://jumpit.saramin.co.kr/position/55570036
+
+### 와탭랩스 - 프론트엔드 개발자
+- url: https://jumpit.saramin.co.kr/position/55570101
+
+### 아나바고 - [니들크루] 풀스택 개발자
+- url: https://www.wanted.co.kr/wd/398784
+
+### 지피에이코리아 - 풀스택 개발자(중급,고급)
+- url: https://www.wanted.co.kr/wd/398773
+
+### 톤28 - 시니어 풀스택 개발자 (Senior Full-Stack Engineer)
+- url: https://www.wanted.co.kr/wd/398740
+
+### 스킨서울랩(SkinseoulLab) - 시니어 프론트엔드 엔지니어
+- url: https://www.wanted.co.kr/wd/398605
+
+### 시프티 - [B2B SaaS] Software Engineer (Full Stack)
+- url: https://www.wanted.co.kr/wd/398612
