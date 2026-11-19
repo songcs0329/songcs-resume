@@ -195,9 +195,11 @@ export const portfolioProjects: PortfolioProject[] = [
       { label: 'NestJS', color: '#E0234E', icon: 'nestjs' },
       { label: 'Supabase', color: '#3FCF8E', icon: 'supabase' },
       { label: 'Claude API', color: '#D97757', icon: 'anthropic' },
+      { label: 'Naver Maps', color: '#03C75A', icon: 'naver' },
     ],
     highlights: [
       'Claude가 네이버 블로그 후기에서 가게를 추출하고 네이버 지역 검색으로 실제 장소인지 확인',
+      '검색 결과 카드마다 네이버 지도로 위치를 표시하고 카페·디저트·술집·음식점은 카테고리별 마커 아이콘으로 구분',
       '메모판과 채팅을 하나의 글 흐름으로 두고 태그·사진이 붙으면 자동으로 현장 메모로 분류',
       'Supabase Realtime으로 새 글을 바로 반영하고 지금 보고 있는 사람 수 표시',
       '메모 24시간·채팅 6시간 뒤 자동으로 사라지는 게시판, 방마다 다른 랜덤 닉네임과 신고·차단',
@@ -210,7 +212,7 @@ export const portfolioProjects: PortfolioProject[] = [
         description: 'AI 도구를 활용해 구현한 NestJS API — 검색·글쓰기·요약·신고·매시간 정리 (Railway)',
       },
       { label: '데이터·실시간', description: 'Supabase Postgres · Auth(카카오) · Realtime · Storage' },
-      { label: '외부 API', description: 'Claude API, 네이버 블로그·지역 검색 API' },
+      { label: '외부 API', description: 'Claude API, 네이버 지도 JS SDK, 네이버 블로그·지역 검색 API' },
     ],
     detailSections: [
       {
