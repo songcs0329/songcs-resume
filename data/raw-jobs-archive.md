@@ -1348,3 +1348,24 @@
 
 ### 시프티 - [B2B SaaS] Software Engineer (Full Stack)
 - url: https://www.wanted.co.kr/wd/398612
+
+### 핀다 - [핀다] 웹프론트엔드 엔지니어
+- url: https://jumpit.saramin.co.kr/position/55606004
+
+### 텐빌리언 - 프론트엔드 개발 경력 (2~5년)
+- url: https://jumpit.saramin.co.kr/position/55592559
+
+### 텐빌리언 - 프론트엔드 개발 경력 (6~9년)
+- url: https://jumpit.saramin.co.kr/position/55592533
+
+### 아이포트폴리오 - 웹 개발자 경력 채용
+- url: https://jumpit.saramin.co.kr/position/55591583
+
+### 캐치잇플레이 - [AI 학습플랫폼] 프론트 엔지니어 (재택근무가능)
+- url: https://jumpit.saramin.co.kr/position/55585393
+
+### 미리디 - [미리캔버스] 프론트엔드 엔지니어 (Product)
+- url: https://www.wanted.co.kr/wd/398916
+
+### 핀다(FINDA) - 웹프론트엔드 엔지니어
+- url: https://www.wanted.co.kr/wd/398861
