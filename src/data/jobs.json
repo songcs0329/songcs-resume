@@ -1,7 +1,7 @@
 {
   "meta": {
     "last_collected": "2026-11-20",
-    "total": 229
+    "total": 227
   },
   "jobs": [
     {
@@ -961,60 +961,6 @@
         "strategy": "우선순위 낮음",
         "sources": [
           "https://www.wanted.co.kr/wd/396758"
-        ]
-      }
-    },
-    {
-      "id": "genesisnest-fe-2026-11",
-      "company": "제네시스네스트",
-      "title": "프론트엔드 개발자 [1~8년 미만]",
-      "level": "미들",
-      "scale": "외부 투자 없이 매출 100억+ 흑자 (투자정보 미확인)",
-      "source": "jumpit",
-      "url": "https://jumpit.saramin.co.kr/position/55436311",
-      "location": "경기 용인시 수지구",
-      "exp": "1~8년",
-      "exp_min_years": 1,
-      "posted_date": null,
-      "first_seen": "2026-11-04",
-      "domains": [
-        "SI/외주"
-      ],
-      "deadline": "2026-11-30",
-      "deadline_type": "date",
-      "deadline_label": "11/30 마감",
-      "process": [
-        "서류전형",
-        "실무 및 임원 인터뷰",
-        "처우 협의",
-        "최종합격"
-      ],
-      "process_confirmed": true,
-      "has_codingtest": "미확인",
-      "fit_score": 68,
-      "fit_tier": "중",
-      "fit_reasons": [
-        "React·Vue 프레임워크 경험 요구 — 스택 부합",
-        "특정 도메인(결제·지도·SEO) 연관성 낮음, SI·외주 성격 강함",
-        "경력 상한 8년 미만 — 경계선"
-      ],
-      "tier": null,
-      "is_new": false,
-      "brief": {
-        "company_status": "2022년 설립, 130명, 3년 연속 흑자, 대외 협업(현대·기아, 다음 카페 등) 중심",
-        "verdict": "일반 FE 포지션. 도메인 접점 약함",
-        "strengths": [
-          "React/Vue 경력",
-          "스톡옵션 전원 지급"
-        ],
-        "gaps": [
-          "핵심 강점 도메인 연관 약함",
-          "외주 프로젝트 성격 가능성"
-        ],
-        "pass_odds": "중간",
-        "strategy": "이력서 상위에 React/Next 프로젝트 규모를 강조",
-        "sources": [
-          "https://jumpit.saramin.co.kr/position/55436311"
         ]
       }
     },
@@ -11073,68 +11019,6 @@
           {
             "title": "아임웹 [노코드 웹빌더 스쿼드] Front-end Engineer — 자사홈",
             "url": "https://career.imweb.me/o/151177"
-          }
-        ]
-      }
-    },
-    {
-      "id": "fastfive-fe-developer-2026-07",
-      "company": "패스트파이브",
-      "title": "프론트엔드 개발자 (React)",
-      "level": "미드~시니어",
-      "scale": "시리즈E · 누적 1,000억+ · 코워킹스페이스 No.1 · 직원 300명+",
-      "source": "자사홈",
-      "url": "https://recruit.fastfive.co.kr/b467660c-c034-406d-8042-91f8bb0f66a0",
-      "location": "서울 강남구",
-      "exp": "웹 프론트엔드 경력 3년 이상",
-      "exp_min_years": 3,
-      "posted_date": null,
-      "first_seen": "2026-07-16",
-      "domains": [
-        "O2O",
-        "공유오피스",
-        "결제",
-        "IoT",
-        "웹뷰"
-      ],
-      "deadline": null,
-      "deadline_type": "rolling",
-      "deadline_label": "채용 시 마감",
-      "process": [
-        "서류",
-        "1차 직무역량 면접",
-        "2차 Culture & Fit 면접"
-      ],
-      "process_confirmed": true,
-      "has_codingtest": "미확인",
-      "fit_score": 70,
-      "fit_tier": "중",
-      "fit_reasons": [
-        "앱 내 결제 + O2O 공간 서비스 FE 개발 — 결제 플로우·웹뷰 경험 도메인 연결 가능",
-        "멤버용 모바일앱·관리자 웹앱 개발 — 웹뷰·어드민 이력 직접 어필 가능",
-        "React/Next.js/TypeScript 스택 일치 + 시리즈E 누적 1,000억+ 플랫폼"
-      ],
-      "tier": "문샷",
-      "is_new": false,
-      "brief": {
-        "company_status": "국내 최대 공유오피스 플랫폼 패스트파이브 운영. 서울·부산·인천 70여 개 지점, 직원 300명+. 시리즈E 누적 1,000억+ 유치. 앱 내 결제·출입(IoT)·공간관리 솔루션·CRM·어드민 FE 채용. 2026년 상반기 채용 진행 중.",
-        "verdict": "앱 내 결제 시스템 + O2O 공유오피스 플랫폼이 창석 결제 플로우·웹뷰 경험과 연결 가능. React/Next.js/TypeScript 스택 일치. 시리즈E 누적 1,000억+ 안정적 규모. 단, 공유오피스 도메인이라 이커머스 결제·PG 직접 어필 여지 제한적이며, 경력 3년+ 요건으로 경쟁 풀 넓음.",
-        "strengths": [
-          "앱 내 결제 + O2O 서비스 FE — 결제 플로우·웹뷰·어드민 이력 연결",
-          "React/Next.js/TypeScript 스택 일치 + AWS Serverless 경험 우대",
-          "시리즈E 누적 1,000억+ 코워킹스페이스 No.1 — 안정적 규모"
-        ],
-        "gaps": [
-          "공유오피스 도메인 — 이커머스 결제·주문 플로우 직접 어필 여지 제한적",
-          "경력 3년+ 요건 — 7년+ 창석에게 경쟁 대상 폭 넓음",
-          "자사홈 recruit.fastfive.co.kr — 마감 여부 직접 확인 권장"
-        ],
-        "pass_odds": "중간",
-        "strategy": "무기: 앱 내 결제 시스템 이해도 + 웹뷰·모바일앱 연계 경험 강조. React/Next.js/TypeScript 스택 일치 어필. O2O 멤버 관리 어드민 UX 개선 관심 표현.",
-        "sources": [
-          {
-            "title": "패스트파이브 프론트엔드 개발자 채용 — 자사홈",
-            "url": "https://recruit.fastfive.co.kr/b467660c-c034-406d-8042-91f8bb0f66a0"
           }
         ]
       }
