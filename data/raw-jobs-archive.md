@@ -1369,3 +1369,6 @@
 
 ### 핀다(FINDA) - 웹프론트엔드 엔지니어
 - url: https://www.wanted.co.kr/wd/398861
+
+### 잉클 - 풀스택 소프트웨어 개발자
+- url: https://www.wanted.co.kr/wd/399412

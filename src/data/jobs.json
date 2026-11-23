@@ -1,9 +1,58 @@
 {
   "meta": {
-    "last_collected": "2026-11-20",
-    "total": 227
+    "last_collected": "2026-11-23",
+    "total": 228
   },
   "jobs": [
+    {
+      "id": "incl-fullstack-2026-11",
+      "company": "잉클",
+      "title": "풀스택 소프트웨어 개발자",
+      "level": "미들",
+      "scale": "투자정보 미확인",
+      "source": "wanted",
+      "url": "https://www.wanted.co.kr/wd/399412",
+      "location": "경기 수원시 영통구",
+      "exp": "경력 3년 이상",
+      "exp_min_years": 3,
+      "posted_date": null,
+      "first_seen": "2026-11-23",
+      "domains": [
+        "풀스택",
+        "제조 데이터",
+        "AI 에이전트"
+      ],
+      "deadline": "2026-12-20",
+      "deadline_type": "date",
+      "deadline_label": "2026.12.20",
+      "process": [],
+      "process_confirmed": false,
+      "has_codingtest": "미확인",
+      "fit_score": 55,
+      "fit_tier": "하",
+      "fit_reasons": [
+        "BE 비중 있는 풀스택 (FE 약 5 : BE 5) -10점",
+        "주축 강점(결제·지도·SEO)과 도메인 불일치, 제조 데이터 플랫폼",
+        "차트·대화 UI·API 상태 처리 등 React/TS 경험은 활용 가능"
+      ],
+      "tier": "문열기",
+      "is_new": true,
+      "brief": {
+        "company_status": "제조 설비 데이터 플랫폼 Nazare, AI 에이전트 플랫폼 Navis 개발. 투자정보 미확인.",
+        "verdict": "FE 5 : BE 5 — API·스키마·SQL 설계가 절반, 다만 Java/Kotlin/Go/Python 등 BE 언어 요구는 없고 JS/TS 기준이라 제외하지 않음",
+        "strengths": [
+          "JS/TS 화면 구현과 API 연동 경험",
+          "성능 병목 측정·개선 경험"
+        ],
+        "gaps": [
+          "SQL·데이터 모델링·서버 검증 실무 비중이 큼",
+          "제조·온프레미스 도메인 경험 없음",
+          "권한 체계 설계 경험 필요"
+        ],
+        "pass_odds": "중간",
+        "strategy": "FE 중심 풀스택 역량과 API 연동·성능 개선 사례를 강조하고, 서버·SQL 경험을 보완 설명한다."
+      }
+    },
     {
       "id": "finda-fe-2026-11",
       "company": "핀다",
@@ -45,7 +94,7 @@
         "앱내 웹뷰 개발 우대 — 웹뷰 하이브리드 경험 적합"
       ],
       "tier": "문샷",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "시리즈C, 매출 100억+, 저축은행 인수 추진",
         "verdict": "IC 중심 FE 포지션, 관리 직책 아님 (기술팀 리드는 우대사항일 뿐)",
@@ -94,7 +143,7 @@
         "디자인 에디터가 주축인 제품이라 결제/지도 강점 활용도는 낮음"
       ],
       "tier": "문열기",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "가입자 2,000만, 25년 매출 942억 (공고 명시)",
         "verdict": "IC 포지션, 관리 감점 없음",
@@ -143,7 +192,7 @@
         "영어 교육 도메인 — 강점 영역(결제·지도·SEO)과 거리"
       ],
       "tier": "문열기",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "스타트업, 2012년부터 서비스 운영",
         "verdict": "IC 웹 개발자, 감점 없음",
@@ -191,7 +240,7 @@
         "에듀테크 도메인, 결제·지도 강점과 거리"
       ],
       "tier": "메인",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "시리즈A, 영업이익률 20% 이상 (공고 명시)",
         "verdict": "IC 포지션, 3D·게임 주축은 아님",
@@ -244,7 +293,7 @@
         "기술 성장·스택 적합도 낮음"
       ],
       "tier": "문열기",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "2021년 설립, 해외 브랜드 수입 유통",
         "verdict": "IC, 감점 없음하나 스택 불일치",
