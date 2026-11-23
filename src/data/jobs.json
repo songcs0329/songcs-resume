@@ -1,7 +1,7 @@
 {
   "meta": {
     "last_collected": "2026-11-23",
-    "total": 228
+    "total": 226
   },
   "jobs": [
     {
@@ -7037,55 +7037,6 @@
       }
     },
     {
-      "id": "createz-fe-contract-2026-08",
-      "company": "크리에이츠",
-      "title": "프론트엔드 개발자(계약직)",
-      "level": "시니어",
-      "scale": "투자정보 미확인",
-      "source": "wanted",
-      "url": "https://www.wanted.co.kr/wd/382424",
-      "location": "서울 서초구",
-      "exp": "5-10년",
-      "exp_min_years": 5,
-      "posted_date": null,
-      "first_seen": "2026-08-26",
-      "domains": [
-        "스포츠테크",
-        "B2B"
-      ],
-      "deadline": null,
-      "deadline_type": "rolling",
-      "deadline_label": "상시채용",
-      "process_confirmed": false,
-      "has_codingtest": "미확인",
-      "fit_score": 64,
-      "fit_tier": "하",
-      "fit_reasons": [
-        "React 기반 반응형·하이브리드 웹 개발 - 기본 스택 일치",
-        "이커머스·결제·지도·SEO 등 핵심 도메인과 직접 연관 없음",
-        "계약직 1년(연장/정규직 전환 가능) 조건"
-      ],
-      "tier": "문열기",
-      "is_new": false,
-      "brief": {
-        "company_status": "골프 테크 브랜드 UNEEKOR 모기업, 매장·타석·APP 서비스 운영, 투자정보 미확인",
-        "verdict": "FE 전담 - VMS(매장관리) 웹 프론트 개발",
-        "strengths": [
-          "React 스택 일치",
-          "반응형/하이브리드 웹 실무 경험"
-        ],
-        "gaps": [
-          "도메인 연관성 낮음",
-          "계약직 포지션"
-        ],
-        "pass_odds": "중간",
-        "strategy": "반응형 웹·API 연동 경험 위주로 어필",
-        "sources": [
-          "wanted"
-        ]
-      }
-    },
-    {
       "id": "arch-seoul-fe-2026-08",
       "company": "아치서울",
       "title": "프론트엔드 개발자",
@@ -8009,63 +7960,6 @@
         "strategy": "PG 연동 및 결제 플로우 개선 경험을 이커머스 핵심 기능 개발 사례로 제시",
         "sources": [
           "wanted"
-        ]
-      }
-    },
-    {
-      "id": "kakaopay-asset-fe-2026-08",
-      "company": "카카오페이",
-      "title": "프론트엔드 개발자 - 자산 서비스",
-      "level": "미들",
-      "scale": "상장 대기업(카카오 계열) - 자동 문샷",
-      "source": "자사홈",
-      "url": "https://kakaopay.career.greetinghr.com/o/233787",
-      "location": "경기 성남시 분당구",
-      "exp": "3년 이상",
-      "exp_min_years": 3,
-      "posted_date": null,
-      "first_seen": "2026-08-21",
-      "domains": [
-        "핀테크",
-        "웹뷰"
-      ],
-      "deadline": null,
-      "deadline_type": "rolling",
-      "deadline_label": "수시채용",
-      "process": [
-        "서류",
-        "1차 인터뷰(라이브 코딩)",
-        "페이 컬처핏 진단",
-        "2차 인터뷰",
-        "처우협의",
-        "최종합격"
-      ],
-      "process_confirmed": true,
-      "has_codingtest": "코딩테스트",
-      "fit_score": 90,
-      "fit_tier": "최상",
-      "fit_reasons": [
-        "React/Jotai/Zustand/React Query 스택 완전 일치",
-        "모바일 웹뷰 환경에서 네이티브 앱과 유사한 사용성 구현 경험 우대 - 후보자의 웹뷰 하이브리드 강점과 직접 부합",
-        "카카오 계열 상장 대기업으로 안정성과 성장성 모두 우수"
-      ],
-      "tier": "문샷",
-      "is_new": false,
-      "brief": {
-        "company_status": "카카오 계열 핀테크 상장 대기업",
-        "verdict": "FE 전용 포지션, 카카오페이 앱 내 자산 탭 개발",
-        "strengths": [
-          "React/Zustand/React Query 스택 완전 일치",
-          "웹뷰 하이브리드 네이티브 앱 유사 UX 구현 경험이 핵심 우대사항과 직접 부합",
-          "SEO/SSR 성능 개선 경험(Next.js)도 우대사항과 일치"
-        ],
-        "gaps": [
-          "대용량 트래픽·보안성 유지 등 금융 서비스 특유의 높은 안정성 요구"
-        ],
-        "pass_odds": "높음",
-        "strategy": "네이버맵 클러스터링·웹뷰 브릿지 동기화 경험을 모바일 웹뷰 네이티브 유사 UX 구현 사례로, SEO/CTR 개선 경험을 SSR 성능 개선 사례로 연결 어필. 라이브 코딩 대비 필요",
-        "sources": [
-          "자사홈"
         ]
       }
     },
