@@ -22,6 +22,20 @@ const CODING_TEST_CLASS: Record<CodingTest, string> = {
   미확인: 'bg-zinc-100 text-zinc-500',
 };
 
+// 수집 플랫폼 chip — 모르는 source 값은 원문 그대로 중립 색으로 보여준다
+const SOURCE_CHIP: Record<string, { label: string; className: string }> = {
+  wanted: { label: '원티드', className: 'bg-blue-50 text-blue-700' },
+  jumpit: { label: '점핏', className: 'bg-orange-50 text-orange-700' },
+  jobkorea: { label: '잡코리아', className: 'bg-sky-50 text-sky-700' },
+  saramin: { label: '사람인', className: 'bg-indigo-50 text-indigo-700' },
+  자사홈: { label: '자사홈', className: 'bg-zinc-100 text-zinc-600' },
+};
+
+function SourceChip({ source }: { source: string }) {
+  const chip = SOURCE_CHIP[source] ?? { label: source, className: 'bg-zinc-100 text-zinc-600' };
+  return <span className={`rounded-md px-2 py-0.5 text-xs font-semibold ${chip.className}`}>{chip.label}</span>;
+}
+
 function DdayChip({ job }: { job: Job }) {
   const base = 'rounded-md px-2 py-0.5 text-xs font-semibold';
 
@@ -147,7 +161,7 @@ function JobCard({ job, rank }: JobCardProps) {
           <DdayChip job={job} />
           {job.level && <span>{job.level}</span>}
           {job.location && <span>· {job.location}</span>}
-          {job.source && <span>· {job.source}</span>}
+          {job.source && <SourceChip source={job.source} />}
         </div>
 
         <p className="mt-2 inline-block rounded-md border border-dashed border-zinc-300 bg-white px-2.5 py-1 text-xs text-zinc-600">
