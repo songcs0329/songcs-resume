@@ -12,6 +12,18 @@
       "type": "jumpit",
       "list_api": "https://api.jumpit.co.kr/api/positions?jobCategory=2&sort=reg_dt",
       "max_pages": 4
+    },
+    {
+      "name": "잡코리아 (프론트엔드)",
+      "type": "jobkorea",
+      "list_url": "https://www.jobkorea.co.kr/Search/?stext=%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C&tabType=recruit&Ord=RegDtDesc",
+      "max_pages": 3
+    },
+    {
+      "name": "사람인 (프론트엔드)",
+      "type": "saramin",
+      "list_url": "https://www.saramin.co.kr/zf_user/search/recruit?searchword=%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C&recruitSort=reg_dt&recruitPageCount=40",
+      "max_pages": 3
     }
   ],
 

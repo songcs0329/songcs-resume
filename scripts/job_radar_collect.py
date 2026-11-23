@@ -9,7 +9,7 @@
 GitHub Actions 러너에서 스크립트로 돌린다.
 
 Phase 0: src/data/jobs.json 의 전 공고 URL 생존 확인 → 죽은 건 제거
-Phase 1: 채용 플랫폼(원티드·점핏) 목록 API → 자사 채용페이지 순회 순으로 FE 공고 발견
+Phase 1: 채용 플랫폼(원티드·점핏·사람인·잡코리아) 목록 API → 자사 채용페이지 순회 순으로 FE 공고 발견
          → 전 건 개별 URL 200 확인 → raw-jobs.md 에 적재
 
 플랫폼을 먼저 도는 이유: 자사 페이지는 이미 아는 회사만 훑어 새 회사를 못 찾는다.
@@ -213,7 +213,85 @@ def platform_jumpit(source):
     return out
 
 
-PLATFORM_HANDLERS = {"wanted": platform_wanted, "jumpit": platform_jumpit}
+def parse_career(text):
+    """'경력3년↑' · '경력 3~10년' · '신입' · '경력무관' → (low, high). 신입 전용은 (0, 0)."""
+    m = re.search(r"(\d+)\s*[~-]\s*(\d+)\s*년", text)
+    if m:
+        return int(m[1]), int(m[2])
+    m = re.search(r"(\d+)\s*년", text)
+    if m:
+        return int(m[1]), None
+    if "신입" in text and "경력" not in text:
+        return 0, 0
+    return None, None
+
+
+def _html_get(url, label):
+    status, body = fetch(url, retries=2)
+    if status != 200:
+        print(f"    [{label}] HTTP {status} — {url[:80]}")
+        return ""
+    return body
+
+
+def platform_saramin(source):
+    """사람인 검색 결과 HTML. 공식 API가 없어 목록 카드를 정규식으로 읽는다 (robots.txt 허용 경로)."""
+    out = []
+    for page in range(1, source.get("max_pages", 3) + 1):
+        body = _html_get(f"{source['list_url']}&recruitPage={page}", "사람인")
+        cards = body.split('<div class="item_recruit')[1:]
+        if not cards:
+            break
+        for c in cards:
+            idx = re.search(r'rec_idx=(\d+)', c)
+            title = re.search(r'class="job_tit">.*?title="([^"]+)"', c, re.S)
+            corp = re.search(r'class="corp_name">\s*<a[^>]*>\s*([^<]+?)\s*</a>', c, re.S)
+            cond = re.search(r'class="job_condition">(.*?)</div>', c, re.S)
+            if not (idx and title and corp):
+                continue
+            low, high = parse_career(strip_tags(cond[1]) if cond else "")
+            if (low, high) == (0, 0) or out_of_range(low, high):
+                continue
+            out.append({
+                "company": html.unescape(corp[1]),
+                "title": html.unescape(title[1]),
+                "url": f"https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx={idx[1]}",
+            })
+        time.sleep(1)
+    return out
+
+
+def platform_jobkorea(source):
+    """잡코리아 검색 결과 HTML. 카드 안 '스크랩' 버튼 뒤로 제목·회사 순으로 나온다."""
+    out = []
+    for page in range(1, source.get("max_pages", 3) + 1):
+        body = _html_get(f"{source['list_url']}&Page_No={page}", "잡코리아")
+        cards = body.split('data-sentry-component="CardJob"')[1:]
+        if not cards:
+            break
+        for c in cards:
+            gid = re.search(r"GI_Read/(\d+)", c)
+            texts = [t.strip() for t in re.split(r"<[^>]+>", re.sub(r"<(script|style|svg).*?</\1>", "", c, flags=re.S)) if t.strip()]
+            if not gid or "스크랩" not in texts or len(texts) < texts.index("스크랩") + 3:
+                continue
+            i = texts.index("스크랩")
+            career = next((t for t in texts if re.match(r"(경력|신입)", t)), "")
+            low, high = parse_career(career)
+            if (low, high) == (0, 0) or out_of_range(low, high):
+                continue
+            out.append({
+                "company": html.unescape(texts[i + 2]),
+                "title": html.unescape(texts[i + 1]),
+                "url": f"https://www.jobkorea.co.kr/Recruit/GI_Read/{gid[1]}",
+            })
+        time.sleep(1)
+    return out
+
+
+PLATFORM_HANDLERS = {
+    "wanted": platform_wanted, "jumpit": platform_jumpit,
+    "saramin": platform_saramin, "jobkorea": platform_jobkorea,
+}
 
 
 # --------------------------------------------------- Phase 1 · 자사 페이지
@@ -412,6 +490,10 @@ def selfcheck():
     assert not out_of_range(3, 10)
     assert not out_of_range(8, 12), "하한 8~9년은 이제 통과"
     assert not out_of_range(None, None), "정보 없으면 통과시킨다"
+    assert parse_career("경력3년↑") == (3, None)
+    assert parse_career("경력 3~10년") == (3, 10)
+    assert parse_career("신입") == (0, 0)
+    assert parse_career("경력무관") == (None, None)
     print("selfcheck OK")
 
 
