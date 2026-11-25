@@ -1372,3 +1372,63 @@
 
 ### 잉클 - 풀스택 소프트웨어 개발자
 - url: https://www.wanted.co.kr/wd/399412
+### 잉클 - 풀스택 소프트웨어 개발자
+- url: https://www.wanted.co.kr/wd/399412
+
+### ㈜컬리 - 핀테크 프론트엔드 개발자 (결제)
+- url: https://www.jobkorea.co.kr/Recruit/GI_Read/50321909
+
+### ㈜웹젠 - [웹젠] 프론트엔드 개발(경력)
+- url: https://www.jobkorea.co.kr/Recruit/GI_Read/50296715
+
+### ㈜컴투스 - [컴투스] 웹 프론트엔드 개발자 (계약직/3년 이상)
+- url: https://www.jobkorea.co.kr/Recruit/GI_Read/50120542
+
+### ㈜비버웍스 - 시니어 프론트엔드 개발자
+- url: https://www.jobkorea.co.kr/Recruit/GI_Read/50312454
+
+### ㈜보배네트워크 - 보배드림 프론트엔드 개발자
+- url: https://www.jobkorea.co.kr/Recruit/GI_Read/50338343
+
+### ㈜다음 - Daum 포털 프론트엔드 엔지니어 채용
+- url: https://www.jobkorea.co.kr/Recruit/GI_Read/50350312
+
+### ㈜링캠 - 프론트엔드 개발자 (Next.js)
+- url: https://www.jobkorea.co.kr/Recruit/GI_Read/50247273
+
+### ㈜투비소프트 - [투비소프트] 자사 이커머스 쇼핑몰 프론트엔드 개발 경력직 채용
+- url: https://www.jobkorea.co.kr/Recruit/GI_Read/50380206
+
+### 핀다 - [핀다] 웹프론트엔드 엔지니어
+- url: https://www.jobkorea.co.kr/Recruit/GI_Read/50394676
+
+### ㈜더아머베어러 - (주)더아머베어러 프론트엔드 개발자
+- url: https://www.jobkorea.co.kr/Recruit/GI_Read/50200246
+
+### 위드소프트 - (경력) Next.js 프론트엔드 개발자 모집
+- url: https://www.jobkorea.co.kr/Recruit/GI_Read/50393225
+
+### ㈜엠펀치 - 프론트엔드 개발자 채용
+- url: https://www.jobkorea.co.kr/Recruit/GI_Read/50191467
+
+### ㈜스카이앤드 - 프론트앤드 개발자
+- url: https://www.jobkorea.co.kr/Recruit/GI_Read/50362666
+
+### 아이디벨 - 프론트엔드 개발자
+- url: https://www.jobkorea.co.kr/Recruit/GI_Read/50261927
+
+### 넛지헬스케어㈜ - [킬로] 프론트엔드개발 산업기능요원 모집
+- url: https://www.jobkorea.co.kr/Recruit/GI_Read/50299551
+
+### ㈜테코 - 일본에서 일하실 프론트엔드 개발자를 구합니다.
+- url: https://www.jobkorea.co.kr/Recruit/GI_Read/50050518
+
+### ㈜제이에이치솔루션 - JH솔루션(주) 3D 프론트엔드 개발자 채용
+- url: https://www.jobkorea.co.kr/Recruit/GI_Read/50270334
+
+### ㈜스쿼드엑스 - AI 플랫폼 프론트엔드 개발자 채용
+- url: https://www.jobkorea.co.kr/Recruit/GI_Read/50152713
+
+### ㈜미니게이트 - [미니게이트] 미래기술연구소 프론트엔드 풀스텍개발자 모집
+- url: https://www.jobkorea.co.kr/Recruit/GI_Read/50349359
+
