@@ -1432,3 +1432,83 @@
 ### ㈜미니게이트 - [미니게이트] 미래기술연구소 프론트엔드 풀스텍개발자 모집
 - url: https://www.jobkorea.co.kr/Recruit/GI_Read/50349359
 
+
+### ㈜비버웍스 - 프론트엔드 개발자 (시니어)
+
+- url: https://www.jobkorea.co.kr/Recruit/GI_Read/50424898
+
+### ㈜오디에스 - 프론트엔드 개발자 채용공고
+
+- url: https://www.jobkorea.co.kr/Recruit/GI_Read/50421725
+
+### ㈜디오 - (주)디오 AI Platform 프론트엔드(UI,UX)
+
+- url: https://www.jobkorea.co.kr/Recruit/GI_Read/50256342
+
+### 에스티컴 - 프론트엔드(Frontend) 개발(UI개발 - 중급)모집
+
+- url: https://www.jobkorea.co.kr/Recruit/GI_Read/50273587
+
+### ㈜퓨즈 - 보험권 프론트엔드 개발자 모집(React)
+
+- url: https://www.jobkorea.co.kr/Recruit/GI_Read/50304847
+
+### ㈜코랩소프트 - [용산/대기업] 회원 서비스 프론트엔드 운영/개발 초급
+
+- url: https://www.jobkorea.co.kr/Recruit/GI_Read/50332620
+
+### ㈜모빌러그 - 모빌러그) 프론트엔드 개발자 채용 공고
+
+- url: https://www.jobkorea.co.kr/Recruit/GI_Read/50282626
+
+### ㈜알티넷솔루션 - [FAP팀] 프론트엔드 개발자 채용
+
+- url: https://www.jobkorea.co.kr/Recruit/GI_Read/50294163
+
+### ㈜미리디 - [미리캔버스] 프론트엔드 엔지니어 (Product)
+
+- url: https://www.jobkorea.co.kr/Recruit/GI_Read/50388815
+
+### ㈜미피아(Mippia Inc. - [MIPPIA] 프론트엔드 개발자 (경력 2년 이상 모집
+
+- url: https://www.jobkorea.co.kr/Recruit/GI_Read/50316720
+
+### 시큐어포인트 - 프로덕트 프론트엔드 개발자(JavaScript·TypeScript)
+
+- url: https://www.jobkorea.co.kr/Recruit/GI_Read/50384917
+
+### ㈜에스오더 - 에스오더(부산본부) 태블릿 메뉴판 프론트앤드 개발자 채용합니다.
+
+- url: https://www.jobkorea.co.kr/Recruit/GI_Read/50392459
+
+### 아타드㈜(ATAD Corp. - 프론트엔드 개발자
+
+- url: https://www.jobkorea.co.kr/Recruit/GI_Read/50405614
+
+### ㈜뉴제스트 - [신입 가능] 프론트엔드 개발자 채용(채용시 마감)
+
+- url: https://www.jobkorea.co.kr/Recruit/GI_Read/50054512
+
+### 유닉솔루션㈜ - 유닉솔루션(주) 프론트엔드 웹/앱 개발자 채용
+
+- url: https://www.jobkorea.co.kr/Recruit/GI_Read/50322579
+
+### 버터소프트(Buttersoft),㈜ - 헬스케어 서비스 프론트엔드 개발자 [Vue.js]
+
+- url: https://www.jobkorea.co.kr/Recruit/GI_Read/50074937
+
+### ㈜위펀 - 프론트엔드 개발자 (React)
+
+- url: https://www.jobkorea.co.kr/Recruit/GI_Read/50226052
+
+### ㈜아이브릭스 - [아이브릭스] 웹 프론트엔드 경력 개발자 채용공고
+
+- url: https://www.jobkorea.co.kr/Recruit/GI_Read/50272566
+
+### ㈜산타 - [산타] AI 활용 프론트엔드 경력직 개발자 (부산)
+
+- url: https://www.jobkorea.co.kr/Recruit/GI_Read/50273238
+
+### 넛지헬스케어㈜ - [캐시워크애즈] 프론트엔드개발 산업기능요원 모집
+
+- url: https://www.jobkorea.co.kr/Recruit/GI_Read/50315335

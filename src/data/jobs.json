@@ -1,9 +1,288 @@
 {
   "meta": {
-    "last_collected": "2026-11-25",
-    "total": 236
+    "last_collected": "2026-11-27",
+    "total": 241
   },
   "jobs": [
+    {
+      "id": "mirinae-canvas-fe-2026-11",
+      "company": "㈜미리디",
+      "title": "[미리캔버스] 프론트엔드 엔지니어 (Product)",
+      "level": "시니어",
+      "scale": "투자정보 미확인",
+      "source": "jobkorea",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50388815",
+      "location": "서울 구로구",
+      "exp": "5년 이상",
+      "exp_min_years": 5,
+      "posted_date": "2026-11-18",
+      "first_seen": "2026-11-27",
+      "domains": [
+        "SaaS",
+        "에디터"
+      ],
+      "deadline": "2027-01-17",
+      "deadline_type": "date",
+      "deadline_label": "~2027.01.17",
+      "process": [],
+      "process_confirmed": false,
+      "has_codingtest": "미확인",
+      "fit_score": 72,
+      "fit_tier": "중",
+      "fit_reasons": [
+        "React 5년+ 요구, react-query·Jotai 등 후보 스택과 일치",
+        "프로덕트 FE로 IC 포지션, 관리 감점 없음",
+        "커머스·결제·지도 도메인과 직접 연관은 약함"
+      ],
+      "tier": "문열기",
+      "is_new": true,
+      "brief": {
+        "company_status": "미리캔버스 운영 SaaS 기업, 301~500명 규모 (투자정보 미확인)",
+        "verdict": "디자인 에디터 SaaS 프로덕트 FE — 후보 스택과 일치, 도메인은 다름",
+        "strengths": [
+          "React·react-query·TypeScript 5년+",
+          "Next.js·상태관리 경험"
+        ],
+        "gaps": [
+          "캔버스/에디터 도메인 경험 부족"
+        ],
+        "pass_odds": "중간",
+        "strategy": "성능·UX 개선 성과(CVR, SEO) 중심으로 프로덕트 지향 어필",
+        "sources": [
+          "잡코리아 공고"
+        ]
+      }
+    },
+    {
+      "id": "weefun-react-fe-2026-11",
+      "company": "㈜위펀",
+      "title": "프론트엔드 개발자 (React)",
+      "level": "시니어",
+      "scale": "투자정보 미확인",
+      "source": "jobkorea",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50226052",
+      "location": "서울 강남구",
+      "exp": "5년 이상",
+      "exp_min_years": 5,
+      "posted_date": "2026-10-23",
+      "first_seen": "2026-11-27",
+      "domains": [
+        "커뮤니티",
+        "콘텐츠"
+      ],
+      "deadline": null,
+      "deadline_type": "rolling",
+      "deadline_label": "상시채용",
+      "process": [],
+      "process_confirmed": false,
+      "has_codingtest": "미확인",
+      "fit_score": 68,
+      "fit_tier": "중",
+      "fit_reasons": [
+        "React 5년+ IC 포지션, 강남 근무",
+        "포털·콘텐츠·커뮤니티 업종, 301~500명 규모",
+        "공고 본문 상세 정보가 적어 판단 근거 제한적"
+      ],
+      "tier": "문열기",
+      "is_new": true,
+      "brief": {
+        "company_status": "포털·콘텐츠·커뮤니티 업종, 301~500명 (투자정보 미확인)",
+        "verdict": "React 중심 FE — 상세 업무 미기재",
+        "strengths": [
+          "React 5년+ 경력 부합"
+        ],
+        "gaps": [
+          "업무·스택 상세 미확인"
+        ],
+        "pass_odds": "중간",
+        "strategy": "지원 전 업무 범위·스택 확인 필요",
+        "sources": [
+          "잡코리아 공고"
+        ]
+      }
+    },
+    {
+      "id": "ibricks-web-fe-2026-11",
+      "company": "㈜아이브릭스",
+      "title": "[아이브릭스] 웹 프론트엔드 경력 개발자",
+      "level": "시니어",
+      "scale": "투자정보 미확인",
+      "source": "jobkorea",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50272566",
+      "location": "경기 성남시 분당구 판교",
+      "exp": "5년 이상",
+      "exp_min_years": 5,
+      "posted_date": "2026-10-30",
+      "first_seen": "2026-11-27",
+      "domains": [
+        "SI·솔루션"
+      ],
+      "deadline": "2026-11-29",
+      "deadline_type": "date",
+      "deadline_label": "~2026.11.29",
+      "process": [],
+      "process_confirmed": false,
+      "has_codingtest": "미확인",
+      "fit_score": 66,
+      "fit_tier": "중",
+      "fit_reasons": [
+        "Zustand·Tailwind 스택 일치, 5년+ IC",
+        "솔루션·SI 업종으로 커머스 연관 약함",
+        "마감 임박(11/29)"
+      ],
+      "tier": "문열기",
+      "is_new": true,
+      "brief": {
+        "company_status": "솔루션·SI·CRM·ERP, 벤처기업, 51~300명 (투자정보 미확인)",
+        "verdict": "웹 FE 경력직 — 스택 일치, 도메인 약함",
+        "strengths": [
+          "Zustand·Tailwind 경험"
+        ],
+        "gaps": [
+          "B2B 솔루션 도메인"
+        ],
+        "pass_odds": "중간",
+        "strategy": "마감 임박 — 지원 여부 빠르게 결정",
+        "sources": [
+          "잡코리아 공고"
+        ]
+      }
+    },
+    {
+      "id": "fuse-insurance-react-2026-12",
+      "company": "㈜퓨즈",
+      "title": "보험권 프론트엔드 개발자 모집(React)",
+      "level": "시니어",
+      "scale": "투자정보 미확인",
+      "source": "jobkorea",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50304847",
+      "location": "서울 강남구",
+      "exp": "6년 이상",
+      "exp_min_years": 6,
+      "posted_date": "2026-11-04",
+      "first_seen": "2026-11-27",
+      "domains": [
+        "핀테크",
+        "보험"
+      ],
+      "deadline": "2026-12-04",
+      "deadline_type": "date",
+      "deadline_label": "~2026.12.04",
+      "process": [],
+      "process_confirmed": false,
+      "has_codingtest": "미확인",
+      "fit_score": 62,
+      "fit_tier": "하",
+      "fit_reasons": [
+        "React 6년+ 경력 부합, 금융 도메인 결제 경험 일부 연관",
+        "웹에이전시 SI형 프로젝트, 고용형태 정규직·계약직·프리랜서 혼재",
+        "상세 업무 미기재"
+      ],
+      "tier": "문열기",
+      "is_new": true,
+      "brief": {
+        "company_status": "웹에이전시, 51~300명 (투자정보 미확인)",
+        "verdict": "보험권 SI 프로젝트 FE — 고용형태 불명확",
+        "strengths": [
+          "React 경력"
+        ],
+        "gaps": [
+          "에이전시 SI 성격",
+          "고용형태 혼재"
+        ],
+        "pass_odds": "중간",
+        "strategy": "고용형태 확인 후 지원 판단",
+        "sources": [
+          "잡코리아 공고"
+        ]
+      }
+    },
+    {
+      "id": "beaverworks-senior-fe-2026-11",
+      "company": "㈜비버웍스",
+      "title": "프론트엔드 개발자 (시니어)",
+      "level": "시니어",
+      "scale": "투자정보 미확인",
+      "source": "jobkorea",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50424898",
+      "location": "서울 강남구 논현동",
+      "exp": null,
+      "exp_min_years": null,
+      "posted_date": null,
+      "first_seen": "2026-11-27",
+      "domains": [
+        "하드웨어·주변기기"
+      ],
+      "deadline": null,
+      "deadline_type": "unknown",
+      "process": [],
+      "process_confirmed": false,
+      "has_codingtest": "미확인",
+      "fit_score": 60,
+      "fit_tier": "하",
+      "fit_reasons": [
+        "시니어 FE IC, 본문에 경력·스택 정보 없음",
+        "주변기기 제조업 소속, 도메인 연관 약함"
+      ],
+      "tier": "문열기",
+      "is_new": true,
+      "brief": {
+        "company_status": "주변기기 제조업, 비상장 51~300명 (투자정보 미확인)",
+        "verdict": "시니어 FE — 상세 요건 미확인",
+        "gaps": [
+          "업무·스택 미기재"
+        ],
+        "pass_odds": "중간",
+        "strategy": "원문 확인 후 판단",
+        "sources": [
+          "잡코리아 공고"
+        ]
+      }
+    },
+    {
+      "id": "securepoint-product-fe-2026-12",
+      "company": "시큐어포인트",
+      "title": "프로덕트 프론트엔드 개발자(JavaScript·TypeScript)",
+      "level": "시니어",
+      "scale": "투자정보 미확인",
+      "source": "jobkorea",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50384917",
+      "location": "대전 유성구 (본사 서울 강남)",
+      "exp": "5년 이상",
+      "exp_min_years": 5,
+      "posted_date": "2026-11-17",
+      "first_seen": "2026-11-27",
+      "domains": [
+        "정보보안"
+      ],
+      "deadline": "2026-12-17",
+      "deadline_type": "date",
+      "deadline_label": "~2026.12.17",
+      "process": [],
+      "process_confirmed": false,
+      "has_codingtest": "미확인",
+      "fit_score": 60,
+      "fit_tier": "하",
+      "fit_reasons": [
+        "TS 프로덕트 FE 5년+, 보안 도메인으로 연관 약함",
+        "근무지 대전 표기"
+      ],
+      "tier": "문열기",
+      "is_new": true,
+      "brief": {
+        "company_status": "정보보안 벤처, 50명 이하 (투자정보 미확인)",
+        "verdict": "프로덕트 FE — 근무지·도메인 확인 필요",
+        "gaps": [
+          "보안 도메인",
+          "대전 근무 가능성"
+        ],
+        "pass_odds": "중간",
+        "strategy": "근무지 확인 후 판단",
+        "sources": [
+          "잡코리아 공고"
+        ]
+      }
+    },
     {
       "id": "kurly-fintech-fe-2026-11",
       "company": "㈜컬리",
@@ -35,7 +314,7 @@
         "3년 이상 요건, 시니어 IC 포지션으로 보이며 관리 직책 감점 없음"
       ],
       "tier": "문샷",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "국내 대형 이커머스(사원 1,001~10,000명 규모)",
         "verdict": "결제 도메인 FE — 핵심 강점과 직결. 본문 상세 업무 정보는 제한적",
@@ -82,7 +361,7 @@
         "주축 강점(결제·지도·SEO)과의 직접 연결은 약함"
       ],
       "tier": "문열기",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "50명 이하 소규모, 창업허브 입주",
         "verdict": "AI 플랫폼 FE — 본문 정보 제한적",
@@ -129,7 +408,7 @@
         "본문 정보가 거의 없어 경력·업무 미확인"
       ],
       "tier": "문열기",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "핀테크 스타트업 (51~300명), 스톡옵션·재택 제공",
         "verdict": "본문 상세 없음 — 원문 확인 필요",
@@ -175,7 +454,7 @@
         "계약직(협의), 소규모 — 안정성 감점 요인, 마감 임박"
       ],
       "tier": "문열기",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "50명 이하 강소기업",
         "verdict": "Next.js FE 계약직",
@@ -222,7 +501,7 @@
         "정규직 수습 1개월 / 계약직 1개월 혼재 — 고용 조건 불명확"
       ],
       "tier": "문열기",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "51~300명 응용 SW 기업",
         "verdict": "Next.js FE, 상세 업무 미기재",
@@ -270,7 +549,7 @@
         "7년 이상 — 경력 상한 근접"
       ],
       "tier": "문열기",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "51~300명, 업력 23년",
         "verdict": "FE 풀스택 — 비율 본문 미기재, BE 비중 있는 풀스택으로 보수 판정",
@@ -317,7 +596,7 @@
         "50명 이하 소규모, 도메인 연관 약함"
       ],
       "tier": "문열기",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "50명 이하, 업력 28년 커뮤니티 운영사",
         "verdict": "레벨이 낮은 계약직 FE",
@@ -364,7 +643,7 @@
         "마감 임박, 정규직/계약직 혼재"
       ],
       "tier": "문열기",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "50명 이하 벤처, 웹에이전시",
         "verdict": "에이전시 FE",
@@ -410,7 +689,7 @@
         "게임사 웹 FE (게임 클라이언트 아님), 도메인 연관 약함"
       ],
       "tier": "문샷",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "코스닥 상장 게임사",
         "verdict": "6개월 계약직",
@@ -457,7 +736,7 @@
         "50명 이하 소규모"
       ],
       "tier": "문열기",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "50명 이하 응용 SW, 스톡옵션 제공",
         "verdict": "정보 부족",
@@ -500,7 +779,7 @@
         "웹에이전시, 도메인 연관 약함"
       ],
       "tier": "문열기",
-      "is_new": true,
+      "is_new": false,
       "brief": {
         "company_status": "50명 이하 웹에이전시, 재택근무제",
         "verdict": "정보 부족",
@@ -2343,56 +2622,6 @@
         "strategy": "우선순위 낮음",
         "sources": [
           "https://jumpit.saramin.co.kr/position/55299195"
-        ]
-      }
-    },
-    {
-      "id": "securepoint-fe-2026-10",
-      "company": "시큐어포인트",
-      "title": "프로덕트 프론트엔드 개발자(JavaScript·TypeScript)",
-      "level": "시니어",
-      "scale": "투자정보 미확인",
-      "source": "wanted",
-      "url": "https://www.wanted.co.kr/wd/394361",
-      "location": "대전 유성구",
-      "exp": "경력 5-11년",
-      "exp_min_years": 5,
-      "posted_date": null,
-      "first_seen": "2026-10-26",
-      "domains": [
-        "보안",
-        "B2B"
-      ],
-      "deadline": null,
-      "deadline_type": "rolling",
-      "deadline_label": "상시채용",
-      "process": [],
-      "process_confirmed": false,
-      "has_codingtest": "미확인",
-      "fit_score": 60,
-      "fit_tier": "하",
-      "fit_reasons": [
-        "React/Vue·TypeScript·REST 연동·공통 UI 컴포넌트 등 스택은 부합",
-        "결제·지도·SEO 등 주축 강점과 접점이 약한 B2B 보안 대시보드 제품",
-        "대전 근무로 접근성 낮음"
-      ],
-      "tier": "문열기",
-      "is_new": false,
-      "brief": {
-        "company_status": "2020년 설립 정보보안·네트워크 인프라 기업, 투자정보 미확인",
-        "verdict": "IC 프론트엔드 포지션, 조직 관리 없음 — 감점 없음. 도메인 연관성이 낮아 점수 하단",
-        "strengths": [
-          "컴포넌트·상태관리·성능개선 경험 직접 활용",
-          "디자인 시스템 협업 경험"
-        ],
-        "gaps": [
-          "보안/대시보드 도메인 경험 부족",
-          "대전 근무"
-        ],
-        "pass_odds": "중간",
-        "strategy": "공통 UI·성능 개선 사례 중심으로 어필",
-        "sources": [
-          "https://www.wanted.co.kr/wd/394361"
         ]
       }
     },
